@@ -113,7 +113,7 @@ export function mapRows(rows) {
       publisher: g('publisher1') || '—', year, pages: g('pages') || '—',
       size: g('size') || '—', isbn, oclc, lccn: g('lcnum') || '—',
       callnum: g('callnum') || '—', lang, series, edition: g('edition') || '—',
-      summary, subjects, creators,
+      summary, subjects, creators, thumbnail: g('thumbnail'),
       f_type: type, f_forms: forms.length ? forms : ['Unspecified'],
       f_aud: audience || 'Unspecified', f_topics: topics, f_lang: lang,
       f_decade: decade, f_publisher: g('publisher1') || 'Unknown', coverH,
