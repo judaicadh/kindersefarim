@@ -237,6 +237,52 @@ export function parseCreators(byline) {
   return out;
 }
 
+// Split a subject heading into its hierarchy levels on " : ".
+// "Emotions : Fear" -> ["Emotions", "Fear"]; "Sabbath" -> ["Sabbath"].
+export function subjectLevels(s) {
+  return String(s || '').split(/\s*:\s*/).map((x) => x.trim()).filter(Boolean);
+}
+
+// Every ancestor path of a heading, for facet matching.
+// "War : Israeli wars : Six-Day War" -> ["War", "War : Israeli wars", "War : Israeli wars : Six-Day War"].
+export function subjectPaths(raw) {
+  const levels = subjectLevels(raw);
+  return levels.map((_, i) => levels.slice(0, i + 1).join(' : '));
+}
+
+// Nested subject facet from the books' raw subject topics. Headings with no
+// " : " come back as primaries with an empty children list, so a flat
+// vocabulary renders identically to a nested one.
+// -> [{ primary, count, children: [{ value, label, count }] }]
+export function buildSubjectTree(books) {
+  const prim = new Map();
+  for (const b of books) {
+    for (const raw of b.f_topics || []) {
+      const levels = subjectLevels(raw);
+      const p0 = levels[0];
+      if (!p0) continue;
+      let p = prim.get(p0);
+      if (!p) { p = { primary: p0, books: new Set(), children: new Map() }; prim.set(p0, p); }
+      p.books.add(b);
+      if (levels.length > 1) {
+        const full = levels.join(' : ');
+        let c = p.children.get(full);
+        if (!c) { c = { value: full, label: levels.slice(1).join(' : '), books: new Set() }; p.children.set(full, c); }
+        c.books.add(b);
+      }
+    }
+  }
+  return [...prim.values()]
+    .map((p) => ({
+      primary: p.primary,
+      count: p.books.size,
+      children: [...p.children.values()]
+        .map((c) => ({ value: c.value, label: c.label, count: c.books.size }))
+        .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)),
+    }))
+    .sort((a, b) => b.count - a.count || a.primary.localeCompare(b.primary));
+}
+
 // Group key for a series (drop the trailing "vol." / "volume" designation).
 export function seriesKey(s) {
   if (!s || s === '—') return '';

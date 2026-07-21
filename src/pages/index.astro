@@ -1,10 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
-import { getBooks, buildFacets, FACET_DEFS, rowChips } from '../lib/sheet.js';
+import { getBooks, buildFacets, FACET_DEFS, rowChips, buildSubjectTree, subjectPaths } from '../lib/sheet.js';
 
 const { books, source } = await getBooks();
 const facets = buildFacets(books);
+const subjectTree = buildSubjectTree(books);
 
 // Banner shown only when we didn't build from a live sheet.
 const bannerMeta = {
@@ -25,7 +26,17 @@ const bannerMeta = {
 const facetKeys = FACET_DEFS.map((d) => d.id);
 function facetPayload(b) {
   const o = {};
-  for (const d of FACET_DEFS) o[d.id] = d.arr ? (b[d.id] || []) : [b[d.id]];
+  for (const d of FACET_DEFS) {
+    if (d.id === 'f_topics') {
+      // Include every ancestor path so selecting a primary heading matches all
+      // of its children (and selecting a child matches just that child).
+      const set = new Set();
+      for (const raw of b.f_topics || []) for (const p of subjectPaths(raw)) set.add(p);
+      o[d.id] = [...set];
+    } else {
+      o[d.id] = d.arr ? (b[d.id] || []) : [b[d.id]];
+    }
+  }
   return o;
 }
 ---
@@ -59,17 +70,48 @@ function facetPayload(b) {
           <span id="clearAll" style="font:500 11px 'Source Sans 3',sans-serif;color:#8a5a12;cursor:pointer">Clear all</span>
         </div>
         {facets.map((f) => (
-          <div style="margin-bottom:18px">
-            <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
-            {f.opts.map((o) => (
-              <div class="opt" data-facet={f.id} data-value={o.value}
-                style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
-                <span class="box" style="width:14px;height:14px;flex:none;border:1.5px solid rgba(23,35,58,.35);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 10px sans-serif;color:#fff"></span>
-                <span class="lbl" style="flex:1;font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.72)">{o.value}</span>
-                <span style="font:400 10.5px ui-monospace,monospace;color:rgba(23,35,58,.38)">{o.count}</span>
-              </div>
-            ))}
-          </div>
+          f.id === 'f_topics' ? (
+            <div style="margin-bottom:18px">
+              <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
+              {subjectTree.map((p, i) => (
+                <div>
+                  <div class="opt" data-facet="f_topics" data-value={p.primary}
+                    style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
+                    <span class="box" style="width:14px;height:14px;flex:none;border:1.5px solid rgba(23,35,58,.35);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 10px sans-serif;color:#fff"></span>
+                    <span class="lbl" style="flex:1;font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.72)">{p.primary}</span>
+                    {p.children.length > 0 && (
+                      <span class="caret" data-group={i} style="cursor:pointer;font-size:9px;line-height:1;color:rgba(23,35,58,.45);padding:2px 5px;user-select:none">▸</span>
+                    )}
+                    <span style="font:400 10.5px ui-monospace,monospace;color:rgba(23,35,58,.38)">{p.count}</span>
+                  </div>
+                  {p.children.length > 0 && (
+                    <div class="subj-children" data-group={i} style="display:none;margin-left:16px;border-left:1px solid rgba(23,35,58,.1);padding-left:8px">
+                      {p.children.map((c) => (
+                        <div class="opt" data-facet="f_topics" data-value={c.value}
+                          style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
+                          <span class="box" style="width:13px;height:13px;flex:none;border:1.5px solid rgba(23,35,58,.3);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 9px sans-serif;color:#fff"></span>
+                          <span class="lbl" style="flex:1;font:400 11.5px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.66)">{c.label}</span>
+                          <span style="font:400 10px ui-monospace,monospace;color:rgba(23,35,58,.35)">{c.count}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div style="margin-bottom:18px">
+              <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
+              {f.opts.map((o) => (
+                <div class="opt" data-facet={f.id} data-value={o.value}
+                  style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
+                  <span class="box" style="width:14px;height:14px;flex:none;border:1.5px solid rgba(23,35,58,.35);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 10px sans-serif;color:#fff"></span>
+                  <span class="lbl" style="flex:1;font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.72)">{o.value}</span>
+                  <span style="font:400 10.5px ui-monospace,monospace;color:rgba(23,35,58,.38)">{o.count}</span>
+                </div>
+              ))}
+            </div>
+          )
         ))}
       </div>
 
@@ -156,6 +198,20 @@ function facetPayload(b) {
       });
     });
 
+    // Expand / collapse nested subject groups (independent of selection).
+    function setGroup(caret, open) {
+      const kids = document.querySelector(`.subj-children[data-group="${caret.dataset.group}"]`);
+      if (!kids) return;
+      kids.style.display = open ? '' : 'none';
+      caret.textContent = open ? '▾' : '▸';
+    }
+    document.querySelectorAll('.caret').forEach((caret) => {
+      caret.addEventListener('click', (e) => {
+        e.stopPropagation(); // don't toggle the checkbox
+        setGroup(caret, document.querySelector(`.subj-children[data-group="${caret.dataset.group}"]`).style.display === 'none');
+      });
+    });
+
     q.addEventListener('input', apply);
 
     document.getElementById('clearAll').addEventListener('click', () => {
@@ -170,7 +226,14 @@ function facetPayload(b) {
     const sub = params.get('subject');
     if (sub) {
       const opt = document.querySelector(`.opt[data-facet="f_topics"][data-value="${CSS.escape(sub)}"]`);
-      if (opt) opt.click();
+      if (opt) {
+        const kids = opt.closest('.subj-children');
+        if (kids) {
+          const caret = document.querySelector(`.caret[data-group="${kids.dataset.group}"]`);
+          if (caret) setGroup(caret, true); // reveal a linked-to child
+        }
+        opt.click();
+      }
     }
   </script>
 </Base>
