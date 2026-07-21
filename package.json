@@ -1,0 +1,16 @@
+{
+  "name": "kinder-sefarim-bibliography",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A scholarly catalog of Orthodox Jewish children's literature, built from a Google Sheet.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.16.18"
+  }
+}

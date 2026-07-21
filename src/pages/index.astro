@@ -1,0 +1,185 @@
+---
+import Base from '../layouts/Base.astro';
+import { getBooks, buildFacets, FACET_DEFS, rowChips } from '../lib/sheet.js';
+
+const { books, source } = await getBooks();
+const facets = buildFacets(books);
+
+// Banner shown only when we didn't build from a live sheet.
+const bannerMeta = {
+  sheet: null,
+  sample: {
+    label: 'Sample data',
+    text: 'Showing example records. Set SHEET_ID to build from your Google Sheet.',
+    bg: '#f2ead9', accent: '#8a5a12',
+  },
+  error: {
+    label: "Couldn't reach the sheet",
+    text: 'Showing sample data. Check that the sheet is shared as “Anyone with the link” and that SHEET_ID / SHEET_GID are correct.',
+    bg: '#f7e4d8', accent: '#a3421c',
+  },
+}[source];
+
+// Per-row facet payload for client-side filtering (all values as arrays).
+const facetKeys = FACET_DEFS.map((d) => d.id);
+function facetPayload(b) {
+  const o = {};
+  for (const d of FACET_DEFS) o[d.id] = d.arr ? (b[d.id] || []) : [b[d.id]];
+  return o;
+}
+---
+
+<Base>
+  <div style="min-height:100vh;background:#faf6ee">
+    <!-- top bar -->
+    <div style="position:sticky;top:0;z-index:10;background:#faf6ee;padding:16px 44px;border-bottom:1px solid rgba(23,35,58,.18);display:flex;align-items:center;justify-content:space-between">
+      <a href="/" style="display:flex;align-items:center;gap:11px;cursor:pointer;color:inherit">
+        <div style="width:31px;height:31px;border-radius:50%;background:#17233a;color:#e8c76f;display:flex;align-items:center;justify-content:center;font:600 15px 'Lora',serif">כ</div>
+        <span style="font:600 18px 'Lora',serif;color:#17233a;letter-spacing:.2px">Kinder Sefarim Bibliography</span>
+      </a>
+      <div style="font:500 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.55);display:flex;gap:22px">
+        <a href="/" style="color:#17233a">Browse</a>
+        <span>Authors</span><span>Series</span><span>Publishers</span><span>About</span>
+      </div>
+    </div>
+
+    <!-- data-source banner -->
+    {bannerMeta && (
+      <div style={`padding:9px 44px;background:${bannerMeta.bg};border-bottom:1px solid rgba(23,35,58,.12);font:400 11.5px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.7);display:flex;gap:8px;align-items:center`}>
+        <span style={`font-weight:600;color:${bannerMeta.accent}`}>{bannerMeta.label}</span>
+        <span>{bannerMeta.text}</span>
+      </div>
+    )}
+
+    <!-- hero + search -->
+    <div style="padding:34px 44px 8px;background:linear-gradient(180deg,#f2ead9,#faf6ee)">
+      <div style="font:600 27px/1.2 'Lora',serif;color:#17233a;max-width:660px">A scholarly catalog of Orthodox Jewish children's literature</div>
+      <div style="margin-top:16px;display:flex;gap:10px;max-width:620px">
+        <input id="q" type="search" placeholder="Search title, author, illustrator, ISBN…" autocomplete="off"
+          style="flex:1;background:#fff;border:1px solid rgba(23,35,58,.25);border-radius:3px;padding:11px 16px;font-size:13px;color:#17233a;outline:none" />
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start">
+      <!-- facet rail -->
+      <div style="width:250px;flex:none;padding:24px 24px 40px;border-right:1px solid rgba(23,35,58,.12)">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px">
+          <span style="font:600 11px 'Source Sans 3',sans-serif;letter-spacing:.07em;text-transform:uppercase;color:rgba(23,35,58,.5)">Refine</span>
+          <span id="clearAll" style="font:500 11px 'Source Sans 3',sans-serif;color:#8a5a12;cursor:pointer">Clear all</span>
+        </div>
+        {facets.map((f) => (
+          <div style="margin-bottom:18px">
+            <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
+            {f.opts.map((o) => (
+              <div class="opt" data-facet={f.id} data-value={o.value}
+                style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
+                <span class="box" style="width:14px;height:14px;flex:none;border:1.5px solid rgba(23,35,58,.35);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 10px sans-serif;color:#fff"></span>
+                <span class="lbl" style="flex:1;font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.72)">{o.value}</span>
+                <span style="font:400 10.5px ui-monospace,monospace;color:rgba(23,35,58,.38)">{o.count}</span>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <!-- list -->
+      <div style="flex:1;padding:22px 40px 48px">
+        <div id="resultLabel" style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5);margin-bottom:12px">{books.length} of {books.length} records</div>
+        <div id="list">
+          {books.map((b) => (
+            <a class="row" href={`/book/${b.id}/`}
+              data-facets={JSON.stringify(facetPayload(b))}
+              data-search={(b.title + ' ' + b.byline + ' ' + b.isbn).toLowerCase()}
+              style="display:flex;gap:20px;align-items:center;padding:16px 8px;border-bottom:1px solid rgba(23,35,58,.1);cursor:pointer;color:inherit">
+              <div style={`width:54px;flex:none;height:${b.coverH};background:repeating-linear-gradient(115deg,#dcd2ba,#dcd2ba 6px,#eee3c9 6px,#eee3c9 12px);border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.12)`}></div>
+              <div style="flex:1">
+                <div style="font:600 15.5px 'Lora',serif;color:#17233a">{b.title}</div>
+                <div style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.6);margin-top:3px">{b.byline}</div>
+              </div>
+              <div style="width:240px;flex:none;display:flex;flex-wrap:wrap;gap:5px;justify-content:flex-end">
+                {rowChips(b).map((c) => (
+                  <span style="font:500 10px 'Source Sans 3',sans-serif;color:#7a5a1e;background:#f2e6c4;padding:3px 8px;border-radius:2px;white-space:nowrap">{c}</span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+        <div id="empty" style="display:none;padding:48px;text-align:center;font:400 13px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5)">No records match the current search and facets.</div>
+      </div>
+    </div>
+  </div>
+
+  <style is:global>
+    .opt.sel .box { border-color: #17233a !important; background: #17233a !important; }
+    .opt.sel .box::after { content: '✓'; }
+    .opt.sel .lbl { color: #17233a !important; }
+    .row:hover { background: rgba(199, 154, 58, 0.08); }
+  </style>
+
+  <script define:vars={{ facetKeys }}>
+    const sel = {}; // facetId -> Set(values)
+    facetKeys.forEach((k) => (sel[k] = new Set()));
+
+    const rows = [...document.querySelectorAll('.row')].map((el) => ({
+      el,
+      facets: JSON.parse(el.dataset.facets),
+      search: el.dataset.search,
+    }));
+    const q = document.getElementById('q');
+    const label = document.getElementById('resultLabel');
+    const empty = document.getElementById('empty');
+    const total = rows.length;
+
+    function matches(r) {
+      const query = q.value.trim().toLowerCase();
+      if (query && !r.search.includes(query)) return false;
+      for (const k of facetKeys) {
+        const chosen = sel[k];
+        if (!chosen.size) continue;
+        const vals = r.facets[k] || [];
+        // OR within a facet, AND across facets
+        if (![...chosen].some((c) => vals.includes(c))) return false;
+      }
+      return true;
+    }
+
+    function apply() {
+      let shown = 0;
+      for (const r of rows) {
+        const ok = matches(r);
+        r.el.style.display = ok ? '' : 'none';
+        if (ok) shown++;
+      }
+      label.textContent = shown === total
+        ? total + ' of ' + total + ' records'
+        : shown + ' of ' + total + ' records';
+      empty.style.display = shown === 0 ? 'block' : 'none';
+    }
+
+    document.querySelectorAll('.opt').forEach((opt) => {
+      opt.addEventListener('click', () => {
+        const f = opt.dataset.facet, v = opt.dataset.value;
+        if (sel[f].has(v)) { sel[f].delete(v); opt.classList.remove('sel'); }
+        else { sel[f].add(v); opt.classList.add('sel'); }
+        apply();
+      });
+    });
+
+    q.addEventListener('input', apply);
+
+    document.getElementById('clearAll').addEventListener('click', () => {
+      facetKeys.forEach((k) => sel[k].clear());
+      document.querySelectorAll('.opt.sel').forEach((o) => o.classList.remove('sel'));
+      q.value = '';
+      apply();
+    });
+
+    // Support deep links like /?subject=Sabbath from the record page.
+    const params = new URLSearchParams(location.search);
+    const sub = params.get('subject');
+    if (sub) {
+      const opt = document.querySelector(`.opt[data-facet="f_topics"][data-value="${CSS.escape(sub)}"]`);
+      if (opt) opt.click();
+    }
+  </script>
+</Base>

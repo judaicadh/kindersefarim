@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# The site reads these at build time (see src/lib/sheet.js). Set them in the
+# Netlify UI (Site settings → Environment variables) so they can change without
+# a code edit; the values below are only defaults baked into the repo.
+#   SHEET_ID = "..."
+#   SHEET_GID = "0"
