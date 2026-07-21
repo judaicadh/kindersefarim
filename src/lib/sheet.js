@@ -150,6 +150,124 @@ export function typeForm(b) {
   );
 }
 
+// ---------- people / series / publishers ----------
+// URL-safe slug from an arbitrary label.
+export function slugify(s) {
+  return String(s || '')
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[^\w\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-');
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+}
+
+// Role prefixes we strip off a byline segment, longest/most-specific first.
+const ROLE_PATTERNS = [
+  { re: /^illustrat(?:ed|ions?|or)?\s*(?:by)?\s*[:]?\s*/i, role: 'Illustrator' },
+  { re: /^(?:photograph(?:s|y|ed)?|photos?)\s*(?:by)?\s*[:]?\s*/i, role: 'Photographer' },
+  { re: /^translat(?:ed|ion|or)?\s*(?:by)?\s*[:]?\s*/i, role: 'Translator' },
+  { re: /^edit(?:ed|or)?\s*(?:by)?\s*[:]?\s*/i, role: 'Editor' },
+  { re: /^adapt(?:ed|ation)?\s*(?:by)?\s*[:]?\s*/i, role: 'Adapter' },
+  { re: /^(?:written|text|story)\s*(?:by)?\s*[:]?\s*/i, role: 'Author' },
+  { re: /^by\s+/i, role: 'Author' },
+];
+
+// Split a byline into { name, role } contributors. Names within one segment may
+// be joined by "&" or "and"; segments are separated by ";".
+export function parseCreators(byline) {
+  if (!byline || byline === '—') return [];
+  const out = [];
+  for (let seg of String(byline).split(';')) {
+    seg = seg.trim();
+    if (!seg) continue;
+    let role = 'Author';
+    for (const p of ROLE_PATTERNS) {
+      if (p.re.test(seg)) { role = p.role; seg = seg.replace(p.re, ''); break; }
+    }
+    for (const raw of seg.split(/\s*&\s*|\s+and\s+/i)) {
+      const name = raw.replace(/^[\s,.;:]+|[\s,;:]+$/g, '').trim();
+      if (name && /[a-zÀ-ɏ]/i.test(name)) out.push({ name, role });
+    }
+  }
+  return out;
+}
+
+// Group key for a series (drop the trailing "vol." / "volume" designation).
+export function seriesKey(s) {
+  if (!s || s === '—') return '';
+  return s.replace(/,?\s*(?:vol\.?|volume|no\.?|book)\s.*$/i, '').trim();
+}
+
+function lastName(n) {
+  const p = String(n).trim().split(/\s+/);
+  return (p[p.length - 1] || '').toLowerCase();
+}
+
+// [{ name, slug, roles:[], books:[] }] across all contributors, sorted by surname.
+export function buildCreators(books) {
+  const map = new Map();
+  for (const b of books) {
+    for (const c of parseCreators(b.byline)) {
+      const slug = slugify(c.name);
+      if (!slug) continue;
+      let e = map.get(slug);
+      if (!e) { e = { name: c.name, slug, roles: new Set(), books: [] }; map.set(slug, e); }
+      e.roles.add(c.role);
+      if (!e.books.includes(b)) e.books.push(b);
+    }
+  }
+  return [...map.values()]
+    .map((e) => ({ ...e, roles: [...e.roles] }))
+    .sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)) || a.name.localeCompare(b.name));
+}
+
+// [{ name, slug, books:[] }] of series, sorted alphabetically.
+export function buildSeries(books) {
+  const map = new Map();
+  for (const b of books) {
+    const name = seriesKey(b.series);
+    if (!name) continue;
+    const slug = slugify(name);
+    let e = map.get(slug);
+    if (!e) { e = { name, slug, books: [] }; map.set(slug, e); }
+    e.books.push(b);
+  }
+  return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
+}
+
+// [{ name, slug, books:[] }] of publishers, sorted alphabetically.
+export function buildPublishers(books) {
+  const map = new Map();
+  for (const b of books) {
+    const name = (b.publisher || '').trim();
+    if (!name || name === '—') continue;
+    const slug = slugify(name);
+    let e = map.get(slug);
+    if (!e) { e = { name, slug, books: [] }; map.set(slug, e); }
+    e.books.push(b);
+  }
+  return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
+}
+
+// Render a byline as HTML with each known contributor name linked to its page.
+export function linkifyByline(byline) {
+  if (!byline || byline === '—') return escapeHtml(byline || '—');
+  let html = escapeHtml(byline);
+  const names = [...new Set(parseCreators(byline).map((c) => c.name))]
+    .sort((a, b) => b.length - a.length); // longest first, avoids partial hits
+  for (const name of names) {
+    const esc = escapeHtml(name);
+    const anchor = `<a href="/authors/${slugify(name)}/" style="color:#8a5a12">${esc}</a>`;
+    html = html.split(esc).join(anchor);
+  }
+  return html;
+}
+
 // ---------- build-time load ----------
 // Returns { books, source }. source: 'sheet' | 'sample' | 'error'.
 export async function getBooks() {

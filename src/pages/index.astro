@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
 import { getBooks, buildFacets, FACET_DEFS, rowChips } from '../lib/sheet.js';
 
 const { books, source } = await getBooks();

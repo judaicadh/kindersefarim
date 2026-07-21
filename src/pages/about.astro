@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import { getBooks } from '../lib/sheet.js';
+
+const { books } = await getBooks();
+const count = books.length;
+---
+
+<Base title="About — Kinder Sefarim Bibliography" description="About the Kinder Sefarim Bibliography project.">
+  <div style="min-height:100vh;background:#faf6ee">
+    <Nav active="about" />
+
+    <div style="padding:34px 44px;background:linear-gradient(180deg,#f2ead9,#faf6ee)">
+      <div style="font:600 27px/1.2 'Lora',serif;color:#17233a">About this project</div>
+    </div>
+
+    <div style="padding:34px 44px 64px;max-width:680px;font:400 15px/1.72 'Source Sans 3',sans-serif;color:#2a2a2a">
+      <p style="margin:0 0 20px">
+        The <strong>Kinder Sefarim Bibliography</strong> is a scholarly catalog of Orthodox
+        Jewish children's literature. It brings together {count} records — picture books,
+        story collections, comics, cookbooks, and more — describing each work with the
+        bibliographic detail a library catalog would keep: title, contributors, publisher,
+        year, series, and subject headings.
+      </p>
+
+      <p style="margin:0 0 20px">
+        You can <a href="/">browse the full catalog</a> and narrow it by type, form, audience,
+        subject, language, decade, or publisher. Every record links out to the people who made
+        it (<a href="/authors/">authors and contributors</a>), the
+        <a href="/series/">series</a> it belongs to, and its <a href="/publishers/">publisher</a>,
+        so you can trace a body of work in any direction.
+      </p>
+
+      <div style="margin:28px 0;padding:18px 22px;background:#fff;border:1px solid rgba(23,35,58,.16);border-radius:4px">
+        <div style="font:600 10px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45);margin-bottom:8px">How it's built</div>
+        <p style="margin:0;font:400 13.5px/1.6 'Source Sans 3',sans-serif;color:#2a2a2a">
+          The catalog is maintained as a Google Sheet and published as a static website.
+          Editing the sheet automatically rebuilds the site, so the catalog you see always
+          reflects the latest records.
+        </p>
+      </div>
+
+      <p style="margin:0 0 20px;font:400 13.5px/1.6 'Source Sans 3',sans-serif;color:rgba(23,35,58,.7)">
+        Have a correction, a title to add, or a question? <em>[Add contact details here.]</em>
+      </p>
+    </div>
+  </div>
+</Base>

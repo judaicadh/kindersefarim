@@ -1,0 +1,25 @@
+---
+// Shared top bar. `active` highlights the current section.
+const { active = '' } = Astro.props;
+const links = [
+  { href: '/', label: 'Browse', key: 'browse' },
+  { href: '/authors/', label: 'Authors', key: 'authors' },
+  { href: '/series/', label: 'Series', key: 'series' },
+  { href: '/publishers/', label: 'Publishers', key: 'publishers' },
+  { href: '/about/', label: 'About', key: 'about' },
+];
+---
+<div style="position:sticky;top:0;z-index:10;background:#faf6ee;padding:16px 44px;border-bottom:1px solid rgba(23,35,58,.18);display:flex;align-items:center;justify-content:space-between">
+  <a href="/" style="display:flex;align-items:center;gap:11px;cursor:pointer;color:inherit">
+    <div style="width:31px;height:31px;border-radius:50%;background:#17233a;color:#e8c76f;display:flex;align-items:center;justify-content:center;font:600 15px 'Lora',serif">כ</div>
+    <span style="font:600 18px 'Lora',serif;color:#17233a;letter-spacing:.2px">Kinder Sefarim Bibliography</span>
+  </a>
+  <div style="font:500 12px 'Source Sans 3',sans-serif;display:flex;gap:22px">
+    {links.map((l) => (
+      <a
+        href={l.href}
+        style={`color:${active === l.key ? '#17233a' : 'rgba(23,35,58,.55)'};font-weight:${active === l.key ? '700' : '500'}`}
+      >{l.label}</a>
+    ))}
+  </div>
+</div>
