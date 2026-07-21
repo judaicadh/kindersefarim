@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getBooks, typeForm } from '../../lib/sheet.js';
+import Nav from '../../components/Nav.astro';
+import { getBooks, typeForm, linkifyByline, slugify, seriesKey } from '../../lib/sheet.js';
 
 export async function getStaticPaths() {
   const { books } = await getBooks();
@@ -9,21 +10,13 @@ export async function getStaticPaths() {
 
 const { book: b } = Astro.props;
 const tf = typeForm(b);
+const bylineHtml = linkifyByline(b.byline);
+const seriesName = seriesKey(b.series);
 ---
 
 <Base title={`${b.title} — Kinder Sefarim Bibliography`} description={b.summary || b.title}>
   <div style="min-height:100vh;background:#faf6ee">
-    <!-- top bar -->
-    <div style="position:sticky;top:0;z-index:10;background:#faf6ee;padding:16px 44px;border-bottom:1px solid rgba(23,35,58,.18);display:flex;align-items:center;justify-content:space-between">
-      <a href="/" style="display:flex;align-items:center;gap:11px;cursor:pointer;color:inherit">
-        <div style="width:31px;height:31px;border-radius:50%;background:#17233a;color:#e8c76f;display:flex;align-items:center;justify-content:center;font:600 15px 'Lora',serif">כ</div>
-        <span style="font:600 18px 'Lora',serif;color:#17233a;letter-spacing:.2px">Kinder Sefarim Bibliography</span>
-      </a>
-      <div style="font:500 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.55);display:flex;gap:22px">
-        <a href="/" style="color:#17233a">Browse</a>
-        <span>Authors</span><span>Series</span><span>Publishers</span><span>About</span>
-      </div>
-    </div>
+    <Nav active="browse" />
 
     <!-- breadcrumb -->
     <div style="padding:15px 44px;border-bottom:1px solid rgba(23,35,58,.12);font:500 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5)">
@@ -38,7 +31,7 @@ const tf = typeForm(b);
       </div>
       <div style="flex:1;max-width:660px">
         <div style="font:600 30px/1.22 'Lora',serif;color:#17233a">{b.title}</div>
-        <div style="font:italic 400 16px 'Lora',serif;color:rgba(23,35,58,.65);margin-top:6px">{b.byline}</div>
+        <div style="font:italic 400 16px 'Lora',serif;color:rgba(23,35,58,.65);margin-top:6px" set:html={bylineHtml}></div>
 
         <div style="display:flex;margin-top:18px;background:#fff;border:1px solid rgba(23,35,58,.16);border-radius:4px;overflow:hidden">
           <div style="flex:1;padding:12px 18px;border-right:1px solid rgba(23,35,58,.1)">
