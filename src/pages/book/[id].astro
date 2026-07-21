@@ -36,7 +36,11 @@ const seriesName = seriesKey(b.series);
         <div style="display:flex;margin-top:18px;background:#fff;border:1px solid rgba(23,35,58,.16);border-radius:4px;overflow:hidden">
           <div style="flex:1;padding:12px 18px;border-right:1px solid rgba(23,35,58,.1)">
             <div style="font:600 9.5px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45)">Publisher</div>
-            <div style="font:500 13.5px 'Lora',serif;color:#17233a;margin-top:3px">{b.publisher}</div>
+            <div style="font:500 13.5px 'Lora',serif;color:#17233a;margin-top:3px">
+              {b.publisher && b.publisher !== '—'
+                ? <a href={`/publishers/${slugify(b.publisher)}/`} style="color:#8a5a12">{b.publisher}</a>
+                : b.publisher}
+            </div>
           </div>
           <div style="flex:none;width:110px;padding:12px 18px;border-right:1px solid rgba(23,35,58,.1)">
             <div style="font:600 9.5px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45)">Year</div>
@@ -69,7 +73,7 @@ const seriesName = seriesKey(b.series);
             <div style="color:rgba(23,35,58,.5)">Type / form</div><div style="color:#17233a">{tf}</div>
             <div style="color:rgba(23,35,58,.5)">Audience</div><div style="color:#17233a">{b.f_aud}</div>
             <div style="color:rgba(23,35,58,.5)">Language</div><div style="color:#17233a">{b.lang}</div>
-            <div style="color:rgba(23,35,58,.5)">Series</div><div style="color:#17233a">{b.series}</div>
+            <div style="color:rgba(23,35,58,.5)">Series</div><div style="color:#17233a">{seriesName ? <a href={`/series/${slugify(seriesName)}/`} style="color:#8a5a12">{b.series}</a> : b.series}</div>
             <div style="color:rgba(23,35,58,.5)">Edition</div><div style="color:#17233a">{b.edition}</div>
             <div style="color:rgba(23,35,58,.5)">Size</div><div style="color:#17233a">{b.size}</div>
             <div style="color:rgba(23,35,58,.5)">ISBN</div><div style="color:#17233a">{b.isbn}</div>
