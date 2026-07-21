@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 
 const { book: b } = Astro.props;
 const tf = typeForm(b);
-const bylineHtml = linkifyByline(b.byline);
+const bylineHtml = linkifyByline(b.byline, b.creators);
 const seriesName = seriesKey(b.series);
 ---
 

@@ -48,13 +48,26 @@ export function mapRows(rows) {
     const title = g('title');
     if (!title) continue;
 
-    // byline
-    let byline = g('responsibility-transcribed');
-    if (!byline) {
-      const cr = [];
-      for (let k = 1; k <= 5; k++) { const nm = g('creator' + k); if (nm) cr.push(nm); }
-      byline = cr.join('; ') || g('corp1');
+    // structured contributors (creator1..creator5 + role columns)
+    const creators = [];
+    for (let k = 1; k <= 5; k++) {
+      const nm = g('creator' + k);
+      if (!nm) continue;
+      // Note: the sheet header has "creator4role1" (a typo) rather than
+      // "creator4role" — accept either so nothing is dropped.
+      const roleRaw = g('creator' + k + 'role') || g('creator' + k + 'role1');
+      const roles = splitList(roleRaw).map(capitalize);
+      creators.push({
+        name: normalizePersonName(nm),
+        sortKey: sortKeyName(nm),
+        roles: roles.length ? roles : ['Contributor'],
+      });
     }
+
+    // byline: prefer the transcribed statement of responsibility, else build
+    // one from the structured contributors, else the corporate author.
+    let byline = g('responsibility-transcribed');
+    if (!byline) byline = creators.map((c) => c.name).join('; ') || g('corp1');
 
     // year (most recent 4-digit in dates)
     const ys = (g('dates').match(/\d{4}/g) || []).map(Number);
@@ -100,7 +113,7 @@ export function mapRows(rows) {
       publisher: g('publisher1') || '—', year, pages: g('pages') || '—',
       size: g('size') || '—', isbn, oclc, lccn: g('lcnum') || '—',
       callnum: g('callnum') || '—', lang, series, edition: g('edition') || '—',
-      summary, subjects,
+      summary, subjects, creators,
       f_type: type, f_forms: forms.length ? forms : ['Unspecified'],
       f_aud: audience || 'Unspecified', f_topics: topics, f_lang: lang,
       f_decade: decade, f_publisher: g('publisher1') || 'Unknown', coverH,
@@ -166,6 +179,33 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 }
 
+function capitalize(s) {
+  return String(s || '').trim().replace(/^\w/, (c) => c.toUpperCase());
+}
+
+// Strip a trailing life-date qualifier like ", 1938-" or ", 1916-2000".
+function stripDates(s) {
+  return String(s).replace(/,\s*\d{3,4}\??-?(?:\d{3,4})?\.?\s*$/, '').trim();
+}
+
+// Catalog name ("Firestone, Beth, 1950-") -> display name ("Beth Firestone").
+export function normalizePersonName(raw) {
+  const s = stripDates(raw);
+  const parts = s.split(',');
+  const flipped = parts.length === 2 ? `${parts[1].trim()} ${parts[0].trim()}` : s;
+  return flipped.replace(/\s+/g, ' ').trim();
+}
+
+// Surname-first key for alphabetizing ("firestone, beth").
+function sortKeyName(raw) {
+  return stripDates(raw).toLowerCase();
+}
+
+// Contributors for a book: structured creators when present, else parsed byline.
+function bookCreators(b) {
+  return b.creators && b.creators.length ? b.creators : parseCreators(b.byline);
+}
+
 // Role prefixes we strip off a byline segment, longest/most-specific first.
 const ROLE_PATTERNS = [
   { re: /^illustrat(?:ed|ions?|or)?\s*(?:by)?\s*[:]?\s*/i, role: 'Illustrator' },
@@ -208,22 +248,26 @@ function lastName(n) {
   return (p[p.length - 1] || '').toLowerCase();
 }
 
-// [{ name, slug, roles:[], books:[] }] across all contributors, sorted by surname.
+// [{ name, slug, roles:[], sortKey, books:[] }] across all contributors,
+// sorted by surname.
 export function buildCreators(books) {
   const map = new Map();
   for (const b of books) {
-    for (const c of parseCreators(b.byline)) {
+    for (const c of bookCreators(b)) {
       const slug = slugify(c.name);
       if (!slug) continue;
       let e = map.get(slug);
-      if (!e) { e = { name: c.name, slug, roles: new Set(), books: [] }; map.set(slug, e); }
-      e.roles.add(c.role);
+      if (!e) {
+        e = { name: c.name, slug, sortKey: c.sortKey || lastName(c.name), roles: new Set(), books: [] };
+        map.set(slug, e);
+      }
+      for (const r of (Array.isArray(c.roles) ? c.roles : [c.role])) if (r) e.roles.add(r);
       if (!e.books.includes(b)) e.books.push(b);
     }
   }
   return [...map.values()]
     .map((e) => ({ ...e, roles: [...e.roles] }))
-    .sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)) || a.name.localeCompare(b.name));
+    .sort((a, b) => a.sortKey.localeCompare(b.sortKey) || a.name.localeCompare(b.name));
 }
 
 // [{ name, slug, books:[] }] of series, sorted alphabetically.
@@ -254,11 +298,14 @@ export function buildPublishers(books) {
   return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
 }
 
-// Render a byline as HTML with each known contributor name linked to its page.
-export function linkifyByline(byline) {
+// Render a byline as HTML, linking each known contributor name to its page.
+// `creators` is the book's contributor list — only those names get linked, so a
+// link never points at a page that wasn't generated.
+export function linkifyByline(byline, creators) {
   if (!byline || byline === '—') return escapeHtml(byline || '—');
   let html = escapeHtml(byline);
-  const names = [...new Set(parseCreators(byline).map((c) => c.name))]
+  const list = creators && creators.length ? creators : parseCreators(byline);
+  const names = [...new Set(list.map((c) => c.name))]
     .sort((a, b) => b.length - a.length); // longest first, avoids partial hits
   for (const name of names) {
     const esc = escapeHtml(name);
