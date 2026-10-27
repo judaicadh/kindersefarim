@@ -94,10 +94,16 @@ export function mapRows(rows) {
     const lang = langMap[langRaw] || (langRaw ? langRaw : '—');
 
     const topics = splitList(g('subjtopic'));
+    // subjloc holds "CODE (Place);Place" — keep the readable place name, drop
+    // the MARC geographic code so it never surfaces as a chip or facet value.
+    const places = uniq(
+      splitList(g('subjloc')).map((v) => { const m = v.match(/\(([^)]+)\)/); return (m ? m[1] : v).trim(); }),
+    );
+    const periods = splitList(g('subjtime'));
     const subjects = uniq(
       [].concat(
         splitList(g('subjtopic')), splitList(g('subjname')), splitList(g('subjcorp')),
-        splitList(g('subjtitle')), splitList(g('subjloc')), splitList(g('subjtime')),
+        splitList(g('subjtitle')), places, periods,
       ),
     );
 
@@ -116,6 +122,7 @@ export function mapRows(rows) {
       summary, subjects, creators, thumbnail: g('thumbnail'),
       f_type: type, f_forms: forms.length ? forms : ['Unspecified'],
       f_aud: audience || 'Unspecified', f_topics: topics, f_lang: lang,
+      f_place: places, f_period: periods,
       f_decade: decade, f_publisher: g('publisher1') || 'Unknown', coverH,
     });
   }
@@ -128,6 +135,8 @@ export const FACET_DEFS = [
   { id: 'f_forms', name: 'Form / genre', arr: true },
   { id: 'f_aud', name: 'Audience', arr: false },
   { id: 'f_topics', name: 'Subject', arr: true },
+  { id: 'f_place', name: 'Place', arr: true },
+  { id: 'f_period', name: 'Time period', arr: true },
   { id: 'f_lang', name: 'Language', arr: false },
   { id: 'f_decade', name: 'Decade', arr: false },
   { id: 'f_publisher', name: 'Publisher', arr: false },

@@ -6,6 +6,9 @@ import { getBooks, buildFacets, FACET_DEFS, rowChips, buildSubjectTree, subjectP
 const { books, source } = await getBooks();
 const facets = buildFacets(books);
 const subjectTree = buildSubjectTree(books);
+// Hide any facet with no values (e.g. Place/Time period on a build that has
+// none). The Subject facet uses the nested tree rather than flat opts.
+const visibleFacets = facets.filter((f) => (f.id === 'f_topics' ? subjectTree.length : f.opts.length));
 
 // Banner shown only when we didn't build from a live sheet.
 const bannerMeta = {
@@ -69,7 +72,7 @@ function facetPayload(b) {
           <span style="font:600 11px 'Source Sans 3',sans-serif;letter-spacing:.07em;text-transform:uppercase;color:rgba(23,35,58,.5)">Refine</span>
           <span id="clearAll" style="font:500 11px 'Source Sans 3',sans-serif;color:#8a5a12;cursor:pointer">Clear all</span>
         </div>
-        {facets.map((f) => (
+        {visibleFacets.map((f) => (
           f.id === 'f_topics' ? (
             <div style="margin-bottom:18px">
               <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
