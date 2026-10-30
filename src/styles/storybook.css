@@ -133,3 +133,9 @@ catalog-search { display:block; }
 @media(max-width:760px) { .browse-hero { padding-top:24px; padding-bottom:20px; } .book-grid .book-cover { height:152px; } .book-grid .cover-placeholder,.book-grid .book-cover img { width:90px; height:132px; } .collection-heading h1 { font-size:30px; } .collection-toolbar { gap:8px; } .collection-search { max-width:none; } .collection-count { margin-left:0; } .site-header { gap:12px; padding-top:16px; } }
 
 .collection-search input:focus-visible,.search-wrap input:focus-visible { outline:none !important; }
+
+.book-cover.has-cover .cover-placeholder { visibility:hidden; }
+
+.hero-copy { align-self:center; min-width:0; }
+#browse-title { font-size:clamp(36px,4.2vw,56px); line-height:1.12; margin-bottom:24px; }
+@media(max-width:760px) { #browse-title { font-size:clamp(32px,6.5vw,44px); margin-bottom:20px; } }

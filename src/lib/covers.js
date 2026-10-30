@@ -1,3 +1,5 @@
+import catalogCovers from '../data/cover-sources.json';
+
 // ISBN-verified publisher/retailer artwork. Sheet thumbnails take priority.
 // Images remain hosted by their respective owners; sources are credited on records.
 export const COVER_SOURCES = {
@@ -29,5 +31,10 @@ export const COVER_SOURCES = {
 };
 export function coverFor(book) {
   const match = COVER_SOURCES[String(book.isbn || '').replace(/[^0-9X]/gi, '')];
-  return book.thumbnail ? { image: book.thumbnail } : match;
+  // The uploaded CSV has stable KS IDs but no ISBNs. Guard against a future
+  // ID being reused for a different title before applying its researched cover.
+  const catalogMatch = catalogCovers[book.id];
+  const normalize = value => String(value || '').normalize('NFKC').trim().toLowerCase();
+  const researched = catalogMatch && normalize(catalogMatch.title) === normalize(book.title) ? catalogMatch : undefined;
+  return book.thumbnail ? { image: book.thumbnail } : (match || researched);
 }

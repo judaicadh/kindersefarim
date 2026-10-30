@@ -11,7 +11,7 @@ const links = [
 <header class="site-header">
   <a href="/" class="brand" aria-label="Kinder Sefarim Bibliography home">
     <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M5 9q8-3 15 3 7-6 15-3v23q-8-3-15 2-7-5-15-2Z" fill="#f0c454" stroke="currentColor" stroke-width="2"/><path d="M20 12v22M10 16l6 2M10 22l6 2M25 18l5-2M25 24l5-2" stroke="currentColor" stroke-width="1.5"/></svg></span>
-    <span>Kinder Sefarim<small>A children's literature bibliography</small></span>
+    <span>Kinder Sefarim<small>A bibliography of Orthodox children's literature</small></span>
   </a>
   <nav aria-label="Main navigation">
     {links.map((l) => <a href={l.href} aria-current={active === l.key ? 'page' : undefined}>{l.label}</a>)}

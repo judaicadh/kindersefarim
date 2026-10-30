@@ -1,6 +1,6 @@
 ---
 import '../styles/storybook.css';
-const { title = 'Kinder Sefarim Bibliography', description = "A scholarly catalog of Orthodox Jewish children's literature." } = Astro.props;
+const { title = 'Kinder Sefarim Bibliography', description = "A bibliography of Orthodox children's literature" } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -118,6 +118,6 @@ const { title = 'Kinder Sefarim Bibliography', description = "A scholarly catalo
     <main id="main-content">
     <slot />
     </main>
-    <footer class="site-footer"><a href="/">Kinder Sefarim</a><span>A little wonder. A world of stories.</span><a href="/about/">About the bibliography ↗</a></footer>
+    <footer class="site-footer"><a href="/">Kinder Sefarim</a><span>A bibliography of Orthodox children's literature</span><a href="/about/">About the bibliography ↗</a></footer>
   </body>
 </html>

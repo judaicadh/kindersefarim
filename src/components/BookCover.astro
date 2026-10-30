@@ -12,5 +12,5 @@ const seed = [...book.title].reduce((sum, letter) => sum + letter.charCodeAt(0),
     <span class="cover-caption">Cover unavailable</span>
     <svg viewBox="0 0 100 50" fill="none"><path d="M8 44Q28 8 50 35Q72 4 92 44" stroke="currentColor" stroke-width="2"/><path d="M12 44h76M50 35v9" stroke="currentColor" stroke-width="2"/></svg>
   </div>
-  {cover && <img src={cover.image} alt={`Cover of ${book.title}`} loading="lazy" onerror="this.remove()" />}
+  {cover && <img src={cover.image} alt={`Cover of ${book.title}`} loading="lazy" onload="this.parentElement.classList.add('has-cover')" onerror="this.parentElement.classList.remove('has-cover');this.remove()" />}
 </div>
