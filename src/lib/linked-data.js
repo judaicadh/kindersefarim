@@ -1,4 +1,6 @@
 import { slugify, seriesKey, parseCreators } from './sheet.js';
+import publisherLogos from '../data/publisher-logos.json';
+import { seriesImageBook } from './series-image.js';
 import { coverFor } from './covers.js';
 
 export const PROJECT_CREATOR = {
@@ -12,6 +14,18 @@ export function linkedData({ path = '/', origin, title, description, book, entri
   // Root-relative identifiers resolve against the deployed site when no domain
   // is configured. Never bake a development hostname into published metadata.
   const url = path => origin ? new URL(path, origin).href : path;
+  const visual = (entry, type) => {
+    if (type === 'Organization') {
+      const logo = publisherLogos[entry.slug];
+      return logo ? { logo: url(logo.localImage), sameAs: logo.source } : {};
+    }
+    if (type === 'CreativeWorkSeries') {
+      const book = seriesImageBook(entry);
+      const cover = book && coverFor(book);
+      return cover ? { image: url(cover.image) } : {};
+    }
+    return {};
+  };
   const creatorId = url('/#creator');
   const siteId = url('/#website');
   const datasetId = url('/#bibliography');
@@ -64,15 +78,15 @@ export function linkedData({ path = '/', origin, title, description, book, entri
     graph.push({ '@type': 'ItemList', '@id': listId, numberOfItems: entries.length,
       itemListElement: entries.map((entry, index) => ({ '@type': 'ListItem', position: index + 1,
         item: collectionType === 'authors' ? { '@type': 'Person', '@id': url(`/authors/${entry.slug}/#person`), name: entry.name, url: url(`/authors/${entry.slug}/`) }
-          : collectionType === 'publishers' ? { '@type': 'Organization', '@id': url(`/publishers/${entry.slug}/#organization`), name: entry.name, url: url(`/publishers/${entry.slug}/`) }
-          : collectionType === 'series' ? { '@type': 'CreativeWorkSeries', '@id': url(`/series/${entry.slug}/#series`), name: entry.name, url: url(`/series/${entry.slug}/`) }
+          : collectionType === 'publishers' ? { '@type': 'Organization', '@id': url(`/publishers/${entry.slug}/#organization`), name: entry.name, url: url(`/publishers/${entry.slug}/`), ...visual(entry, 'Organization') }
+          : collectionType === 'series' ? { '@type': 'CreativeWorkSeries', '@id': url(`/series/${entry.slug}/#series`), name: entry.name, url: url(`/series/${entry.slug}/`), ...visual(entry, 'CreativeWorkSeries') }
           : bookRef(entry) })) });
     page.mainEntity = ref(listId);
     if (collection) {
       const type = collectionType === 'author-books' ? 'Person' : collectionType === 'publisher-books' ? 'Organization' : 'CreativeWorkSeries';
       const suffix = type === 'Person' ? 'person' : type === 'Organization' ? 'organization' : 'series';
       const id = url(path + '#' + suffix);
-      graph.push({ '@type': type, '@id': id, name: collection.name, url: url(path) });
+      graph.push({ '@type': type, '@id': id, name: collection.name, url: url(path), ...visual(collection, type) });
       page.about = ref(id);
     }
   } else if (path === '/about/') page.mainEntity = ref(creatorId);

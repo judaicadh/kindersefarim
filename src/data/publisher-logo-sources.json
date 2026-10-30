@@ -1,0 +1,99 @@
+{
+  "menucha-publishers": {
+    "image": "https://menuchapublishers.com/cdn/shop/t/51/assets/logo.png?v=35709414396013240131791860299",
+    "source": "https://menuchapublishers.com/",
+    "credit": "Menucha Publishers",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "hachai-publishing": {
+    "image": "https://www.hachai.com/wp-content/uploads/2020/03/logo.png",
+    "source": "https://www.hachai.com/",
+    "credit": "Hachai Publishing",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "israel-bookshop-publications": {
+    "image": "https://israelbookshoppublications.com/cdn/shop/files/IBS-logo-sm3.png?v=1707418592&width=300",
+    "source": "https://israelbookshoppublications.com/",
+    "credit": "Israel Bookshop Publications",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "tfutza-publications": {
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/10/Header-logo-bw.png",
+    "source": "https://tfutzapublications.com/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Logo displayed on official publisher website",
+    "background": "dark"
+  },
+  "judaica-press": {
+    "image": "https://judaicapress.com/cdn/shop/files/JP_web-header_candy-script_proof-1_900x.jpg?v=1630518697",
+    "source": "https://www.judaicapress.com/",
+    "credit": "Judaica Press",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "lite-child-enterprises": {
+    "image": "https://www.yaelanddovy.com/wp-content/themes/lite-child/images/site-logo.svg",
+    "source": "https://www.yaelanddovy.com/",
+    "credit": "Lite Child Enterprises",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "moznaim-pub-corp": {
+    "image": "https://moznaim.com/cdn/shop/files/logo-200x200_9d00d73f-8b67-412d-9cd7-c237807c04d9_200x200.png?v=1630518395",
+    "source": "https://moznaim.com/",
+    "credit": "Moznaim Pub Corp",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "lechaim-productions": {
+    "image": "https://lechaimusa.com/cdn/shop/files/Group_46.png?v=1786557556&width=400",
+    "source": "https://www.lchaimusa.com/",
+    "credit": "Lechaim Productions",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "kodesh-press-publication": {
+    "image": "https://kodeshpress.com/cdn/shop/files/kp_favicon.png?v=1776891796&width=3840",
+    "source": "https://kodeshpress.com/",
+    "credit": "Kodesh Press Publication",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "familius": {
+    "image": "https://familius.com/wp-content/uploads/elementor/thumbs/familius-logo-green-qv2nzga7wixggv6jqq3tax5hc4z127izoe8bfln668.png",
+    "source": "https://familius.com/",
+    "credit": "Familius",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "feldheim-publishers": {
+    "image": "https://www.feldheim.com/media/logo/stores/1/logo-blue-gold-no-dot-com.png",
+    "source": "https://www.feldheim.com/",
+    "credit": "Feldheim Publishers",
+    "matchBasis": "Official website header logo"
+  },
+  "artscroll-mesorah-publications": {
+    "image": "https://blog.artscroll.com/wp-content/uploads/2026/06/cropped-artscroll_50_logo_withtaglinespsd.png",
+    "source": "https://blog.artscroll.com/",
+    "credit": "ArtScroll-Mesorah Publications",
+    "matchBasis": "Official ArtScroll blog header logo (50th anniversary)"
+  },
+  "kinder-shpiel": {
+    "image": "https://www.chazakkinder.com/cdn/shop/files/download_140x@2x.png?v=1614335782",
+    "source": "https://www.chazakkinder.com/",
+    "credit": "Kinder Shpiel",
+    "matchBasis": "Kinder Shpiel logo displayed in official Chazak store header"
+  },
+  "hashems-gems-publishing": {
+    "image": "https://static.wixstatic.com/media/020f18_9c64500bd3b34b4abad46125b2ffe3b8~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO3.jpg",
+    "source": "https://www.hashemsgems.com/",
+    "credit": "Hashems Gems Publishing",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "jewish-learning-group": {
+    "image": "https://jewishlearninggroup.com/cdn/shop/files/Logo_1_320x.png?v=1720159298",
+    "source": "https://jewishlearninggroup.com/",
+    "credit": "Jewish Learning Group",
+    "matchBasis": "Logo displayed on official publisher website"
+  },
+  "socially-smarter": {
+    "image": "https://sociallysmarter.com/cdn/shop/files/Logo_for_website_6c728b8e-704a-4bbb-9d53-73abdaa1b67f_300x300.png?v=1614287592",
+    "source": "https://sociallysmarter.com/",
+    "credit": "Socially Smarter",
+    "matchBasis": "Logo displayed on official publisher website"
+  }
+}

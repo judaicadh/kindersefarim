@@ -1,4 +1,6 @@
 ---
+import PublisherLogo from '../../components/PublisherLogo.astro';
+import logos from '../../data/publisher-logos.json';
 import Base from '../../layouts/Base.astro';
 import Nav from '../../components/Nav.astro';
 import BookList from '../../components/BookList.astro';
@@ -20,12 +22,13 @@ const { publisher: p } = Astro.props;
       <a href="/publishers/" style="color:#8a5a12">Publishers</a> &nbsp;›&nbsp; <span style="color:#17233a">{p.name}</span>
     </div>
 
-    <header class="collection-heading">
+    <header class="collection-heading collection-heading-illustrated"><PublisherLogo publisher={p} /><div>
       <h1>{p.name}</h1>
       <div style="margin-top:8px;font:400 13px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.6)">
         Publisher &nbsp;·&nbsp; {p.books.length} {p.books.length === 1 ? 'title' : 'titles'}
       </div>
-    </header>
+      {logos[p.slug] && <a class="publisher-source" href={logos[p.slug].source} target="_blank" rel="noopener noreferrer">Publisher website ↗</a>}
+    </div></header>
 
     <div class="collection-content">
       <BookList books={p.books} />

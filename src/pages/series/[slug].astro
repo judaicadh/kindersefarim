@@ -1,4 +1,6 @@
 ---
+import BookCover from '../../components/BookCover.astro';
+import { seriesImageBook } from '../../lib/series-image.js';
 import Base from '../../layouts/Base.astro';
 import Nav from '../../components/Nav.astro';
 import BookList from '../../components/BookList.astro';
@@ -20,12 +22,12 @@ const { series: s } = Astro.props;
       <a href="/series/" style="color:#8a5a12">Series</a> &nbsp;›&nbsp; <span style="color:#17233a">{s.name}</span>
     </div>
 
-    <header class="collection-heading">
+    <header class="collection-heading collection-heading-illustrated"><div class="series-heading-cover"><BookCover book={seriesImageBook(s)} /></div><div>
       <h1>{s.name}</h1>
       <div style="margin-top:8px;font:400 13px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.6)">
         Series &nbsp;·&nbsp; {s.books.length} {s.books.length === 1 ? 'title' : 'titles'}
       </div>
-    </header>
+    </div></header>
 
     <div class="collection-content">
       <BookList books={s.books} />

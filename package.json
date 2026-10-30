@@ -11,7 +11,9 @@
     "astro": "astro",
     "covers:preserve": "node scripts/preserve-covers.mjs",
     "covers:verify": "node scripts/preserve-covers.mjs --verify",
-    "covers:backup": "node scripts/backup-covers.mjs"
+    "covers:backup": "node scripts/backup-covers.mjs",
+    "logos:preserve": "node scripts/preserve-publisher-logos.mjs",
+    "logos:verify": "node scripts/preserve-publisher-logos.mjs --verify"
   },
   "dependencies": {
     "astro": "^4.16.18"

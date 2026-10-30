@@ -1,0 +1,9 @@
+---
+import logos from '../data/publisher-logos.json';
+const { publisher } = Astro.props;
+const logo = logos[publisher.slug];
+const initials = publisher.name.replace(/\[[^\]]*\]/g, '').split(/[^\p{L}\p{N}]+/u).filter(Boolean).slice(0, 2).map(word => word[0]).join('') || '✳';
+---
+<span class:list={['publisher-mark', { 'publisher-mark-placeholder': !logo, 'publisher-mark-dark': logo?.background === 'dark' }]}>
+  {logo ? <img src={logo.localImage} alt={`${publisher.name} logo`} width={logo.width} height={logo.height} loading="lazy" /> : <span aria-label={`${publisher.name} name placeholder`}>{initials}</span>}
+</span>
