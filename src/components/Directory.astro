@@ -2,7 +2,7 @@
 import SearchableList from './SearchableList.astro';
 const { entries, section, label, placeholder, unit } = Astro.props;
 ---
-<SearchableList label={label} placeholder={placeholder} count={entries.length} unit={unit} filterByCount={section === 'authors' || section === 'series'}>
+<SearchableList label={label} placeholder={placeholder} count={entries.length} unit={unit} sortByCount={section === 'authors' || section === 'series'}>
   <div class="directory-grid">
     {entries.map((entry) => (
       <a href={`/${section}/${entry.slug}/`} class="dir-row directory-entry" data-title-count={entry.books.length}
