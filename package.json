@@ -8,9 +8,15 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "covers:preserve": "node scripts/preserve-covers.mjs",
+    "covers:verify": "node scripts/preserve-covers.mjs --verify",
+    "covers:backup": "node scripts/backup-covers.mjs"
   },
   "dependencies": {
     "astro": "^4.16.18"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
   }
 }

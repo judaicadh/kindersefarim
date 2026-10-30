@@ -37,7 +37,7 @@ export function linkedData({ path = '/', origin, title, description, book, entri
     if (pages) entity.numberOfPages = Number(pages[1]);
     if (book.subjects?.length) entity.keywords = book.subjects;
     const cover = coverFor(book);
-    if (cover) entity.image = { '@type': 'ImageObject', contentUrl: cover.image, ...(cover.credit ? { creditText: cover.credit } : {}), ...(cover.source ? { isBasedOn: cover.source } : {}) };
+    if (cover) entity.image = { '@type': 'ImageObject', contentUrl: url(cover.image), ...(cover.credit ? { creditText: cover.credit } : {}), ...(cover.source ? { isBasedOn: cover.source } : {}) };
     const creators = book.creators?.length ? book.creators : parseCreators(book.byline);
     for (const person of creators) {
       const id = url(`/authors/${slugify(person.name)}/#person`);
