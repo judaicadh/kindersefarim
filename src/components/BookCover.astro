@@ -1,16 +1,24 @@
 ---
+import coverCrops from '../data/cover-crops.json';
 import { coverFor } from '../lib/covers.js';
 const { book, large = false } = Astro.props;
 const cover = coverFor(book);
+const crop = cover && coverCrops[cover.image];
+const aspect = crop ? crop.width / crop.height : 2 / 3;
+const cropStyle = crop ? `width:${crop.sourceWidth / crop.width * 100}%;height:${crop.sourceHeight / crop.height * 100}%;left:${-crop.x / crop.width * 100}%;top:${-crop.y / crop.height * 100}%;object-fit:fill` : '';
 const palette = ['#e7b548', '#8eb6a5', '#df9078', '#86aec5', '#b1a0c5'];
 const seed = [...book.title].reduce((sum, letter) => sum + letter.charCodeAt(0), 0);
 ---
-<div class:list={['book-cover', { 'book-cover-large': large }]} style={`--cover-color:${palette[seed % palette.length]}`}>
+<div class:list={['book-cover', { 'book-cover-large': large }]} style={`--cover-color:${palette[seed % palette.length]};--cover-aspect:${aspect}`}>
   <div class="cover-placeholder" aria-hidden="true">
     <span class="cover-ornament">✳</span>
     <span class="cover-title">{book.title}</span>
     <span class="cover-caption">Cover unavailable</span>
     <svg viewBox="0 0 100 50" fill="none"><path d="M8 44Q28 8 50 35Q72 4 92 44" stroke="currentColor" stroke-width="2"/><path d="M12 44h76M50 35v9" stroke="currentColor" stroke-width="2"/></svg>
   </div>
-  {cover && <img src={cover.image} alt={`Cover of ${book.title}`} loading="lazy" onload="this.parentElement.classList.add('has-cover')" onerror="this.parentElement.classList.remove('has-cover');this.remove()" />}
+  {cover && <div class="cover-image"><div class="cover-crop">
+    <img src={cover.image} alt={`Cover of ${book.title}`} loading="lazy" style={cropStyle}
+      onload="this.closest('.book-cover').classList.add('has-cover')"
+      onerror="this.closest('.book-cover').classList.remove('has-cover');this.parentElement.remove()" />
+  </div></div>}
 </div>
