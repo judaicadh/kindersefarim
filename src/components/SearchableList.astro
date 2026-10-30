@@ -12,6 +12,7 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
       <span>Sort by</span>
       <select data-sort aria-label="Sort entries">
         <option value="default">{directory ? "Alphabetical" : "Original order"}</option>
+        {!directory && <><option value="title-asc">Title: A–Z</option><option value="title-desc">Title: Z–A</option><option value="format">Format: A–Z</option></>}
         <option value="date-desc">{directory ? "Newest title first" : "Date: new to old"}</option>
         <option value="date-asc">{directory ? "Oldest title first" : "Date: old to new"}</option>
         {sortByCount && <><option value="count-asc">Titles: fewest first</option>
@@ -37,7 +38,7 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
       const status = this.querySelector('[role="status"]');
       const empty = this.querySelector('[data-empty]');
       const normalize = (value: string) => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
-      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map((el, index) => ({ el, index, search: normalize(el.dataset.search || ''), titles: Number(el.dataset.titleCount || 0), oldest: el.dataset.oldest === '' ? null : Number(el.dataset.oldest), newest: el.dataset.newest === '' ? null : Number(el.dataset.newest), formats: JSON.parse(el.dataset.formats || '[]') }));
+      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map((el, index) => ({ el, index, search: normalize(el.dataset.search || ''), title: el.dataset.title || '', titles: Number(el.dataset.titleCount || 0), oldest: el.dataset.oldest === '' ? null : Number(el.dataset.oldest), newest: el.dataset.newest === '' ? null : Number(el.dataset.newest), formats: JSON.parse(el.dataset.formats || '[]') }));
       const apply = () => {
         const terms = normalize(input.value).split(/\s+/).filter(Boolean);
         let shown = 0;
@@ -55,6 +56,11 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
         const container = rows[0]?.el.parentElement;
         if (!container) return;
         const ordered = [...rows].sort((a, b) => {
+          if (sortControl.value.startsWith('title-')) return (sortControl.value === 'title-desc' ? -1 : 1) * a.title.localeCompare(b.title) || a.index - b.index;
+          if (sortControl.value === 'format') {
+            const af = a.formats[0] || '', bf = b.formats[0] || '';
+            return (!af ? 1 : 0) - (!bf ? 1 : 0) || af.localeCompare(bf) || a.title.localeCompare(b.title) || a.index - b.index;
+          }
           if (sortControl.value.startsWith('date-')) {
             const av = sortControl.value === 'date-asc' ? a.oldest : a.newest;
             const bv = sortControl.value === 'date-asc' ? b.oldest : b.newest;

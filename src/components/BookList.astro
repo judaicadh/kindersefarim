@@ -9,7 +9,7 @@ const { books } = Astro.props;
   <div class="collection-books">
     {books.map((b) => (
       <a href={`/book/${b.id}/`} class="collection-book"
-        data-oldest={b.pubYear ?? ""} data-newest={b.pubYear ?? ""} data-formats={JSON.stringify(formatsFor(b))}
+        data-title={b.title} data-oldest={b.pubYear ?? ""} data-newest={b.pubYear ?? ""} data-formats={JSON.stringify(formatsFor(b))}
         data-search={[b.title, b.byline, b.publisher, b.series, b.isbn].join(' ')}>
         <BookCover book={b} />
         <div class="collection-book-info">
