@@ -1,18 +1,20 @@
 ---
+import { formatsAcross, formatsFor } from '../lib/catalog-controls.js';
 import BookCover from './BookCover.astro';
 import SearchableList from './SearchableList.astro';
 import { rowChips } from '../lib/sheet.js';
 const { books } = Astro.props;
 ---
-<SearchableList count={books.length}>
+<SearchableList count={books.length} formats={formatsAcross(books)}>
   <div class="collection-books">
     {books.map((b) => (
       <a href={`/book/${b.id}/`} class="collection-book"
+        data-oldest={b.pubYear ?? ""} data-newest={b.pubYear ?? ""} data-formats={JSON.stringify(formatsFor(b))}
         data-search={[b.title, b.byline, b.publisher, b.series, b.isbn].join(' ')}>
         <BookCover book={b} />
         <div class="collection-book-info">
           <h2>{b.title}</h2>
-          <p>{b.byline}</p>
+          <p>{b.byline}{b.pubYear != null && <span> · {b.pubYear}</span>}</p>
           <div class="book-chips">{rowChips(b).map(chip => <span>{chip}</span>)}</div>
         </div>
       </a>

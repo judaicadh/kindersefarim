@@ -1,5 +1,5 @@
 ---
-const { label = 'Search books', placeholder = 'Search title, author, publisher, series, ISBN…', count = 0, unit = 'books', sortByCount = false } = Astro.props;
+const { label = 'Search books', placeholder = 'Search title, author, publisher, series, ISBN…', count = 0, unit = 'books', sortByCount = false, formats = [], directory = false } = Astro.props;
 ---
 <catalog-search data-unit={unit}>
   <div class="collection-toolbar">
@@ -8,19 +8,22 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
       <span class="sr-only">{label}</span>
       <input type="search" placeholder={placeholder} autocomplete="off" />
     </label>
-    {sortByCount && <label class="directory-sort">
+    <label class="directory-sort">
       <span>Sort by</span>
       <select data-sort aria-label="Sort entries">
-        <option value="default">Alphabetical</option>
-        <option value="count-asc">Titles: fewest first</option>
-        <option value="count-desc">Titles: most first</option>
+        <option value="default">{directory ? "Alphabetical" : "Original order"}</option>
+        <option value="date-desc">{directory ? "Newest title first" : "Date: new to old"}</option>
+        <option value="date-asc">{directory ? "Oldest title first" : "Date: old to new"}</option>
+        {sortByCount && <><option value="count-asc">Titles: fewest first</option>
+        <option value="count-desc">Titles: most first</option></>}
       </select>
-    </label>}
+    </label>
+    {formats.length > 0 && <label class="directory-sort"><span>Format</span><select data-format aria-label="Filter by format"><option value="">All formats</option>{formats.map(format => <option value={format}>{format}</option>)}</select></label>}
     <button type="button" data-reset hidden>Clear search</button>
     <span class="collection-count" role="status" aria-live="polite">{count} of {count} {unit}</span>
   </div>
   <slot />
-  <p class="collection-empty" data-empty hidden>No matches. Try another search or clear the search field.</p>
+  <p class="collection-empty" data-empty hidden>No matches. Try another search or clear the filters.</p>
 </catalog-search>
 <script>
   class CatalogSearch extends HTMLElement {
@@ -29,20 +32,22 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
       this.dataset.ready = 'true';
       const input = this.querySelector('input');
       const sortControl = this.querySelector<HTMLSelectElement>('[data-sort]');
+      const formatControl = this.querySelector<HTMLSelectElement>('[data-format]');
       const reset = this.querySelector('[data-reset]');
       const status = this.querySelector('[role="status"]');
       const empty = this.querySelector('[data-empty]');
       const normalize = (value: string) => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
-      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map((el, index) => ({ el, index, search: normalize(el.dataset.search || ''), titles: Number(el.dataset.titleCount || 0) }));
+      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map((el, index) => ({ el, index, search: normalize(el.dataset.search || ''), titles: Number(el.dataset.titleCount || 0), oldest: el.dataset.oldest === '' ? null : Number(el.dataset.oldest), newest: el.dataset.newest === '' ? null : Number(el.dataset.newest), formats: JSON.parse(el.dataset.formats || '[]') }));
       const apply = () => {
         const terms = normalize(input.value).split(/\s+/).filter(Boolean);
         let shown = 0;
         for (const row of rows) {
-          row.el.hidden = !terms.every(term => row.search.includes(term));
+          row.el.hidden = !terms.every(term => row.search.includes(term)) || Boolean(formatControl?.value && !row.formats.includes(formatControl.value));
           if (!row.el.hidden) shown++;
         }
         status.textContent = `${shown.toLocaleString()} of ${rows.length.toLocaleString()} ${this.dataset.unit}`;
-        reset.hidden = !input.value;
+        reset.hidden = !input.value && !formatControl?.value;
+        reset.textContent = formatControl?.value ? 'Clear filters' : 'Clear search';
         empty.hidden = shown !== 0;
       };
       input.addEventListener('input', apply);
@@ -50,6 +55,12 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
         const container = rows[0]?.el.parentElement;
         if (!container) return;
         const ordered = [...rows].sort((a, b) => {
+          if (sortControl.value.startsWith('date-')) {
+            const av = sortControl.value === 'date-asc' ? a.oldest : a.newest;
+            const bv = sortControl.value === 'date-asc' ? b.oldest : b.newest;
+            if (av == null || bv == null) return (av == null ? 1 : 0) - (bv == null ? 1 : 0) || a.index - b.index;
+            return (sortControl.value === 'date-asc' ? av - bv : bv - av) || a.index - b.index;
+          }
           const difference = sortControl.value === 'count-asc' ? a.titles - b.titles
             : sortControl.value === 'count-desc' ? b.titles - a.titles : 0;
           return difference || a.index - b.index;
@@ -58,7 +69,8 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
         ordered.forEach(row => fragment.append(row.el));
         container.append(fragment);
       });
-      reset.addEventListener('click', () => { input.value = ''; apply(); input.focus(); });
+      formatControl?.addEventListener('change', apply);
+      reset.addEventListener('click', () => { input.value = ''; if(formatControl) formatControl.value = ''; apply(); input.focus(); });
       apply();
     }
   }

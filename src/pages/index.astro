@@ -1,4 +1,5 @@
 ---
+import { formatsFor } from '../lib/catalog-controls.js';
 import { coverFor } from '../lib/covers.js';
 import BookCover from '../components/BookCover.astro';
 import Base from '../layouts/Base.astro';
@@ -157,12 +158,13 @@ function facetPayload(b) {
       <!-- list -->
       <section class="catalog-results" aria-label="Books">
         <div id="activeFilters" class="active-filters" aria-label="Active filters" hidden></div>
-        <div id="resultLabel" tabindex="-1" role="status" aria-live="polite" style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5);margin-bottom:12px">{books.length} of {books.length} records</div>
+        <div class="browse-results-toolbar"><label class="directory-sort"><span>Sort by</span><select id="browseSort" aria-label="Sort books"><option value="default">Catalog order</option><option value="title-asc">Title: A–Z</option><option value="title-desc">Title: Z–A</option><option value="date-desc">Date: new to old</option><option value="date-asc">Date: old to new</option><option value="format">Format: A–Z</option></select></label><div id="resultLabel" tabindex="-1" role="status" aria-live="polite" style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5);margin-bottom:12px">{books.length} of {books.length} records</div></div>
         <div id="list" class="book-grid">
           {books.map((b) => (
             <a class="row" href={`/book/${b.id}/`}
               data-facets={JSON.stringify(facetPayload(b))}
               data-search={(b.title + ' ' + b.byline).toLowerCase()}
+              data-title={b.title} data-format={formatsFor(b)[0] || ""}
               data-pub={b.pubYear ?? ''}
               data-set-start={b.setStart ?? ''}
               data-set-end={b.setEnd ?? ''}
@@ -173,7 +175,7 @@ function facetPayload(b) {
                 <div style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.6);margin-top:3px">{b.byline}</div>
               </div>
               <div class="book-chips">
-                {rowChips(b).map((c) => (
+                {(b.pubYear != null ? [String(b.pubYear), ...rowChips(b)] : rowChips(b)).map((c) => (
                   <span style="font:500 10px 'Source Sans 3',sans-serif;color:#7a5a1e;background:#f2e6c4;padding:3px 8px;border-radius:2px;white-space:nowrap">{c}</span>
                 ))}
               </div>
@@ -222,7 +224,7 @@ function facetPayload(b) {
   <script define:vars={{ facetKeys }}>
     const sel = Object.fromEntries(facetKeys.map(k => [k, new Set()]));
     const num = value => value === '' || value == null ? null : Number(value);
-    const rows = [...document.querySelectorAll('#list .row')].map(el => ({el, facets: JSON.parse(el.dataset.facets), search: el.dataset.search, pub:num(el.dataset.pub), setStart:num(el.dataset.setStart), setEnd:num(el.dataset.setEnd)}));
+    const rows = [...document.querySelectorAll('#list .row')].map((el,index) => ({el, index, title:el.dataset.title, format:el.dataset.format, facets: JSON.parse(el.dataset.facets), search: el.dataset.search, pub:num(el.dataset.pub), setStart:num(el.dataset.setStart), setEnd:num(el.dataset.setEnd)}));
     const ranges = {};
     const sliderEls = [];
     const fmtYear = y => y < 0 ? -y + ' BCE' : String(y);
@@ -341,6 +343,19 @@ function facetPayload(b) {
       sliderEls.push(slider);refresh();
     });
     q.addEventListener('input',apply);
+    document.getElementById('browseSort').addEventListener('change', event => {
+      const sort = event.target.value;
+      const ordered = [...rows].sort((a,b) => {
+        if(sort.startsWith('date-')) {
+          if(a.pub == null || b.pub == null) return (a.pub == null ? 1 : 0) - (b.pub == null ? 1 : 0) || a.index-b.index;
+          return (sort === 'date-asc' ? a.pub-b.pub : b.pub-a.pub) || a.title.localeCompare(b.title) || a.index-b.index;
+        }
+        if(sort === 'format') return (!a.format ? 1 : 0)-(!b.format ? 1 : 0) || a.format.localeCompare(b.format) || a.title.localeCompare(b.title) || a.index-b.index;
+        if(sort.startsWith('title-')) return (sort === 'title-desc' ? -1 : 1)*a.title.localeCompare(b.title) || a.index-b.index;
+        return a.index-b.index;
+      });
+      const fragment=document.createDocumentFragment();ordered.forEach(row=>fragment.append(row.el));document.getElementById('list').append(fragment);
+    });
     document.getElementById('clearAll').addEventListener('click',()=>{
       facetKeys.forEach(k=>sel[k].clear());sliderEls.forEach(s=>s.reset());q.value='';
       groups.forEach(group=>{const input=group.querySelector('[data-facet-search]');if(input)input.value='';filterOptions(group);});apply();

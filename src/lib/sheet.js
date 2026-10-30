@@ -271,7 +271,7 @@ export function fmtYear(y) {
 // same list serves the Phase 1 CSV, a live sheet, and the sample data.
 export const FACET_DEFS = [
   { id: 'f_type', name: 'Type', arr: false },
-  { id: 'f_forms', name: 'Form', arr: true },
+  { id: 'f_forms', name: 'Format', arr: true },
   { id: 'f_genres', name: 'Genre', arr: true },
   { id: 'f_topics', name: 'Subject', arr: true },
   { id: 'f_place', name: 'Place', arr: true },

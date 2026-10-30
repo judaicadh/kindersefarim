@@ -12,80 +12,104 @@ export async function getStaticPaths() {
 
 const { book: b } = Astro.props;
 const cover = coverFor(b);
-const tf = typeForm(b);
 const bylineHtml = linkifyByline(b.byline, b.creators);
 const seriesName = seriesKey(b.series);
+const known = (value) => value != null && String(value).trim() !== '' && !['—', 'Unspecified'].includes(String(value).trim());
+const fields = [
+  ['Type / form', typeForm(b)], ['Audience', b.f_aud], ['Setting', b.setLabel],
+  ['Language', b.lang], ['Edition', b.edition], ['Pages', b.pages], ['Size', b.size],
+  ['ISBN', b.isbn], ['OCLC', b.oclc], ['LCCN', b.lccn], ['Call number', b.callnum],
+].filter(([, value]) => known(value));
 ---
 
 <Base title={`${b.title} — Kinder Sefarim Bibliography`} description={b.summary || b.title} book={b}>
-  <div style="min-height:100vh;background:#faf6ee">
+  <div>
     <Nav active="browse" />
-
-    <!-- breadcrumb -->
-    <div style="padding:15px 44px;border-bottom:1px solid rgba(23,35,58,.12);font:500 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5)">
-      <a href="/" style="color:#8a5a12">Browse</a> &nbsp;›&nbsp; <span style="color:#17233a">{b.title}</span>
-    </div>
-
-    <div class="record-layout">
-      <div style="width:214px;flex:none">
-        <BookCover book={b} large />
-        {cover?.source && <p class="cover-credit">Cover: <a href={cover.source} target="_blank" rel="noopener noreferrer">{cover.credit} ↗</a></p>}
-      </div>
-      <div style="flex:1;max-width:660px">
-        <div style="font:600 30px/1.22 'Lora',serif;color:#17233a">{b.title}</div>
-        <div style="font:italic 400 16px 'Lora',serif;color:rgba(23,35,58,.65);margin-top:6px" set:html={bylineHtml}></div>
-
-        <div style="display:flex;margin-top:18px;background:#fff;border:1px solid rgba(23,35,58,.16);border-radius:4px;overflow:hidden">
-          <div style="flex:1;padding:12px 18px;border-right:1px solid rgba(23,35,58,.1)">
-            <div style="font:600 9.5px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45)">Publisher</div>
-            <div style="font:500 13.5px 'Lora',serif;color:#17233a;margin-top:3px">
-              {b.publisher && b.publisher !== '—'
-                ? <a href={`/publishers/${slugify(b.publisher)}/`} style="color:#8a5a12">{b.publisher}</a>
-                : b.publisher}
-            </div>
-          </div>
-          <div style="flex:none;width:110px;padding:12px 18px;border-right:1px solid rgba(23,35,58,.1)">
-            <div style="font:600 9.5px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45)">Year</div>
-            <div style="font:500 13.5px 'Lora',serif;color:#17233a;margin-top:3px">{b.year}</div>
-          </div>
-          <div style="flex:none;width:120px;padding:12px 18px">
-            <div style="font:600 9.5px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45)">Pages</div>
-            <div style="font:500 13.5px 'Lora',serif;color:#17233a;margin-top:3px">{b.pages}</div>
-          </div>
-        </div>
-
-        {b.summary && (
-          <div style="font:400 14px/1.68 'Source Sans 3',sans-serif;color:#2a2a2a;margin-top:22px">{b.summary}</div>
-        )}
-
-        {b.subjects && b.subjects.length > 0 && (
-          <div style="margin-top:22px">
-            <div style="font:600 10px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45);margin-bottom:10px">Subjects</div>
-            <div style="display:flex;gap:7px;flex-wrap:wrap">
-              {b.subjects.map((s) => (
-                <a href={`/?subject=${encodeURIComponent(s)}`} style="font:500 11.5px 'Source Sans 3',sans-serif;color:#7a5a1e;background:#f2e6c4;border:1px solid rgba(122,90,30,.25);padding:5px 11px;border-radius:3px;cursor:pointer">{s}</a>
-              ))}
-            </div>
-          </div>
-        )}
-
-        <div style="margin-top:26px;background:#fff;border:1px solid rgba(23,35,58,.16);border-radius:4px;padding:20px 22px">
-          <div style="font:600 10px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45);margin-bottom:14px">Full record</div>
-          <div class="record-fields" style="display:grid;grid-template-columns:130px 1fr 120px 1fr;gap:11px 22px;font:400 12.5px/1.4 'Source Sans 3',sans-serif">
-            <div style="color:rgba(23,35,58,.5)">Type / form</div><div style="color:#17233a">{tf}</div>
-            {b.setLabel && (<><div style="color:rgba(23,35,58,.5)">Setting</div><div style="color:#17233a">{b.setLabel}</div></>)}
-            {b.f_aud && (<><div style="color:rgba(23,35,58,.5)">Audience</div><div style="color:#17233a">{b.f_aud}</div></>)}
-            <div style="color:rgba(23,35,58,.5)">Language</div><div style="color:#17233a">{b.lang}</div>
-            <div style="color:rgba(23,35,58,.5)">Series</div><div style="color:#17233a">{seriesName ? <a href={`/series/${slugify(seriesName)}/`} style="color:#8a5a12">{b.series}</a> : b.series}</div>
-            <div style="color:rgba(23,35,58,.5)">Edition</div><div style="color:#17233a">{b.edition}</div>
-            <div style="color:rgba(23,35,58,.5)">Size</div><div style="color:#17233a">{b.size}</div>
-            <div style="color:rgba(23,35,58,.5)">ISBN</div><div style="color:#17233a">{b.isbn}</div>
-            <div style="color:rgba(23,35,58,.5)">OCLC</div><div style="color:#17233a">{b.oclc}</div>
-            <div style="color:rgba(23,35,58,.5)">LCCN</div><div style="color:#17233a">{b.lccn}</div>
-            <div style="color:rgba(23,35,58,.5)">Call number</div><div style="color:#17233a">{b.callnum}</div>
+    <article class="book-record" aria-labelledby="record-title">
+      <nav class="record-breadcrumb" aria-label="Breadcrumb"><a href="/">← Browse books</a><span> / </span><span>{b.id}</span></nav>
+      <div class="record-sheet">
+        <aside class="record-cover">
+          <BookCover book={b} large />
+          {cover?.source && <p class="cover-credit">Cover: <a href={cover.source} target="_blank" rel="noopener noreferrer">{cover.credit} ↗</a></p>}
+        </aside>
+        <header class="record-heading">
+          <p class="record-kicker">The bibliography <span aria-hidden="true">✳</span></p>
+          <h1 id="record-title">{b.title}</h1>
+          {known(b.byline) && <div class="record-byline" set:html={bylineHtml}></div>}
+          {(known(b.publisher) || known(b.year)) && <p class="record-publication">
+            {known(b.publisher) && <a href={`/publishers/${slugify(b.publisher)}/`}>{b.publisher}</a>}
+            {known(b.publisher) && known(b.year) && <span aria-hidden="true"> · </span>}
+            {known(b.year) && <span>{b.year}</span>}
+          </p>}
+          {seriesName && <p class="record-series"><span>In the series</span> <a href={`/series/${slugify(seriesName)}/`}>{b.series} →</a></p>}
+        </header>
+        <div class="record-content">
+          {known(b.summary) && <section class="record-summary" aria-label="About this book"><p>{b.summary}</p></section>}
+          <div class="record-information">
+            {fields.length > 0 && <section class="record-details" aria-labelledby="details-title">
+              <h2 id="details-title">Book details</h2>
+              <dl>{fields.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+            </section>}
+            {b.subjects?.length > 0 && <section class="record-subjects" aria-labelledby="subjects-title">
+              <h2 id="subjects-title">Explore subjects</h2>
+              <div class="record-tags">{b.subjects.map((s) => <a href={`/?subject=${encodeURIComponent(s)}`}>{s}</a>)}</div>
+            </section>}
           </div>
         </div>
       </div>
-    </div>
+    </article>
   </div>
 </Base>
+
+<style>
+  .book-record { max-width:1440px; margin:0 auto; padding:0 5% 30px; }
+  .record-breadcrumb { display:flex; gap:9px; align-items:center; padding:16px 0; font-size:13px; color:#697468; }
+  .record-breadcrumb a { color:var(--green); }
+  .record-sheet { display:grid; grid-template-columns:170px minmax(0,1fr); column-gap:28px; row-gap:18px; padding:24px; border:1px solid #243e3628; border-radius:12px; background:#fffdf7; box-shadow:4px 4px 0 #243e3608; }
+  .record-cover { grid-column:1; grid-row:1 / 3; min-width:0; }
+  .record-cover :global(.book-cover-large) { width:100%; }
+  .record-cover :global(.cover-title) { font-size:22px; }
+  .record-cover :global(.cover-placeholder) { padding:18px; }
+  .record-cover .cover-credit { margin:9px 0 0; font-size:11px; }
+  .record-heading { min-width:0; }
+  .record-kicker { display:flex; align-items:center; gap:10px; font-size:10px; text-transform:uppercase; letter-spacing:.14em; font-weight:700; color:#667368; margin:0 0 8px; }
+  .record-kicker span { color:#b47727; font-size:17px; line-height:1; }
+  .record-heading h1 { font:600 clamp(27px,3vw,39px)/1.12 'Fraunces',Georgia,serif; letter-spacing:-.025em; text-wrap:pretty; }
+  .record-byline { font-size:16px; line-height:1.5; color:#53655a; margin-top:8px; }
+  .record-byline :global(a), .record-publication a, .record-series a { color:var(--green); text-decoration:underline; text-decoration-color:#35645155; text-underline-offset:3px; }
+  .record-publication { margin:8px 0 0; font-size:14px; color:#53655a; line-height:1.5; }
+  .record-series { display:flex; flex-wrap:wrap; gap:4px 8px; margin:12px 0 0; font-size:13px; line-height:1.5; }
+  .record-series > span { color:#697468; }
+  .record-content { grid-column:2; min-width:0; }
+  .record-summary p { font-size:15px; line-height:1.6; margin:0 0 18px; max-width:85ch; }
+  .record-information { display:flex; flex-wrap:wrap; gap:20px 28px; border-top:1px solid #243e3620; padding-top:16px; }
+  .record-information:empty { display:none; }
+  .record-details { flex:1 1 330px; min-width:0; }
+  .record-subjects { flex:1 1 230px; min-width:0; }
+  .record-information h2 { font:600 16px 'Fraunces',Georgia,serif; margin:0 0 12px; letter-spacing:0; }
+  .record-details dl { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px 22px; margin:0; }
+  .record-details dl > div { display:grid; grid-template-columns:75px minmax(0,1fr); gap:8px; align-content:start; font-size:13px; line-height:1.5; }
+  .record-details dl > div:only-child { grid-column:1 / -1; }
+  .record-details dt { color:#697468; }
+  .record-details dd { margin:0; overflow-wrap:anywhere; }
+  .record-tags { display:flex; flex-wrap:wrap; gap:6px; }
+  .record-tags a { font-size:12px; line-height:1.4; color:#45614e; background:#edf0e3; border:1px solid #45614e22; border-radius:14px; padding:5px 10px; }
+  .record-tags a:hover { background:#e0e8d4; border-color:#45614e66; }
+  @media (max-width:900px) { .record-information { display:block; } .record-subjects { margin-top:18px; } }
+  @media (max-width:600px) {
+    .book-record { padding-bottom:22px; }
+    .record-sheet { display:flow-root; padding:16px; }
+    .record-cover { float:left; width:90px; margin:0 16px 12px 0; }
+    .record-heading h1 { font-size:25px; }
+    .record-kicker { font-size:9px; letter-spacing:.08em; }
+    .record-byline { font-size:14px; margin-top:6px; }
+    .record-publication, .record-series { font-size:12px; }
+    .record-content { clear:both; padding-top:16px; }
+    .record-cover :global(.cover-title) { font-size:13px; }
+    .record-cover :global(.cover-placeholder) { padding:9px; }
+    .record-cover :global(.cover-caption) { font-size:7px; }
+    .record-cover .cover-credit { font-size:9px; }
+    .record-details dl { grid-template-columns:1fr; }
+    .record-details dl > div { grid-template-columns:85px minmax(0,1fr); }
+  }
+</style>

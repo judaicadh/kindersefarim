@@ -199,3 +199,6 @@ catalog-search { display:block; }
 .directory-sort { display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:12px; color:#53655a; }
 .directory-sort select { font:400 14px 'Source Sans 3',sans-serif; color:var(--ink); border:1px solid #6d8571; border-radius:8px; background:#fffdf7; padding:11px 30px 11px 10px; cursor:pointer; }
 @media(max-width:760px) { .directory-sort { flex:1 1 auto; } }
+
+.browse-results-toolbar { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:14px; }
+.browse-results-toolbar #resultLabel { margin-bottom:0 !important; }
