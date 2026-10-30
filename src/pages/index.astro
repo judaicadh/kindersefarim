@@ -327,10 +327,16 @@ function facetPayload(b) {
         box.classList.toggle('active',a>min||b<max);
       }
       for(const input of [lo,hi]) input.addEventListener('input',()=>{refresh(input);apply();});
-      for(const [field,range] of [[from,lo],[to,hi]]) field.addEventListener('change',()=>{
-        if(field.value===''||!Number.isFinite(field.valueAsNumber)){refresh(range);return;}
-        range.value=Math.max(min,Math.min(max,Math.round(field.valueAsNumber)));refresh(range);apply();
-      });
+      for(const [field,range] of [[from,lo],[to,hi]]) {
+        field.addEventListener('input',()=>{
+          if(field.value===''||!field.validity.valid||!Number.isFinite(field.valueAsNumber))return;
+          range.value=field.valueAsNumber;refresh(range);apply();
+        });
+        field.addEventListener('change',()=>{
+          if(field.value===''||!Number.isFinite(field.valueAsNumber)){refresh(range);return;}
+          range.value=Math.max(min,Math.min(max,Math.round(field.valueAsNumber)));refresh(range);apply();
+        });
+      }
       const slider={name:box.dataset.name,lo,hi,active:()=>Number(lo.value)>min||Number(hi.value)<max,reset:()=>{lo.value=min;hi.value=max;refresh();}};
       sliderEls.push(slider);refresh();
     });
