@@ -2,10 +2,10 @@
 import SearchableList from './SearchableList.astro';
 const { entries, section, label, placeholder, unit } = Astro.props;
 ---
-<SearchableList label={label} placeholder={placeholder} count={entries.length} unit={unit}>
+<SearchableList label={label} placeholder={placeholder} count={entries.length} unit={unit} filterByCount={section === 'authors' || section === 'series'}>
   <div class="directory-grid">
     {entries.map((entry) => (
-      <a href={`/${section}/${entry.slug}/`} class="dir-row directory-entry"
+      <a href={`/${section}/${entry.slug}/`} class="dir-row directory-entry" data-title-count={entry.books.length}
         data-search={[entry.name, ...(entry.roles || []), ...entry.books.map(book => [book.title, book.byline, book.publisher, book.series, book.isbn].join(' '))].join(' ')}>
         <div><span class="directory-name">{entry.name}</span>{entry.roles?.length > 0 && <span class="directory-role">{entry.roles.join(' · ')}</span>}</div>
         <span class="directory-titles">{entry.books.length} {entry.books.length === 1 ? 'title' : 'titles'} <span aria-hidden="true">↗</span></span>

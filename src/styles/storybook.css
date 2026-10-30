@@ -195,3 +195,7 @@ catalog-search { display:block; }
 .book-cover.has-cover { background:transparent; border-color:transparent; box-shadow:none; }
 .book-grid .book-cover.has-cover { background:color-mix(in srgb,var(--cover-color) 15%,#fffaf0); }
 .book-cover-large.has-cover { aspect-ratio:var(--cover-aspect); }
+
+.title-count-filter { display:flex; align-items:center; flex-wrap:wrap; gap:8px; font-size:12px; color:#53655a; }
+.title-count-filter select { font:400 14px 'Source Sans 3',sans-serif; color:var(--ink); border:1px solid #6d8571; border-radius:8px; background:#fffdf7; padding:11px 30px 11px 10px; cursor:pointer; }
+@media(max-width:760px) { .title-count-filter { flex:1 1 auto; } }

@@ -1,5 +1,5 @@
 ---
-const { label = 'Search books', placeholder = 'Search title, author, publisher, series, ISBN…', count = 0, unit = 'books' } = Astro.props;
+const { label = 'Search books', placeholder = 'Search title, author, publisher, series, ISBN…', count = 0, unit = 'books', filterByCount = false } = Astro.props;
 ---
 <catalog-search data-unit={unit}>
   <div class="collection-toolbar">
@@ -8,11 +8,23 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
       <span class="sr-only">{label}</span>
       <input type="search" placeholder={placeholder} autocomplete="off" />
     </label>
+    {filterByCount && <label class="title-count-filter">
+      <span>Titles in the bibliography</span>
+      <select data-min-titles aria-label="Minimum number of titles">
+        <option value="1">All counts</option>
+        <option value="2">2+ titles</option>
+        <option value="3">3+ titles</option>
+        <option value="5">5+ titles</option>
+        <option value="10">10+ titles</option>
+        <option value="20">20+ titles</option>
+        <option value="50">50+ titles</option>
+      </select>
+    </label>}
     <button type="button" data-reset hidden>Clear search</button>
     <span class="collection-count" role="status" aria-live="polite">{count} of {count} {unit}</span>
   </div>
   <slot />
-  <p class="collection-empty" data-empty hidden>No matches. Try another search or clear the search field.</p>
+  <p class="collection-empty" data-empty hidden>{filterByCount ? 'No matches. Try another search or lower the minimum title count.' : 'No matches. Try another search or clear the search field.'}</p>
 </catalog-search>
 <script>
   class CatalogSearch extends HTMLElement {
@@ -20,24 +32,28 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
       if (this.dataset.ready) return;
       this.dataset.ready = 'true';
       const input = this.querySelector('input');
+      const minimum = this.querySelector<HTMLSelectElement>('[data-min-titles]');
       const reset = this.querySelector('[data-reset]');
       const status = this.querySelector('[role="status"]');
       const empty = this.querySelector('[data-empty]');
       const normalize = (value: string) => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
-      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map(el => ({ el, search: normalize(el.dataset.search || '') }));
+      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map(el => ({ el, search: normalize(el.dataset.search || ''), titles: Number(el.dataset.titleCount || 0) }));
       const apply = () => {
         const terms = normalize(input.value).split(/\s+/).filter(Boolean);
+        const minTitles = minimum ? Number(minimum.value) : 0;
         let shown = 0;
         for (const row of rows) {
-          row.el.hidden = !terms.every(term => row.search.includes(term));
+          row.el.hidden = row.titles < minTitles || !terms.every(term => row.search.includes(term));
           if (!row.el.hidden) shown++;
         }
-        status.textContent = `${shown} of ${rows.length} ${this.dataset.unit}`;
-        reset.hidden = !input.value;
+        status.textContent = `${shown.toLocaleString()} of ${rows.length.toLocaleString()} ${this.dataset.unit}`;
+        reset.hidden = !input.value && minTitles <= 1;
+        reset.textContent = minTitles > 1 ? 'Clear filters' : 'Clear search';
         empty.hidden = shown !== 0;
       };
       input.addEventListener('input', apply);
-      reset.addEventListener('click', () => { input.value = ''; apply(); input.focus(); });
+      minimum?.addEventListener('change', apply);
+      reset.addEventListener('click', () => { input.value = ''; if (minimum) minimum.value = '1'; apply(); input.focus(); });
       apply();
     }
   }
