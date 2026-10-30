@@ -1,49 +1,65 @@
 ---
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
+import { Content as ProjectHistory } from '../content/project-history.md';
 import { getBooks } from '../lib/sheet.js';
 
 const { books } = await getBooks();
-const count = books.length;
 ---
 
-<Base title="About — Kinder Sefarim Bibliography" description="About the Kinder Sefarim Bibliography project.">
-  <div style="min-height:100vh;background:#faf6ee">
+<Base title="About — Kinder Sefarim Bibliography" description="The story behind Kinder Sefarim: from dissertation research to a bibliography of Orthodox Jewish children's literature.">
+  <div>
     <Nav active="about" />
-
-    <div style="padding:34px 44px;background:linear-gradient(180deg,#f2ead9,#faf6ee)">
-      <div style="font:600 27px/1.2 'Lora',serif;color:#17233a">About this project</div>
-    </div>
-
-    <div style="padding:34px 44px 64px;max-width:680px;font:400 15px/1.72 'Source Sans 3',sans-serif;color:#2a2a2a">
-      <p style="margin:0 0 20px">
-        The <strong>Kinder Sefarim Bibliography</strong> is a scholarly catalog of Orthodox
-        Jewish children's literature. It brings together {count} records — picture books,
-        story collections, comics, cookbooks, and more — describing each work with the
-        bibliographic detail a library catalog would keep: title, contributors, publisher,
-        year, series, and subject headings.
-      </p>
-
-      <p style="margin:0 0 20px">
-        You can <a href="/">browse the full catalog</a> and narrow it by type, form, audience,
-        subject, language, decade, or publisher. Every record links out to the people who made
-        it (<a href="/authors/">authors and contributors</a>), the
-        <a href="/series/">series</a> it belongs to, and its <a href="/publishers/">publisher</a>,
-        so you can trace a body of work in any direction.
-      </p>
-
-      <div style="margin:28px 0;padding:18px 22px;background:#fff;border:1px solid rgba(23,35,58,.16);border-radius:4px">
-        <div style="font:600 10px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45);margin-bottom:8px">How it's built</div>
-        <p style="margin:0;font:400 13.5px/1.6 'Source Sans 3',sans-serif;color:#2a2a2a">
-          The catalog is maintained as a Google Sheet and published as a static website.
-          Editing the sheet automatically rebuilds the site, so the catalog you see always
-          reflects the latest records.
-        </p>
-      </div>
-
-      <p style="margin:0 0 20px;font:400 13.5px/1.6 'Source Sans 3',sans-serif;color:rgba(23,35,58,.7)">
-        Have a correction, a title to add, or a question? <em>[Add contact details here.]</em>
-      </p>
+    <header class="about-hero">
+      <p class="eyebrow">BEHIND THE BIBLIOGRAPHY</p>
+      <h1>Every project<br/>has <em>a story.</em></h1>
+      <p>A search for children's books. Years of discovery.<br/>A bibliography built with a community of helping hands.</p>
+      <span class="about-flower" aria-hidden="true">✳</span>
+    </header>
+    <div class="about-layout">
+      <aside class="about-contents" aria-label="On this page">
+        <p class="eyebrow">IN THIS CHAPTER</p>
+        <nav aria-label="Project history sections">
+          <a href="#the-first-seed"><span>01</span> The first seed</a>
+          <a href="#following-the-books"><span>02</span> Following the books</a>
+          <a href="#from-academia-to-librarianship"><span>03</span> Academia to librarianship</a>
+          <a href="#bringing-it-to-life"><span>04</span> Bringing it to life</a>
+        </nav>
+        <div class="about-catalog-note">
+          <p>Explore the collection</p>
+          <span>{books.length} records: picture books, stories, comics, cookbooks, and more.</span>
+          <a href="/">Browse the bibliography ↗</a>
+        </div>
+      </aside>
+      <article class="project-history" aria-label="Project history">
+        <ProjectHistory />
+        <div class="history-end" aria-hidden="true">✳ &nbsp; ✳ &nbsp; ✳</div>
+      </article>
     </div>
   </div>
 </Base>
+
+<style>
+  .about-hero { position:relative; overflow:hidden; padding:54px 7% 45px; background:radial-gradient(ellipse at 90% 50%,#efe8cc,transparent 65%); border-bottom:1px solid #243e3625; }
+  .about-hero h1 { font-size:clamp(44px,5vw,68px); max-width:800px; }
+  .about-hero > p:last-of-type { font-size:17px; line-height:1.6; color:#53655a; margin:24px 0 0; }
+  .about-flower { position:absolute; right:12%; top:65px; font-size:160px; color:#d9aa47; transform:rotate(-12deg); }
+  .about-layout { display:grid; grid-template-columns:225px minmax(0,730px); gap:65px; padding:42px 7% 60px; max-width:1280px; margin:auto; align-items:start; }
+  .about-contents { position:sticky; top:30px; }
+  .about-contents nav { display:flex; flex-direction:column; gap:5px; }
+  .about-contents nav a { padding:10px 0; font-size:13px; border-bottom:1px dashed #243e3625; }
+  .about-contents nav span { font-size:11px; color:#9c6948; margin-right:9px; }
+  .about-catalog-note { margin-top:30px; padding:20px; border-radius:9px; background:#edf0e3; }
+  .about-catalog-note p { font:600 19px 'Fraunces',serif; margin:0 0 10px; }
+  .about-catalog-note span { display:block; font-size:13px; line-height:1.6; color:#53655a; }
+  .about-catalog-note a { display:inline-block; margin-top:14px; font-size:12px; font-weight:600; text-decoration:underline; text-underline-offset:3px; }
+  .project-history { min-width:0; font-size:17px; line-height:1.85; color:#35473d; }
+  .project-history :global(h2) { font:600 30px/1.25 'Fraunces',serif; color:var(--ink); margin:42px 0 20px; scroll-margin-top:28px; }
+  .project-history :global(h2:first-child) { margin-top:0; }
+  .project-history :global(p) { margin:0 0 24px; }
+  .project-history :global(a) { color:#356451; text-decoration:underline; text-underline-offset:3px; text-decoration-color:#8ba38a; overflow-wrap:anywhere; }
+  .project-history :global(a:hover) { color:#a24f36; text-decoration-color:currentColor; }
+  .history-end { text-align:center; color:#b78439; font-size:20px; padding:15px 0 0; }
+  @media(max-width:900px) { .about-layout { grid-template-columns:180px minmax(0,1fr); gap:30px; padding-left:5%; padding-right:5%; } .about-flower { right:7%; font-size:110px; top:100px; } }
+  @media(max-width:650px) { .about-hero { padding:35px 5%; } .about-hero h1 { font-size:48px; } .about-hero > p:last-of-type { font-size:15px; } .about-flower { right:-15px; top:55px; font-size:85px; opacity:.4; } .about-layout { grid-template-columns:1fr; gap:32px; padding-top:28px; } .about-contents { position:static; } .about-contents nav { display:grid; grid-template-columns:1fr 1fr; gap:0 15px; } .about-contents nav a { font-size:12px; line-height:1.5; } .about-catalog-note { display:none; } .project-history { font-size:16px; line-height:1.8; } .project-history :global(h2) { font-size:27px; } }
+</style>

@@ -1,17 +1,35 @@
 ---
+import { coverFor } from '../lib/covers.js';
+import BookCover from '../components/BookCover.astro';
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
-import { getBooks, buildFacets, FACET_DEFS, rowChips, buildSubjectTree, subjectPaths } from '../lib/sheet.js';
+import { getBooks, buildFacets, FACET_DEFS, rowChips, buildSubjectTree, subjectPaths, fmtYear } from '../lib/sheet.js';
 
 const { books, source } = await getBooks();
+const featuredBooks = books.filter((book) => coverFor(book)).slice(0, 3);
 const facets = buildFacets(books);
 const subjectTree = buildSubjectTree(books);
 // Hide any facet with no values (e.g. Place/Time period on a build that has
 // none). The Subject facet uses the nested tree rather than flat opts.
 const visibleFacets = facets.filter((f) => (f.id === 'f_topics' ? subjectTree.length : f.opts.length));
 
-// Banner shown only when we didn't build from a live sheet.
+// Timeslider ranges. "Setting" spans the historical era a book is set in
+// (startyear–endyear, BCE negative); "Published" spans copyright-date. Each
+// slider renders only when the catalog actually carries those years.
+const pubYears = books.map((b) => b.pubYear).filter((y) => y != null);
+const setYears = books.flatMap((b) => [b.setStart, b.setEnd]).filter((y) => y != null);
+const sliders = [];
+if (setYears.length) {
+  sliders.push({ id: 'set', name: 'Setting (historical)', min: Math.min(...setYears), max: Math.max(...setYears), bce: true });
+}
+if (pubYears.length) {
+  sliders.push({ id: 'pub', name: 'Published', min: Math.min(...pubYears), max: Math.max(...pubYears), bce: false });
+}
+const nSetting = books.filter((b) => b.setStart != null).length;
+
+// Banner shown only when we didn't build from the catalog data.
 const bannerMeta = {
+  local: null,
   sheet: null,
   sample: {
     label: 'Sample data',
@@ -56,41 +74,81 @@ function facetPayload(b) {
       </div>
     )}
 
-    <!-- hero + search -->
-    <div style="padding:34px 44px 8px;background:linear-gradient(180deg,#f2ead9,#faf6ee)">
-      <div style="font:600 27px/1.2 'Lora',serif;color:#17233a;max-width:660px">A scholarly catalog of Orthodox Jewish children's literature</div>
-      <div style="margin-top:16px;display:flex;gap:10px;max-width:620px">
-        <input id="q" type="search" placeholder="Search title, author, illustrator, ISBN…" autocomplete="off"
-          style="flex:1;background:#fff;border:1px solid rgba(23,35,58,.25);border-radius:3px;padding:11px 16px;font-size:13px;color:#17233a;outline:none" />
+    <section class="browse-hero" aria-labelledby="browse-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> SMALL BOOKS. BIG WORLDS.</p>
+        <h1 id="browse-title">A shelf full of<br/><em>wonder.</em></h1>
+        <p class="hero-description">Explore Orthodox Jewish children's literature,<br class="desktop-break"/> one story, illustration, and discovery at a time.</p>
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" width="21" height="21" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m15 15 5 5" stroke="currentColor" stroke-width="1.7"/></svg>
+          <label class="sr-only" for="q">Search the bibliography</label>
+          <input id="q" type="search" placeholder="Find a title, author, illustrator, ISBN…" autocomplete="off" />
+        </div>
+        <p class="hero-note">A scholarly catalog for curious minds.</p>
       </div>
-    </div>
-
-    <div style="display:flex;align-items:flex-start">
+      <div class="hero-art" aria-hidden="true">
+        <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✧</span>
+        <span class="art-caption">So many stories to discover</span>
+        <div class="illustrated-books">
+          {featuredBooks.length === 3 ? featuredBooks.map((book, i) => (
+            <div class:list={['art-book', 'featured-cover', ['book-a', 'book-b', 'book-c'][i]]}>
+              <BookCover book={book} />
+            </div>
+          )) : (<>
+          <div class="art-book book-a"><span>Once upon<br/>a Shabbos</span><svg viewBox="0 0 90 90" fill="none"><path d="M23 68V40h44v28M16 40l29-24 29 24M38 68V49h14v19" stroke="currentColor" stroke-width="3"/><path d="M6 75q39-8 78 0" stroke="currentColor" stroke-width="2"/></svg><small>STORIES & TRADITIONS</small></div>
+          <div class="art-book book-b"><small>A WORLD OF</small><span>little<br/>wonders</span><svg viewBox="0 0 90 90" fill="none"><path d="M45 75V36M45 54Q15 58 18 32q26-1 27 22M45 64q29 2 28-26-25 0-28 26" stroke="currentColor" stroke-width="3"/><circle cx="45" cy="23" r="13" stroke="currentColor" stroke-width="2"/><path d="M45 5v6M45 35v6M27 23h6M57 23h6" stroke="currentColor" stroke-width="2"/></svg></div>
+          <div class="art-book book-c"><span>Adventures<br/>await!</span><svg viewBox="0 0 90 90" fill="none"><path d="M12 70 39 26l15 25 8-13 19 32Z" stroke="currentColor" stroke-width="3"/><path d="m30 41 9 7 9-7M39 26V12h18l-5 6 5 6H39" stroke="currentColor" stroke-width="2"/></svg><small>TURN THE PAGE ↗</small></div>
+          </>)}
+        </div>
+        <div class="art-shelf"></div><span class="art-spark spark-three">✦</span>
+      </div>
+    </section>
+    <div class="catalog-heading"><div><p class="eyebrow">THE BIBLIOGRAPHY</p><h2>Find your next discovery<span>↘</span></h2></div><span class="catalog-stamp">{books.length} stories & counting</span></div>
+    <div class="catalog-layout">
       <!-- facet rail -->
-      <div style="width:250px;flex:none;padding:24px 24px 40px;border-right:1px solid rgba(23,35,58,.12)">
+      <aside class="facet-rail" aria-label="Filter books">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px">
           <span style="font:600 11px 'Source Sans 3',sans-serif;letter-spacing:.07em;text-transform:uppercase;color:rgba(23,35,58,.5)">Refine</span>
-          <span id="clearAll" style="font:500 11px 'Source Sans 3',sans-serif;color:#8a5a12;cursor:pointer">Clear all</span>
+          <button id="clearAll" type="button">Reset</button>
         </div>
+
+        {sliders.map((s) => (
+          <div class="facet-slider" data-slider={s.id} data-min={s.min} data-max={s.max} data-bce={String(s.bce)} style="margin-bottom:20px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px;margin-bottom:12px">
+              <span style="font:600 12.5px 'Lora',serif;color:#17233a">{s.name}</span>
+              <span style="font:400 10px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.42)">{s.id === 'set' ? `${nSetting} dated` : 'year'}</span>
+            </div>
+            <div class="range-vals" style="display:flex;justify-content:space-between;font:600 11.5px ui-monospace,monospace;color:#17233a;margin-bottom:6px">
+              <span class="range-lo">{fmtYear(s.min)}</span>
+              <span class="range-hi">{fmtYear(s.max)}</span>
+            </div>
+            <div class="range-track">
+              <div class="range-fill"></div>
+              <input class="range-min" type="range" min={s.min} max={s.max} value={s.min} step="1" aria-label={`${s.name} earliest year`} />
+              <input class="range-max" type="range" min={s.min} max={s.max} value={s.max} step="1" aria-label={`${s.name} latest year`} />
+            </div>
+          </div>
+        ))}
+
         {visibleFacets.map((f) => (
           f.id === 'f_topics' ? (
             <div style="margin-bottom:18px">
               <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
               {subjectTree.map((p, i) => (
                 <div>
-                  <div class="opt" data-facet="f_topics" data-value={p.primary}
+                  <div class="opt" role="checkbox" tabindex="0" aria-checked="false" data-facet="f_topics" data-value={p.primary}
                     style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
                     <span class="box" style="width:14px;height:14px;flex:none;border:1.5px solid rgba(23,35,58,.35);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 10px sans-serif;color:#fff"></span>
                     <span class="lbl" style="flex:1;font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.72)">{p.primary}</span>
                     {p.children.length > 0 && (
-                      <span class="caret" data-group={i} style="cursor:pointer;font-size:9px;line-height:1;color:rgba(23,35,58,.45);padding:2px 5px;user-select:none">▸</span>
+                      <span class="caret" role="button" tabindex="0" aria-expanded="false" aria-label="Expand subject" data-group={i} style="cursor:pointer;font-size:9px;line-height:1;color:rgba(23,35,58,.45);padding:2px 5px;user-select:none">▸</span>
                     )}
                     <span style="font:400 10.5px ui-monospace,monospace;color:rgba(23,35,58,.38)">{p.count}</span>
                   </div>
                   {p.children.length > 0 && (
                     <div class="subj-children" data-group={i} style="display:none;margin-left:16px;border-left:1px solid rgba(23,35,58,.1);padding-left:8px">
                       {p.children.map((c) => (
-                        <div class="opt" data-facet="f_topics" data-value={c.value}
+                        <div class="opt" role="checkbox" tabindex="0" aria-checked="false" data-facet="f_topics" data-value={c.value}
                           style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
                           <span class="box" style="width:13px;height:13px;flex:none;border:1.5px solid rgba(23,35,58,.3);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 9px sans-serif;color:#fff"></span>
                           <span class="lbl" style="flex:1;font:400 11.5px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.66)">{c.label}</span>
@@ -106,7 +164,7 @@ function facetPayload(b) {
             <div style="margin-bottom:18px">
               <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
               {f.opts.map((o) => (
-                <div class="opt" data-facet={f.id} data-value={o.value}
+                <div class="opt" role="checkbox" tabindex="0" aria-checked="false" data-facet={f.id} data-value={o.value}
                   style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
                   <span class="box" style="width:14px;height:14px;flex:none;border:1.5px solid rgba(23,35,58,.35);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 10px sans-serif;color:#fff"></span>
                   <span class="lbl" style="flex:1;font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.72)">{o.value}</span>
@@ -116,25 +174,26 @@ function facetPayload(b) {
             </div>
           )
         ))}
-      </div>
+      </aside>
 
       <!-- list -->
-      <div style="flex:1;padding:22px 40px 48px">
-        <div id="resultLabel" style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5);margin-bottom:12px">{books.length} of {books.length} records</div>
-        <div id="list">
+      <section class="catalog-results" aria-label="Books">
+        <div id="resultLabel" role="status" aria-live="polite" style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5);margin-bottom:12px">{books.length} of {books.length} records</div>
+        <div id="list" class="book-grid">
           {books.map((b) => (
             <a class="row" href={`/book/${b.id}/`}
               data-facets={JSON.stringify(facetPayload(b))}
-              data-search={(b.title + ' ' + b.byline + ' ' + b.isbn).toLowerCase()}
-              style="display:flex;gap:20px;align-items:center;padding:16px 8px;border-bottom:1px solid rgba(23,35,58,.1);cursor:pointer;color:inherit">
-              <div style={`position:relative;width:54px;flex:none;height:${b.coverH};background:repeating-linear-gradient(115deg,#dcd2ba,#dcd2ba 6px,#eee3c9 6px,#eee3c9 12px);border-radius:2px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.12)`}>
-                {b.thumbnail && <img src={b.thumbnail} alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block" />}
-              </div>
-              <div style="flex:1">
+              data-search={(b.title + ' ' + b.byline).toLowerCase()}
+              data-pub={b.pubYear ?? ''}
+              data-set-start={b.setStart ?? ''}
+              data-set-end={b.setEnd ?? ''}
+              >
+              <BookCover book={b} />
+              <div class="book-info">
                 <div style="font:600 15.5px 'Lora',serif;color:#17233a">{b.title}</div>
                 <div style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.6);margin-top:3px">{b.byline}</div>
               </div>
-              <div style="width:240px;flex:none;display:flex;flex-wrap:wrap;gap:5px;justify-content:flex-end">
+              <div class="book-chips">
                 {rowChips(b).map((c) => (
                   <span style="font:500 10px 'Source Sans 3',sans-serif;color:#7a5a1e;background:#f2e6c4;padding:3px 8px;border-radius:2px;white-space:nowrap">{c}</span>
                 ))}
@@ -143,7 +202,7 @@ function facetPayload(b) {
           ))}
         </div>
         <div id="empty" style="display:none;padding:48px;text-align:center;font:400 13px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5)">No records match the current search and facets.</div>
-      </div>
+      </section>
     </div>
   </div>
 
@@ -152,17 +211,55 @@ function facetPayload(b) {
     .opt.sel .box::after { content: '✓'; }
     .opt.sel .lbl { color: #17233a !important; }
     .row:hover { background: rgba(199, 154, 58, 0.08); }
+
+    /* dual-thumb range slider (two stacked native inputs + a shared track) */
+    .range-track { position: relative; height: 26px; }
+    .range-track .range-fill {
+      position: absolute; top: 11px; height: 4px; border-radius: 2px;
+      background: #8a5a12; z-index: 1; pointer-events: none;
+    }
+    .range-track::before {
+      content: ''; position: absolute; left: 0; right: 0; top: 11px; height: 4px;
+      border-radius: 2px; background: rgba(23,35,58,.18);
+    }
+    .range-track input[type='range'] {
+      position: absolute; left: 0; width: 100%; top: 0; height: 26px; margin: 0;
+      -webkit-appearance: none; appearance: none; background: none;
+      pointer-events: none; z-index: 2;
+    }
+    .range-track input[type='range']::-webkit-slider-thumb {
+      -webkit-appearance: none; appearance: none; pointer-events: auto;
+      width: 15px; height: 15px; border-radius: 50%; background: #fffdf7;
+      border: 2px solid #8a5a12; box-shadow: 0 1px 2px rgba(23,35,58,.3); cursor: pointer;
+    }
+    .range-track input[type='range']::-moz-range-thumb {
+      pointer-events: auto; width: 15px; height: 15px; border-radius: 50%;
+      background: #fffdf7; border: 2px solid #8a5a12; box-shadow: 0 1px 2px rgba(23,35,58,.3); cursor: pointer;
+    }
+    .range-track input[type='range']::-moz-range-track { background: none; }
+    .facet-slider.active .range-vals { color: #8a5a12; }
   </style>
 
   <script define:vars={{ facetKeys }}>
     const sel = {}; // facetId -> Set(values)
     facetKeys.forEach((k) => (sel[k] = new Set()));
 
+    const num = (v) => (v === '' || v == null ? null : Number(v));
     const rows = [...document.querySelectorAll('.row')].map((el) => ({
       el,
       facets: JSON.parse(el.dataset.facets),
       search: el.dataset.search,
+      pub: num(el.dataset.pub),
+      setStart: num(el.dataset.setStart),
+      setEnd: num(el.dataset.setEnd),
     }));
+
+    // Active year ranges, keyed by slider id. A slider only filters once it's
+    // been narrowed from its full extent, so undated books stay visible until
+    // the reader actually picks a span.
+    const ranges = {}; // id -> { min, max, lo, hi }
+    const fmtYear = (y) => (y < 0 ? -y + ' BCE' : String(y));
+
     const q = document.getElementById('q');
     const label = document.getElementById('resultLabel');
     const empty = document.getElementById('empty');
@@ -177,6 +274,16 @@ function facetPayload(b) {
         const vals = r.facets[k] || [];
         // OR within a facet, AND across facets
         if (![...chosen].some((c) => vals.includes(c))) return false;
+      }
+      // Published year: in range (undated books drop out once narrowed).
+      const p = ranges.pub;
+      if (p && (p.lo > p.min || p.hi < p.max)) {
+        if (r.pub == null || r.pub < p.lo || r.pub > p.hi) return false;
+      }
+      // Historical setting: the book's [start,end] must overlap the chosen span.
+      const s = ranges.set;
+      if (s && (s.lo > s.min || s.hi < s.max)) {
+        if (r.setStart == null || r.setStart > s.hi || r.setEnd < s.lo) return false;
       }
       return true;
     }
@@ -199,7 +306,12 @@ function facetPayload(b) {
         const f = opt.dataset.facet, v = opt.dataset.value;
         if (sel[f].has(v)) { sel[f].delete(v); opt.classList.remove('sel'); }
         else { sel[f].add(v); opt.classList.add('sel'); }
+        opt.setAttribute("aria-checked", String(sel[f].has(v)));
         apply();
+      });
+      opt.addEventListener("keydown", (event) => {
+        if (event.target !== opt) return;
+        if (event.key === " " || event.key === "Enter") { event.preventDefault(); opt.click(); }
       });
     });
 
@@ -209,8 +321,12 @@ function facetPayload(b) {
       if (!kids) return;
       kids.style.display = open ? '' : 'none';
       caret.textContent = open ? '▾' : '▸';
+      caret.setAttribute('aria-expanded', String(open));
     }
     document.querySelectorAll('.caret').forEach((caret) => {
+      caret.addEventListener('keydown', (event) => {
+        if (event.key === ' ' || event.key === 'Enter') { event.preventDefault(); event.stopPropagation(); caret.click(); }
+      });
       caret.addEventListener('click', (e) => {
         e.stopPropagation(); // don't toggle the checkbox
         setGroup(caret, document.querySelector(`.subj-children[data-group="${caret.dataset.group}"]`).style.display === 'none');
@@ -219,9 +335,39 @@ function facetPayload(b) {
 
     q.addEventListener('input', apply);
 
+    // ---- dual-thumb year sliders ----
+    const sliderEls = [];
+    document.querySelectorAll('.facet-slider').forEach((box) => {
+      const id = box.dataset.slider;
+      const min = Number(box.dataset.min), max = Number(box.dataset.max);
+      const lo = box.querySelector('.range-min');
+      const hi = box.querySelector('.range-max');
+      const fill = box.querySelector('.range-fill');
+      const loLbl = box.querySelector('.range-lo');
+      const hiLbl = box.querySelector('.range-hi');
+      ranges[id] = { min, max, lo: min, hi: max };
+
+      function refresh() {
+        let a = Number(lo.value), b = Number(hi.value);
+        if (a > b) { if (document.activeElement === lo) b = a, hi.value = b; else a = b, lo.value = a; }
+        ranges[id].lo = a; ranges[id].hi = b;
+        const span = max - min || 1;
+        fill.style.left = ((a - min) / span) * 100 + '%';
+        fill.style.width = ((b - a) / span) * 100 + '%';
+        loLbl.textContent = fmtYear(a);
+        hiLbl.textContent = fmtYear(b);
+        box.classList.toggle('active', a > min || b < max);
+      }
+      lo.addEventListener('input', () => { refresh(); apply(); });
+      hi.addEventListener('input', () => { refresh(); apply(); });
+      sliderEls.push({ lo, hi, min, max, refresh });
+      refresh();
+    });
+
     document.getElementById('clearAll').addEventListener('click', () => {
       facetKeys.forEach((k) => sel[k].clear());
-      document.querySelectorAll('.opt.sel').forEach((o) => o.classList.remove('sel'));
+      document.querySelectorAll('.opt.sel').forEach((o) => { o.classList.remove('sel'); o.setAttribute('aria-checked', 'false'); });
+      sliderEls.forEach((s) => { s.lo.value = s.min; s.hi.value = s.max; s.refresh(); });
       q.value = '';
       apply();
     });

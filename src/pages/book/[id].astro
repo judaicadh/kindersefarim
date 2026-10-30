@@ -1,4 +1,6 @@
 ---
+import { coverFor } from '../../lib/covers.js';
+import BookCover from '../../components/BookCover.astro';
 import Base from '../../layouts/Base.astro';
 import Nav from '../../components/Nav.astro';
 import { getBooks, typeForm, linkifyByline, slugify, seriesKey } from '../../lib/sheet.js';
@@ -9,6 +11,7 @@ export async function getStaticPaths() {
 }
 
 const { book: b } = Astro.props;
+const cover = coverFor(b);
 const tf = typeForm(b);
 const bylineHtml = linkifyByline(b.byline, b.creators);
 const seriesName = seriesKey(b.series);
@@ -23,12 +26,10 @@ const seriesName = seriesKey(b.series);
       <a href="/" style="color:#8a5a12">Browse</a> &nbsp;›&nbsp; <span style="color:#17233a">{b.title}</span>
     </div>
 
-    <div style="display:flex;gap:44px;padding:40px 44px 56px;max-width:1000px">
+    <div class="record-layout">
       <div style="width:214px;flex:none">
-        <div style="position:relative;width:100%;min-height:290px;background:repeating-linear-gradient(115deg,#dcd2ba,#dcd2ba 8px,#eee3c9 8px,#eee3c9 16px);border-radius:3px;box-shadow:0 2px 6px rgba(0,0,0,.15);display:flex;align-items:center;justify-content:center;overflow:hidden">
-          <span style="font:500 10px ui-monospace,Menlo,monospace;color:rgba(23,35,58,.4);background:rgba(250,246,238,.85);padding:2px 6px;border-radius:2px">cover image</span>
-          {b.thumbnail && <img src={b.thumbnail} alt={`Cover of ${b.title}`} onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block" />}
-        </div>
+        <BookCover book={b} large />
+        {cover?.source && <p class="cover-credit">Cover: <a href={cover.source} target="_blank" rel="noopener noreferrer">{cover.credit} ↗</a></p>}
       </div>
       <div style="flex:1;max-width:660px">
         <div style="font:600 30px/1.22 'Lora',serif;color:#17233a">{b.title}</div>
@@ -70,9 +71,10 @@ const seriesName = seriesKey(b.series);
 
         <div style="margin-top:26px;background:#fff;border:1px solid rgba(23,35,58,.16);border-radius:4px;padding:20px 22px">
           <div style="font:600 10px 'Source Sans 3',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:rgba(23,35,58,.45);margin-bottom:14px">Full record</div>
-          <div style="display:grid;grid-template-columns:130px 1fr 120px 1fr;gap:11px 22px;font:400 12.5px/1.4 'Source Sans 3',sans-serif">
+          <div class="record-fields" style="display:grid;grid-template-columns:130px 1fr 120px 1fr;gap:11px 22px;font:400 12.5px/1.4 'Source Sans 3',sans-serif">
             <div style="color:rgba(23,35,58,.5)">Type / form</div><div style="color:#17233a">{tf}</div>
-            <div style="color:rgba(23,35,58,.5)">Audience</div><div style="color:#17233a">{b.f_aud}</div>
+            {b.setLabel && (<><div style="color:rgba(23,35,58,.5)">Setting</div><div style="color:#17233a">{b.setLabel}</div></>)}
+            {b.f_aud && (<><div style="color:rgba(23,35,58,.5)">Audience</div><div style="color:#17233a">{b.f_aud}</div></>)}
             <div style="color:rgba(23,35,58,.5)">Language</div><div style="color:#17233a">{b.lang}</div>
             <div style="color:rgba(23,35,58,.5)">Series</div><div style="color:#17233a">{seriesName ? <a href={`/series/${slugify(seriesName)}/`} style="color:#8a5a12">{b.series}</a> : b.series}</div>
             <div style="color:rgba(23,35,58,.5)">Edition</div><div style="color:#17233a">{b.edition}</div>

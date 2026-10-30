@@ -1,5 +1,4 @@
 ---
-// Shared top bar. `active` highlights the current section.
 const { active = '' } = Astro.props;
 const links = [
   { href: '/', label: 'Browse', key: 'browse' },
@@ -9,17 +8,12 @@ const links = [
   { href: '/about/', label: 'About', key: 'about' },
 ];
 ---
-<div style="position:sticky;top:0;z-index:10;background:#faf6ee;padding:16px 44px;border-bottom:1px solid rgba(23,35,58,.18);display:flex;align-items:center;justify-content:space-between">
-  <a href="/" style="display:flex;align-items:center;gap:11px;cursor:pointer;color:inherit">
-    <div style="width:31px;height:31px;border-radius:50%;background:#17233a;color:#e8c76f;display:flex;align-items:center;justify-content:center;font:600 15px 'Lora',serif">כ</div>
-    <span style="font:600 18px 'Lora',serif;color:#17233a;letter-spacing:.2px">Kinder Sefarim Bibliography</span>
+<header class="site-header">
+  <a href="/" class="brand" aria-label="Kinder Sefarim Bibliography home">
+    <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M5 9q8-3 15 3 7-6 15-3v23q-8-3-15 2-7-5-15-2Z" fill="#f0c454" stroke="currentColor" stroke-width="2"/><path d="M20 12v22M10 16l6 2M10 22l6 2M25 18l5-2M25 24l5-2" stroke="currentColor" stroke-width="1.5"/></svg></span>
+    <span>Kinder Sefarim<small>A children's literature bibliography</small></span>
   </a>
-  <div style="font:500 12px 'Source Sans 3',sans-serif;display:flex;gap:22px">
-    {links.map((l) => (
-      <a
-        href={l.href}
-        style={`color:${active === l.key ? '#17233a' : 'rgba(23,35,58,.55)'};font-weight:${active === l.key ? '700' : '500'}`}
-      >{l.label}</a>
-    ))}
-  </div>
-</div>
+  <nav aria-label="Main navigation">
+    {links.map((l) => <a href={l.href} aria-current={active === l.key ? 'page' : undefined}>{l.label}</a>)}
+  </nav>
+</header>

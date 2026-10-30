@@ -129,16 +129,145 @@ export function mapRows(rows) {
   return out;
 }
 
+// ---------- Phase 1 CSV ----------
+// The "Kinder Sefarim Phase 1" export has its own column layout (KS#, book-title,
+// creator-N / creator-N-role, startyear/endyear for the historical setting,
+// copyright-date for publication, geographic + MARC subject columns). This maps
+// a parsed row into the same book record shape the pages consume, plus numeric
+// year fields (pubYear, setStart, setEnd) that drive the two timesliders.
+
+// "168 BCE" -> -168, "63 CE" -> 63, "1939" -> 1939, "70-1789" -> 70. null if none.
+function parseYear(raw) {
+  if (!raw) return null;
+  const s = String(raw).trim();
+  const m = s.match(/\d{1,4}/);
+  if (!m) return null;
+  let y = parseInt(m[0], 10);
+  if (/\bb\.?c\.?(e)?\b/i.test(s)) y = -y;
+  return y;
+}
+
+export function mapPhase1Rows(rows) {
+  if (rows.length < 2) return [];
+  const head = rows[0].map((h) => h.trim().toLowerCase());
+  const ix = (n) => head.indexOf(n);
+  const splitList = (s) => (s || '').split(';').map((x) => x.trim()).filter(Boolean);
+  const uniq = (a) => [...new Set(a)];
+  const out = [];
+  const seenKeys = new Set(); // id+title, to drop exact duplicate rows
+  const seenIds = new Set(); // enforce unique ids for static routes
+  for (let r = 1; r < rows.length; r++) {
+    const row = rows[r];
+    const g = (n) => { const i = ix(n); return i >= 0 && row[i] != null ? String(row[i]).trim() : ''; };
+    const title = g('book-title');
+    if (!title) continue;
+    const rawId = g('ks#') || 'b' + r;
+    const dupKey = rawId + '\u0000' + title;
+    if (seenKeys.has(dupKey)) continue; // identical row already emitted
+    seenKeys.add(dupKey);
+    let id = rawId, n = 2;
+    while (seenIds.has(id)) id = rawId + '-' + n++;
+    seenIds.add(id);
+
+    // contributors: creator-1..5 with matching role columns (creator-5 has none).
+    const creators = [];
+    for (let k = 1; k <= 5; k++) {
+      const nm = g('creator-' + k);
+      if (!nm) continue;
+      const roles = splitList(g('creator-' + k + '-role')).map(capitalize);
+      const flat = normalizePersonName(nm);
+      creators.push({
+        name: flat,
+        // natural-order names ("Avraham Ohayon") have no comma, so key on surname.
+        sortKey: nm.includes(',') ? sortKeyName(nm) : lastName(flat),
+        roles: roles.length ? roles : ['Contributor'],
+      });
+    }
+    const byline = creators.map((c) => c.name).join('; ') || '—';
+
+    // publication year (copyright-date) and historical-setting range (start/end).
+    const pubYear = parseYear(g('copyright-date'));
+    const sStart = parseYear(g('startyear'));
+    const sEnd = parseYear(g('endyear'));
+    const setStart = sStart != null ? sStart : sEnd;
+    const setEnd = sEnd != null ? sEnd : sStart;
+
+    // "Translated from Hebrew" -> ["Hebrew"]
+    const translated = uniq(
+      splitList(g('language'))
+        .map((seg) => { const m = seg.match(/translated from\s+([a-zÀ-ɏ]+)/i); return m ? capitalize(m[1]) : ''; })
+        .filter(Boolean),
+    );
+
+    // place: prefer named countries (country-1..8), else continents.
+    const countries = uniq([1, 2, 3, 4, 5, 6, 7, 8].map((n) => g('country-' + n)).filter(Boolean));
+    const continents = uniq([1, 2, 3, 4, 5, 6, 7, 8].map((n) => g('continent-' + n)).filter(Boolean));
+    const places = countries.length ? countries : continents;
+
+    const topics = splitList(g('subjects'));
+    const forms = splitList(g('form'));
+    const genres = splitList(g('genres'));
+    const events = splitList(g('events'));
+    const periods = splitList(g('centuryspan'));
+
+    // named subject access points (personal / corporate / title) for the record.
+    const names600 = uniq([1, 2, 3, 4, 5, 6, 7].map((n) => g('600-' + n)).filter(Boolean).map(normalizePersonName));
+    const corp610 = uniq([1, 2, 3].map((n) => g('610-' + n)).filter(Boolean));
+    const title630 = splitList(g('630'));
+    const subjects = uniq([].concat(topics, names600, corp610, title630, events, places));
+
+    const type = /nonfiction/i.test(g('ficnon')) ? 'Nonfiction' : /fiction/i.test(g('ficnon')) ? 'Fiction' : 'Unspecified';
+    const series = g('series') ? g('series') + (g('volume') ? ', ' + g('volume') : '') : '—';
+    const setLabel = (setStart != null ? fmtYear(setStart) + (setEnd !== setStart ? '–' + fmtYear(setEnd) : '') : '')
+      || periods[0] || events[0];
+    const coverH = /picture|comic|graphic|board/i.test(forms.join(' ')) ? '58px' : '82px';
+
+    out.push({
+      id, title, byline,
+      publisher: g('publisher') || '—',
+      year: pubYear != null ? String(pubYear) : '—',
+      pages: '—', size: '—', isbn: '—', oclc: '—', lccn: '—', callnum: '—',
+      lang: '—', series, edition: '—', summary: '', subjects, creators, thumbnail: '',
+      distributor: g('distributor') || '—',
+      f_type: type,
+      f_forms: forms.length ? forms : ['Unspecified'],
+      f_genres: genres,
+      f_aud: '',
+      f_topics: topics,
+      f_place: places,
+      f_period: periods,
+      f_events: events,
+      f_translated: translated,
+      f_lang: '',
+      f_publisher: g('publisher') || 'Unknown',
+      f_decade: pubYear != null ? Math.floor(pubYear / 10) * 10 + 's' : '',
+      pubYear, setStart, setEnd, setLabel,
+      coverH,
+    });
+  }
+  return out;
+}
+
+// Format a signed year for display: -168 -> "168 BCE", 1939 -> "1939".
+export function fmtYear(y) {
+  if (y == null || Number.isNaN(y)) return '—';
+  return y < 0 ? `${-y} BCE` : String(y);
+}
+
 // ---------- facets ----------
+// Order here is the order facets render in the browse rail. Any facet with no
+// values on a given build is hidden automatically (see index.astro), so the
+// same list serves the Phase 1 CSV, a live sheet, and the sample data.
 export const FACET_DEFS = [
   { id: 'f_type', name: 'Type', arr: false },
-  { id: 'f_forms', name: 'Form / genre', arr: true },
-  { id: 'f_aud', name: 'Audience', arr: false },
+  { id: 'f_forms', name: 'Form', arr: true },
+  { id: 'f_genres', name: 'Genre', arr: true },
   { id: 'f_topics', name: 'Subject', arr: true },
   { id: 'f_place', name: 'Place', arr: true },
-  { id: 'f_period', name: 'Time period', arr: true },
+  { id: 'f_events', name: 'Historical events', arr: true },
+  { id: 'f_translated', name: 'Translated from', arr: true },
+  { id: 'f_aud', name: 'Audience', arr: false },
   { id: 'f_lang', name: 'Language', arr: false },
-  { id: 'f_decade', name: 'Decade', arr: false },
   { id: 'f_publisher', name: 'Publisher', arr: false },
 ];
 
@@ -370,24 +499,65 @@ export function linkifyByline(byline, creators) {
   return html;
 }
 
-// ---------- build-time load ----------
-// Returns { books, source }. source: 'sheet' | 'sample' | 'error'.
-export async function getBooks() {
-  if (!SHEET_ID) {
-    console.warn('[sheet] No SHEET_ID set — building with sample data.');
-    return { books: SAMPLE, source: 'sample' };
-  }
-  const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${SHEET_GID}`;
+// Read the committed Phase 1 CSV as text at build time. Primary path is Vite's
+// `?raw` import, which inlines the file during `astro dev` and `astro build`
+// regardless of where the bundle ends up; the fs read is a plain-Node fallback
+// (e.g. unit tests importing this module directly). Returns '' if unavailable.
+async function loadPhase1CSV() {
   try {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const txt = await res.text();
-    const books = mapRows(parseCSV(txt));
-    if (!books.length) throw new Error('no rows mapped from sheet');
-    console.log(`[sheet] Loaded ${books.length} records from Google Sheets.`);
-    return { books, source: 'sheet' };
-  } catch (err) {
-    console.error(`[sheet] Failed to load sheet (${err.message}). Falling back to sample data.`);
-    return { books: SAMPLE, source: 'error' };
+    const mod = await import('../data/kinder-sefarim-phase-1.csv?raw');
+    if (mod?.default) return mod.default;
+  } catch { /* not running under Vite — try fs below */ }
+  try {
+    const { readFileSync } = await import('node:fs');
+    const { fileURLToPath } = await import('node:url');
+    const here = fileURLToPath(new URL('../data/kinder-sefarim-phase-1.csv', import.meta.url));
+    return readFileSync(here, 'utf8');
+  } catch {
+    try {
+      const { readFileSync } = await import('node:fs');
+      return readFileSync(process.cwd() + '/src/data/kinder-sefarim-phase-1.csv', 'utf8');
+    } catch (err) {
+      console.warn(`[data] No local Phase 1 CSV (${err.message}).`);
+      return '';
+    }
   }
+}
+
+// gviz CSV export URL for the live sheet (public "Anyone with the link").
+export function sheetCsvUrl(id = SHEET_ID, gid = SHEET_GID) {
+  return `https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:csv&gid=${gid}`;
+}
+
+// ---------- build-time load ----------
+// Returns { books, source }. source: 'sheet' | 'local' | 'sample' | 'error'.
+// Preference order: the live Google Sheet when SHEET_ID is configured, then the
+// committed Phase 1 CSV (offline fallback / local dev), then the baked-in
+// sample. Both the sheet and the CSV share the Phase 1 column layout, so the
+// same mapper handles both — the CSV is simply an export of that sheet.
+export async function getBooks() {
+  if (SHEET_ID) {
+    try {
+      const res = await fetch(sheetCsvUrl());
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const books = mapPhase1Rows(parseCSV(await res.text()));
+      if (!books.length) throw new Error('no rows mapped from sheet');
+      console.log(`[sheet] Loaded ${books.length} records from Google Sheets.`);
+      return { books, source: 'sheet' };
+    } catch (err) {
+      console.error(`[sheet] Failed to load sheet (${err.message}). Falling back to the committed CSV.`);
+    }
+  }
+
+  const csv = await loadPhase1CSV();
+  if (csv) {
+    const books = mapPhase1Rows(parseCSV(csv));
+    if (books.length) {
+      console.log(`[data] Loaded ${books.length} records from the committed Phase 1 CSV.`);
+      return { books, source: SHEET_ID ? 'error' : 'local' };
+    }
+  }
+
+  console.warn('[sheet] No sheet and no CSV — building with sample data.');
+  return { books: SAMPLE, source: 'sample' };
 }
