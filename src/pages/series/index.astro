@@ -7,7 +7,7 @@ import { getBooks, buildSeries } from '../../lib/sheet.js';
 const { books } = await getBooks();
 const series = buildSeries(books);
 ---
-<Base title="Series — Kinder Sefarim Bibliography">
+<Base title="Series — Kinder Sefarim Bibliography" entries={series} collectionType="series">
   <div>
     <Nav active="series" />
     <header class="collection-heading">

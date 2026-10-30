@@ -5,5 +5,6 @@ import { defineConfig } from 'astro/config';
 // a Google Apps Script edit handler) is what publishes sheet changes.
 export default defineConfig({
   output: 'static',
+  site: process.env.SITE_URL || process.env.URL || undefined,
   // If you ever host under a sub-path, set `site` and `base` here.
 });

@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 const { series: s } = Astro.props;
 ---
 
-<Base title={`${s.name} — Kinder Sefarim Bibliography`} description={`Titles in the ${s.name} series.`}>
+<Base title={`${s.name} — Kinder Sefarim Bibliography`} description={`Titles in the ${s.name} series.`} entries={s.books} collection={s} collectionType="series-books">
   <div>
     <Nav active="series" />
 

@@ -1,6 +1,9 @@
 ---
 import '../styles/storybook.css';
-const { title = 'Kinder Sefarim Bibliography', description = "A bibliography of Orthodox children's literature" } = Astro.props;
+import { linkedData, serializeLinkedData, PROJECT_CREATOR } from '../lib/linked-data.js';
+const { title = 'Kinder Sefarim Bibliography', description = "A bibliography of Orthodox children's literature", book, entries, collection, collectionType } = Astro.props;
+const origin = Astro.site?.href;
+const metadata = linkedData({ path: Astro.url.pathname, origin, title, description, book, entries, collection, collectionType });
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +12,9 @@ const { title = 'Kinder Sefarim Bibliography', description = "A bibliography of 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="author" content={PROJECT_CREATOR.name} />
+    {origin && <link rel="canonical" href={new URL(Astro.url.pathname, origin)} />}
+    <script is:inline type="application/ld+json" set:html={serializeLinkedData(metadata)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
@@ -118,6 +124,9 @@ const { title = 'Kinder Sefarim Bibliography', description = "A bibliography of 
     <main id="main-content">
     <slot />
     </main>
-    <footer class="site-footer"><a href="/">Kinder Sefarim</a><span>A bibliography of Orthodox children's literature</span><a href="/about/">About the bibliography ↗</a></footer>
+    <footer class="site-footer">
+      <div><a href="/" class="footer-brand">Kinder Sefarim</a><p class="project-credit">Created and curated by <a href={PROJECT_CREATOR.profile}>{PROJECT_CREATOR.name}</a></p></div>
+      <a href="/about/">About the bibliography ↗</a>
+    </footer>
   </body>
 </html>

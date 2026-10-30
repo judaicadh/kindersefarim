@@ -294,8 +294,8 @@ export function buildFacets(books) {
     let keys = Object.keys(counts);
     if (def.id === 'f_decade') keys.sort().reverse();
     else keys.sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
-    const cap = def.id === 'f_topics' || def.id === 'f_publisher' ? 12 : 99;
-    const opts = keys.slice(0, cap).map((v) => ({ value: v, count: counts[v] }));
+    // Searchable, scrollable facet groups can expose the complete vocabulary.
+    const opts = keys.map((v) => ({ value: v, count: counts[v] }));
     return { id: def.id, name: def.name, arr: def.arr, opts };
   });
 }

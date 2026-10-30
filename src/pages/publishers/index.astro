@@ -7,7 +7,7 @@ import { getBooks, buildPublishers } from '../../lib/sheet.js';
 const { books } = await getBooks();
 const publishers = buildPublishers(books);
 ---
-<Base title="Publishers — Kinder Sefarim Bibliography">
+<Base title="Publishers — Kinder Sefarim Bibliography" entries={publishers} collectionType="publishers">
   <div>
     <Nav active="publishers" />
     <header class="collection-heading">

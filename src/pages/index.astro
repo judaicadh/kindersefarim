@@ -62,7 +62,7 @@ function facetPayload(b) {
 }
 ---
 
-<Base>
+<Base entries={books}>
   <div style="min-height:100vh;background:#faf6ee">
     <Nav active="browse" />
 
@@ -102,80 +102,62 @@ function facetPayload(b) {
     </section>
     <div class="catalog-heading"><div><p class="eyebrow">THE BIBLIOGRAPHY</p><h2>Find your next discovery<span>↘</span></h2></div><span class="catalog-stamp">{books.length} stories & counting</span></div>
     <div class="catalog-layout">
-      <!-- facet rail -->
-      <aside class="facet-rail" aria-label="Filter books">
-        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px">
-          <span style="font:600 11px 'Source Sans 3',sans-serif;letter-spacing:.07em;text-transform:uppercase;color:rgba(23,35,58,.5)">Refine</span>
-          <button id="clearAll" type="button">Reset</button>
-        </div>
-
-        {sliders.map((s) => (
-          <div class="facet-slider" data-slider={s.id} data-min={s.min} data-max={s.max} data-bce={String(s.bce)} style="margin-bottom:20px">
-            <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px;margin-bottom:12px">
-              <span style="font:600 12.5px 'Lora',serif;color:#17233a">{s.name}</span>
-              <span style="font:400 10px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.42)">{s.id === 'set' ? `${nSetting} dated` : 'year'}</span>
-            </div>
-            <div class="range-vals" style="display:flex;justify-content:space-between;font:600 11.5px ui-monospace,monospace;color:#17233a;margin-bottom:6px">
-              <span class="range-lo">{fmtYear(s.min)}</span>
-              <span class="range-hi">{fmtYear(s.max)}</span>
-            </div>
-            <div class="range-track">
-              <div class="range-fill"></div>
-              <input class="range-min" type="range" min={s.min} max={s.max} value={s.min} step="1" aria-label={`${s.name} earliest year`} />
-              <input class="range-max" type="range" min={s.min} max={s.max} value={s.max} step="1" aria-label={`${s.name} latest year`} />
-            </div>
-          </div>
-        ))}
-
-        {visibleFacets.map((f) => (
-          f.id === 'f_topics' ? (
-            <div style="margin-bottom:18px">
-              <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
-              {subjectTree.map((p, i) => (
-                <div>
-                  <div class="opt" role="checkbox" tabindex="0" aria-checked="false" data-facet="f_topics" data-value={p.primary}
-                    style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
-                    <span class="box" style="width:14px;height:14px;flex:none;border:1.5px solid rgba(23,35,58,.35);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 10px sans-serif;color:#fff"></span>
-                    <span class="lbl" style="flex:1;font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.72)">{p.primary}</span>
-                    {p.children.length > 0 && (
-                      <span class="caret" role="button" tabindex="0" aria-expanded="false" aria-label="Expand subject" data-group={i} style="cursor:pointer;font-size:9px;line-height:1;color:rgba(23,35,58,.45);padding:2px 5px;user-select:none">▸</span>
-                    )}
-                    <span style="font:400 10.5px ui-monospace,monospace;color:rgba(23,35,58,.38)">{p.count}</span>
-                  </div>
-                  {p.children.length > 0 && (
-                    <div class="subj-children" data-group={i} style="display:none;margin-left:16px;border-left:1px solid rgba(23,35,58,.1);padding-left:8px">
-                      {p.children.map((c) => (
-                        <div class="opt" role="checkbox" tabindex="0" aria-checked="false" data-facet="f_topics" data-value={c.value}
-                          style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
-                          <span class="box" style="width:13px;height:13px;flex:none;border:1.5px solid rgba(23,35,58,.3);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 9px sans-serif;color:#fff"></span>
-                          <span class="lbl" style="flex:1;font:400 11.5px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.66)">{c.label}</span>
-                          <span style="font:400 10px ui-monospace,monospace;color:rgba(23,35,58,.35)">{c.count}</span>
-                        </div>
-                      ))}
+      <details class="filter-panel" open>
+        <summary class="filter-toggle">Filters <span id="filterCount">0 active</span><span aria-hidden="true">⌄</span></summary>
+        <aside class="facet-rail" aria-label="Filter books">
+          <div class="filter-header"><h3>Refine your search</h3><button id="clearAll" type="button">Clear all</button></div>
+          <p class="filter-help">Choose a few details to narrow the shelf.</p>
+          {visibleFacets.map((f) => (
+            <details class="filter-group" data-filter-group={f.id} data-name={f.name} open={f.id === 'f_type' || f.id === 'f_forms'}>
+              <summary>{f.name}<span class="facet-selected" hidden></span><span class="filter-chevron" aria-hidden="true">⌄</span></summary>
+              <div class="filter-group-content">
+                {(f.id === 'f_topics' ? subjectTree.length > 8 : f.opts.length > 8) && (
+                  <label class="facet-search"><span class="sr-only">{`Find ${f.name.toLowerCase()} options`}</span><input type="search" placeholder={`Find ${f.name.toLowerCase()}…`} data-facet-search autocomplete="off" /></label>
+                )}
+                <div class="facet-options">
+                  {f.id === 'f_topics' ? subjectTree.map((p, i) => (
+                    <div class="subject-option">
+                      <div class="option-line">
+                        <label class="opt" data-facet="f_topics" data-value={p.primary}>
+                          <input type="checkbox" /><span class="lbl">{p.primary}</span><span class="option-count">{p.count}</span>
+                        </label>
+                        {p.children.length > 0 && <button type="button" class="caret" aria-expanded="false" aria-label={`Expand ${p.primary} subjects`} data-group={i}>▸</button>}
+                      </div>
+                      {p.children.length > 0 && <div class="subj-children" data-group={i} style="display:none">
+                        {p.children.map((c) => <label class="opt" data-facet="f_topics" data-value={c.value}><input type="checkbox" /><span class="lbl">{c.label}</span><span class="option-count">{c.count}</span></label>)}
+                      </div>}
                     </div>
-                  )}
+                  )) : f.opts.map((o) => (
+                    <label class="opt" data-facet={f.id} data-value={o.value}><input type="checkbox" /><span class="lbl">{o.value}</span><span class="option-count">{o.count}</span></label>
+                  ))}
                 </div>
-              ))}
-            </div>
-          ) : (
-            <div style="margin-bottom:18px">
-              <div style="font:600 12.5px 'Lora',serif;color:#17233a;margin-bottom:8px;border-bottom:1px solid rgba(23,35,58,.1);padding-bottom:5px">{f.name}</div>
-              {f.opts.map((o) => (
-                <div class="opt" role="checkbox" tabindex="0" aria-checked="false" data-facet={f.id} data-value={o.value}
-                  style="display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer">
-                  <span class="box" style="width:14px;height:14px;flex:none;border:1.5px solid rgba(23,35,58,.35);border-radius:3px;background:#fff;display:flex;align-items:center;justify-content:center;font:700 10px sans-serif;color:#fff"></span>
-                  <span class="lbl" style="flex:1;font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.72)">{o.value}</span>
-                  <span style="font:400 10.5px ui-monospace,monospace;color:rgba(23,35,58,.38)">{o.count}</span>
+                <p class="facet-no-options" hidden>No matching options.</p>
+              </div>
+            </details>
+          ))}
+          {sliders.map((s) => (
+            <details class="filter-group year-group" data-name={s.name}>
+              <summary>{s.name}<span class="filter-chevron" aria-hidden="true">⌄</span></summary>
+              <div class="facet-slider filter-group-content" data-slider={s.id} data-name={s.name} data-min={s.min} data-max={s.max}>
+                <div class="year-fields">
+                  <label>From<input class="year-from" type="number" min={s.min} max={s.max} value={s.min} step="1" aria-label={`${s.name} from year`} /></label>
+                  <span aria-hidden="true">–</span>
+                  <label>To<input class="year-to" type="number" min={s.min} max={s.max} value={s.max} step="1" aria-label={`${s.name} to year`} /></label>
                 </div>
-              ))}
-            </div>
-          )
-        ))}
-      </aside>
+                <div class="range-vals"><span class="range-lo">{fmtYear(s.min)}</span><span class="range-hi">{fmtYear(s.max)}</span></div>
+                <div class="range-track"><div class="range-fill"></div><input class="range-min" type="range" min={s.min} max={s.max} value={s.min} step="1" aria-label={`${s.name} earliest year`} /><input class="range-max" type="range" min={s.min} max={s.max} value={s.max} step="1" aria-label={`${s.name} latest year`} /></div>
+                <p class="year-help">{s.bce ? 'Use negative years for BCE. ' : ''}Undated books are included until you narrow this range.</p>
+              </div>
+            </details>
+          ))}
+          <button id="showResults" class="show-results" type="button">Show {books.length} books</button>
+        </aside>
+      </details>
 
       <!-- list -->
       <section class="catalog-results" aria-label="Books">
-        <div id="resultLabel" role="status" aria-live="polite" style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5);margin-bottom:12px">{books.length} of {books.length} records</div>
+        <div id="activeFilters" class="active-filters" aria-label="Active filters" hidden></div>
+        <div id="resultLabel" tabindex="-1" role="status" aria-live="polite" style="font:400 12px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5);margin-bottom:12px">{books.length} of {books.length} records</div>
         <div id="list" class="book-grid">
           {books.map((b) => (
             <a class="row" href={`/book/${b.id}/`}
@@ -198,7 +180,7 @@ function facetPayload(b) {
             </a>
           ))}
         </div>
-        <div id="empty" style="display:none;padding:48px;text-align:center;font:400 13px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5)">No records match the current search and facets.</div>
+        <div id="empty" style="display:none;padding:48px;text-align:center;font:400 13px 'Source Sans 3',sans-serif;color:rgba(23,35,58,.5)">No books match these filters. Try removing a filter or changing your search.</div>
       </section>
     </div>
   </div>
@@ -238,150 +220,135 @@ function facetPayload(b) {
   </style>
 
   <script define:vars={{ facetKeys }}>
-    const sel = {}; // facetId -> Set(values)
-    facetKeys.forEach((k) => (sel[k] = new Set()));
-
-    const num = (v) => (v === '' || v == null ? null : Number(v));
-    const rows = [...document.querySelectorAll('.row')].map((el) => ({
-      el,
-      facets: JSON.parse(el.dataset.facets),
-      search: el.dataset.search,
-      pub: num(el.dataset.pub),
-      setStart: num(el.dataset.setStart),
-      setEnd: num(el.dataset.setEnd),
-    }));
-
-    // Active year ranges, keyed by slider id. A slider only filters once it's
-    // been narrowed from its full extent, so undated books stay visible until
-    // the reader actually picks a span.
-    const ranges = {}; // id -> { min, max, lo, hi }
-    const fmtYear = (y) => (y < 0 ? -y + ' BCE' : String(y));
-
+    const sel = Object.fromEntries(facetKeys.map(k => [k, new Set()]));
+    const num = value => value === '' || value == null ? null : Number(value);
+    const rows = [...document.querySelectorAll('#list .row')].map(el => ({el, facets: JSON.parse(el.dataset.facets), search: el.dataset.search, pub:num(el.dataset.pub), setStart:num(el.dataset.setStart), setEnd:num(el.dataset.setEnd)}));
+    const ranges = {};
+    const sliderEls = [];
+    const fmtYear = y => y < 0 ? -y + ' BCE' : String(y);
+    const normalize = value => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
     const q = document.getElementById('q');
     const label = document.getElementById('resultLabel');
     const empty = document.getElementById('empty');
+    const panel = document.querySelector('.filter-panel');
+    const options = [...document.querySelectorAll('.opt')];
+    const groups = [...document.querySelectorAll('[data-filter-group]')];
+    const activeFilters = document.getElementById('activeFilters');
     const total = rows.length;
+    const mobile = window.matchMedia('(max-width:760px)');
+    panel.open = !mobile.matches;
+    mobile.addEventListener('change', event => { panel.open = !event.matches; });
 
-    function matches(r) {
-      const query = q.value.trim().toLowerCase();
-      if (query && !r.search.includes(query)) return false;
+    function matches(row, omitFacet) {
+      if (q.value.trim() && !normalize(row.search).includes(normalize(q.value.trim()))) return false;
       for (const k of facetKeys) {
-        const chosen = sel[k];
-        if (!chosen.size) continue;
-        const vals = r.facets[k] || [];
-        // OR within a facet, AND across facets
-        if (![...chosen].some((c) => vals.includes(c))) return false;
+        if (k === omitFacet || !sel[k].size) continue;
+        if (![...sel[k]].some(value => (row.facets[k] || []).includes(value))) return false;
       }
-      // Published year: in range (undated books drop out once narrowed).
       const p = ranges.pub;
-      if (p && (p.lo > p.min || p.hi < p.max)) {
-        if (r.pub == null || r.pub < p.lo || r.pub > p.hi) return false;
-      }
-      // Historical setting: the book's [start,end] must overlap the chosen span.
+      if (p && (p.lo > p.min || p.hi < p.max) && (row.pub == null || row.pub < p.lo || row.pub > p.hi)) return false;
       const s = ranges.set;
-      if (s && (s.lo > s.min || s.hi < s.max)) {
-        if (r.setStart == null || r.setStart > s.hi || r.setEnd < s.lo) return false;
-      }
+      if (s && (s.lo > s.min || s.hi < s.max) && (row.setStart == null || row.setStart > s.hi || row.setEnd < s.lo)) return false;
       return true;
     }
-
+    function chip(text, remove) {
+      const button = document.createElement('button');
+      button.type = 'button'; button.textContent = text + ' ×';
+      button.setAttribute('aria-label', 'Remove filter: ' + text);
+      button.addEventListener('click', () => { remove(); apply(); label.focus({preventScroll:true}); });
+      activeFilters.append(button);
+    }
     function apply() {
       let shown = 0;
-      for (const r of rows) {
-        const ok = matches(r);
-        r.el.style.display = ok ? '' : 'none';
-        if (ok) shown++;
+      for (const row of rows) { const ok = matches(row); row.el.hidden = !ok; if (ok) shown++; }
+      label.textContent = shown.toLocaleString() + ' of ' + total.toLocaleString() + ' books';
+      empty.style.display = shown ? 'none' : 'block';
+      document.getElementById('showResults').textContent = 'Show ' + shown.toLocaleString() + ' books';
+      activeFilters.replaceChildren();
+      for (const group of groups) {
+        const facet = group.dataset.filterGroup;
+        const badge = group.querySelector('.facet-selected');
+        badge.textContent = sel[facet].size; badge.hidden = !sel[facet].size;
+        const counts = new Map();
+        for (const row of rows) if (matches(row, facet)) for (const value of row.facets[facet] || []) counts.set(value,(counts.get(value)||0)+1);
+        group.querySelectorAll('.opt').forEach(opt => {
+          const chosen = sel[facet].has(opt.dataset.value);
+          const count = counts.get(opt.dataset.value) || 0;
+          opt.querySelector('input').checked = chosen;
+          opt.querySelector('input').disabled = !count && !chosen;
+          opt.querySelector('.option-count').textContent = count.toLocaleString();
+          opt.classList.toggle('sel',chosen);
+        });
+        for (const value of sel[facet]) chip(group.dataset.name + ': ' + value, () => sel[facet].delete(value));
       }
-      label.textContent = shown === total
-        ? total + ' of ' + total + ' records'
-        : shown + ' of ' + total + ' records';
-      empty.style.display = shown === 0 ? 'block' : 'none';
+      for (const slider of sliderEls) if (slider.active()) chip(slider.name + ': ' + fmtYear(slider.lo.value) + '–' + fmtYear(slider.hi.value), () => slider.reset());
+      const count = Object.values(sel).reduce((sum, set) => sum + set.size, 0) + sliderEls.filter(s => s.active()).length;
+      activeFilters.hidden = !count;
+      document.getElementById('filterCount').textContent = count ? count + ' active' : 'All books';
+      document.getElementById('clearAll').disabled = !count && !q.value;
     }
-
-    document.querySelectorAll('.opt').forEach((opt) => {
-      opt.addEventListener('click', () => {
-        const f = opt.dataset.facet, v = opt.dataset.value;
-        if (sel[f].has(v)) { sel[f].delete(v); opt.classList.remove('sel'); }
-        else { sel[f].add(v); opt.classList.add('sel'); }
-        opt.setAttribute("aria-checked", String(sel[f].has(v)));
-        apply();
-      });
-      opt.addEventListener("keydown", (event) => {
-        if (event.target !== opt) return;
-        if (event.key === " " || event.key === "Enter") { event.preventDefault(); opt.click(); }
-      });
-    });
-
-    // Expand / collapse nested subject groups (independent of selection).
-    function setGroup(caret, open) {
-      const kids = document.querySelector(`.subj-children[data-group="${caret.dataset.group}"]`);
-      if (!kids) return;
-      kids.style.display = open ? '' : 'none';
-      caret.textContent = open ? '▾' : '▸';
-      caret.setAttribute('aria-expanded', String(open));
-    }
-    document.querySelectorAll('.caret').forEach((caret) => {
-      caret.addEventListener('keydown', (event) => {
-        if (event.key === ' ' || event.key === 'Enter') { event.preventDefault(); event.stopPropagation(); caret.click(); }
-      });
-      caret.addEventListener('click', (e) => {
-        e.stopPropagation(); // don't toggle the checkbox
-        setGroup(caret, document.querySelector(`.subj-children[data-group="${caret.dataset.group}"]`).style.display === 'none');
-      });
-    });
-
-    q.addEventListener('input', apply);
-
-    // ---- dual-thumb year sliders ----
-    const sliderEls = [];
-    document.querySelectorAll('.facet-slider').forEach((box) => {
-      const id = box.dataset.slider;
-      const min = Number(box.dataset.min), max = Number(box.dataset.max);
-      const lo = box.querySelector('.range-min');
-      const hi = box.querySelector('.range-max');
-      const fill = box.querySelector('.range-fill');
-      const loLbl = box.querySelector('.range-lo');
-      const hiLbl = box.querySelector('.range-hi');
-      ranges[id] = { min, max, lo: min, hi: max };
-
-      function refresh() {
-        let a = Number(lo.value), b = Number(hi.value);
-        if (a > b) { if (document.activeElement === lo) b = a, hi.value = b; else a = b, lo.value = a; }
-        ranges[id].lo = a; ranges[id].hi = b;
-        const span = max - min || 1;
-        fill.style.left = ((a - min) / span) * 100 + '%';
-        fill.style.width = ((b - a) / span) * 100 + '%';
-        loLbl.textContent = fmtYear(a);
-        hiLbl.textContent = fmtYear(b);
-        box.classList.toggle('active', a > min || b < max);
-      }
-      lo.addEventListener('input', () => { refresh(); apply(); });
-      hi.addEventListener('input', () => { refresh(); apply(); });
-      sliderEls.push({ lo, hi, min, max, refresh });
-      refresh();
-    });
-
-    document.getElementById('clearAll').addEventListener('click', () => {
-      facetKeys.forEach((k) => sel[k].clear());
-      document.querySelectorAll('.opt.sel').forEach((o) => { o.classList.remove('sel'); o.setAttribute('aria-checked', 'false'); });
-      sliderEls.forEach((s) => { s.lo.value = s.min; s.hi.value = s.max; s.refresh(); });
-      q.value = '';
+    options.forEach(opt => opt.querySelector('input').addEventListener('change', event => {
+      const set = sel[opt.dataset.facet];
+      event.target.checked ? set.add(opt.dataset.value) : set.delete(opt.dataset.value);
       apply();
+    }));
+    function setGroup(caret, open) {
+      const children = document.querySelector(`.subj-children[data-group="${caret.dataset.group}"]`);
+      if (!children) return;
+      children.style.display = open ? '' : 'none';
+      caret.textContent = open ? '▾' : '▸'; caret.setAttribute('aria-expanded', String(open));
+    }
+    document.querySelectorAll('.caret').forEach(caret => caret.addEventListener('click', () => setGroup(caret, caret.getAttribute('aria-expanded') !== 'true')));
+    function filterOptions(group) {
+      const query = normalize(group.querySelector('[data-facet-search]')?.value.trim() || '');
+      group.querySelectorAll('.opt').forEach(opt => { opt.hidden = !normalize(opt.dataset.value).includes(query); });
+      group.querySelectorAll('.subject-option').forEach(wrapper => {
+        const parent = wrapper.querySelector('.option-line .opt');
+        const children = [...wrapper.querySelectorAll('.subj-children .opt')];
+        const childMatch = children.some(child => !child.hidden);
+        if (query && childMatch) { parent.hidden = false; const caret=wrapper.querySelector('.caret'); if (caret) setGroup(caret,true); }
+        wrapper.hidden = parent.hidden && !childMatch;
+      });
+      group.querySelector('.facet-no-options').hidden = [...group.querySelectorAll('.opt')].some(opt => !opt.hidden);
+    }
+    groups.forEach(group => group.querySelector('[data-facet-search]')?.addEventListener('input', () => filterOptions(group)));
+    document.querySelectorAll('.facet-slider').forEach(box => {
+      const id=box.dataset.slider, min=Number(box.dataset.min), max=Number(box.dataset.max);
+      const lo=box.querySelector('.range-min'),hi=box.querySelector('.range-max');
+      const from=box.querySelector('.year-from'),to=box.querySelector('.year-to');
+      ranges[id]={min,max,lo:min,hi:max};
+      function refresh(changed=lo) {
+        let a=Number(lo.value), b=Number(hi.value);
+        if (a>b) { if(changed===lo) { b=a;hi.value=b; } else { a=b;lo.value=a; } }
+        Object.assign(ranges[id],{lo:a,hi:b});from.value=a;to.value=b;
+        const span=max-min||1; const fill=box.querySelector('.range-fill');
+        fill.style.left=((a-min)/span)*100+'%'; fill.style.width=((b-a)/span)*100+'%';
+        box.querySelector('.range-lo').textContent=fmtYear(a);box.querySelector('.range-hi').textContent=fmtYear(b);
+        box.classList.toggle('active',a>min||b<max);
+      }
+      for(const input of [lo,hi]) input.addEventListener('input',()=>{refresh(input);apply();});
+      for(const [field,range] of [[from,lo],[to,hi]]) field.addEventListener('change',()=>{
+        if(field.value===''||!Number.isFinite(field.valueAsNumber)){refresh(range);return;}
+        range.value=Math.max(min,Math.min(max,Math.round(field.valueAsNumber)));refresh(range);apply();
+      });
+      const slider={name:box.dataset.name,lo,hi,active:()=>Number(lo.value)>min||Number(hi.value)<max,reset:()=>{lo.value=min;hi.value=max;refresh();}};
+      sliderEls.push(slider);refresh();
     });
-
-    // Support deep links like /?subject=Sabbath from the record page.
-    const params = new URLSearchParams(location.search);
-    const sub = params.get('subject');
-    if (sub) {
-      const opt = document.querySelector(`.opt[data-facet="f_topics"][data-value="${CSS.escape(sub)}"]`);
-      if (opt) {
-        const kids = opt.closest('.subj-children');
-        if (kids) {
-          const caret = document.querySelector(`.caret[data-group="${kids.dataset.group}"]`);
-          if (caret) setGroup(caret, true); // reveal a linked-to child
-        }
-        opt.click();
+    q.addEventListener('input',apply);
+    document.getElementById('clearAll').addEventListener('click',()=>{
+      facetKeys.forEach(k=>sel[k].clear());sliderEls.forEach(s=>s.reset());q.value='';
+      groups.forEach(group=>{const input=group.querySelector('[data-facet-search]');if(input)input.value='';filterOptions(group);});apply();
+    });
+    document.getElementById('showResults').addEventListener('click',()=>{panel.open=false;label.focus();});
+    const subject=new URLSearchParams(location.search).get('subject');
+    if(subject) {
+      const opt=options.find(opt=>opt.dataset.facet==='f_topics'&&opt.dataset.value===subject);
+      if(opt) {
+        sel.f_topics.add(subject);opt.closest('.filter-group').open=true;
+        const children=opt.closest('.subj-children');
+        if(children){const caret=document.querySelector(`.caret[data-group="${children.dataset.group}"]`);if(caret)setGroup(caret,true);}
       }
     }
+    apply();
   </script>
 </Base>

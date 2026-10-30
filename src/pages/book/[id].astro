@@ -17,7 +17,7 @@ const bylineHtml = linkifyByline(b.byline, b.creators);
 const seriesName = seriesKey(b.series);
 ---
 
-<Base title={`${b.title} — Kinder Sefarim Bibliography`} description={b.summary || b.title}>
+<Base title={`${b.title} — Kinder Sefarim Bibliography`} description={b.summary || b.title} book={b}>
   <div style="min-height:100vh;background:#faf6ee">
     <Nav active="browse" />
 
