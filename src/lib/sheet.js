@@ -10,7 +10,18 @@
 
 import { SAMPLE } from './sample.js';
 
-// Defaults baked into the repo; override via env (Netlify env vars / .env).
+// Live data source: a Google Sheet "Publish to web" CSV endpoint
+// (File → Share → Publish to web → whole sheet or tab → CSV). Every build
+// fetches it, and because the sheet is set to auto-republish on edit, catalog
+// changes flow into the next rebuild (the Apps Script build hook triggers that
+// rebuild — see apps-script/). Override with the SHEET_CSV_URL env var; the
+// default below is this project's own published Phase 1 sheet.
+export const SHEET_CSV_URL = process.env.SHEET_CSV_URL ||
+  'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ60BYKnPuLBXVYUEF-O_0cR_Rhdkt3iqIQpGjrq2hFFre5htSOcTow6Si0ghNMQ1jqFv1i1ZkRxrad/pub?gid=664826615&single=true&output=csv';
+
+// Alternative source: a plain spreadsheet id + tab gid, used to build the gviz
+// CSV export URL when SHEET_CSV_URL is not set. Requires the sheet be shared
+// "Anyone with the link". Override via env.
 export const SHEET_ID = process.env.SHEET_ID || '';
 export const SHEET_GID = process.env.SHEET_GID || '0';
 
@@ -524,28 +535,41 @@ async function loadPhase1CSV() {
   }
 }
 
-// gviz CSV export URL for the live sheet (public "Anyone with the link").
-export function sheetCsvUrl(id = SHEET_ID, gid = SHEET_GID) {
-  return `https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:csv&gid=${gid}`;
+// The live CSV URL to fetch: the published-to-web endpoint, else a gviz export
+// built from a spreadsheet id, else '' (no live source — use the committed CSV).
+export function sheetCsvUrl() {
+  if (SHEET_CSV_URL) return SHEET_CSV_URL;
+  if (SHEET_ID) return `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${SHEET_GID}`;
+  return '';
 }
 
 // ---------- build-time load ----------
 // Returns { books, source }. source: 'sheet' | 'local' | 'sample' | 'error'.
-// Preference order: the live Google Sheet when SHEET_ID is configured, then the
-// committed Phase 1 CSV (offline fallback / local dev), then the baked-in
-// sample. Both the sheet and the CSV share the Phase 1 column layout, so the
-// same mapper handles both — the CSV is simply an export of that sheet.
-export async function getBooks() {
-  if (SHEET_ID) {
+// Preference order: the live published sheet, then the committed Phase 1 CSV
+// (offline fallback / local dev), then the baked-in sample. The sheet and the
+// CSV share the Phase 1 column layout, so one mapper handles both.
+//
+// Memoized: a build generates thousands of pages across several entry modules,
+// and this guarantees every page sees one consistent fetch rather than a dozen
+// round-trips (or, worse, different snapshots if the sheet changes mid-build).
+let _booksPromise = null;
+export function getBooks() {
+  if (!_booksPromise) _booksPromise = loadBooks();
+  return _booksPromise;
+}
+
+async function loadBooks() {
+  const url = sheetCsvUrl();
+  if (url) {
     try {
-      const res = await fetch(sheetCsvUrl());
+      const res = await fetch(url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const books = mapPhase1Rows(parseCSV(await res.text()));
       if (!books.length) throw new Error('no rows mapped from sheet');
-      console.log(`[sheet] Loaded ${books.length} records from Google Sheets.`);
+      console.log(`[sheet] Loaded ${books.length} records from the live published sheet.`);
       return { books, source: 'sheet' };
     } catch (err) {
-      console.error(`[sheet] Failed to load sheet (${err.message}). Falling back to the committed CSV.`);
+      console.error(`[sheet] Failed to load live sheet (${err.message}). Falling back to the committed CSV.`);
     }
   }
 
@@ -554,7 +578,7 @@ export async function getBooks() {
     const books = mapPhase1Rows(parseCSV(csv));
     if (books.length) {
       console.log(`[data] Loaded ${books.length} records from the committed Phase 1 CSV.`);
-      return { books, source: SHEET_ID ? 'error' : 'local' };
+      return { books, source: url ? 'error' : 'local' };
     }
   }
 
