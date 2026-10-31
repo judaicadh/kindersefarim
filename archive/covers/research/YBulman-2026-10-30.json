@@ -1,0 +1,1017 @@
+{
+  "catalog": "https://www.librarycat.org/lib/YBulman",
+  "library": "Me'ohr Library",
+  "reviewedDate": "2026-10-30",
+  "collection": "Your library",
+  "catalogRecords": 865,
+  "distinctRecordsReviewed": 865,
+  "method": "All 18 pages in title order; compare bibliography title, creators and volume, inspect actual cover, check publisher/edition when ambiguous; skip generated covers",
+  "accepted": [
+    {
+      "id": "KS00243",
+      "title": "Candles in My Window",
+      "image": "https://pics.cdn.librarything.com/picsizes/11/95/11959526-b-h400-w200-pv25_59755a3874674449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222686624",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Candles in my Window",
+      "catalogAuthor": "by Beth Firestone",
+      "reviewImage": 0,
+      "previousSource": null
+    },
+    {
+      "id": "KS00946",
+      "title": "The World that Was: Lithuania: A Study of the Life and Torah Consciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland",
+      "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222751348",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+      "catalogAuthor": "by Yitzchak Kasnett",
+      "reviewImage": 1,
+      "previousSource": null
+    },
+    {
+      "id": "KS00741",
+      "title": "Against the Wall",
+      "image": "https://ecx.images-amazon.com/images/P/B00F350VL0.01._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222687158",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Against The Wall",
+      "catalogAuthor": "by Ruthie Pearlman",
+      "reviewImage": 2,
+      "previousSource": null
+    },
+    {
+      "id": "KS00830",
+      "title": "The Dream : 1643-1646 Tosefos Yom Tov",
+      "image": "https://pics.cdn.librarything.com/picsizes/11/82/11820293-b-h1200-w600-pv25_596756647441425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/266469107",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Title + author + ArtScroll/Mesorah 2018 edition; not applied to the CIS edition",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Dream",
+      "catalogAuthor": "by Avner Gold",
+      "catalogEdition": {
+        "ISBN": "1422620638 / 9781422620632",
+        "Publication": "Mesorah Publications Ltd. (2018), 230 pages"
+      },
+      "reviewImage": 3,
+      "previousSource": null
+    },
+    {
+      "id": "KS00863",
+      "title": "The Spanish Treasure",
+      "image": "https://ecx.images-amazon.com/images/I/41YahXgXh0L._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222742971",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Spanish Treasure",
+      "catalogAuthor": "by Meir Baram",
+      "reviewImage": 4,
+      "previousSource": null
+    },
+    {
+      "id": "KS00849",
+      "title": "The Purple Ring : 1666-1667, the Maharshak Rav Aharon Shmuel Kaidanover",
+      "image": "https://pics.cdn.librarything.com/picsizes/12/34/12343933-b-h1200-w600-pv25_596e31617641425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/266469105",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Purple Ring",
+      "catalogAuthor": "by Avner Gold",
+      "reviewImage": 5,
+      "previousSource": null
+    },
+    {
+      "id": "KS00909",
+      "title": "Just in Time: A Historical Tale",
+      "image": "https://pics.cdn.librarything.com/picsizes/14/11/14116203-b-h400-w200-pv25_596d746c31774449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222743878",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author spelling variant, Marcus Lehman / Marcus Lehmann; cover inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Just in Time",
+      "catalogAuthor": "by Marcus Lehman",
+      "reviewImage": 6,
+      "previousSource": null
+    },
+    {
+      "id": "KS00915",
+      "title": "Rabbi Yoselman of Rosheim",
+      "image": "https://ecx.images-amazon.com/images/P/1583305513.01._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222743505",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Exact title + matching publisher (Feldheim); bibliography has no creator",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Rabbi Yoselman of Rosheim",
+      "catalogAuthor": "by Marcus Lehmann",
+      "catalogEdition": {
+        "ISBN": "1583305513 / 9781583305515",
+        "Publication": "Feldheim Pub (2002), 564 pages"
+      },
+      "reviewImage": 7,
+      "previousSource": null
+    },
+    {
+      "id": "KS00959",
+      "title": "The Golem of Prague: A New Adaption of the Documented Stories of the Golem of Prague",
+      "image": "https://pics.cdn.librarything.com/picsizes/41/04/4104059-c-h400-w200-pv25_5933756650674449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222743902",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Golem of Prague: A New Adaptation of the Documented Stories of the Golem of Prague",
+      "catalogAuthor": "by Gershon Winkler",
+      "reviewImage": 8,
+      "previousSource": null
+    },
+    {
+      "id": "KS00936",
+      "title": "The Fateful Mission",
+      "image": "https://pics.cdn.librarything.com/picsizes/81/98/8198392-b-h1200-w600-pv25_597667596651425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222742707",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Fateful Mission",
+      "catalogAuthor": "by Meir Baram",
+      "reviewImage": 9,
+      "previousSource": null
+    },
+    {
+      "id": "KS00995",
+      "title": "The New York Express",
+      "image": "https://pics.cdn.librarything.com/picsizes/12/18/12189136-b-h400-w200-pv25_5974443975514449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222685222",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The New York express",
+      "catalogAuthor": "by Deborah Wicentowski",
+      "reviewImage": 10,
+      "previousSource": null
+    },
+    {
+      "id": "KS00799",
+      "title": "The Choices of Daniel Trigo",
+      "image": "https://pics.cdn.librarything.com/picsizes/11/43/11433412-b-h1200-w600-pv25_597352317267425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222686658",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Choices of Daniel Trigo",
+      "catalogAuthor": "by Joseph Neppe",
+      "reviewImage": 12,
+      "previousSource": null
+    },
+    {
+      "id": "KS01120",
+      "title": "Shira's Summer",
+      "image": "https://pics.cdn.librarything.com/picsizes/14/08/14081279-b-h1200-w600-pv25_59762f633167425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222687124",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Shira's Summer",
+      "catalogAuthor": "by Libby Lazewnik",
+      "reviewImage": 14,
+      "previousSource": null
+    },
+    {
+      "id": "KS02425",
+      "title": "The Storyteller: Selected Short Stories.",
+      "image": "https://ecx.images-amazon.com/images/P/0826603130.01._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222684714",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Title + author + volume 2; catalog records a 1998 reprint of the same volume",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Storyteller: Selected Short Stories, Vol. 2",
+      "catalogAuthor": "by Nissan Mindel",
+      "catalogEdition": {
+        "ISBN": "0826603130 / 9780826603135",
+        "Publication": "Kehot Pubns Society (1998), 257 pages"
+      },
+      "reviewImage": 15,
+      "previousSource": null
+    },
+    {
+      "id": "KS01191",
+      "title": "The Three Merchants and Other Stories",
+      "image": "https://pics.cdn.librarything.com/picsizes/61/79/6179100-c-h1200-w600-pv25_5978784a5867425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222685173",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Three Merchants and Other Stories",
+      "catalogAuthor": "by Shaindel Weinbach",
+      "reviewImage": 16,
+      "previousSource": null
+    },
+    {
+      "id": "KS01066",
+      "title": "The Cresta Adventure",
+      "image": "https://pics.cdn.librarything.com/picsizes/14/08/14081233-b-h1200-w600-pv25_597448633167425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222686683",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Exact title + author spelling variant, Ruth Abramson / Ruth Abrahamson; cover inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Cresta Adventure",
+      "catalogAuthor": "by Ruth Abramson",
+      "reviewImage": 17,
+      "previousSource": null
+    },
+    {
+      "id": "KS01071",
+      "title": "Ibrahim the Magician",
+      "image": "https://pics.cdn.librarything.com/picsizes/12/18/12185173-b-h1200-w600-pv25_596c58757551425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222685467",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Ibrahim the Magician (Tales from the East Series)",
+      "catalogAuthor": "by S. J. Revich",
+      "reviewImage": 18,
+      "previousSource": null
+    },
+    {
+      "id": "KS01381",
+      "title": "On a Golden Chain",
+      "image": "https://ecx.images-amazon.com/images/I/41W6pm78dLL._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222686352",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "On a Golden Chain",
+      "catalogAuthor": "by Ruth Benjamin",
+      "reviewImage": 19,
+      "previousSource": null
+    },
+    {
+      "id": "KS03186",
+      "title": "Tales from the Gemara: Berachos",
+      "image": "https://ecx.images-amazon.com/images/P/0899068138.01._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222739858",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Title + author + Berachos volume text on cover; publisher and 1988 date checked",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Tales From the Gemara (Artscroll Youth Series)",
+      "catalogAuthor": "by Y. Weinstock",
+      "catalogEdition": {
+        "ISBN": "0899068138 / 9780899068138",
+        "Publication": "Mesorah Pubns Ltd (1988), Edition: 1st, 159 pages"
+      },
+      "reviewImage": 22,
+      "previousSource": {
+        "title": "Tales from the Gemara: Maseches Berachos: A Selection of Aggadic Material-adapted, Expanded, and Dramatized for Young Readers",
+        "image": "https://cdn.shopify.com/s/files/1/2568/1506/products/d5_74879c0c-b15a-442e-8257-4ca667af7de9.jpg?v=1548001227",
+        "source": "https://moznaim.com/products/tales-from-the-gemara",
+        "credit": "Moznaim",
+        "matchBasis": "Title + publisher",
+        "checkedDate": "2026-10-30"
+      }
+    },
+    {
+      "id": "KS01741",
+      "title": "Wings and Other Stories",
+      "image": "https://pics.cdn.librarything.com/picsizes/12/23/12235166-b-h400-w200-pv25_5970367875674449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222687282",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Wings and other stories",
+      "catalogAuthor": "by Meir Uri Gottesman",
+      "reviewImage": 23,
+      "previousSource": null
+    },
+    {
+      "id": "KS01877",
+      "title": "The Glass Blower of Venice and Other Stories",
+      "image": "https://pics.cdn.librarything.com/picsizes/14/08/14082063-b-h400-w200-pv25_59672f6731674449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222686902",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The Glass Blower of Venice and Other Stories",
+      "catalogAuthor": "by Gershon Kranzler",
+      "reviewImage": 24,
+      "previousSource": null
+    },
+    {
+      "id": "KS02029",
+      "title": "Let My Nation Wander: The Story of the Jewish People's Journey through the Wilderness, from the First Encampment to the Korach Rebellion : A Compilation of Talmudic and Midrashic Sources",
+      "image": "https://ecx.images-amazon.com/images/P/1598268163.01._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222741805",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Let My Nation Wander",
+      "catalogAuthor": "by Yosef Deutsch",
+      "reviewImage": 25,
+      "previousSource": null
+    },
+    {
+      "id": "KS01257",
+      "title": "The Highest Bidder: A Novel",
+      "image": "https://pics.cdn.librarything.com/picsizes/14/08/14081178-b-h1200-w600-pv25_597072633167425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222686263",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "The highest bidder: A novel",
+      "catalogAuthor": "by Meir Bendet",
+      "reviewImage": 26,
+      "previousSource": null
+    },
+    {
+      "id": "KS02361",
+      "title": "There Is No Such Thing As Coincidence ..: and Other Stories of Divine Providence",
+      "image": "https://pics.cdn.librarything.com/picsizes/11/42/11421123-b-h400-w200-pv25_59734e4672674449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/224979180",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "There Is No Such Thing As Coincidence",
+      "catalogAuthor": "by Baruch Lev",
+      "reviewImage": 28,
+      "previousSource": null
+    },
+    {
+      "id": "KS02654",
+      "title": "Between the Thorns",
+      "image": "https://ecx.images-amazon.com/images/P/156871338X.01._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/260432628",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Between the Thorns",
+      "catalogAuthor": "by Libby Lazewnik",
+      "reviewImage": 29,
+      "previousSource": null
+    },
+    {
+      "id": "KS03172",
+      "title": "Airmail to Amsterdam",
+      "image": "https://ecx.images-amazon.com/images/P/9657371368.01._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222685896",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Exact title + author spelling variant, Esty Shlanger / Esty Schlanger; cover inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Airmail to Amsterdam",
+      "catalogAuthor": "by Esty Shlanger",
+      "reviewImage": 33,
+      "previousSource": null
+    },
+    {
+      "id": "KS03179",
+      "title": "Try for a Dream",
+      "image": "https://pics.cdn.librarything.com/picsizes/14/08/14082134-b-h1200-w600-pv25_596c62673167425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222687012",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Try for a Dream",
+      "catalogAuthor": "by Miriam L. Elias",
+      "reviewImage": 34,
+      "previousSource": null
+    },
+    {
+      "id": "KS03302",
+      "title": "Thinking of You: True Stories of Kindness, Sensitivity, and Devotion",
+      "image": "https://ecx.images-amazon.com/images/P/1680253697.01._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222687466",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Thinking of You: True Stories of Kindness, Sensitivity, and Devotion",
+      "catalogAuthor": "by Mindy Shapiro",
+      "reviewImage": 35,
+      "previousSource": null
+    },
+    {
+      "id": "KS03075",
+      "title": "Stranger in the Woods",
+      "image": "https://pics.cdn.librarything.com/picsizes/14/08/14081129-b-h1200-w600-pv25_596d6e633167425941724145_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222685476",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Stranger In The Woods",
+      "catalogAuthor": "by Leah Fried",
+      "reviewImage": 37,
+      "previousSource": null
+    },
+    {
+      "id": "KS01027",
+      "title": "Faithful Soldiers",
+      "image": "https://pics.cdn.librarything.com/picsizes/11/46/11462978-b-h400-w200-pv25_596b4c7072674449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222742420",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Faithful Soldiers",
+      "catalogAuthor": "by R. L. Leader",
+      "reviewImage": 38,
+      "previousSource": null
+    },
+    {
+      "id": "KS02007",
+      "title": "Point Blank",
+      "image": "https://ecx.images-amazon.com/images/I/51vBT61nfsL._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/273369611",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Title + author + Part 2 explicitly shown on cover",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Point Blank - Part 2",
+      "catalogAuthor": "by Yonah Sapir",
+      "reviewImage": 39,
+      "previousSource": null
+    },
+    {
+      "id": "KS01294",
+      "title": "Wildflower: A Novel",
+      "image": "https://pics.cdn.librarything.com/picsizes/11/38/11381813-b-h400-w200-pv25_596a577372514449414a4142_v5.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/222686175",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Matching title + author; cover visually inspected",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Wildflower",
+      "catalogAuthor": "by Rachel Pomerantz",
+      "reviewImage": 40,
+      "previousSource": null
+    },
+    {
+      "id": "KS01906",
+      "title": "Point Blank",
+      "image": "https://ecx.images-amazon.com/images/I/51dp6pBRarL._SX600_SY1200_SCRM_.jpg",
+      "source": "https://www.librarycat.org/lib/YBulman/item/273369544",
+      "credit": "Me'ohr Library / LibraryThing",
+      "matchBasis": "Title + author + Part 1 explicitly shown on cover",
+      "checkedDate": "2026-10-30",
+      "catalogTitle": "Point Blank - Part 1",
+      "catalogAuthor": "by Yonah Sapir",
+      "reviewImage": 41,
+      "previousSource": null
+    }
+  ],
+  "deferred": [
+    {
+      "id": "KS00261",
+      "candidates": [
+        {
+          "id": "KS00261",
+          "title": "The World that Was : America, 1900-1945 : Transmitting the Torah Legacy to America: Transmitting the Torah Legacy to America",
+          "byline": "A. Leib Scheinbaum",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial, unit 1, section 4",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751348",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": false
+        },
+        {
+          "id": "KS00261",
+          "title": "The World that Was : America, 1900-1945 : Transmitting the Torah Legacy to America: Transmitting the Torah Legacy to America",
+          "byline": "A. Leib Scheinbaum",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial, unit 1, section 4",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751333",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": false
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS00339",
+      "candidates": [
+        {
+          "id": "KS00339",
+          "title": "The World that Was : Eretz Yisrael : The Holy Land As the Nexus of Jewish Destiny",
+          "byline": "A. Leib Scheinbaum",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751348",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": false
+        },
+        {
+          "id": "KS00339",
+          "title": "The World that Was : Eretz Yisrael : The Holy Land As the Nexus of Jewish Destiny",
+          "byline": "A. Leib Scheinbaum",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751333",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": false
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS00833",
+      "candidates": [
+        {
+          "id": "KS00833",
+          "title": "The Dream",
+          "byline": "Avner Gold",
+          "publisher": "CIS Publishers",
+          "series": "The Ruach ami series",
+          "catalogTitle": "The Dream",
+          "catalogAuthor": "by Avner Gold",
+          "source": "https://www.librarycat.org/lib/YBulman/item/266469107",
+          "image": "https://pics.cdn.librarything.com/picsizes/11/82/11820293-b-h1200-w600-pv25_596756647441425941724145_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 1,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Available cover is ArtScroll 2018; bibliography record is CIS 1983"
+    },
+    {
+      "id": "KS00913",
+      "candidates": [
+        {
+          "id": "KS00913",
+          "title": "The World that Was : Ashkenaz : The Legacy of German Jewry, 843-1945 : Survival and Perseverance in Defiance of Prejudice and Adversity",
+          "byline": "A. Leib Scheinbaum",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751348",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": false
+        },
+        {
+          "id": "KS00913",
+          "title": "The World that Was : Ashkenaz : The Legacy of German Jewry, 843-1945 : Survival and Perseverance in Defiance of Prejudice and Adversity",
+          "byline": "A. Leib Scheinbaum",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751333",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": false
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS00941",
+      "candidates": [
+        {
+          "id": "KS00941",
+          "title": "The World that Was: A Study of the Life and Torah Consciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland",
+          "byline": "Yitzchak Kasnett",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial, volumes 1-3",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751348",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        },
+        {
+          "id": "KS00941",
+          "title": "The World that Was: A Study of the Life and Torah Consciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland",
+          "byline": "Yitzchak Kasnett",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial, volumes 1-3",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751333",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS00944",
+      "candidates": [
+        {
+          "id": "KS00944",
+          "title": "The World that Was: Poland: A Study of the Life and Torah Consciousness of Jews in the Shtetlach, Towns and Cities of Poland",
+          "byline": "Yitzchak Kasnett",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial, unit 1, section 2",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751348",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        },
+        {
+          "id": "KS00944",
+          "title": "The World that Was: Poland: A Study of the Life and Torah Consciousness of Jews in the Shtetlach, Towns and Cities of Poland",
+          "byline": "Yitzchak Kasnett",
+          "publisher": "The Living Memorial",
+          "series": "The Living Memorial, unit 1, section 2",
+          "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+          "catalogAuthor": "by Yitzchak Kasnett",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222751333",
+          "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS00980",
+      "candidates": [
+        {
+          "id": "KS00980",
+          "title": "Envoy from Vienna : 1668-1670 : Avodas Hagershuni",
+          "byline": "Avner Gold",
+          "publisher": "Artscroll-Mesorah Publications",
+          "series": "The Strasbourg Saga, volume 7",
+          "catalogTitle": "Envoy from Vienna (The Ruach ami series)",
+          "catalogAuthor": "by Avner Gold",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222743275",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/27/12275192-b-h1200-w600-pv25_5976684e7577425941724145_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Catalog cover is C.I.C. 1986; bibliography record is the ArtScroll edition"
+    },
+    {
+      "id": "KS01096",
+      "candidates": [
+        {
+          "id": "KS01096",
+          "title": "Our People--history of the Jews: A Text Book of Jewish History for the School and Home",
+          "byline": "Jacob Isaacs",
+          "publisher": "Merkos L'Inyonei Chinuch",
+          "series": "Our people--history of the Jews, volume 5",
+          "catalogTitle": "Our People: History of the Jews- A Text Book of Jewish History for the School and Home, Vol. 2, Book 3 & 4",
+          "catalogAuthor": "by Jacob Isaacs",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222750233",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/28/12283711-b-h400-w200-pv25_596a397675774449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.932,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Catalog image is volume 2; bibliography record is volume 5"
+    },
+    {
+      "id": "KS01179",
+      "candidates": [
+        {
+          "id": "KS01179",
+          "title": "The Storyteller",
+          "byline": "Nissan Mindel",
+          "publisher": "Merkos L'Inyonei Chinuch",
+          "series": "The storyteller, volume 3",
+          "catalogTitle": "The Storyteller: Selected Short Stories, Vol. 2",
+          "catalogAuthor": "by Nissan Mindel",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222684714",
+          "image": "https://ecx.images-amazon.com/images/P/0826603130.01._SX600_SY1200_SCRM_.jpg",
+          "imageClass": "c_amazonisbn tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS01299",
+      "candidates": [
+        {
+          "id": "KS01299",
+          "title": "Tales From the Gemara: Rosh Hashanah / Yoma / Succah",
+          "byline": "Yair Weinstock; Sheindel Weinbach",
+          "publisher": "Artscroll-Mesorah Publications",
+          "series": "Tales from the Gemara, volume 3",
+          "catalogTitle": "Tales From the Gemara (Artscroll Youth Series)",
+          "catalogAuthor": "by Y. Weinstock",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222739858",
+          "image": "https://ecx.images-amazon.com/images/P/0899068138.01._SX600_SY1200_SCRM_.jpg",
+          "imageClass": "c_amazonisbn tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS01523",
+      "candidates": [
+        {
+          "id": "KS01523",
+          "title": "The Very Best Me",
+          "byline": "C.D. Urbach",
+          "publisher": "—",
+          "series": "—",
+          "catalogTitle": "The Very Best Me",
+          "catalogAuthor": "by 1993 C. D. Urbach Tamar/Artscroll",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222685102",
+          "image": "https://pics.cdn.librarything.com/picsizes/11/42/11420708-b-h400-w200-pv25_5969524572674449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 1,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Cover too blurred to visually verify"
+    },
+    {
+      "id": "KS01731",
+      "candidates": [
+        {
+          "id": "KS01731",
+          "title": "Avraham Ben Avraham",
+          "byline": "Yehoshua Leiman; Tami Bezaleli",
+          "publisher": "Feldheim Publishers",
+          "series": "—",
+          "catalogTitle": "Avraham Ben Avraham",
+          "catalogAuthor": "by S. Schachnowitz",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222705090",
+          "image": "https://pics.cdn.librarything.com/picsizes/91/22/9122599-b-h400-w200-pv25_5969637a69774449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 1,
+          "authorMatch": false
+        }
+      ],
+      "reason": "Same title but different author"
+    },
+    {
+      "id": "KS02091",
+      "candidates": [
+        {
+          "id": "KS02091",
+          "title": "The Chasam Sofer",
+          "byline": "Yaakov Hopkowitz; S. Hertz",
+          "publisher": "Veshinantam Levanecha Institute",
+          "series": "The Eternal Light, volume 5",
+          "catalogTitle": "The Chasam Sofer",
+          "catalogAuthor": "by Rabbi Yisroel Besser",
+          "source": "https://www.librarycat.org/lib/YBulman/item/275968342",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/44/12440374-b-h1200-w600-pv25_596a62547651425941724145_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 1,
+          "authorMatch": false
+        }
+      ],
+      "reason": "Same title but different author"
+    },
+    {
+      "id": "KS02211",
+      "candidates": [
+        {
+          "id": "KS02211",
+          "title": "The Storyteller",
+          "byline": "Nissan Mindel",
+          "publisher": "Merkos L'Inyonei Chinuch",
+          "series": "The storyteller, volume 4",
+          "catalogTitle": "The Storyteller: Selected Short Stories, Vol. 2",
+          "catalogAuthor": "by Nissan Mindel",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222684714",
+          "image": "https://ecx.images-amazon.com/images/P/0826603130.01._SX600_SY1200_SCRM_.jpg",
+          "imageClass": "c_amazonisbn tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS02239",
+      "candidates": [
+        {
+          "id": "KS02239",
+          "title": "The Storyteller: Selected Short Stories",
+          "byline": "Nissan Mindel; Zalman Kleinman",
+          "publisher": "Merkos L'Inyonei Chinuch",
+          "series": "The storyteller, volume 1",
+          "catalogTitle": "The Storyteller: Selected Short Stories, Vol. 2",
+          "catalogAuthor": "by Nissan Mindel",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222684714",
+          "image": "https://ecx.images-amazon.com/images/P/0826603130.01._SX600_SY1200_SCRM_.jpg",
+          "imageClass": "c_amazonisbn tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS02300",
+      "candidates": [
+        {
+          "id": "KS02300",
+          "title": "The Lost Children of Tarshish. Book Two",
+          "byline": "Ehud Tokatly",
+          "publisher": "CIS Publishers",
+          "series": "—",
+          "catalogTitle": "Lost Children of Tarshish Book Two",
+          "catalogAuthor": "by Ehud Tokatly",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222684477",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/29/12295586-b-h1200-w600-pv25_59714b647577425941724145_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.951,
+          "authorMatch": true
+        },
+        {
+          "id": "KS02300",
+          "title": "The Lost Children of Tarshish. Book Two",
+          "byline": "Ehud Tokatly",
+          "publisher": "CIS Publishers",
+          "series": "—",
+          "catalogTitle": "The lost children of Tarshish - vol. 2",
+          "catalogAuthor": "by Ehud Tokatly",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222685279",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/29/12295584-b-h1200-w600-pv25_597143647577425941724145_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim coversize_srcset tc_loaded",
+          "score": 0.852,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Catalog labels book two but the image itself says Book One"
+    },
+    {
+      "id": "KS02413",
+      "candidates": [
+        {
+          "id": "KS02413",
+          "title": "The Lost Children of Tarshish",
+          "byline": "Ehud Tokatly; Shmuel Klitsner; Judy Klitsner",
+          "publisher": "Targum Press",
+          "series": "—",
+          "catalogTitle": "The lost children of Tarshish - vol. 2",
+          "catalogAuthor": "by Ehud Tokatly",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222685279",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/29/12295584-b-h1200-w600-pv25_597143647577425941724145_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim coversize_srcset tc_loaded",
+          "score": 0.926,
+          "authorMatch": true
+        },
+        {
+          "id": "KS02413",
+          "title": "The Lost Children of Tarshish",
+          "byline": "Ehud Tokatly; Shmuel Klitsner; Judy Klitsner",
+          "publisher": "Targum Press",
+          "series": "—",
+          "catalogTitle": "Lost Children of Tarshish Book Two",
+          "catalogAuthor": "by Ehud Tokatly",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222684477",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/29/12295586-b-h1200-w600-pv25_59714b647577425941724145_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.815,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Catalog labels book two but image says Book One; local volume is unspecified"
+    },
+    {
+      "id": "KS02752",
+      "candidates": [
+        {
+          "id": "KS02752",
+          "title": "The Storyteller",
+          "byline": "Nissan Mindel",
+          "publisher": "Merkos L'Inyonei Chinuch",
+          "series": "The storyteller, volume 5",
+          "catalogTitle": "The Storyteller: Selected Short Stories, Vol. 2",
+          "catalogAuthor": "by Nissan Mindel",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222684714",
+          "image": "https://ecx.images-amazon.com/images/P/0826603130.01._SX600_SY1200_SCRM_.jpg",
+          "imageClass": "c_amazonisbn tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "KS02813",
+      "candidates": [
+        {
+          "id": "KS02813",
+          "title": "In Our Fathers' Ways: Series Ii, Festivals and Seasons ...",
+          "byline": "Menachem Gerlitz; Sheindel Weinbach",
+          "publisher": "—",
+          "series": "In our fathers' ways, volume 2",
+          "catalogTitle": "In Our Fathers' Ways: Stories from the Lives and Deeds of the Tanaim and Amoraim",
+          "catalogAuthor": "by Menachem Gerlitz (Getz)",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222739555",
+          "image": "https://ecx.images-amazon.com/images/I/41tvE4HunLL._SX600_SY1200_SCRM_.jpg",
+          "imageClass": "c_amazonasin tc_search_cover cover coversize_srcset loading_anim coversize_srcset tc_loaded",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Generated text placeholder, not an actual cover"
+    },
+    {
+      "id": "KS03068",
+      "candidates": [
+        {
+          "id": "KS03068",
+          "title": "The Birdsong and Other Stories",
+          "byline": "Meir Uri Gottesman",
+          "publisher": "Targum Press",
+          "series": "—",
+          "catalogTitle": "Wings and other stories",
+          "catalogAuthor": "by Meir Uri Gottesman",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222687282",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/23/12235166-b-h400-w200-pv25_5970367875674449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.783,
+          "authorMatch": true
+        },
+        {
+          "id": "KS03068",
+          "title": "The Birdsong and Other Stories",
+          "byline": "Meir Uri Gottesman",
+          "publisher": "Targum Press",
+          "series": "—",
+          "catalogTitle": "Wings and other stories",
+          "catalogAuthor": "by Meir Uri Gottesman",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222687248",
+          "image": "https://pics.cdn.librarything.com/picsizes/12/23/12235166-b-h400-w200-pv25_5970367875674449414a4142_v5.jpg",
+          "imageClass": "c_isbncustom tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.783,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different book title (Wings versus The Birdsong)"
+    },
+    {
+      "id": "b3337",
+      "candidates": [
+        {
+          "id": "b3337",
+          "title": "Tales From The Gemara: Shabbos",
+          "byline": "Yair Weinstock; Sheindel Weinbach",
+          "publisher": "Artscroll-Mesorah Publications",
+          "series": "Tales from the Gemara, volume 2",
+          "catalogTitle": "Tales From the Gemara (Artscroll Youth Series)",
+          "catalogAuthor": "by Y. Weinstock",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222739858",
+          "image": "https://ecx.images-amazon.com/images/P/0899068138.01._SX600_SY1200_SCRM_.jpg",
+          "imageClass": "c_amazonisbn tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    },
+    {
+      "id": "b3338",
+      "candidates": [
+        {
+          "id": "b3338",
+          "title": "Tales From The Gemara: Taanis",
+          "byline": "Yair Weinstock; Sheindel Weinbach",
+          "publisher": "Artscroll-Mesorah Publications",
+          "series": "Tales from the Gemara, volume 4",
+          "catalogTitle": "Tales From the Gemara (Artscroll Youth Series)",
+          "catalogAuthor": "by Y. Weinstock",
+          "source": "https://www.librarycat.org/lib/YBulman/item/222739858",
+          "image": "https://ecx.images-amazon.com/images/P/0899068138.01._SX600_SY1200_SCRM_.jpg",
+          "imageClass": "c_amazonisbn tc_search_cover cover coversize_srcset loading_anim loading coversize_srcset",
+          "score": 0.98,
+          "authorMatch": true
+        }
+      ],
+      "reason": "Different or insufficiently specified volume/subject; held for review"
+    }
+  ]
+}

@@ -8336,12 +8336,18 @@
     "checkedDate": "2026-10-30"
   },
   "KS03186": {
-    "title": "Tales from the Gemara: Maseches Berachos: A Selection of Aggadic Material-adapted, Expanded, and Dramatized for Young Readers",
-    "image": "https://cdn.shopify.com/s/files/1/2568/1506/products/d5_74879c0c-b15a-442e-8257-4ca667af7de9.jpg?v=1548001227",
-    "source": "https://moznaim.com/products/tales-from-the-gemara",
-    "credit": "Moznaim",
-    "matchBasis": "Title + publisher",
-    "checkedDate": "2026-10-30"
+    "title": "Tales from the Gemara: Berachos",
+    "image": "https://ecx.images-amazon.com/images/P/0899068138.01._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222739858",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Title + author + Berachos volume text on cover; publisher and 1988 date checked",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Tales From the Gemara (Artscroll Youth Series)",
+    "catalogAuthor": "by Y. Weinstock",
+    "catalogEdition": {
+      "ISBN": "0899068138 / 9780899068138",
+      "Publication": "Mesorah Pubns Ltd (1988), Edition: 1st, 159 pages"
+    }
   },
   "KS03189": {
     "title": "My Hebrew Picture Dictionary: The Alef-bet Word Book",
@@ -8774,5 +8780,337 @@
     "credit": "Menucha Publishers",
     "matchBasis": "Title + creator",
     "checkedDate": "2026-10-30"
+  },
+  "KS00243": {
+    "title": "Candles in My Window",
+    "image": "https://pics.cdn.librarything.com/picsizes/11/95/11959526-b-h400-w200-pv25_59755a3874674449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222686624",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Candles in my Window",
+    "catalogAuthor": "by Beth Firestone"
+  },
+  "KS00946": {
+    "title": "The World that Was: Lithuania: A Study of the Life and Torah Consciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland",
+    "image": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222751348",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The World That Was: Lithuania: A Study of the Life and Torah Conciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland (Living Memorial)",
+    "catalogAuthor": "by Yitzchak Kasnett"
+  },
+  "KS00741": {
+    "title": "Against the Wall",
+    "image": "https://ecx.images-amazon.com/images/P/B00F350VL0.01._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222687158",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Against The Wall",
+    "catalogAuthor": "by Ruthie Pearlman"
+  },
+  "KS00830": {
+    "title": "The Dream : 1643-1646 Tosefos Yom Tov",
+    "image": "https://pics.cdn.librarything.com/picsizes/11/82/11820293-b-h1200-w600-pv25_596756647441425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/266469107",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Title + author + ArtScroll/Mesorah 2018 edition; not applied to the CIS edition",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Dream",
+    "catalogAuthor": "by Avner Gold",
+    "catalogEdition": {
+      "ISBN": "1422620638 / 9781422620632",
+      "Publication": "Mesorah Publications Ltd. (2018), 230 pages"
+    }
+  },
+  "KS00863": {
+    "title": "The Spanish Treasure",
+    "image": "https://ecx.images-amazon.com/images/I/41YahXgXh0L._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222742971",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Spanish Treasure",
+    "catalogAuthor": "by Meir Baram"
+  },
+  "KS00849": {
+    "title": "The Purple Ring : 1666-1667, the Maharshak Rav Aharon Shmuel Kaidanover",
+    "image": "https://pics.cdn.librarything.com/picsizes/12/34/12343933-b-h1200-w600-pv25_596e31617641425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/266469105",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Purple Ring",
+    "catalogAuthor": "by Avner Gold"
+  },
+  "KS00909": {
+    "title": "Just in Time: A Historical Tale",
+    "image": "https://pics.cdn.librarything.com/picsizes/14/11/14116203-b-h400-w200-pv25_596d746c31774449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222743878",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author spelling variant, Marcus Lehman / Marcus Lehmann; cover inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Just in Time",
+    "catalogAuthor": "by Marcus Lehman"
+  },
+  "KS00915": {
+    "title": "Rabbi Yoselman of Rosheim",
+    "image": "https://ecx.images-amazon.com/images/P/1583305513.01._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222743505",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Exact title + matching publisher (Feldheim); bibliography has no creator",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Rabbi Yoselman of Rosheim",
+    "catalogAuthor": "by Marcus Lehmann",
+    "catalogEdition": {
+      "ISBN": "1583305513 / 9781583305515",
+      "Publication": "Feldheim Pub (2002), 564 pages"
+    }
+  },
+  "KS00959": {
+    "title": "The Golem of Prague: A New Adaption of the Documented Stories of the Golem of Prague",
+    "image": "https://pics.cdn.librarything.com/picsizes/41/04/4104059-c-h400-w200-pv25_5933756650674449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222743902",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Golem of Prague: A New Adaptation of the Documented Stories of the Golem of Prague",
+    "catalogAuthor": "by Gershon Winkler"
+  },
+  "KS00936": {
+    "title": "The Fateful Mission",
+    "image": "https://pics.cdn.librarything.com/picsizes/81/98/8198392-b-h1200-w600-pv25_597667596651425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222742707",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Fateful Mission",
+    "catalogAuthor": "by Meir Baram"
+  },
+  "KS00995": {
+    "title": "The New York Express",
+    "image": "https://pics.cdn.librarything.com/picsizes/12/18/12189136-b-h400-w200-pv25_5974443975514449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222685222",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The New York express",
+    "catalogAuthor": "by Deborah Wicentowski"
+  },
+  "KS00799": {
+    "title": "The Choices of Daniel Trigo",
+    "image": "https://pics.cdn.librarything.com/picsizes/11/43/11433412-b-h1200-w600-pv25_597352317267425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222686658",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Choices of Daniel Trigo",
+    "catalogAuthor": "by Joseph Neppe"
+  },
+  "KS01120": {
+    "title": "Shira's Summer",
+    "image": "https://pics.cdn.librarything.com/picsizes/14/08/14081279-b-h1200-w600-pv25_59762f633167425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222687124",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Shira's Summer",
+    "catalogAuthor": "by Libby Lazewnik"
+  },
+  "KS02425": {
+    "title": "The Storyteller: Selected Short Stories.",
+    "image": "https://ecx.images-amazon.com/images/P/0826603130.01._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222684714",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Title + author + volume 2; catalog records a 1998 reprint of the same volume",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Storyteller: Selected Short Stories, Vol. 2",
+    "catalogAuthor": "by Nissan Mindel",
+    "catalogEdition": {
+      "ISBN": "0826603130 / 9780826603135",
+      "Publication": "Kehot Pubns Society (1998), 257 pages"
+    }
+  },
+  "KS01191": {
+    "title": "The Three Merchants and Other Stories",
+    "image": "https://pics.cdn.librarything.com/picsizes/61/79/6179100-c-h1200-w600-pv25_5978784a5867425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222685173",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Three Merchants and Other Stories",
+    "catalogAuthor": "by Shaindel Weinbach"
+  },
+  "KS01066": {
+    "title": "The Cresta Adventure",
+    "image": "https://pics.cdn.librarything.com/picsizes/14/08/14081233-b-h1200-w600-pv25_597448633167425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222686683",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Exact title + author spelling variant, Ruth Abramson / Ruth Abrahamson; cover inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Cresta Adventure",
+    "catalogAuthor": "by Ruth Abramson"
+  },
+  "KS01071": {
+    "title": "Ibrahim the Magician",
+    "image": "https://pics.cdn.librarything.com/picsizes/12/18/12185173-b-h1200-w600-pv25_596c58757551425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222685467",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Ibrahim the Magician (Tales from the East Series)",
+    "catalogAuthor": "by S. J. Revich"
+  },
+  "KS01381": {
+    "title": "On a Golden Chain",
+    "image": "https://ecx.images-amazon.com/images/I/41W6pm78dLL._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222686352",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "On a Golden Chain",
+    "catalogAuthor": "by Ruth Benjamin"
+  },
+  "KS01741": {
+    "title": "Wings and Other Stories",
+    "image": "https://pics.cdn.librarything.com/picsizes/12/23/12235166-b-h400-w200-pv25_5970367875674449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222687282",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Wings and other stories",
+    "catalogAuthor": "by Meir Uri Gottesman"
+  },
+  "KS01877": {
+    "title": "The Glass Blower of Venice and Other Stories",
+    "image": "https://pics.cdn.librarything.com/picsizes/14/08/14082063-b-h400-w200-pv25_59672f6731674449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222686902",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The Glass Blower of Venice and Other Stories",
+    "catalogAuthor": "by Gershon Kranzler"
+  },
+  "KS02029": {
+    "title": "Let My Nation Wander: The Story of the Jewish People's Journey through the Wilderness, from the First Encampment to the Korach Rebellion : A Compilation of Talmudic and Midrashic Sources",
+    "image": "https://ecx.images-amazon.com/images/P/1598268163.01._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222741805",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Let My Nation Wander",
+    "catalogAuthor": "by Yosef Deutsch"
+  },
+  "KS01257": {
+    "title": "The Highest Bidder: A Novel",
+    "image": "https://pics.cdn.librarything.com/picsizes/14/08/14081178-b-h1200-w600-pv25_597072633167425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222686263",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "The highest bidder: A novel",
+    "catalogAuthor": "by Meir Bendet"
+  },
+  "KS02361": {
+    "title": "There Is No Such Thing As Coincidence ..: and Other Stories of Divine Providence",
+    "image": "https://pics.cdn.librarything.com/picsizes/11/42/11421123-b-h400-w200-pv25_59734e4672674449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/224979180",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "There Is No Such Thing As Coincidence",
+    "catalogAuthor": "by Baruch Lev"
+  },
+  "KS02654": {
+    "title": "Between the Thorns",
+    "image": "https://ecx.images-amazon.com/images/P/156871338X.01._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/260432628",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Between the Thorns",
+    "catalogAuthor": "by Libby Lazewnik"
+  },
+  "KS03172": {
+    "title": "Airmail to Amsterdam",
+    "image": "https://ecx.images-amazon.com/images/P/9657371368.01._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222685896",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Exact title + author spelling variant, Esty Shlanger / Esty Schlanger; cover inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Airmail to Amsterdam",
+    "catalogAuthor": "by Esty Shlanger"
+  },
+  "KS03179": {
+    "title": "Try for a Dream",
+    "image": "https://pics.cdn.librarything.com/picsizes/14/08/14082134-b-h1200-w600-pv25_596c62673167425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222687012",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Try for a Dream",
+    "catalogAuthor": "by Miriam L. Elias"
+  },
+  "KS03302": {
+    "title": "Thinking of You: True Stories of Kindness, Sensitivity, and Devotion",
+    "image": "https://ecx.images-amazon.com/images/P/1680253697.01._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222687466",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Thinking of You: True Stories of Kindness, Sensitivity, and Devotion",
+    "catalogAuthor": "by Mindy Shapiro"
+  },
+  "KS03075": {
+    "title": "Stranger in the Woods",
+    "image": "https://pics.cdn.librarything.com/picsizes/14/08/14081129-b-h1200-w600-pv25_596d6e633167425941724145_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222685476",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Stranger In The Woods",
+    "catalogAuthor": "by Leah Fried"
+  },
+  "KS01027": {
+    "title": "Faithful Soldiers",
+    "image": "https://pics.cdn.librarything.com/picsizes/11/46/11462978-b-h400-w200-pv25_596b4c7072674449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222742420",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Faithful Soldiers",
+    "catalogAuthor": "by R. L. Leader"
+  },
+  "KS02007": {
+    "title": "Point Blank",
+    "image": "https://ecx.images-amazon.com/images/I/51vBT61nfsL._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/273369611",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Title + author + Part 2 explicitly shown on cover",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Point Blank - Part 2",
+    "catalogAuthor": "by Yonah Sapir"
+  },
+  "KS01294": {
+    "title": "Wildflower: A Novel",
+    "image": "https://pics.cdn.librarything.com/picsizes/11/38/11381813-b-h400-w200-pv25_596a577372514449414a4142_v5.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/222686175",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Matching title + author; cover visually inspected",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Wildflower",
+    "catalogAuthor": "by Rachel Pomerantz"
+  },
+  "KS01906": {
+    "title": "Point Blank",
+    "image": "https://ecx.images-amazon.com/images/I/51dp6pBRarL._SX600_SY1200_SCRM_.jpg",
+    "source": "https://www.librarycat.org/lib/YBulman/item/273369544",
+    "credit": "Me'ohr Library / LibraryThing",
+    "matchBasis": "Title + author + Part 1 explicitly shown on cover",
+    "checkedDate": "2026-10-30",
+    "catalogTitle": "Point Blank - Part 1",
+    "catalogAuthor": "by Yonah Sapir"
   }
 }

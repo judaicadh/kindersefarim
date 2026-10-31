@@ -14915,12 +14915,6 @@
           "title": "Tales from the Gemara: A Selection of Aggadic Material",
           "sourcePage": "https://moznaim.com/products/tales-from-the-gemara",
           "credit": "Moznaim"
-        },
-        {
-          "id": "KS03186",
-          "title": "Tales from the Gemara: Maseches Berachos: A Selection of Aggadic Material-adapted, Expanded, and Dramatized for Young Readers",
-          "sourcePage": "https://moznaim.com/products/tales-from-the-gemara",
-          "credit": "Moznaim"
         }
       ],
       "original": {
@@ -36592,6 +36586,1128 @@
           "top": 0,
           "width": 1227,
           "height": 1665
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/I/41YahXgXh0L._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/I/41YahXgXh0L._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.681Z",
+      "records": [
+        {
+          "id": "KS00863",
+          "title": "The Spanish Treasure",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222742971",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ab88b49b05ff2d53-f2ecc53b0c8f.jpg",
+        "sha256": "f2ecc53b0c8f327056e814f1ad28e0582065910add6e3537b8f95970d4f0ce3f",
+        "bytes": 24551,
+        "format": "jpeg",
+        "width": 222,
+        "height": 340
+      },
+      "web": {
+        "path": "/covers/ab88b49b05ff2d53-f2ecc53b0c8f.webp",
+        "sha256": "a61842a6cfdc7ece61b7d75e19c12cf6f5887107cee22f5cebe63c5806424c8f",
+        "bytes": 23338,
+        "width": 222,
+        "height": 340,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 222,
+          "height": 340
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/45/25/4525093-c-h400-w200-pv25_5979554d52514449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.688Z",
+      "records": [
+        {
+          "id": "KS00946",
+          "title": "The World that Was: Lithuania: A Study of the Life and Torah Consciousness of Jews in the Towns and Villages of Lithuania and Northeastern Poland",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222751348",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/be00ebf969dc324b-7e172a8ebdff.jpg",
+        "sha256": "7e172a8ebdff17845db977f117686e6ff22a2a3fd3c24394e35b3ebf88f9c485",
+        "bytes": 21622,
+        "format": "jpeg",
+        "width": 200,
+        "height": 265
+      },
+      "web": {
+        "path": "/covers/be00ebf969dc324b-7e172a8ebdff.webp",
+        "sha256": "48318203933ed796bb42861a41b18911a1633ba0256bec9dcf357928f4002c3b",
+        "bytes": 21520,
+        "width": 200,
+        "height": 265,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 265
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/11/95/11959526-b-h400-w200-pv25_59755a3874674449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/11/95/11959526-b-h400-w200-pv25_59755a3874674449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.705Z",
+      "records": [
+        {
+          "id": "KS00243",
+          "title": "Candles in My Window",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222686624",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/716215a74d863897-b66bcee8f627.jpg",
+        "sha256": "b66bcee8f6274f13b0785363408ff666b00c362c8074851f1c739356f3ad740c",
+        "bytes": 16097,
+        "format": "jpeg",
+        "width": 200,
+        "height": 301
+      },
+      "web": {
+        "path": "/covers/716215a74d863897-b66bcee8f627.webp",
+        "sha256": "1b1dbca7cbe7b2e7e2510288ff191a3f7bec6106b4fd457fcf6544db3faa176a",
+        "bytes": 13032,
+        "width": 200,
+        "height": 301,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 301
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/P/0899068138.01._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/P/0899068138.01._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.707Z",
+      "records": [
+        {
+          "id": "KS03186",
+          "title": "Tales from the Gemara: Berachos",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222739858",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/15a2ae2d986413c4-ef7fca24b2c2.jpg",
+        "sha256": "ef7fca24b2c2fbfda74afab7dd09b33b837bd953a063d98f29a4075e91cd0946",
+        "bytes": 110683,
+        "format": "jpeg",
+        "width": 600,
+        "height": 902
+      },
+      "web": {
+        "path": "/covers/15a2ae2d986413c4-ef7fca24b2c2.webp",
+        "sha256": "c0a9990598e2d46d976bd129fd272c45a4da77e3b3631a84b0031c20403dc8dd",
+        "bytes": 141162,
+        "width": 575,
+        "height": 877,
+        "crop": {
+          "left": 14,
+          "top": 14,
+          "width": 575,
+          "height": 877
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/P/B00F350VL0.01._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/P/B00F350VL0.01._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.730Z",
+      "records": [
+        {
+          "id": "KS00741",
+          "title": "Against the Wall",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222687158",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/8fc4ad5f1d74a4f6-0386ae0ae457.jpg",
+        "sha256": "0386ae0ae457bbfae9607da881a08f5adeb592021ae6e87ed1e606a2d30cd57d",
+        "bytes": 80372,
+        "format": "jpeg",
+        "width": 600,
+        "height": 950
+      },
+      "web": {
+        "path": "/covers/8fc4ad5f1d74a4f6-0386ae0ae457.webp",
+        "sha256": "f24130120fc206dd56015620017e536ce145e3e29b5800331465866b3a26ea15",
+        "bytes": 79044,
+        "width": 600,
+        "height": 950,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 950
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/41/04/4104059-c-h400-w200-pv25_5933756650674449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/41/04/4104059-c-h400-w200-pv25_5933756650674449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.754Z",
+      "records": [
+        {
+          "id": "KS00959",
+          "title": "The Golem of Prague: A New Adaption of the Documented Stories of the Golem of Prague",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222743902",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/bb89db71c2b4805d-0251e544d5cb.jpg",
+        "sha256": "0251e544d5cb895f0b59062d8ae4eaabdd1c66483fd59134c113ac7bc6a61bb9",
+        "bytes": 6914,
+        "format": "jpeg",
+        "width": 91,
+        "height": 142
+      },
+      "web": {
+        "path": "/covers/bb89db71c2b4805d-0251e544d5cb.webp",
+        "sha256": "43c7e723da731de5946d85ff709211d1d7aabb8f042f114efd3f864588cf2c65",
+        "bytes": 5908,
+        "width": 91,
+        "height": 142,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 91,
+          "height": 142
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/14/11/14116203-b-h400-w200-pv25_596d746c31774449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/14/11/14116203-b-h400-w200-pv25_596d746c31774449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.754Z",
+      "records": [
+        {
+          "id": "KS00909",
+          "title": "Just in Time: A Historical Tale",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222743878",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0146c23176b04fce-d745b98353bb.jpg",
+        "sha256": "d745b98353bbcb83cba9bb0a33fdf37e430b863c505a03a04a23ddb729686b94",
+        "bytes": 22590,
+        "format": "jpeg",
+        "width": 185,
+        "height": 278
+      },
+      "web": {
+        "path": "/covers/0146c23176b04fce-d745b98353bb.webp",
+        "sha256": "662534e6358d60cacbbc38ec8c15a59ed0523c1a7435286dc2ef298e3fd52897",
+        "bytes": 24550,
+        "width": 185,
+        "height": 278,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 185,
+          "height": 278
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/11/82/11820293-b-h1200-w600-pv25_596756647441425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/11/82/11820293-b-h1200-w600-pv25_596756647441425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.779Z",
+      "records": [
+        {
+          "id": "KS00830",
+          "title": "The Dream : 1643-1646 Tosefos Yom Tov",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/266469107",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ef1072921cce4521-1c4a5dd6fdf2.jpg",
+        "sha256": "1c4a5dd6fdf2d50c8cf2e53ecbb6ca139ad1563c6076dfac5f7d9bd49476f986",
+        "bytes": 277631,
+        "format": "jpeg",
+        "width": 600,
+        "height": 952
+      },
+      "web": {
+        "path": "/covers/ef1072921cce4521-1c4a5dd6fdf2.webp",
+        "sha256": "9df98619f2a310296ece77d12f20a317b52580039e8d11f3f0a664b4ffc19754",
+        "bytes": 200112,
+        "width": 600,
+        "height": 952,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 952
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/12/34/12343933-b-h1200-w600-pv25_596e31617641425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/12/34/12343933-b-h1200-w600-pv25_596e31617641425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.781Z",
+      "records": [
+        {
+          "id": "KS00849",
+          "title": "The Purple Ring : 1666-1667, the Maharshak Rav Aharon Shmuel Kaidanover",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/266469105",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e35d3b347a6351e2-daa9cd20a2db.jpg",
+        "sha256": "daa9cd20a2db03b1149f6e44099f66f3c7ca40e1c7251d3018a21813eeecf1d9",
+        "bytes": 186578,
+        "format": "jpeg",
+        "width": 500,
+        "height": 773
+      },
+      "web": {
+        "path": "/covers/e35d3b347a6351e2-daa9cd20a2db.webp",
+        "sha256": "a534d56505e82ab6868fc456618800cbc3164912f9a0ee3fed073be2fbbffde2",
+        "bytes": 126876,
+        "width": 500,
+        "height": 764,
+        "crop": {
+          "left": 0,
+          "top": 4,
+          "width": 500,
+          "height": 764
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/P/1583305513.01._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/P/1583305513.01._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.796Z",
+      "records": [
+        {
+          "id": "KS00915",
+          "title": "Rabbi Yoselman of Rosheim",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222743505",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e68a4981ef4f5a22-5dc6dce171ae.jpg",
+        "sha256": "5dc6dce171ae453506815c48678e7c7bddc1faffedf5006071d1370512154517",
+        "bytes": 108210,
+        "format": "jpeg",
+        "width": 600,
+        "height": 920
+      },
+      "web": {
+        "path": "/covers/e68a4981ef4f5a22-5dc6dce171ae.webp",
+        "sha256": "1e614a1906b818247b642dbba1ca4e2395f29d63f5cb7b5432b5b977cf6129a7",
+        "bytes": 132480,
+        "width": 600,
+        "height": 920,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 920
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/12/18/12189136-b-h400-w200-pv25_5974443975514449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/12/18/12189136-b-h400-w200-pv25_5974443975514449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.815Z",
+      "records": [
+        {
+          "id": "KS00995",
+          "title": "The New York Express",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222685222",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/16eb0df208e2e2ca-d1cfd5f6d7d5.jpg",
+        "sha256": "d1cfd5f6d7d57480118161833403ad37b75fc292c0c2da42eda826bacd28d19f",
+        "bytes": 34106,
+        "format": "jpeg",
+        "width": 200,
+        "height": 313
+      },
+      "web": {
+        "path": "/covers/16eb0df208e2e2ca-d1cfd5f6d7d5.webp",
+        "sha256": "f4c5e8946022bbc9d8c94ee168cdb0f3422bcad40d2a156af84deaed8191f171",
+        "bytes": 33578,
+        "width": 200,
+        "height": 313,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 313
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/11/43/11433412-b-h1200-w600-pv25_597352317267425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/11/43/11433412-b-h1200-w600-pv25_597352317267425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.973Z",
+      "records": [
+        {
+          "id": "KS00799",
+          "title": "The Choices of Daniel Trigo",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222686658",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/01631f6d6e352deb-5d489c891f3a.jpg",
+        "sha256": "5d489c891f3a1456bcb9a81ca4e9018d12bbd503aa90a5e4108f397bbcd1cc15",
+        "bytes": 255937,
+        "format": "jpeg",
+        "width": 600,
+        "height": 916
+      },
+      "web": {
+        "path": "/covers/01631f6d6e352deb-5d489c891f3a.webp",
+        "sha256": "35cb9a7089b59ee4ef101277b3413d0e7789f0027b389d4fb7e40956171bdc2d",
+        "bytes": 184486,
+        "width": 600,
+        "height": 916,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 916
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/P/0826603130.01._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/P/0826603130.01._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.973Z",
+      "records": [
+        {
+          "id": "KS02425",
+          "title": "The Storyteller: Selected Short Stories.",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222684714",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7a3f1c73c4383303-dcc0381a8333.jpg",
+        "sha256": "dcc0381a83334ab6483b4b7f6531ce398c3152020699fbdd075d259a606285be",
+        "bytes": 82543,
+        "format": "jpeg",
+        "width": 753,
+        "height": 1200
+      },
+      "web": {
+        "path": "/covers/7a3f1c73c4383303-dcc0381a8333.webp",
+        "sha256": "9b58402afdee27955bf36bfe3ffd45532cc9caf50402239634c868c4e8245e4e",
+        "bytes": 84634,
+        "width": 753,
+        "height": 1200,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 753,
+          "height": 1200
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/14/08/14081279-b-h1200-w600-pv25_59762f633167425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/14/08/14081279-b-h1200-w600-pv25_59762f633167425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.976Z",
+      "records": [
+        {
+          "id": "KS01120",
+          "title": "Shira's Summer",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222687124",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/24f87bc696153adb-55f8f34fca56.jpg",
+        "sha256": "55f8f34fca56b903be213e586603a7b82851c371e0181e11fa2ee35e9ba1623e",
+        "bytes": 200643,
+        "format": "jpeg",
+        "width": 600,
+        "height": 930
+      },
+      "web": {
+        "path": "/covers/24f87bc696153adb-55f8f34fca56.webp",
+        "sha256": "ee187f38931c32efc4de8cb65406721b28b8f2d0d6ed1537db8f5062c48c798a",
+        "bytes": 126230,
+        "width": 600,
+        "height": 930,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 930
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/81/98/8198392-b-h1200-w600-pv25_597667596651425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/81/98/8198392-b-h1200-w600-pv25_597667596651425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:34.985Z",
+      "records": [
+        {
+          "id": "KS00936",
+          "title": "The Fateful Mission",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222742707",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/56b7be24624de9b4-7d384ddd42b4.jpg",
+        "sha256": "7d384ddd42b42b765a76fbb530f43a70b6acbdcdd3f2bbbf4e593436b2276fb6",
+        "bytes": 355713,
+        "format": "jpeg",
+        "width": 600,
+        "height": 971
+      },
+      "web": {
+        "path": "/covers/56b7be24624de9b4-7d384ddd42b4.webp",
+        "sha256": "f6e89973053b6510f3c26b32b0ce4e7cd544f7969f5a3ed1b554f505c70bde3a",
+        "bytes": 276948,
+        "width": 600,
+        "height": 971,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 971
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/I/41W6pm78dLL._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/I/41W6pm78dLL._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.008Z",
+      "records": [
+        {
+          "id": "KS01381",
+          "title": "On a Golden Chain",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222686352",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/fda3bac885e60b5a-d1a57dcaf5a0.jpg",
+        "sha256": "d1a57dcaf5a05c74585c86a458772fda7624fe248b7442b712e917da69f066e7",
+        "bytes": 25904,
+        "format": "jpeg",
+        "width": 334,
+        "height": 500
+      },
+      "web": {
+        "path": "/covers/fda3bac885e60b5a-d1a57dcaf5a0.webp",
+        "sha256": "1a4e7c07d87396c648b89b15a6f704308566fcec628f09f4e13f019ae12f12b7",
+        "bytes": 27018,
+        "width": 334,
+        "height": 500,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 334,
+          "height": 500
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/12/23/12235166-b-h400-w200-pv25_5970367875674449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/12/23/12235166-b-h400-w200-pv25_5970367875674449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.014Z",
+      "records": [
+        {
+          "id": "KS01741",
+          "title": "Wings and Other Stories",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222687282",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ac89adf74b887c45-711b59142455.jpg",
+        "sha256": "711b5914245545b7ec96b88453ea6f238f4fde82067239ead65a496d34dd29a5",
+        "bytes": 19130,
+        "format": "jpeg",
+        "width": 200,
+        "height": 294
+      },
+      "web": {
+        "path": "/covers/ac89adf74b887c45-711b59142455.webp",
+        "sha256": "85e602b1b45e114c5b5ec9b0cb459676d45c32631fe2ab0c883da195298045de",
+        "bytes": 16220,
+        "width": 200,
+        "height": 294,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 294
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/14/08/14082063-b-h400-w200-pv25_59672f6731674449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/14/08/14082063-b-h400-w200-pv25_59672f6731674449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.027Z",
+      "records": [
+        {
+          "id": "KS01877",
+          "title": "The Glass Blower of Venice and Other Stories",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222686902",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/1b4ff2f988878810-2157f8323858.jpg",
+        "sha256": "2157f8323858b40d5e3c6f1c72b4eb1b75225a9379bae7eaffacdc6bb5b2b61f",
+        "bytes": 28066,
+        "format": "jpeg",
+        "width": 200,
+        "height": 322
+      },
+      "web": {
+        "path": "/covers/1b4ff2f988878810-2157f8323858.webp",
+        "sha256": "c16ab8e267e85717dcb52c465d70b6be8b4220ca403c1e59cab8cb655fcd307a",
+        "bytes": 26234,
+        "width": 200,
+        "height": 322,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 322
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/14/08/14081233-b-h1200-w600-pv25_597448633167425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/14/08/14081233-b-h1200-w600-pv25_597448633167425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.036Z",
+      "records": [
+        {
+          "id": "KS01066",
+          "title": "The Cresta Adventure",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222686683",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/fe60c1f5fe13d82d-fd5108fa7b37.jpg",
+        "sha256": "fd5108fa7b37f517853ecd307bfafa446e442f647bb8f2b94ce190d6ee00b77f",
+        "bytes": 246987,
+        "format": "jpeg",
+        "width": 600,
+        "height": 952
+      },
+      "web": {
+        "path": "/covers/fe60c1f5fe13d82d-fd5108fa7b37.webp",
+        "sha256": "41e815ba57c7c9d3d13b0a1d3378b0e6dd70b9cf2128b82f011e80dd3d5be436",
+        "bytes": 172966,
+        "width": 600,
+        "height": 952,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 952
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/61/79/6179100-c-h1200-w600-pv25_5978784a5867425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/61/79/6179100-c-h1200-w600-pv25_5978784a5867425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.058Z",
+      "records": [
+        {
+          "id": "KS01191",
+          "title": "The Three Merchants and Other Stories",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222685173",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e149b045d4a57571-9f58995fb42d.jpg",
+        "sha256": "9f58995fb42da69180e53bfa5ef48739dab141f0156731034b883caaa5ab59bb",
+        "bytes": 255516,
+        "format": "jpeg",
+        "width": 600,
+        "height": 920
+      },
+      "web": {
+        "path": "/covers/e149b045d4a57571-9f58995fb42d.webp",
+        "sha256": "60560ec2b7e6619f41c6fa60b8e5a2fd7a6b90cdee14d083a240c56a6539c6fb",
+        "bytes": 168602,
+        "width": 600,
+        "height": 920,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 920
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/12/18/12185173-b-h1200-w600-pv25_596c58757551425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/12/18/12185173-b-h1200-w600-pv25_596c58757551425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.069Z",
+      "records": [
+        {
+          "id": "KS01071",
+          "title": "Ibrahim the Magician",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222685467",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7c83cf0e09c336e3-077b404ed98e.jpg",
+        "sha256": "077b404ed98edf430b3b3e34ed0fe37b84343ead535130604fc5a6906636de66",
+        "bytes": 193268,
+        "format": "jpeg",
+        "width": 600,
+        "height": 863
+      },
+      "web": {
+        "path": "/covers/7c83cf0e09c336e3-077b404ed98e.webp",
+        "sha256": "2c606bf0c736e7f379a8e10cdd0d092fd90ce655a98a785712216cf6f62014cd",
+        "bytes": 122362,
+        "width": 600,
+        "height": 863,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 863
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/11/42/11421123-b-h400-w200-pv25_59734e4672674449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/11/42/11421123-b-h400-w200-pv25_59734e4672674449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.081Z",
+      "records": [
+        {
+          "id": "KS02361",
+          "title": "There Is No Such Thing As Coincidence ..: and Other Stories of Divine Providence",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/224979180",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/492095180f2a1148-31742257e873.jpg",
+        "sha256": "31742257e8739569ca803cfd4013ec862ca9ed294047809a1b94953ee885b9a0",
+        "bytes": 22493,
+        "format": "jpeg",
+        "width": 200,
+        "height": 303
+      },
+      "web": {
+        "path": "/covers/492095180f2a1148-31742257e873.webp",
+        "sha256": "a651d7829baa0abbcd3fc0af7bba5ebb998bc030681bfebb28fb9e10cb024b64",
+        "bytes": 20006,
+        "width": 200,
+        "height": 303,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 303
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/P/1598268163.01._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/P/1598268163.01._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.102Z",
+      "records": [
+        {
+          "id": "KS02029",
+          "title": "Let My Nation Wander: The Story of the Jewish People's Journey through the Wilderness, from the First Encampment to the Korach Rebellion : A Compilation of Talmudic and Midrashic Sources",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222741805",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/12494eec241063f2-cd1f47b99876.jpg",
+        "sha256": "cd1f47b99876a112f617296fee1bc16417c5b0fd4d5a5857b7f943af3643e2a2",
+        "bytes": 150823,
+        "format": "jpeg",
+        "width": 600,
+        "height": 914
+      },
+      "web": {
+        "path": "/covers/12494eec241063f2-cd1f47b99876.webp",
+        "sha256": "806e41c754fca5499c874a9b7f5a57807e13b3b25f6667e363d1dbffab0d5084",
+        "bytes": 200714,
+        "width": 600,
+        "height": 914,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 914
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/P/156871338X.01._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/P/156871338X.01._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.138Z",
+      "records": [
+        {
+          "id": "KS02654",
+          "title": "Between the Thorns",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/260432628",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ac963f109dde264b-30ebc495bb12.jpg",
+        "sha256": "30ebc495bb12144c1e0ab7acc8887edcb94eb4613c4d606f695aef4576c8f4ed",
+        "bytes": 74543,
+        "format": "jpeg",
+        "width": 600,
+        "height": 937
+      },
+      "web": {
+        "path": "/covers/ac963f109dde264b-30ebc495bb12.webp",
+        "sha256": "603d11487676fb264323805705dc5a04a88ff978f51bd967d7d41c5e35422b08",
+        "bytes": 83180,
+        "width": 600,
+        "height": 937,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 937
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/14/08/14081178-b-h1200-w600-pv25_597072633167425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/14/08/14081178-b-h1200-w600-pv25_597072633167425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.138Z",
+      "records": [
+        {
+          "id": "KS01257",
+          "title": "The Highest Bidder: A Novel",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222686263",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c6188e41473c8bb4-a518a737b3f0.jpg",
+        "sha256": "a518a737b3f0f16bbc499e0f22882738b9e3c52a7e2e0e9cf01dedd6ef991976",
+        "bytes": 228363,
+        "format": "jpeg",
+        "width": 600,
+        "height": 930
+      },
+      "web": {
+        "path": "/covers/c6188e41473c8bb4-a518a737b3f0.webp",
+        "sha256": "577617486419be120eb9dabab1ee2674da1539965d97b204856a385ab4525e04",
+        "bytes": 162732,
+        "width": 600,
+        "height": 930,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 930
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/P/1680253697.01._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/P/1680253697.01._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.157Z",
+      "records": [
+        {
+          "id": "KS03302",
+          "title": "Thinking of You: True Stories of Kindness, Sensitivity, and Devotion",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222687466",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e041ea1671eeff26-df3c5463678c.jpg",
+        "sha256": "df3c5463678cb4cfd0aabe9f1c67c2a404c1b1fefffd5cd220c74921494d651d",
+        "bytes": 92430,
+        "format": "jpeg",
+        "width": 600,
+        "height": 897
+      },
+      "web": {
+        "path": "/covers/e041ea1671eeff26-df3c5463678c.webp",
+        "sha256": "1838745c302724990183b732482a9d9a7746137387814643d2ef733a903fb4c3",
+        "bytes": 112416,
+        "width": 600,
+        "height": 897,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 897
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/P/9657371368.01._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/P/9657371368.01._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.164Z",
+      "records": [
+        {
+          "id": "KS03172",
+          "title": "Airmail to Amsterdam",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222685896",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/af7e7668a5cdb871-ed5eaa61f188.jpg",
+        "sha256": "ed5eaa61f188e4853c6d87332076e8e7dac352b98ae0e6c022ac213bb16204fe",
+        "bytes": 84065,
+        "format": "jpeg",
+        "width": 766,
+        "height": 1200
+      },
+      "web": {
+        "path": "/covers/af7e7668a5cdb871-ed5eaa61f188.webp",
+        "sha256": "1deb25c452ead5dee2135f8752412fcfe1045b481a6f45289b667b89f4db9ccd",
+        "bytes": 82790,
+        "width": 766,
+        "height": 1200,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 766,
+          "height": 1200
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/14/08/14082134-b-h1200-w600-pv25_596c62673167425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/14/08/14082134-b-h1200-w600-pv25_596c62673167425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.183Z",
+      "records": [
+        {
+          "id": "KS03179",
+          "title": "Try for a Dream",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222687012",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3827db137885bb64-14476754fb65.jpg",
+        "sha256": "14476754fb65853af7ced689fc770c4d69ac886e6dde36584f9967ac1021b749",
+        "bytes": 216461,
+        "format": "jpeg",
+        "width": 600,
+        "height": 942
+      },
+      "web": {
+        "path": "/covers/3827db137885bb64-14476754fb65.webp",
+        "sha256": "a71b9545f653af39d7f4a7703fc9c61874ad25b8437111d22da2e35c0a1fd2da",
+        "bytes": 145192,
+        "width": 600,
+        "height": 942,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 942
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/11/46/11462978-b-h400-w200-pv25_596b4c7072674449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/11/46/11462978-b-h400-w200-pv25_596b4c7072674449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.190Z",
+      "records": [
+        {
+          "id": "KS01027",
+          "title": "Faithful Soldiers",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222742420",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/8d5b42cf3928d239-fff55b90277c.jpg",
+        "sha256": "fff55b90277c9cf15c057ee1d83345ffb7882a66b07ccd866b4694289bed411f",
+        "bytes": 31235,
+        "format": "jpeg",
+        "width": 200,
+        "height": 304
+      },
+      "web": {
+        "path": "/covers/8d5b42cf3928d239-fff55b90277c.webp",
+        "sha256": "6efd1c297aadad2f4b4cf8120e3258049eea41fe6377922e84ca6eed9e9a6bad",
+        "bytes": 32130,
+        "width": 200,
+        "height": 304,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 304
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/I/51vBT61nfsL._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/I/51vBT61nfsL._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.204Z",
+      "records": [
+        {
+          "id": "KS02007",
+          "title": "Point Blank",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/273369611",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/f7c33fcc530a652e-db147abc9c66.jpg",
+        "sha256": "db147abc9c66fcf4a065599d5e606e1ca1b2ed7d61291fd3525ba9b97cb60b3d",
+        "bytes": 37697,
+        "format": "jpeg",
+        "width": 415,
+        "height": 600
+      },
+      "web": {
+        "path": "/covers/f7c33fcc530a652e-db147abc9c66.webp",
+        "sha256": "fd511281a2de4abb492697ba00ba24c8e3c0c78fdbaa6ea699c6115c462d0a20",
+        "bytes": 46254,
+        "width": 415,
+        "height": 600,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 415,
+          "height": 600
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/11/38/11381813-b-h400-w200-pv25_596a577372514449414a4142_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/11/38/11381813-b-h400-w200-pv25_596a577372514449414a4142_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.224Z",
+      "records": [
+        {
+          "id": "KS01294",
+          "title": "Wildflower: A Novel",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222686175",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/6af1882fc7cec504-9e706c469c14.jpg",
+        "sha256": "9e706c469c140cfbc5c34ee9d0877d54708c6a54dce02f1297ba63682a5a0006",
+        "bytes": 19313,
+        "format": "jpeg",
+        "width": 200,
+        "height": 294
+      },
+      "web": {
+        "path": "/covers/6af1882fc7cec504-9e706c469c14.webp",
+        "sha256": "68e525f2b9317b8f444972ef6ccb62e0cc05475f866be8d3a22e6827ae04cc38",
+        "bytes": 16282,
+        "width": 200,
+        "height": 294,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 200,
+          "height": 294
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://ecx.images-amazon.com/images/I/51dp6pBRarL._SX600_SY1200_SCRM_.jpg": {
+      "sourceImage": "https://ecx.images-amazon.com/images/I/51dp6pBRarL._SX600_SY1200_SCRM_.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.238Z",
+      "records": [
+        {
+          "id": "KS01906",
+          "title": "Point Blank",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/273369544",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/9ef07f9261261400-af41fdd98637.jpg",
+        "sha256": "af41fdd9863775d48bb20205706d7cf3ccf88a61fa9dd73b9b1b4802acd0a123",
+        "bytes": 46297,
+        "format": "jpeg",
+        "width": 409,
+        "height": 600
+      },
+      "web": {
+        "path": "/covers/9ef07f9261261400-af41fdd98637.webp",
+        "sha256": "bc2679bc3100123a758bd2bf65b10ca77b65d635984bc1525fcc8df016e33c11",
+        "bytes": 63558,
+        "width": 409,
+        "height": 600,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 409,
+          "height": 600
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://pics.cdn.librarything.com/picsizes/14/08/14081129-b-h1200-w600-pv25_596d6e633167425941724145_v5.jpg": {
+      "sourceImage": "https://pics.cdn.librarything.com/picsizes/14/08/14081129-b-h1200-w600-pv25_596d6e633167425941724145_v5.jpg",
+      "retrievedAt": "2026-10-30T21:14:35.246Z",
+      "records": [
+        {
+          "id": "KS03075",
+          "title": "Stranger in the Woods",
+          "sourcePage": "https://www.librarycat.org/lib/YBulman/item/222685476",
+          "credit": "Me'ohr Library / LibraryThing"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/919713c5020ff3e4-87b19cef0032.jpg",
+        "sha256": "87b19cef0032301b83bb13bb88e3164875ef770fad15a09c658f721f0691ad76",
+        "bytes": 325067,
+        "format": "jpeg",
+        "width": 600,
+        "height": 928
+      },
+      "web": {
+        "path": "/covers/919713c5020ff3e4-87b19cef0032.webp",
+        "sha256": "4b7e2f2d7aa42cb13fb0587bd50aaa7c56f43f218b17a1724aa0b1e6a766060c",
+        "bytes": 262240,
+        "width": 600,
+        "height": 928,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 600,
+          "height": 928
         }
       },
       "rights": "No license or permission inferred; retain publisher/source attribution."
