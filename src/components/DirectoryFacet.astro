@@ -1,0 +1,16 @@
+---
+const { field, label, values, help } = Astro.props;
+const all = `All ${label.toLowerCase()}s`;
+---
+<details class="directory-facet" data-field={field} data-label={label}>
+  <summary><span>{label}</span><strong data-selection>{all}</strong><span aria-hidden="true">⌄</span></summary>
+  <div class="directory-facet-menu">
+    <label class="directory-facet-search"><span class="sr-only">Find {label.toLowerCase()} options</span><input type="search" placeholder={`Find ${label.toLowerCase()}…`} data-option-search autocomplete="off" /></label>
+    <p class="directory-facet-help">{help}</p>
+    <fieldset><legend class="sr-only">Filter by {label.toLowerCase()}</legend>
+      <label class="directory-facet-option" data-value=""><input type="radio" name={`directory-${field}`} value="" checked /><span>{all}</span><small data-option-count></small></label>
+      {values.map(value => <label class="directory-facet-option" data-value={value}><input type="radio" name={`directory-${field}`} value={value} /><span>{value.charAt(0).toUpperCase() + value.slice(1)}</span><small data-option-count></small></label>)}
+    </fieldset>
+    <p data-no-options hidden>No matching options.</p>
+  </div>
+</details>

@@ -28,7 +28,7 @@ const { creator: c } = Astro.props;
     </header>
 
     <div class="collection-content">
-      <BookList books={c.books} />
+      <BookList books={c.books} creator={c} />
     </div>
   </div>
 </Base>

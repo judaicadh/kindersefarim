@@ -3,7 +3,7 @@ import { coverFor } from '../../lib/covers.js';
 import BookCover from '../../components/BookCover.astro';
 import Base from '../../layouts/Base.astro';
 import Nav from '../../components/Nav.astro';
-import { getBooks, typeForm, linkifyByline, slugify, seriesKey } from '../../lib/sheet.js';
+import { getBooks, typeForm, bookCreators, slugify, seriesKey } from '../../lib/sheet.js';
 
 export async function getStaticPaths() {
   const { books } = await getBooks();
@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 const { book: b } = Astro.props;
 const cover = coverFor(b);
-const bylineHtml = linkifyByline(b.byline, b.creators);
+const contributors = bookCreators(b);
 const seriesName = seriesKey(b.series);
 const known = (value) => value != null && String(value).trim() !== '' && !['—', 'Unspecified'].includes(String(value).trim());
 const fields = [
@@ -35,7 +35,9 @@ const fields = [
         <header class="record-heading">
           <p class="record-kicker">The bibliography <span aria-hidden="true">✳</span></p>
           <h1 id="record-title">{b.title}</h1>
-          {known(b.byline) && <div class="record-byline" set:html={bylineHtml}></div>}
+          {contributors.length > 0 && <div class="record-byline record-contributors">
+            {contributors.map(person => <div><span class="record-contributor-role">{(Array.isArray(person.roles) ? person.roles : [person.role || 'Contributor']).join(', ')}:</span> <a href={`/authors/${slugify(person.name)}/`}>{person.name}</a></div>)}
+          </div>}
           {(known(b.publisher) || known(b.year)) && <p class="record-publication">
             {known(b.publisher) && <a href={`/publishers/${slugify(b.publisher)}/`}>{b.publisher}</a>}
             {known(b.publisher) && known(b.year) && <span aria-hidden="true"> · </span>}
@@ -77,6 +79,8 @@ const fields = [
   .record-heading h1 { font:600 clamp(27px,3vw,39px)/1.12 'Fraunces',Georgia,serif; letter-spacing:-.025em; text-wrap:pretty; }
   .record-byline { font-size:16px; line-height:1.5; color:#53655a; margin-top:8px; }
   .record-byline :global(a), .record-publication a, .record-series a { color:var(--green); text-decoration:underline; text-decoration-color:#35645155; text-underline-offset:3px; }
+  .record-contributors { display:flex; flex-wrap:wrap; gap:3px 18px; }
+  .record-contributor-role { font-weight:600; font-size:.9em; }
   .record-publication { margin:8px 0 0; font-size:14px; color:#53655a; line-height:1.5; }
   .record-series { display:flex; flex-wrap:wrap; gap:4px 8px; margin:12px 0 0; font-size:13px; line-height:1.5; }
   .record-series > span { color:#697468; }

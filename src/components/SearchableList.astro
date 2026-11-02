@@ -1,7 +1,8 @@
 ---
+import DirectoryFacet from './DirectoryFacet.astro';
 const { label = 'Search books', placeholder = 'Search title, author, publisher, series, ISBN…', count = 0, unit = 'books', sortByCount = false, formats = [], roles = [], directory = false } = Astro.props;
 ---
-<catalog-search data-unit={unit}>
+<catalog-search data-unit={unit} data-role-context={roles.length ? (directory ? "directory" : "books") : undefined}>
   <div class="collection-toolbar">
     <label class="collection-search">
       <svg viewBox="0 0 24 24" width="19" height="19" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m15 15 5 5" stroke="currentColor" stroke-width="1.7"/></svg>
@@ -19,11 +20,15 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
         <option value="count-desc">Titles: most first</option></>}
       </select>
     </label>
-    {roles.length > 0 && <label class="directory-sort"><span>Role</span><select data-role aria-label="Filter by role"><option value="">All roles</option>{roles.map(role => <option value={role}>{role.charAt(0).toUpperCase() + role.slice(1)}</option>)}</select></label>}
-    {formats.length > 0 && <label class="directory-sort"><span>Format</span><select data-format aria-label="Filter by format"><option value="">All formats</option>{formats.map(format => <option value={format}>{format}</option>)}</select></label>}
-    <button type="button" data-reset hidden>Clear search</button>
+  </div>
+  <div class="directory-filterbar" aria-label="Refine results">
+    {(roles.length > 0 || formats.length > 0) && <span class="directory-filter-label">Filter by</span>}
+    {roles.length > 0 && <DirectoryFacet field="roles" label="Role" values={roles} help="People may have more than one role." />}
+    {formats.length > 0 && <DirectoryFacet field="formats" label="Format" values={formats} help={directory ? "Includes entries with a title in this format." : "Choose a book format."} />}
+    <button type="button" data-reset hidden>Clear all</button>
     <span class="collection-count" role="status" aria-live="polite">{count} of {count} {unit}</span>
   </div>
+  <div class="directory-active-filters" aria-label="Active filters" hidden></div>
   <slot />
   <p class="collection-empty" data-empty hidden>No matches. Try another search or clear the filters.</p>
 </catalog-search>
@@ -34,23 +39,62 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
       this.dataset.ready = 'true';
       const input = this.querySelector('input');
       const sortControl = this.querySelector<HTMLSelectElement>('[data-sort]');
-      const roleControl = this.querySelector<HTMLSelectElement>('[data-role]');
-      const formatControl = this.querySelector<HTMLSelectElement>('[data-format]');
+      const facets = [...this.querySelectorAll<HTMLDetailsElement>('.directory-facet')];
+      const chips = this.querySelector<HTMLElement>('.directory-active-filters');
+      const chosen = (facet: HTMLDetailsElement) => facet.querySelector<HTMLInputElement>('input[type=radio]:checked')?.value || '';
+      const matches = (row, terms, except = '') => terms.every(term => row.search.includes(term)) && facets.every(facet => facet.dataset.field === except || !chosen(facet) || row[facet.dataset.field].includes(chosen(facet)));
       const reset = this.querySelector('[data-reset]');
       const status = this.querySelector('[role="status"]');
       const empty = this.querySelector('[data-empty]');
       const normalize = (value: string) => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
-      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map((el, index) => ({ el, index, search: normalize(el.dataset.search || ''), title: el.dataset.title || '', titles: Number(el.dataset.titleCount || 0), oldest: el.dataset.oldest === '' ? null : Number(el.dataset.oldest), newest: el.dataset.newest === '' ? null : Number(el.dataset.newest), formats: JSON.parse(el.dataset.formats || '[]'), roles: JSON.parse(el.dataset.roles || '[]') }));
+      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map((el, index) => ({ el, index, href: el.getAttribute('href'), search: normalize(el.dataset.search || ''), title: el.dataset.title || '', titles: Number(el.dataset.titleCount || 0), oldest: el.dataset.oldest === '' ? null : Number(el.dataset.oldest), newest: el.dataset.newest === '' ? null : Number(el.dataset.newest), formats: JSON.parse(el.dataset.formats || '[]'), roles: JSON.parse(el.dataset.roles || '[]') }));
       const apply = () => {
+        const roleFacet = facets.find(facet => facet.dataset.field === 'roles');
+        const role = roleFacet ? chosen(roleFacet) : '';
+        if (this.dataset.roleContext) {
+          const url = new URL(location.href);
+          if (role) url.searchParams.set('role', role); else url.searchParams.delete('role');
+          if (url.href !== location.href) history.replaceState(null, '', url.pathname + url.search + url.hash);
+          if (this.dataset.roleContext === 'directory') rows.forEach(row => {
+            const target = new URL(row.href, location.href);
+            if (role) target.searchParams.set('role', role); else target.searchParams.delete('role');
+            row.el.setAttribute('href', target.pathname + target.search);
+          });
+        }
         const terms = normalize(input.value).split(/\s+/).filter(Boolean);
         let shown = 0;
         for (const row of rows) {
-          row.el.hidden = !terms.every(term => row.search.includes(term)) || Boolean(formatControl?.value && !row.formats.includes(formatControl.value)) || Boolean(roleControl?.value && !row.roles.includes(roleControl.value));
+          row.el.hidden = !matches(row, terms);
           if (!row.el.hidden) shown++;
         }
         status.textContent = `${shown.toLocaleString()} of ${rows.length.toLocaleString()} ${this.dataset.unit}`;
-        reset.hidden = !input.value && !formatControl?.value && !roleControl?.value;
-        reset.textContent = (formatControl?.value || roleControl?.value) ? 'Clear filters' : 'Clear search';
+        reset.hidden = !input.value && !facets.some(facet => chosen(facet));
+        chips.replaceChildren();
+        for (const facet of facets) {
+          const value = chosen(facet);
+          const options = [...facet.querySelectorAll<HTMLElement>('.directory-facet-option')];
+          const selected = options.find(option => option.dataset.value === value);
+          facet.querySelector('[data-selection]').textContent = selected.querySelector('span').textContent;
+          facet.classList.toggle('has-selection', Boolean(value));
+          const eligible = rows.filter(row => matches(row, terms, facet.dataset.field));
+          const counts = new Map<string, number>();
+          eligible.forEach(row => row[facet.dataset.field].forEach(item => counts.set(item, (counts.get(item) || 0) + 1)));
+          options.forEach(option => {
+            const key = option.dataset.value;
+            const count = key ? counts.get(key) || 0 : eligible.length;
+            option.querySelector('[data-option-count]').textContent = count.toLocaleString();
+            option.querySelector<HTMLInputElement>('input').disabled = Boolean(key && !count && key !== value);
+          });
+          if (value) {
+            const chip = document.createElement('button');
+            chip.type = 'button';
+            chip.textContent = `${facet.dataset.label}: ${selected.querySelector('span').textContent} ×`;
+            chip.setAttribute('aria-label', `Remove ${facet.dataset.label.toLowerCase()} filter: ${value}`);
+            chip.addEventListener('click', () => { facet.querySelector<HTMLInputElement>('input[value=""]').checked = true; apply(); facet.querySelector('summary').focus(); });
+            chips.append(chip);
+          }
+        }
+        chips.hidden = !chips.childElementCount;
         empty.hidden = shown !== 0;
       };
       input.addEventListener('input', apply);
@@ -77,9 +121,39 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
         ordered.forEach(row => fragment.append(row.el));
         container.append(fragment);
       });
-      formatControl?.addEventListener('change', apply);
-      roleControl?.addEventListener('change', apply);
-      reset.addEventListener('click', () => { input.value = ''; if(formatControl) formatControl.value = ''; if(roleControl) roleControl.value = ''; apply(); input.focus(); });
+      const filterOptions = (facet: HTMLDetailsElement) => {
+        const search = normalize(facet.querySelector<HTMLInputElement>('[data-option-search]').value);
+        const options = [...facet.querySelectorAll<HTMLElement>('.directory-facet-option')];
+        options.forEach(option => { option.hidden = Boolean(search && option.dataset.value && !normalize(option.dataset.value).includes(search)); });
+        facet.querySelector<HTMLElement>('[data-no-options]').hidden = options.some(option => option.dataset.value && !option.hidden);
+      };
+      facets.forEach(facet => {
+        facet.addEventListener('toggle', () => { if (facet.open) { facets.filter(other => other !== facet).forEach(other => other.open = false); } });
+        facet.querySelector('[data-option-search]').addEventListener('input', () => filterOptions(facet));
+        facet.querySelectorAll('input[type=radio]').forEach(radio => {
+          radio.addEventListener('change', apply);
+          radio.addEventListener('click', event => {
+          if ((event as MouseEvent).detail === 0) return;
+          facet.open = false;
+          facet.querySelector<HTMLInputElement>('[data-option-search]').value = '';
+          filterOptions(facet);
+          facet.querySelector('summary').focus();
+          });
+        });
+        facet.addEventListener('keydown', event => { if (event.key === 'Escape') { facet.open = false; facet.querySelector('summary').focus(); } });
+      });
+      document.addEventListener('click', event => facets.forEach(facet => { if (!facet.contains(event.target as Node)) facet.open = false; }));
+      reset.addEventListener('click', () => {
+        input.value = '';
+        facets.forEach(facet => { facet.querySelector<HTMLInputElement>('input[value=""]').checked = true; facet.querySelector<HTMLInputElement>('[data-option-search]').value = ''; facet.open = false; filterOptions(facet); });
+        apply(); input.focus();
+      });
+      const initialRole = new URLSearchParams(location.search).get('role');
+      if (initialRole) {
+        const roleFacet = facets.find(facet => facet.dataset.field === 'roles');
+        const option = roleFacet && [...roleFacet.querySelectorAll<HTMLInputElement>('input[type=radio]')].find(input => input.value === initialRole);
+        if (option) option.checked = true;
+      }
       apply();
     }
   }

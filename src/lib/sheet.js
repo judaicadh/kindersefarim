@@ -351,7 +351,7 @@ function sortKeyName(raw) {
 }
 
 // Contributors for a book: structured creators when present, else parsed byline.
-function bookCreators(b) {
+export function bookCreators(b) {
   return b.creators && b.creators.length ? b.creators : parseCreators(b.byline);
 }
 

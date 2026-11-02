@@ -226,3 +226,53 @@ catalog-search { display:block; }
 @media(max-width:600px) { .collection-heading-illustrated { gap:15px; } .collection-heading-illustrated .publisher-mark { width:85px; height:76px; } .collection-heading-illustrated h1 { font-size:27px; } }
 
 .publisher-mark-dark { background:#243e36; }
+
+.site-footer { flex-wrap:wrap; }
+.site-creation-credit { width:300px; max-width:100%; }
+.site-creation-credit p { margin:0 0 8px; font-size:12px; }
+.site-creation-credit img { display:block; width:100%; height:auto; }
+@media(max-width:600px) { .site-creation-credit { width:280px; flex-basis:100%; } .site-creation-credit img { max-width:280px; } }
+
+/* Clear search/sort row and compact, searchable directory facets. */
+catalog-search { display:block; }
+catalog-search > .collection-toolbar { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:16px; margin-bottom:12px; }
+catalog-search .collection-search { max-width:none; min-width:0; background:#fffdf7; }
+catalog-search > .collection-toolbar > .directory-sort { flex-wrap:nowrap; }
+.directory-filterbar { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-bottom:12px; }
+.directory-filter-label { color:#667368; font-size:12px; margin-right:2px; }
+.directory-facet { position:relative; min-width:175px; }
+.directory-facet summary { display:flex; align-items:center; gap:10px; padding:10px 12px; border:1px solid #9aaa95; border-radius:9px; background:#fffdf7; cursor:pointer; list-style:none; font-size:13px; }
+.directory-facet summary::-webkit-details-marker { display:none; }
+.directory-facet summary > span:first-child { color:#697468; font-size:12px; }
+.directory-facet summary > span:last-child { margin-left:auto; color:var(--green); }
+.directory-facet summary strong { font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:210px; }
+.directory-facet.has-selection summary { border-color:var(--green); background:#e8eedf; }
+.directory-facet[open] summary { outline:2px solid #e8b845; outline-offset:2px; }
+.directory-facet-menu { position:absolute; z-index:20; top:calc(100% + 8px); left:0; width:320px; max-width:calc(90vw - 4px); border:1px solid #9aaa95; border-radius:12px; background:#fffdf7; box-shadow:0 10px 30px #243e3625; padding:12px; }
+.directory-facet-search input { width:100%; border:1px solid #9aaa95; border-radius:7px; padding:10px 12px; background:white; color:var(--ink); font-size:14px; }
+.directory-facet-help { margin:9px 0; font-size:12px; line-height:1.4; color:#667368; }
+.directory-facet fieldset { border:0; padding:0; margin:0; max-height:280px; overflow-y:auto; scrollbar-width:thin; }
+.directory-facet-option { display:flex; align-items:center; gap:9px; padding:10px 8px; min-height:42px; cursor:pointer; border-radius:7px; font-size:14px; }
+.directory-facet-option:hover { background:#f0f1e6; }
+.directory-facet-option:has(input:checked) { background:#e5eddb; }
+.directory-facet-option:has(input:disabled) { opacity:.45; cursor:default; }
+.directory-facet-option input { width:17px; height:17px; margin:0; flex:none; accent-color:var(--green); }
+.directory-facet-option small { margin-left:auto; color:#697468; font-size:12px; }
+.directory-filterbar > button { font:inherit; font-size:12px; color:var(--green); text-decoration:underline; border:0; background:none; padding:10px; cursor:pointer; }
+.directory-active-filters { display:flex; flex-wrap:wrap; gap:7px; margin:0 0 16px; }
+.directory-active-filters button { font:inherit; font-size:12px; border:1px solid #9aaa95; border-radius:18px; padding:6px 11px; background:#e8eedf; color:var(--ink); cursor:pointer; }
+.directory-active-filters button:hover { background:#dce7d1; }
+.directory-facet [data-no-options] { font-size:12px; color:#697468; }
+@media(max-width:600px) {
+  catalog-search > .collection-toolbar { grid-template-columns:1fr; gap:10px; }
+  catalog-search > .collection-toolbar > .directory-sort { justify-content:space-between; }
+  catalog-search > .collection-toolbar select { flex:1; min-width:0; }
+  .directory-filter-label { flex-basis:100%; }
+  .directory-facet { min-width:0; flex:1; }
+  .directory-facet summary { gap:6px; padding:11px 9px; }
+  .directory-facet summary > span:first-child { display:none; }
+  .directory-facet summary strong { max-width:120px; }
+  .directory-facet-menu { width:300px; }
+  .directory-facet:last-of-type .directory-facet-menu { left:auto; right:0; }
+  .directory-filterbar .collection-count { flex-basis:100%; margin-left:0; }
+}
