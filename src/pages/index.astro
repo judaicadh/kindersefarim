@@ -223,6 +223,39 @@ function facetPayload(b) {
   </style>
 
   <script define:vars={{ facetKeys }}>
+    // Reuse the archived covers already rendered in the catalog. Pick in the
+    // browser so a static build still gets a fresh shelf on every visit.
+    function refreshFeaturedBooks() {
+      const slots = [...document.querySelectorAll('.featured-cover')];
+      const candidates = [...document.querySelectorAll('#list .row')].filter(row =>
+        row.querySelector('.book-cover img')?.getAttribute('src')?.startsWith('/covers/')
+      );
+      if (!slots.length || candidates.length < slots.length) return;
+      const storageKey = 'kinder-sefarim-featured-books';
+      let previous = [];
+      try { previous = JSON.parse(sessionStorage.getItem(storageKey) || '[]'); } catch {}
+      if (!Array.isArray(previous)) previous = [];
+      const fresh = candidates.filter(row => !previous.includes(row.getAttribute('href')));
+      const pool = fresh.length >= slots.length ? fresh : candidates;
+      const selected = [];
+      for (const slot of slots) {
+        const index = Math.floor(Math.random() * pool.length);
+        const [row] = pool.splice(index, 1);
+        const cover = row.querySelector('.book-cover').cloneNode(true);
+        const image = cover.querySelector('img');
+        image.loading = 'eager';
+        image.addEventListener('load', () => cover.classList.add('has-cover'), { once: true });
+        if (image.complete && image.naturalWidth) cover.classList.add('has-cover');
+        slot.replaceChildren(cover);
+        selected.push(row.getAttribute('href'));
+      }
+      try { sessionStorage.setItem(storageKey, JSON.stringify(selected)); } catch {}
+    }
+    refreshFeaturedBooks();
+    window.addEventListener('pageshow', event => {
+      if (event.persisted) refreshFeaturedBooks();
+    });
+
     const sel = Object.fromEntries(facetKeys.map(k => [k, new Set()]));
     const num = value => value === '' || value == null ? null : Number(value);
     const rows = [...document.querySelectorAll('#list .row')].map((el,index) => ({el, index, title:el.dataset.title, format:el.dataset.format, facets: JSON.parse(el.dataset.facets), search: el.dataset.search, pub:num(el.dataset.pub), setStart:num(el.dataset.setStart), setEnd:num(el.dataset.setEnd)}));
