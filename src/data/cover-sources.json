@@ -3152,12 +3152,12 @@
     "checkedDate": "2026-10-30"
   },
   "KS01135": {
-    "title": "Chanukah, with Bina, Benny and Chaggai Hayonah",
-    "image": "https://cdn.shopify.com/s/files/1/2568/1506/files/YCHA_daceefd3-5fa4-42ea-ae10-740f85a90349.jpg?v=1765382596",
-    "source": "https://moznaim.com/products/chanukah-with-bina-benny-and-chaggai-hayonah",
-    "credit": "Moznaim",
-    "matchBasis": "Title + creator",
-    "checkedDate": "2026-10-30"
+    "title": "Chanukah with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/ycha.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069791.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
   },
   "KS01146": {
     "title": "Me, My Dog, and the Homework Mystery",
@@ -3560,12 +3560,12 @@
     "checkedDate": "2026-10-30"
   },
   "KS01299": {
-    "title": "Tales from the Gemara =: [agadot Ḥazal Meʻubadot La-noʻar] : A Selection of Aggadic Material Adapted, Expanded, and Dramatized for Young Readers.",
-    "image": "https://cdn.shopify.com/s/files/1/2568/1506/products/d5_74879c0c-b15a-442e-8257-4ca667af7de9.jpg?v=1548001227",
-    "source": "https://moznaim.com/products/tales-from-the-gemara",
-    "credit": "Moznaim",
-    "matchBasis": "Title + publisher",
-    "checkedDate": "2026-10-30"
+    "title": "Tales From the Gemara: Rosh Hashanah / Yoma / Succah",
+    "image": "https://www.artscroll.com/images/covers/g/ge3h.jpg",
+    "source": "https://www.artscroll.com/Books/9780899068169.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
   },
   "KS01300": {
     "title": "My Little World: A Child's First Book",
@@ -8160,12 +8160,12 @@
     "checkedDate": "2026-10-30"
   },
   "KS03097": {
-    "title": "The Artscroll Children's Siddur =: Ha-sidur Ha-rishon",
-    "image": "https://cdn.shopify.com/s/files/1/2568/1506/products/s1_76881f51-a356-409f-931d-9f1d8e0b0401.jpg?v=1545770988",
-    "source": "https://moznaim.com/products/the-artscroll-childrens-siddur",
-    "credit": "Moznaim",
-    "matchBasis": "Title + creator",
-    "checkedDate": "2026-10-30"
+    "title": "The Artscroll Children's Siddur",
+    "image": "https://www.artscroll.com/images/covers/s/sidch.jpg",
+    "source": "https://www.artscroll.com/Books/9781578195640.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
   },
   "KS03099": {
     "title": "Adventures with the Rubinsteins: Inspiring Stories Based on the 48 Middos in Pirkei Avos",
@@ -10254,6 +10254,454 @@
     "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C604.png",
     "source": "https://tfutzapublications.com/product/just-imagine-covid-19/",
     "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01126": {
+    "title": "A Mystery from Afar: and Other Leah Lamdan Holiday Mysteries",
+    "image": "https://www.artscroll.com/images/covers/m/mfah.jpg",
+    "source": "https://www.artscroll.com/Books/9781422606117.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02229": {
+    "title": "Bat-'em-in Benjie",
+    "image": "https://www.artscroll.com/images/covers/1/1bat.jpg",
+    "source": "https://www.artscroll.com/Books/9780899065113.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00289": {
+    "title": "The Best of Olomeinu: Stories for All Year Round",
+    "image": "https://www.artscroll.com/images/covers/o/ol1h.jpg",
+    "source": "https://www.artscroll.com/Books/9780899067506.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00137": {
+    "title": "The Best of Olomeinu: Stories for All Year 'round : An Anthology of 20 Exciting, Inspiring and Beautifully Illustrating Stories for Young and Old",
+    "image": "https://www.artscroll.com/images/covers/b/bo1h.jpg",
+    "source": "https://www.artscroll.com/Books/9781578193981.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01823": {
+    "title": "Dovi Diaries: New Kid",
+    "image": "https://www.artscroll.com/images/covers/d/ddnkh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422642108.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02956": {
+    "title": "Gemarakup: Super Sleuth",
+    "image": "https://www.artscroll.com/images/covers/g/gk1p.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069678.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS03279": {
+    "title": "Gemarakup Returns",
+    "image": "https://www.artscroll.com/images/covers/g/gk2p.jpg",
+    "source": "https://www.artscroll.com/Books/9780899068244.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS03252": {
+    "title": "Lost on Skull Mountain",
+    "image": "https://www.artscroll.com/images/covers/g/gk3p.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069050.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01167": {
+    "title": "Gemarakup Strikes Again",
+    "image": "https://www.artscroll.com/images/covers/g/gk4p.jpg",
+    "source": "https://www.artscroll.com/Books/9780899065144.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01653": {
+    "title": "Jumping In: and Other Stories",
+    "image": "https://www.artscroll.com/images/covers/j/jumh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422609422.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00050": {
+    "title": "Just Love Them for Children: Stories About Rabbi Dovid Trenk",
+    "image": "https://www.artscroll.com/images/covers/y/ytrenkh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422628492.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02802": {
+    "title": "Lag Ba'omer and Tu Bishvat with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/ytub.jpg",
+    "source": "https://www.artscroll.com/Books/9781578191550.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01572": {
+    "title": "Living Chesed for Children",
+    "image": "https://www.artscroll.com/images/covers/y/ylchh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422642122.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02969": {
+    "title": "Living Emunah for Children 2",
+    "image": "https://www.artscroll.com/images/covers/l/lemy2h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422623152.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01125": {
+    "title": "Living Emunah for Children 3",
+    "image": "https://www.artscroll.com/images/covers/l/lemy3h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422632260.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01941": {
+    "title": "Living Emunah for Children",
+    "image": "https://www.artscroll.com/images/covers/l/lemyh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422619469.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02380": {
+    "title": "Living with Bitachon: for Children",
+    "image": "https://www.artscroll.com/images/covers/y/ylwbh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422639450.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01696": {
+    "title": "Manny's a Thief!",
+    "image": "https://www.artscroll.com/images/covers/m/manh.jpg",
+    "source": "https://www.artscroll.com/Books/9780899064147.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01881": {
+    "title": "Pesach with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/ypes.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069814.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01583": {
+    "title": "Rosh Hashanah with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/yros.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069760.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS03217": {
+    "title": "Shabbos with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/ysha.jpg",
+    "source": "https://www.artscroll.com/Books/9781578194995.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02838": {
+    "title": "Shavuos with Bina, Benny, and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/yshv.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069821.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02410": {
+    "title": "Stories My Grandfather Told Me: Memorable Tales Arranged According to the Weekly Sidrah",
+    "image": "https://www.artscroll.com/images/covers/s/sgsh.jpg",
+    "source": "https://www.artscroll.com/Books/9781578195350.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01406": {
+    "title": "Bereishis",
+    "image": "https://www.artscroll.com/images/covers/s/sg1h.jpg",
+    "source": "https://www.artscroll.com/Books/9781578195251.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01814": {
+    "title": "Succos with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/ysuc.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069784.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02523": {
+    "title": "The Stupendous Adventures of Shragi and Shia",
+    "image": "https://www.artscroll.com/images/covers/s/shshp.jpg",
+    "source": "https://www.artscroll.com/Books/9781422608654.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS03375": {
+    "title": "Tales From The Gemara: Shabbos",
+    "image": "https://www.artscroll.com/images/covers/g/ge2h.jpg",
+    "source": "https://www.artscroll.com/Books/9780899068145.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS03376": {
+    "title": "Tales From The Gemara: Taanis",
+    "image": "https://www.artscroll.com/images/covers/g/ge4h.jpg",
+    "source": "https://www.artscroll.com/Books/9780899068183.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS03066": {
+    "title": "Tell Me a Tale 2: 7 Great Stories",
+    "image": "https://www.artscroll.com/images/covers/t/tmt2h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422601433.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01293": {
+    "title": "Thanks to You for Everything You Do",
+    "image": "https://www.artscroll.com/images/covers/t/thankh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422627242.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00085": {
+    "title": "The Adventures of Pj Pepperjay",
+    "image": "https://www.artscroll.com/images/covers/p/pjpp.jpg",
+    "source": "https://www.artscroll.com/Books/9781422615355.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02798": {
+    "title": "Sefer Yonah: The Artscroll Children's Book of Jonah",
+    "image": "https://www.artscroll.com/images/covers/c/cyoh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422601303.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01165": {
+    "title": "Hagadah Shel Pesaḥ : The Artscroll Children's Haggadah",
+    "image": "https://www.artscroll.com/images/covers/h/hchp.jpg",
+    "source": "https://www.artscroll.com/Books/9781578191369.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02139": {
+    "title": "Megilat Ester: The Artscroll Children's Megillah",
+    "image": "https://www.artscroll.com/images/covers/m/mchh.jpg",
+    "source": "https://www.artscroll.com/Books/9781578197088.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01980": {
+    "title": "The Artscroll Children's Pirkei Avot",
+    "image": "https://www.artscroll.com/images/covers/c/cpah.jpg",
+    "source": "https://www.artscroll.com/Books/9781422615799.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02992": {
+    "title": "The Big Book of Jewish Bedtime Story Books",
+    "image": "https://www.artscroll.com/images/covers/b/bbojh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422630266.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02655": {
+    "title": "The Big Book of Jewish Holidays with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/b/bboygh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422632031.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02882": {
+    "title": "The Big Book of Middos Books 2",
+    "image": "https://www.artscroll.com/images/covers/b/bbom2h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422633366.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title, volume and publisher; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02707": {
+    "title": "The Children's Book of Jewish Holidays",
+    "image": "https://www.artscroll.com/images/covers/h/holh.jpg",
+    "source": "https://www.artscroll.com/Books/9780899068107.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02155": {
+    "title": "The Mysterious Shoebox: and Other Leah Lamdan Holiday Mysteries",
+    "image": "https://www.artscroll.com/images/covers/m/msbh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422606216.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00992": {
+    "title": "The Taryag Kids and the Flood of Fire",
+    "image": "https://www.artscroll.com/images/covers/t/taryagff.jpg",
+    "source": "https://www.artscroll.com/Books/9781422644591.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title, series and volume; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00930": {
+    "title": "The Taryag Kids and the Disappearing Tower",
+    "image": "https://www.artscroll.com/images/covers/t/taryagdt.jpg",
+    "source": "https://www.artscroll.com/Books/9781422641958.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title, series and volume; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01786": {
+    "title": "The Taryag Kids and the Underwater Adventure",
+    "image": "https://www.artscroll.com/images/covers/t/taryaguw.jpg",
+    "source": "https://www.artscroll.com/Books/9781422640128.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02008": {
+    "title": "Bereishis",
+    "image": "https://www.artscroll.com/images/covers/w/wp1h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422623671.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01960": {
+    "title": "Sefer Shemos",
+    "image": "https://www.artscroll.com/images/covers/w/wp2h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422625514.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02988": {
+    "title": "Vayikra",
+    "image": "https://www.artscroll.com/images/covers/w/wp3h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422627891.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02727": {
+    "title": "The Weekly Parashah : Sefer Bamidbar",
+    "image": "https://www.artscroll.com/images/covers/w/wp4h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422625842.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01413": {
+    "title": "Devarim",
+    "image": "https://www.artscroll.com/images/covers/w/wp5h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422628119.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02787": {
+    "title": "Then I Got 3 Scoops!",
+    "image": "https://www.artscroll.com/images/covers/s/scoh.jpg",
+    "source": "https://www.artscroll.com/Books/9780899064123.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02392": {
+    "title": "Tishah B'av & the Four Fasts with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/ytis.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069838.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02910": {
+    "title": "Touched by a Story 2 for Children",
+    "image": "https://www.artscroll.com/images/covers/y/yts2h.jpg",
+    "source": "https://www.artscroll.com/Books/9781422605493.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02254": {
+    "title": "Uncle Moishy : The Very Best Chanukah Guest",
+    "image": "https://www.artscroll.com/images/covers/u/umchh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422629949.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02082": {
+    "title": "Uncle Moishy : The Very Best Pesach Surprise",
+    "image": "https://www.artscroll.com/images/covers/u/umpsh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422630921.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01695": {
+    "title": "Uncle Moishy : The Very Best Shabbos Guest",
+    "image": "https://www.artscroll.com/images/covers/u/umshabh.jpg",
+    "source": "https://www.artscroll.com/Books/9781422627938.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02945": {
+    "title": "Why Weren't You Zisha? and Other Stories",
+    "image": "https://www.artscroll.com/images/covers/z/zish.jpg",
+    "source": "https://www.artscroll.com/Books/9781422608159.html",
+    "credit": "ArtScroll / Mesorah Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01863": {
+    "title": "Yom Kippur with Bina, Benny and Chaggai Hayonah",
+    "image": "https://www.artscroll.com/images/covers/y/yyom.jpg",
+    "source": "https://www.artscroll.com/Books/9780899069777.html",
+    "credit": "ArtScroll / Mesorah Publications",
     "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
     "checkedDate": "2026-11-02"
   }

@@ -9982,5 +9982,477 @@
     "height": 300,
     "sourceWidth": 300,
     "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/m/mfah.jpg": {
+    "x": 3,
+    "y": 5,
+    "width": 233,
+    "height": 364,
+    "sourceWidth": 241,
+    "sourceHeight": 371
+  },
+  "https://www.artscroll.com/images/covers/1/1bat.jpg": {
+    "x": 10,
+    "y": 12,
+    "width": 200,
+    "height": 277,
+    "sourceWidth": 224,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/o/ol1h.jpg": {
+    "x": 9,
+    "y": 8,
+    "width": 274,
+    "height": 382,
+    "sourceWidth": 300,
+    "sourceHeight": 401
+  },
+  "https://www.artscroll.com/images/covers/b/bo1h.jpg": {
+    "x": 2,
+    "y": 3,
+    "width": 211,
+    "height": 295,
+    "sourceWidth": 216,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/y/ycha.jpg": {
+    "x": 11,
+    "y": 16,
+    "width": 204,
+    "height": 269,
+    "sourceWidth": 221,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/d/ddnkh.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 500,
+    "height": 826,
+    "sourceWidth": 500,
+    "sourceHeight": 826
+  },
+  "https://www.artscroll.com/images/covers/g/gk1p.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 194,
+    "height": 300,
+    "sourceWidth": 194,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/g/gk2p.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 194,
+    "height": 300,
+    "sourceWidth": 194,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/g/gk3p.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 194,
+    "height": 300,
+    "sourceWidth": 194,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/g/gk4p.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 194,
+    "height": 300,
+    "sourceWidth": 194,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/j/jumh.jpg": {
+    "x": 3,
+    "y": 2,
+    "width": 294,
+    "height": 440,
+    "sourceWidth": 300,
+    "sourceHeight": 444
+  },
+  "https://www.artscroll.com/images/covers/y/ytrenkh.jpg": {
+    "x": 13,
+    "y": 16,
+    "width": 473,
+    "height": 644,
+    "sourceWidth": 500,
+    "sourceHeight": 664
+  },
+  "https://www.artscroll.com/images/covers/y/ytub.jpg": {
+    "x": 31,
+    "y": 0,
+    "width": 218,
+    "height": 300,
+    "sourceWidth": 262,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/y/ylchh.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 500,
+    "height": 675,
+    "sourceWidth": 500,
+    "sourceHeight": 676
+  },
+  "https://www.artscroll.com/images/covers/l/lemy2h.jpg": {
+    "x": 5,
+    "y": 4,
+    "width": 491,
+    "height": 666,
+    "sourceWidth": 500,
+    "sourceHeight": 673
+  },
+  "https://www.artscroll.com/images/covers/l/lemy3h.jpg": {
+    "x": 20,
+    "y": 17,
+    "width": 455,
+    "height": 625,
+    "sourceWidth": 500,
+    "sourceHeight": 647
+  },
+  "https://www.artscroll.com/images/covers/l/lemyh.jpg": {
+    "x": 9,
+    "y": 0,
+    "width": 452,
+    "height": 616,
+    "sourceWidth": 500,
+    "sourceHeight": 616
+  },
+  "https://www.artscroll.com/images/covers/y/ylwbh.jpg": {
+    "x": 17,
+    "y": 0,
+    "width": 470,
+    "height": 641,
+    "sourceWidth": 500,
+    "sourceHeight": 641
+  },
+  "https://www.artscroll.com/images/covers/m/manh.jpg": {
+    "x": 0,
+    "y": 1,
+    "width": 474,
+    "height": 400,
+    "sourceWidth": 500,
+    "sourceHeight": 402
+  },
+  "https://www.artscroll.com/images/covers/y/ypes.jpg": {
+    "x": 28,
+    "y": 20,
+    "width": 197,
+    "height": 265,
+    "sourceWidth": 230,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/y/yros.jpg": {
+    "x": 13,
+    "y": 12,
+    "width": 214,
+    "height": 285,
+    "sourceWidth": 235,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/y/ysha.jpg": {
+    "x": 7,
+    "y": 4,
+    "width": 222,
+    "height": 292,
+    "sourceWidth": 233,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/y/yshv.jpg": {
+    "x": 11,
+    "y": 18,
+    "width": 190,
+    "height": 269,
+    "sourceWidth": 226,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/s/sgsh.jpg": {
+    "x": 16,
+    "y": 13,
+    "width": 469,
+    "height": 464,
+    "sourceWidth": 500,
+    "sourceHeight": 492
+  },
+  "https://www.artscroll.com/images/covers/s/sg1h.jpg": {
+    "x": 5,
+    "y": 6,
+    "width": 195,
+    "height": 289,
+    "sourceWidth": 209,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/y/ysuc.jpg": {
+    "x": 6,
+    "y": 0,
+    "width": 230,
+    "height": 300,
+    "sourceWidth": 240,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/s/shshp.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 300,
+    "height": 466,
+    "sourceWidth": 300,
+    "sourceHeight": 466
+  },
+  "https://www.artscroll.com/images/covers/g/ge2h.jpg": {
+    "x": 8,
+    "y": 11,
+    "width": 176,
+    "height": 277,
+    "sourceWidth": 191,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/g/ge3h.jpg": {
+    "x": 8,
+    "y": 2,
+    "width": 177,
+    "height": 269,
+    "sourceWidth": 192,
+    "sourceHeight": 277
+  },
+  "https://www.artscroll.com/images/covers/g/ge4h.jpg": {
+    "x": 11,
+    "y": 7,
+    "width": 186,
+    "height": 281,
+    "sourceWidth": 215,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/t/tmt2h.jpg": {
+    "x": 7,
+    "y": 0,
+    "width": 288,
+    "height": 400,
+    "sourceWidth": 300,
+    "sourceHeight": 400
+  },
+  "https://www.artscroll.com/images/covers/t/thankh.jpg": {
+    "x": 9,
+    "y": 4,
+    "width": 488,
+    "height": 666,
+    "sourceWidth": 500,
+    "sourceHeight": 678
+  },
+  "https://www.artscroll.com/images/covers/p/pjpp.jpg": {
+    "x": 5,
+    "y": 1,
+    "width": 291,
+    "height": 492,
+    "sourceWidth": 300,
+    "sourceHeight": 493
+  },
+  "https://www.artscroll.com/images/covers/c/cyoh.jpg": {
+    "x": 4,
+    "y": 3,
+    "width": 292,
+    "height": 398,
+    "sourceWidth": 300,
+    "sourceHeight": 403
+  },
+  "https://www.artscroll.com/images/covers/h/hchp.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 298,
+    "height": 390,
+    "sourceWidth": 298,
+    "sourceHeight": 390
+  },
+  "https://www.artscroll.com/images/covers/m/mchh.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 219,
+    "height": 300,
+    "sourceWidth": 219,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/c/cpah.jpg": {
+    "x": 0,
+    "y": 1,
+    "width": 350,
+    "height": 477,
+    "sourceWidth": 350,
+    "sourceHeight": 478
+  },
+  "https://www.artscroll.com/images/covers/s/sidch.jpg": {
+    "x": 11,
+    "y": 6,
+    "width": 238,
+    "height": 360,
+    "sourceWidth": 259,
+    "sourceHeight": 372
+  },
+  "https://www.artscroll.com/images/covers/b/bbojh.jpg": {
+    "x": 6,
+    "y": 4,
+    "width": 477,
+    "height": 610,
+    "sourceWidth": 500,
+    "sourceHeight": 648
+  },
+  "https://www.artscroll.com/images/covers/b/bboygh.jpg": {
+    "x": 15,
+    "y": 10,
+    "width": 470,
+    "height": 618,
+    "sourceWidth": 500,
+    "sourceHeight": 635
+  },
+  "https://www.artscroll.com/images/covers/b/bbom2h.jpg": {
+    "x": 12,
+    "y": 18,
+    "width": 471,
+    "height": 626,
+    "sourceWidth": 500,
+    "sourceHeight": 668
+  },
+  "https://www.artscroll.com/images/covers/h/holh.jpg": {
+    "x": 4,
+    "y": 1,
+    "width": 177,
+    "height": 283,
+    "sourceWidth": 185,
+    "sourceHeight": 286
+  },
+  "https://www.artscroll.com/images/covers/m/msbh.jpg": {
+    "x": 3,
+    "y": 1,
+    "width": 294,
+    "height": 436,
+    "sourceWidth": 300,
+    "sourceHeight": 438
+  },
+  "https://www.artscroll.com/images/covers/t/taryagff.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 500,
+    "height": 721,
+    "sourceWidth": 500,
+    "sourceHeight": 721
+  },
+  "https://www.artscroll.com/images/covers/t/taryagdt.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 500,
+    "height": 725,
+    "sourceWidth": 500,
+    "sourceHeight": 725
+  },
+  "https://www.artscroll.com/images/covers/t/taryaguw.jpg": {
+    "x": 9,
+    "y": 6,
+    "width": 486,
+    "height": 579,
+    "sourceWidth": 500,
+    "sourceHeight": 585
+  },
+  "https://www.artscroll.com/images/covers/w/wp1h.jpg": {
+    "x": 0,
+    "y": 2,
+    "width": 500,
+    "height": 679,
+    "sourceWidth": 500,
+    "sourceHeight": 683
+  },
+  "https://www.artscroll.com/images/covers/w/wp2h.jpg": {
+    "x": 1,
+    "y": 2,
+    "width": 498,
+    "height": 676,
+    "sourceWidth": 500,
+    "sourceHeight": 679
+  },
+  "https://www.artscroll.com/images/covers/w/wp3h.jpg": {
+    "x": 9,
+    "y": 4,
+    "width": 483,
+    "height": 642,
+    "sourceWidth": 500,
+    "sourceHeight": 653
+  },
+  "https://www.artscroll.com/images/covers/w/wp4h.jpg": {
+    "x": 5,
+    "y": 6,
+    "width": 487,
+    "height": 656,
+    "sourceWidth": 500,
+    "sourceHeight": 671
+  },
+  "https://www.artscroll.com/images/covers/w/wp5h.jpg": {
+    "x": 13,
+    "y": 15,
+    "width": 468,
+    "height": 620,
+    "sourceWidth": 500,
+    "sourceHeight": 637
+  },
+  "https://www.artscroll.com/images/covers/s/scoh.jpg": {
+    "x": 0,
+    "y": 0,
+    "width": 480,
+    "height": 395,
+    "sourceWidth": 500,
+    "sourceHeight": 395
+  },
+  "https://www.artscroll.com/images/covers/y/ytis.jpg": {
+    "x": 22,
+    "y": 13,
+    "width": 199,
+    "height": 273,
+    "sourceWidth": 241,
+    "sourceHeight": 300
+  },
+  "https://www.artscroll.com/images/covers/y/yts2h.jpg": {
+    "x": 3,
+    "y": 0,
+    "width": 290,
+    "height": 391,
+    "sourceWidth": 300,
+    "sourceHeight": 391
+  },
+  "https://www.artscroll.com/images/covers/u/umchh.jpg": {
+    "x": 13,
+    "y": 10,
+    "width": 472,
+    "height": 645,
+    "sourceWidth": 500,
+    "sourceHeight": 655
+  },
+  "https://www.artscroll.com/images/covers/u/umpsh.jpg": {
+    "x": 23,
+    "y": 20,
+    "width": 454,
+    "height": 621,
+    "sourceWidth": 500,
+    "sourceHeight": 653
+  },
+  "https://www.artscroll.com/images/covers/u/umshabh.jpg": {
+    "x": 10,
+    "y": 11,
+    "width": 477,
+    "height": 648,
+    "sourceWidth": 500,
+    "sourceHeight": 669
+  },
+  "https://www.artscroll.com/images/covers/z/zish.jpg": {
+    "x": 2,
+    "y": 2,
+    "width": 296,
+    "height": 400,
+    "sourceWidth": 300,
+    "sourceHeight": 404
+  },
+  "https://www.artscroll.com/images/covers/y/yyom.jpg": {
+    "x": 6,
+    "y": 17,
+    "width": 196,
+    "height": 268,
+    "sourceWidth": 217,
+    "sourceHeight": 300
   }
 }

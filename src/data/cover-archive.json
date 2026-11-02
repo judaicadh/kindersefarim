@@ -14905,12 +14905,6 @@
       "retrievedAt": "2026-10-30T20:28:39.031Z",
       "records": [
         {
-          "id": "KS01299",
-          "title": "Tales from the Gemara =: [agadot Ḥazal Meʻubadot La-noʻar] : A Selection of Aggadic Material Adapted, Expanded, and Dramatized for Young Readers.",
-          "sourcePage": "https://moznaim.com/products/tales-from-the-gemara",
-          "credit": "Moznaim"
-        },
-        {
           "id": "KS01335",
           "title": "Tales from the Gemara: A Selection of Aggadic Material",
           "sourcePage": "https://moznaim.com/products/tales-from-the-gemara",
@@ -42604,6 +42598,2012 @@
           "top": 0,
           "width": 1000,
           "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/g/ge3h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/g/ge3h.jpg",
+      "retrievedAt": "2026-11-02T21:28:48.278Z",
+      "records": [
+        {
+          "id": "KS01299",
+          "title": "Tales From the Gemara: Rosh Hashanah / Yoma / Succah",
+          "sourcePage": "https://www.artscroll.com/Books/9780899068169.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/57708fe42ac0e16c-28fcc8aca6fb.jpg",
+        "sha256": "28fcc8aca6fb7c8f6d11aee80ce148ec4523c62f13739fa6be1716155a7bd8b7",
+        "bytes": 37785,
+        "format": "jpeg",
+        "width": 192,
+        "height": 277
+      },
+      "web": {
+        "path": "/covers/57708fe42ac0e16c-28fcc8aca6fb.webp",
+        "sha256": "4f32d7db84fe36c3ab61ce39577f58895e898bfd78f3214d682ab93e60d5844c",
+        "bytes": 17694,
+        "width": 177,
+        "height": 269,
+        "crop": {
+          "left": 8,
+          "top": 2,
+          "width": 177,
+          "height": 269
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ycha.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ycha.jpg",
+      "retrievedAt": "2026-11-02T21:28:48.283Z",
+      "records": [
+        {
+          "id": "KS01135",
+          "title": "Chanukah with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069791.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/5243d64f671f6a6b-ee57a6f651c3.jpg",
+        "sha256": "ee57a6f651c37e9a8ac545bd43a78a991deec4dadb46d9544335e7a61cb88aa8",
+        "bytes": 36072,
+        "format": "jpeg",
+        "width": 221,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/5243d64f671f6a6b-ee57a6f651c3.webp",
+        "sha256": "1f99de14074a7a012075d0c11039702f7a8c5ea00de88b85b0ebb9ec714e1825",
+        "bytes": 21580,
+        "width": 204,
+        "height": 269,
+        "crop": {
+          "left": 11,
+          "top": 16,
+          "width": 204,
+          "height": 269
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/s/sidch.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/s/sidch.jpg",
+      "retrievedAt": "2026-11-02T21:28:48.770Z",
+      "records": [
+        {
+          "id": "KS03097",
+          "title": "The Artscroll Children's Siddur",
+          "sourcePage": "https://www.artscroll.com/Books/9781578195640.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ca32f1948db42caf-ba55b4e0e051.jpg",
+        "sha256": "ba55b4e0e0512c1153234543f06036e946f5b2c94a8a5e3f98f681156c1d7879",
+        "bytes": 42219,
+        "format": "jpeg",
+        "width": 259,
+        "height": 372
+      },
+      "web": {
+        "path": "/covers/ca32f1948db42caf-ba55b4e0e051.webp",
+        "sha256": "c7e140d49cf357c911c7b72919e82e107072339d8fb683fa921222f9e99ebac6",
+        "bytes": 32848,
+        "width": 238,
+        "height": 360,
+        "crop": {
+          "left": 11,
+          "top": 6,
+          "width": 238,
+          "height": 360
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/1/1bat.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/1/1bat.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.034Z",
+      "records": [
+        {
+          "id": "KS02229",
+          "title": "Bat-'em-in Benjie",
+          "sourcePage": "https://www.artscroll.com/Books/9780899065113.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3c1097501278c482-fd1e9c7e6c61.jpg",
+        "sha256": "fd1e9c7e6c614b1647301361bff5827ed31ee843fb920059024eae0f6ba3a3da",
+        "bytes": 30388,
+        "format": "jpeg",
+        "width": 224,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/3c1097501278c482-fd1e9c7e6c61.webp",
+        "sha256": "f2002ada73953ac244f4f253af37880b75d6018c4550721897c6da499aea2f5d",
+        "bytes": 16290,
+        "width": 200,
+        "height": 277,
+        "crop": {
+          "left": 10,
+          "top": 12,
+          "width": 200,
+          "height": 277
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/m/mfah.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/m/mfah.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.157Z",
+      "records": [
+        {
+          "id": "KS01126",
+          "title": "A Mystery from Afar: and Other Leah Lamdan Holiday Mysteries",
+          "sourcePage": "https://www.artscroll.com/Books/9781422606117.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ac203cfb61957182-f0538c0418a2.jpg",
+        "sha256": "f0538c0418a204793610dc314b39806ec4a7f263e2053b4cf88a082cc1583472",
+        "bytes": 94578,
+        "format": "jpeg",
+        "width": 241,
+        "height": 371
+      },
+      "web": {
+        "path": "/covers/ac203cfb61957182-f0538c0418a2.webp",
+        "sha256": "f741ed4e269d66404db651dca14c35d5d7e0f9e04f17a30419ff3cdcd6d62b26",
+        "bytes": 24224,
+        "width": 233,
+        "height": 364,
+        "crop": {
+          "left": 3,
+          "top": 5,
+          "width": 233,
+          "height": 364
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/b/bo1h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/b/bo1h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.172Z",
+      "records": [
+        {
+          "id": "KS00137",
+          "title": "The Best of Olomeinu: Stories for All Year 'round : An Anthology of 20 Exciting, Inspiring and Beautifully Illustrating Stories for Young and Old",
+          "sourcePage": "https://www.artscroll.com/Books/9781578193981.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/bcac4668e252467e-1ab568eb2cb0.jpg",
+        "sha256": "1ab568eb2cb001f1e2363d1df4778812541f4dd309599a31921717fbe320847d",
+        "bytes": 25655,
+        "format": "jpeg",
+        "width": 216,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/bcac4668e252467e-1ab568eb2cb0.webp",
+        "sha256": "2d9edb92ab23615cdd65525d236a4baf1008558c9237040f4b07ce92e2343e8f",
+        "bytes": 21424,
+        "width": 211,
+        "height": 295,
+        "crop": {
+          "left": 2,
+          "top": 3,
+          "width": 211,
+          "height": 295
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/o/ol1h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/o/ol1h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.184Z",
+      "records": [
+        {
+          "id": "KS00289",
+          "title": "The Best of Olomeinu: Stories for All Year Round",
+          "sourcePage": "https://www.artscroll.com/Books/9780899067506.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/221a0c20d1c4c434-38517c79b425.jpg",
+        "sha256": "38517c79b4256855eb2353bc4fc0b4f54d78c5e571b778c58864288f46bb890d",
+        "bytes": 39813,
+        "format": "jpeg",
+        "width": 300,
+        "height": 401
+      },
+      "web": {
+        "path": "/covers/221a0c20d1c4c434-38517c79b425.webp",
+        "sha256": "411fdb1471626efecf9557508585da302bfe18e611610e159cd626c5b12cf315",
+        "bytes": 31200,
+        "width": 274,
+        "height": 382,
+        "crop": {
+          "left": 9,
+          "top": 8,
+          "width": 274,
+          "height": 382
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/g/gk1p.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/g/gk1p.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.203Z",
+      "records": [
+        {
+          "id": "KS02956",
+          "title": "Gemarakup: Super Sleuth",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069678.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/130a99887b33b186-1c068d492bbf.jpg",
+        "sha256": "1c068d492bbfd10ed012e19d4d82c27898d88ea44d21a488511beddd6d95ed8d",
+        "bytes": 37196,
+        "format": "jpeg",
+        "width": 194,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/130a99887b33b186-1c068d492bbf.webp",
+        "sha256": "8e5ff64e17fbe966e5f8eb398089e91eaa3457d3d3e749619b5f18410635e8a0",
+        "bytes": 19268,
+        "width": 194,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 194,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/g/gk2p.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/g/gk2p.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.215Z",
+      "records": [
+        {
+          "id": "KS03279",
+          "title": "Gemarakup Returns",
+          "sourcePage": "https://www.artscroll.com/Books/9780899068244.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/33d0fab09bb231bb-a05a8b92df28.jpg",
+        "sha256": "a05a8b92df28d5a593c3645b4815ddad497557a143c025b43fcbc54cbb2f20f0",
+        "bytes": 39657,
+        "format": "jpeg",
+        "width": 194,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/33d0fab09bb231bb-a05a8b92df28.webp",
+        "sha256": "cd6617102f383fe8011b861e3a5955209d4a6789765002db6dd2b69e938ba6e9",
+        "bytes": 19356,
+        "width": 194,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 194,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/g/gk3p.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/g/gk3p.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.251Z",
+      "records": [
+        {
+          "id": "KS03252",
+          "title": "Lost on Skull Mountain",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069050.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/5dde6350c8d837d9-fd463d5d448a.jpg",
+        "sha256": "fd463d5d448a2ac36c9fd09a7f0bab464d2e11174bafb1069848a75af75a896e",
+        "bytes": 37602,
+        "format": "jpeg",
+        "width": 194,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/5dde6350c8d837d9-fd463d5d448a.webp",
+        "sha256": "413536e53a3b5b43198dfd6aea3d7863b4d31d908e210299db66a0565e4235f4",
+        "bytes": 18190,
+        "width": 194,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 194,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/g/gk4p.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/g/gk4p.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.256Z",
+      "records": [
+        {
+          "id": "KS01167",
+          "title": "Gemarakup Strikes Again",
+          "sourcePage": "https://www.artscroll.com/Books/9780899065144.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/87265c435735257b-a4722ede9e07.jpg",
+        "sha256": "a4722ede9e072d4eb089b3df0975015fafaf7f47be31179c0de60d38e0d67377",
+        "bytes": 41388,
+        "format": "jpeg",
+        "width": 194,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/87265c435735257b-a4722ede9e07.webp",
+        "sha256": "a2d7278a930ba9a941a06e251ed6f5e48a79ff749853d9e8ba6ac0cffbb34762",
+        "bytes": 20456,
+        "width": 194,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 194,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/d/ddnkh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/d/ddnkh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.329Z",
+      "records": [
+        {
+          "id": "KS01823",
+          "title": "Dovi Diaries: New Kid",
+          "sourcePage": "https://www.artscroll.com/Books/9781422642108.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/09036595a58a4ce2-b3e0f7598fe9.jpg",
+        "sha256": "b3e0f7598fe9991f55a3f63006d696197b2faba5ca84694e75e27b62ec932669",
+        "bytes": 96208,
+        "format": "jpeg",
+        "width": 500,
+        "height": 826
+      },
+      "web": {
+        "path": "/covers/09036595a58a4ce2-b3e0f7598fe9.webp",
+        "sha256": "8a0cfcaf21adb4e5ed77a4783944868804d93639ed230d6ac0bfc00a9505dccf",
+        "bytes": 104852,
+        "width": 500,
+        "height": 826,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 500,
+          "height": 826
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ytub.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ytub.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.330Z",
+      "records": [
+        {
+          "id": "KS02802",
+          "title": "Lag Ba'omer and Tu Bishvat with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9781578191550.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/1b35649e2a1bafbe-c5f824b51025.jpg",
+        "sha256": "c5f824b5102519beb40621a62ecf078158bf0e301856c9fdb5d82e828c06921e",
+        "bytes": 41029,
+        "format": "jpeg",
+        "width": 262,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/1b35649e2a1bafbe-c5f824b51025.webp",
+        "sha256": "e1a637e4083d2ad0d347a34b142acd19d369ed9c3a11a02f69156317969ef935",
+        "bytes": 24156,
+        "width": 218,
+        "height": 300,
+        "crop": {
+          "left": 31,
+          "top": 0,
+          "width": 218,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/j/jumh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/j/jumh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.330Z",
+      "records": [
+        {
+          "id": "KS01653",
+          "title": "Jumping In: and Other Stories",
+          "sourcePage": "https://www.artscroll.com/Books/9781422609422.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7a114a448cf26b4d-f912d8c2b9cf.jpg",
+        "sha256": "f912d8c2b9cf352dfe786bd79dfa40ed9658c6421cc5906c8df1edd9209ea069",
+        "bytes": 33038,
+        "format": "jpeg",
+        "width": 300,
+        "height": 444
+      },
+      "web": {
+        "path": "/covers/7a114a448cf26b4d-f912d8c2b9cf.webp",
+        "sha256": "cb5235abf78a46bafe99d903ef39a0c102ec2d96db1e69894a915e5177ef9848",
+        "bytes": 26906,
+        "width": 294,
+        "height": 440,
+        "crop": {
+          "left": 3,
+          "top": 2,
+          "width": 294,
+          "height": 440
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ylchh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ylchh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.403Z",
+      "records": [
+        {
+          "id": "KS01572",
+          "title": "Living Chesed for Children",
+          "sourcePage": "https://www.artscroll.com/Books/9781422642122.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b128be8c69c7901a-b08ca48e03b1.jpg",
+        "sha256": "b08ca48e03b1a2dd548119da346fb75a3cf20af40e4e54c1430876a3e20d4914",
+        "bytes": 68954,
+        "format": "jpeg",
+        "width": 500,
+        "height": 676
+      },
+      "web": {
+        "path": "/covers/b128be8c69c7901a-b08ca48e03b1.webp",
+        "sha256": "0ac6fa3e019e508752bc30ad53e077cbbff8c19882bfcc984442d5321e165357",
+        "bytes": 75964,
+        "width": 500,
+        "height": 675,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 500,
+          "height": 675
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ytrenkh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ytrenkh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.407Z",
+      "records": [
+        {
+          "id": "KS00050",
+          "title": "Just Love Them for Children: Stories About Rabbi Dovid Trenk",
+          "sourcePage": "https://www.artscroll.com/Books/9781422628492.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e553495215ed0963-90e63f0d06b8.jpg",
+        "sha256": "90e63f0d06b846de352fbde1a0514650fdfb8505aa32162efb12bd559c874cd0",
+        "bytes": 328177,
+        "format": "jpeg",
+        "width": 500,
+        "height": 664
+      },
+      "web": {
+        "path": "/covers/e553495215ed0963-90e63f0d06b8.webp",
+        "sha256": "86b0e249e905d78c2cdbabfb32c16d68fc7159a0c04c07e70b4c5b33717539c4",
+        "bytes": 90746,
+        "width": 473,
+        "height": 644,
+        "crop": {
+          "left": 13,
+          "top": 16,
+          "width": 473,
+          "height": 644
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/l/lemy2h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/l/lemy2h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.408Z",
+      "records": [
+        {
+          "id": "KS02969",
+          "title": "Living Emunah for Children 2",
+          "sourcePage": "https://www.artscroll.com/Books/9781422623152.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/879af0a89e710a2e-9333f3bcfd45.jpg",
+        "sha256": "9333f3bcfd45378f78bba238cdb7084fb357717536d568627ef45dd37ce9f2f8",
+        "bytes": 366323,
+        "format": "jpeg",
+        "width": 500,
+        "height": 673
+      },
+      "web": {
+        "path": "/covers/879af0a89e710a2e-9333f3bcfd45.webp",
+        "sha256": "12fe2862772e5cb5d23ca92dd8bda0df6ecbacc36a606a4dc79adc01e5bb3488",
+        "bytes": 96026,
+        "width": 491,
+        "height": 666,
+        "crop": {
+          "left": 5,
+          "top": 4,
+          "width": 491,
+          "height": 666
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/l/lemyh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/l/lemyh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.474Z",
+      "records": [
+        {
+          "id": "KS01941",
+          "title": "Living Emunah for Children",
+          "sourcePage": "https://www.artscroll.com/Books/9781422619469.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/9f40d4b0f3e40a0b-ec5fbbb3ebfe.jpg",
+        "sha256": "ec5fbbb3ebfeda99350559f4a4d6a0643a2fe8df56f05bea38201f05bdf2b6f4",
+        "bytes": 70446,
+        "format": "jpeg",
+        "width": 500,
+        "height": 616
+      },
+      "web": {
+        "path": "/covers/9f40d4b0f3e40a0b-ec5fbbb3ebfe.webp",
+        "sha256": "7e856ab2166c5a60d4e178faf6e54afd3df3b03d6f426bf60792a58c2c773295",
+        "bytes": 63746,
+        "width": 452,
+        "height": 616,
+        "crop": {
+          "left": 9,
+          "top": 0,
+          "width": 452,
+          "height": 616
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/l/lemy3h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/l/lemy3h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.475Z",
+      "records": [
+        {
+          "id": "KS01125",
+          "title": "Living Emunah for Children 3",
+          "sourcePage": "https://www.artscroll.com/Books/9781422632260.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/dadf31eb6537c264-4fd28f06bdcf.jpg",
+        "sha256": "4fd28f06bdcf61b0c62918494dda2c84e9d7de308e5137c4e6a6592d811e9bfb",
+        "bytes": 340684,
+        "format": "jpeg",
+        "width": 500,
+        "height": 647
+      },
+      "web": {
+        "path": "/covers/dadf31eb6537c264-4fd28f06bdcf.webp",
+        "sha256": "29f2feac4e4d6247c1b226868782822a059836324c631c821a3b425e2f550739",
+        "bytes": 87132,
+        "width": 455,
+        "height": 625,
+        "crop": {
+          "left": 20,
+          "top": 17,
+          "width": 455,
+          "height": 625
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ypes.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ypes.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.475Z",
+      "records": [
+        {
+          "id": "KS01881",
+          "title": "Pesach with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069814.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/42a6f3272a265ff6-1efbd7095da8.jpg",
+        "sha256": "1efbd7095da8c5f27111a4162d13b50b9ad2e414fc022c4e19e183b6965bf15c",
+        "bytes": 37592,
+        "format": "jpeg",
+        "width": 230,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/42a6f3272a265ff6-1efbd7095da8.webp",
+        "sha256": "532e4681f06268ab89f6398ed863de5d746f8313ddc3cecb7acc7f2e5b01fa1a",
+        "bytes": 19846,
+        "width": 197,
+        "height": 265,
+        "crop": {
+          "left": 28,
+          "top": 20,
+          "width": 197,
+          "height": 265
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ylwbh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ylwbh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.475Z",
+      "records": [
+        {
+          "id": "KS02380",
+          "title": "Living with Bitachon: for Children",
+          "sourcePage": "https://www.artscroll.com/Books/9781422639450.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/4a3513f7813258c8-63c81478c737.jpg",
+        "sha256": "63c81478c737850d2972d426f9009b97293f3b6cb637db949b593f3c9f74ebf0",
+        "bytes": 224702,
+        "format": "jpeg",
+        "width": 500,
+        "height": 641
+      },
+      "web": {
+        "path": "/covers/4a3513f7813258c8-63c81478c737.webp",
+        "sha256": "bad7ddd1772ca6d7ae820f5c97e6d454a41ab663b141365acdf819955d42cf7f",
+        "bytes": 107380,
+        "width": 470,
+        "height": 641,
+        "crop": {
+          "left": 17,
+          "top": 0,
+          "width": 470,
+          "height": 641
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/m/manh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/m/manh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.480Z",
+      "records": [
+        {
+          "id": "KS01696",
+          "title": "Manny's a Thief!",
+          "sourcePage": "https://www.artscroll.com/Books/9780899064147.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b5dcbdae1a4d4d84-e27443a99d66.jpg",
+        "sha256": "e27443a99d6603c60105c211f6c032ec6eefe052aa2a008032c615d01c5c4f78",
+        "bytes": 34951,
+        "format": "jpeg",
+        "width": 500,
+        "height": 402
+      },
+      "web": {
+        "path": "/covers/b5dcbdae1a4d4d84-e27443a99d66.webp",
+        "sha256": "72f3657335ffe2d1e30d1b2c6110f989a1a87fec21cf8c6bdbdb2314a4387665",
+        "bytes": 38042,
+        "width": 474,
+        "height": 400,
+        "crop": {
+          "left": 0,
+          "top": 1,
+          "width": 474,
+          "height": 400
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/yros.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/yros.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.487Z",
+      "records": [
+        {
+          "id": "KS01583",
+          "title": "Rosh Hashanah with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069760.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/2c8b2ee62f318b87-7dfb7dfff72d.jpg",
+        "sha256": "7dfb7dfff72d097df42bab69ecec50a23cf604fc3b68b59d810a30ecd3118a49",
+        "bytes": 49671,
+        "format": "jpeg",
+        "width": 235,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/2c8b2ee62f318b87-7dfb7dfff72d.webp",
+        "sha256": "30bb2fbd1cd03118eba258cf0f98cc8c7927bff21372273693dbf328dfdfb3d8",
+        "bytes": 27066,
+        "width": 214,
+        "height": 285,
+        "crop": {
+          "left": 13,
+          "top": 12,
+          "width": 214,
+          "height": 285
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ysha.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ysha.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.534Z",
+      "records": [
+        {
+          "id": "KS03217",
+          "title": "Shabbos with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9781578194995.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7058799093f3fae3-bf7f368555f4.jpg",
+        "sha256": "bf7f368555f457b28f31e6e655363ecb7d46c6bc01fc10b074c335cc67ebc588",
+        "bytes": 33531,
+        "format": "jpeg",
+        "width": 233,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/7058799093f3fae3-bf7f368555f4.webp",
+        "sha256": "f732592f59bf7f33b3996fda38d5267fe60cfee948c393111a09279ba0bd5e22",
+        "bytes": 17926,
+        "width": 222,
+        "height": 292,
+        "crop": {
+          "left": 7,
+          "top": 4,
+          "width": 222,
+          "height": 292
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/yshv.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/yshv.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.535Z",
+      "records": [
+        {
+          "id": "KS02838",
+          "title": "Shavuos with Bina, Benny, and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069821.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/76f53149840af5a6-3cd31b572dcc.jpg",
+        "sha256": "3cd31b572dccce052bf1a1ae709ba785fabc6d41c56043637be53781d51877d2",
+        "bytes": 36803,
+        "format": "jpeg",
+        "width": 226,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/76f53149840af5a6-3cd31b572dcc.webp",
+        "sha256": "49e1e7795b101fba63b0dd56b988353fffdc9766ed2d9b8ce38ebc470ab3b83b",
+        "bytes": 22698,
+        "width": 190,
+        "height": 269,
+        "crop": {
+          "left": 11,
+          "top": 18,
+          "width": 190,
+          "height": 269
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/s/sg1h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/s/sg1h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.536Z",
+      "records": [
+        {
+          "id": "KS01406",
+          "title": "Bereishis",
+          "sourcePage": "https://www.artscroll.com/Books/9781578195251.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/8f4e3407ca7d4c0a-0adcb554a675.jpg",
+        "sha256": "0adcb554a67518d227faec3d37053376a847cd8defc27235d564a89eaf44eac5",
+        "bytes": 19189,
+        "format": "jpeg",
+        "width": 209,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/8f4e3407ca7d4c0a-0adcb554a675.webp",
+        "sha256": "a9aeaff07b6c70b65f1b6a07df858c375e39f6b7b7c7782f76a5eb002106f230",
+        "bytes": 21692,
+        "width": 195,
+        "height": 289,
+        "crop": {
+          "left": 5,
+          "top": 6,
+          "width": 195,
+          "height": 289
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/s/sgsh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/s/sgsh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.546Z",
+      "records": [
+        {
+          "id": "KS02410",
+          "title": "Stories My Grandfather Told Me: Memorable Tales Arranged According to the Weekly Sidrah",
+          "sourcePage": "https://www.artscroll.com/Books/9781578195350.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/469fa5e8e4af5175-4d1ec97f9ccb.jpg",
+        "sha256": "4d1ec97f9ccb64a8f1579fca970c39e5c3d8d763a3f3edc342b08036f0d8ca53",
+        "bytes": 42552,
+        "format": "jpeg",
+        "width": 500,
+        "height": 492
+      },
+      "web": {
+        "path": "/covers/469fa5e8e4af5175-4d1ec97f9ccb.webp",
+        "sha256": "36e5f2cbf21705fa04f54cd4d48587ca96d456a2cae803a8b1c689716572d349",
+        "bytes": 62568,
+        "width": 469,
+        "height": 464,
+        "crop": {
+          "left": 16,
+          "top": 13,
+          "width": 469,
+          "height": 464
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ysuc.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ysuc.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.549Z",
+      "records": [
+        {
+          "id": "KS01814",
+          "title": "Succos with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069784.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ecb87bd74e1f519e-d2c97fad22ad.jpg",
+        "sha256": "d2c97fad22ad9fc3c8c2dc0deda53dc6d9466fdc665ddb56cde72153548541ca",
+        "bytes": 42858,
+        "format": "jpeg",
+        "width": 240,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/ecb87bd74e1f519e-d2c97fad22ad.webp",
+        "sha256": "75fc11cf3ad69a56b93504c84d288b329c5e865d9ab0d7b9337b152ed2201544",
+        "bytes": 23796,
+        "width": 230,
+        "height": 300,
+        "crop": {
+          "left": 6,
+          "top": 0,
+          "width": 230,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/s/shshp.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/s/shshp.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.550Z",
+      "records": [
+        {
+          "id": "KS02523",
+          "title": "The Stupendous Adventures of Shragi and Shia",
+          "sourcePage": "https://www.artscroll.com/Books/9781422608654.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b8faafb38cb53402-adcc51b2149e.jpg",
+        "sha256": "adcc51b2149ec227da9771bd433eea6cf973fc4d6616fe53fa80690a800f0969",
+        "bytes": 66140,
+        "format": "jpeg",
+        "width": 300,
+        "height": 466
+      },
+      "web": {
+        "path": "/covers/b8faafb38cb53402-adcc51b2149e.webp",
+        "sha256": "5887be4bb18638226ce6637b9cb71956105cc4214f60a1a58ce585835894d7f6",
+        "bytes": 38764,
+        "width": 300,
+        "height": 466,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 466
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/g/ge4h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/g/ge4h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.575Z",
+      "records": [
+        {
+          "id": "KS03376",
+          "title": "Tales From The Gemara: Taanis",
+          "sourcePage": "https://www.artscroll.com/Books/9780899068183.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3897a392ccb659be-391f740fd4dc.jpg",
+        "sha256": "391f740fd4dcd16226945961f9febe224621ab253e5be3e585c8b12d42228dfd",
+        "bytes": 35560,
+        "format": "jpeg",
+        "width": 215,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/3897a392ccb659be-391f740fd4dc.webp",
+        "sha256": "48a0d79ad3083f2bd76555e1e0b5a6d96c8971df99a67ee6f49e5a2fbf2795d8",
+        "bytes": 19152,
+        "width": 186,
+        "height": 281,
+        "crop": {
+          "left": 11,
+          "top": 7,
+          "width": 186,
+          "height": 281
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/g/ge2h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/g/ge2h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.581Z",
+      "records": [
+        {
+          "id": "KS03375",
+          "title": "Tales From The Gemara: Shabbos",
+          "sourcePage": "https://www.artscroll.com/Books/9780899068145.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/39950c1e72622a0d-bcb2e91b5a6a.jpg",
+        "sha256": "bcb2e91b5a6a8bd98a0bd0d981b1ef17417ad61b1d9c995a5217613108bf406f",
+        "bytes": 32365,
+        "format": "jpeg",
+        "width": 191,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/39950c1e72622a0d-bcb2e91b5a6a.webp",
+        "sha256": "e4e661c59125720c18c6b32fa9415c880df4d44230b1a480cbfc27dcd409b867",
+        "bytes": 19102,
+        "width": 176,
+        "height": 277,
+        "crop": {
+          "left": 8,
+          "top": 11,
+          "width": 176,
+          "height": 277
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/t/tmt2h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/t/tmt2h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.590Z",
+      "records": [
+        {
+          "id": "KS03066",
+          "title": "Tell Me a Tale 2: 7 Great Stories",
+          "sourcePage": "https://www.artscroll.com/Books/9781422601433.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b7bb7b412fcfec83-8b913a9b9bc9.jpg",
+        "sha256": "8b913a9b9bc9a53141b58e0811bb1fe0ecdadefe7c78789be8ab66d901677987",
+        "bytes": 56883,
+        "format": "jpeg",
+        "width": 300,
+        "height": 400
+      },
+      "web": {
+        "path": "/covers/b7bb7b412fcfec83-8b913a9b9bc9.webp",
+        "sha256": "cc4888cc9b38a3deae34fb30d6130f7099432a9999314de339abf117edc531f4",
+        "bytes": 48290,
+        "width": 288,
+        "height": 400,
+        "crop": {
+          "left": 7,
+          "top": 0,
+          "width": 288,
+          "height": 400
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/p/pjpp.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/p/pjpp.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.604Z",
+      "records": [
+        {
+          "id": "KS00085",
+          "title": "The Adventures of Pj Pepperjay",
+          "sourcePage": "https://www.artscroll.com/Books/9781422615355.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b4833e5f868655c9-57001fc68328.jpg",
+        "sha256": "57001fc68328f8c0aa2430bbb478e744fe51076064469f63492bd2e572992dcf",
+        "bytes": 49128,
+        "format": "jpeg",
+        "width": 300,
+        "height": 493
+      },
+      "web": {
+        "path": "/covers/b4833e5f868655c9-57001fc68328.webp",
+        "sha256": "4048ecaacdfc5cb30c71d8d3b5c3cbc2650f3f9bb84a2f44fee4b0345f64d7ca",
+        "bytes": 36522,
+        "width": 291,
+        "height": 492,
+        "crop": {
+          "left": 5,
+          "top": 1,
+          "width": 291,
+          "height": 492
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/c/cyoh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/c/cyoh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.616Z",
+      "records": [
+        {
+          "id": "KS02798",
+          "title": "Sefer Yonah: The Artscroll Children's Book of Jonah",
+          "sourcePage": "https://www.artscroll.com/Books/9781422601303.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/6e2414989c105d44-a22e708b5ef1.jpg",
+        "sha256": "a22e708b5ef1217a77a2222dfe70a19df368650e9bf636bc9bc93a6be59687ef",
+        "bytes": 45833,
+        "format": "jpeg",
+        "width": 300,
+        "height": 403
+      },
+      "web": {
+        "path": "/covers/6e2414989c105d44-a22e708b5ef1.webp",
+        "sha256": "98c0136931690f89c4e7b600bedded35e3d37b3c8cb6e1ee43e93395e81a6268",
+        "bytes": 36694,
+        "width": 292,
+        "height": 398,
+        "crop": {
+          "left": 4,
+          "top": 3,
+          "width": 292,
+          "height": 398
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/m/mchh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/m/mchh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.628Z",
+      "records": [
+        {
+          "id": "KS02139",
+          "title": "Megilat Ester: The Artscroll Children's Megillah",
+          "sourcePage": "https://www.artscroll.com/Books/9781578197088.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/964a72d78f62e342-5265cbff8f66.jpg",
+        "sha256": "5265cbff8f6615e9acaca08e6b3ba462f6d68e92b9ff381eab48a7ef415d1724",
+        "bytes": 95079,
+        "format": "jpeg",
+        "width": 219,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/964a72d78f62e342-5265cbff8f66.webp",
+        "sha256": "ff7b1bbfa40c85ed12c2188ea43c0887681eab0fa25195f5a02c84c40db3641b",
+        "bytes": 24424,
+        "width": 219,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 219,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/h/hchp.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/h/hchp.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.635Z",
+      "records": [
+        {
+          "id": "KS01165",
+          "title": "Hagadah Shel Pesaḥ : The Artscroll Children's Haggadah",
+          "sourcePage": "https://www.artscroll.com/Books/9781578191369.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3478a7e7c3e93ad5-3e3e2ec20ab1.jpg",
+        "sha256": "3e3e2ec20ab193f847db37598b3df9ef90a4c9388278ff82863ee36b5f51be4a",
+        "bytes": 64597,
+        "format": "jpeg",
+        "width": 298,
+        "height": 390
+      },
+      "web": {
+        "path": "/covers/3478a7e7c3e93ad5-3e3e2ec20ab1.webp",
+        "sha256": "85da4ebf7ece8e408c4e0654e0364bbc5e8e82d332967bc8efb9440973cdd708",
+        "bytes": 51882,
+        "width": 298,
+        "height": 390,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 298,
+          "height": 390
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/t/thankh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/t/thankh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.683Z",
+      "records": [
+        {
+          "id": "KS01293",
+          "title": "Thanks to You for Everything You Do",
+          "sourcePage": "https://www.artscroll.com/Books/9781422627242.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3bfda6bd77ef1a23-bd467df1ae25.jpg",
+        "sha256": "bd467df1ae254611babf4d1e4c9437817b1ac66a1aef0cc035892576a49acb48",
+        "bytes": 397273,
+        "format": "jpeg",
+        "width": 500,
+        "height": 678
+      },
+      "web": {
+        "path": "/covers/3bfda6bd77ef1a23-bd467df1ae25.webp",
+        "sha256": "ab4b34888832d0039c3ccb60ba16823a3424cab33d35b309de9c4a65c1795a18",
+        "bytes": 106478,
+        "width": 488,
+        "height": 666,
+        "crop": {
+          "left": 9,
+          "top": 4,
+          "width": 488,
+          "height": 666
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/h/holh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/h/holh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.816Z",
+      "records": [
+        {
+          "id": "KS02707",
+          "title": "The Children's Book of Jewish Holidays",
+          "sourcePage": "https://www.artscroll.com/Books/9780899068107.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/77f0b2fc953ae0d2-0b48256bcddd.jpg",
+        "sha256": "0b48256bcdddc3a0d81ef973943065cba4646e1af4ba39cc99e0156c1b96d825",
+        "bytes": 32089,
+        "format": "jpeg",
+        "width": 185,
+        "height": 286
+      },
+      "web": {
+        "path": "/covers/77f0b2fc953ae0d2-0b48256bcddd.webp",
+        "sha256": "da361490bbe1de12c4d6e8b30ec8b8ca7b537f1a59389b5e5972df96e8489dda",
+        "bytes": 16578,
+        "width": 177,
+        "height": 283,
+        "crop": {
+          "left": 4,
+          "top": 1,
+          "width": 177,
+          "height": 283
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/c/cpah.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/c/cpah.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.819Z",
+      "records": [
+        {
+          "id": "KS01980",
+          "title": "The Artscroll Children's Pirkei Avot",
+          "sourcePage": "https://www.artscroll.com/Books/9781422615799.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3f13aab16f297ef8-d18683c1f027.jpg",
+        "sha256": "d18683c1f027330dfe76f807f23c41b0c257b8fcdc08ef751bfe8cbc2f3e1486",
+        "bytes": 195222,
+        "format": "jpeg",
+        "width": 350,
+        "height": 478
+      },
+      "web": {
+        "path": "/covers/3f13aab16f297ef8-d18683c1f027.webp",
+        "sha256": "56b762bea46fc63b4b4132b9ac84abcd7c50a8975e5a26245226ea7904d8a01a",
+        "bytes": 51380,
+        "width": 350,
+        "height": 477,
+        "crop": {
+          "left": 0,
+          "top": 1,
+          "width": 350,
+          "height": 477
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/m/msbh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/m/msbh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.820Z",
+      "records": [
+        {
+          "id": "KS02155",
+          "title": "The Mysterious Shoebox: and Other Leah Lamdan Holiday Mysteries",
+          "sourcePage": "https://www.artscroll.com/Books/9781422606216.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/14429bc0d6d2d59b-818adf8205a4.jpg",
+        "sha256": "818adf8205a488185e7b839c6a4bb2833d79c8661fc7f4f4e6339ba635bc57fd",
+        "bytes": 45652,
+        "format": "jpeg",
+        "width": 300,
+        "height": 438
+      },
+      "web": {
+        "path": "/covers/14429bc0d6d2d59b-818adf8205a4.webp",
+        "sha256": "2019064e1e34d6830adfe636fcde6a4b39a95607f1a0b93aeade7f082187874b",
+        "bytes": 36882,
+        "width": 294,
+        "height": 436,
+        "crop": {
+          "left": 3,
+          "top": 1,
+          "width": 294,
+          "height": 436
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/b/bbom2h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/b/bbom2h.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.825Z",
+      "records": [
+        {
+          "id": "KS02882",
+          "title": "The Big Book of Middos Books 2",
+          "sourcePage": "https://www.artscroll.com/Books/9781422633366.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/516d3cb13b1afab5-105710783f9d.jpg",
+        "sha256": "105710783f9d0d2c8bbe13d65fe216587d68cbf146aa9d83972bfa4d26b20715",
+        "bytes": 174050,
+        "format": "jpeg",
+        "width": 500,
+        "height": 668
+      },
+      "web": {
+        "path": "/covers/516d3cb13b1afab5-105710783f9d.webp",
+        "sha256": "700ab3a8de8a5c68be993c933b550d55314257a6210468ad140964eae0c58bb3",
+        "bytes": 70322,
+        "width": 471,
+        "height": 626,
+        "crop": {
+          "left": 12,
+          "top": 18,
+          "width": 471,
+          "height": 626
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/b/bbojh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/b/bbojh.jpg",
+      "retrievedAt": "2026-11-02T21:28:49.825Z",
+      "records": [
+        {
+          "id": "KS02992",
+          "title": "The Big Book of Jewish Bedtime Story Books",
+          "sourcePage": "https://www.artscroll.com/Books/9781422630266.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0e1e066d1516c04b-45bcca8ebf77.jpg",
+        "sha256": "45bcca8ebf778a2f4faff411754ae3363a1d18ce7d4aeaa5aaa0004ce6e46962",
+        "bytes": 328707,
+        "format": "jpeg",
+        "width": 500,
+        "height": 648
+      },
+      "web": {
+        "path": "/covers/0e1e066d1516c04b-45bcca8ebf77.webp",
+        "sha256": "8a9795f51039e3f8fc982b6a16a1ff8a452b04f952a8904a01de02c48745d372",
+        "bytes": 83568,
+        "width": 477,
+        "height": 610,
+        "crop": {
+          "left": 6,
+          "top": 4,
+          "width": 477,
+          "height": 610
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/b/bboygh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/b/bboygh.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.023Z",
+      "records": [
+        {
+          "id": "KS02655",
+          "title": "The Big Book of Jewish Holidays with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9781422632031.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/a99c7278a496da72-9c38d1e168cb.jpg",
+        "sha256": "9c38d1e168cbd01f3e6f7b9a567316ba1c5a117be555f79519e06ccd68232daf",
+        "bytes": 367782,
+        "format": "jpeg",
+        "width": 500,
+        "height": 635
+      },
+      "web": {
+        "path": "/covers/a99c7278a496da72-9c38d1e168cb.webp",
+        "sha256": "7dc748b003ed1d21bd0feaff42c28b4add560fe7de0b18aa36a63744e6236ea9",
+        "bytes": 87362,
+        "width": 470,
+        "height": 618,
+        "crop": {
+          "left": 15,
+          "top": 10,
+          "width": 470,
+          "height": 618
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/w/wp1h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/w/wp1h.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.024Z",
+      "records": [
+        {
+          "id": "KS02008",
+          "title": "Bereishis",
+          "sourcePage": "https://www.artscroll.com/Books/9781422623671.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/9a30467300b22409-d704d6dbcf60.jpg",
+        "sha256": "d704d6dbcf607661323064aef161a5c510623b4517d39322413a55ba5ca88c16",
+        "bytes": 59357,
+        "format": "jpeg",
+        "width": 500,
+        "height": 683
+      },
+      "web": {
+        "path": "/covers/9a30467300b22409-d704d6dbcf60.webp",
+        "sha256": "68f6781a5b0fd3c29fef3dcfcfcf669cfac3162e71b15cb785af7b8a0538372d",
+        "bytes": 94442,
+        "width": 500,
+        "height": 679,
+        "crop": {
+          "left": 0,
+          "top": 2,
+          "width": 500,
+          "height": 679
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/t/taryagdt.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/t/taryagdt.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.024Z",
+      "records": [
+        {
+          "id": "KS00930",
+          "title": "The Taryag Kids and the Disappearing Tower",
+          "sourcePage": "https://www.artscroll.com/Books/9781422641958.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/4ebeea3a46d13622-bc1e2fc3d122.jpg",
+        "sha256": "bc1e2fc3d12239a4c03bdad935b750a8b96ba395d03bd7eddea851a347e48aca",
+        "bytes": 93742,
+        "format": "jpeg",
+        "width": 500,
+        "height": 725
+      },
+      "web": {
+        "path": "/covers/4ebeea3a46d13622-bc1e2fc3d122.webp",
+        "sha256": "9a9bb46bee5f583855fcc9f7ed39e0beb5465e1e0c609c0d9ee941fc3d621e4b",
+        "bytes": 110042,
+        "width": 500,
+        "height": 725,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 500,
+          "height": 725
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/w/wp2h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/w/wp2h.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.026Z",
+      "records": [
+        {
+          "id": "KS01960",
+          "title": "Sefer Shemos",
+          "sourcePage": "https://www.artscroll.com/Books/9781422625514.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/f7ba4a124ac63269-bf592bc8a0a3.jpg",
+        "sha256": "bf592bc8a0a34e52f902c33ea007c47d50c2c6d009e3f748f218d897e372a68a",
+        "bytes": 68447,
+        "format": "jpeg",
+        "width": 500,
+        "height": 679
+      },
+      "web": {
+        "path": "/covers/f7ba4a124ac63269-bf592bc8a0a3.webp",
+        "sha256": "add3ab4481ab78b1f75362a32a74b3a8b53acb06e2b82e1e3a50651ae9dca9ff",
+        "bytes": 67016,
+        "width": 498,
+        "height": 676,
+        "crop": {
+          "left": 1,
+          "top": 2,
+          "width": 498,
+          "height": 676
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/t/taryagff.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/t/taryagff.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.032Z",
+      "records": [
+        {
+          "id": "KS00992",
+          "title": "The Taryag Kids and the Flood of Fire",
+          "sourcePage": "https://www.artscroll.com/Books/9781422644591.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/eeb69cfe4c1afffc-635f041d2448.jpg",
+        "sha256": "635f041d2448ca2a1020c9ac3ba9c1395fc0728a4b95f5b76045387824af597b",
+        "bytes": 78781,
+        "format": "jpeg",
+        "width": 500,
+        "height": 721
+      },
+      "web": {
+        "path": "/covers/eeb69cfe4c1afffc-635f041d2448.webp",
+        "sha256": "2353963c72ad9676d1196588309081998bbd4a7185c566e75a7bdc81847d7193",
+        "bytes": 90038,
+        "width": 500,
+        "height": 721,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 500,
+          "height": 721
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/t/taryaguw.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/t/taryaguw.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.190Z",
+      "records": [
+        {
+          "id": "KS01786",
+          "title": "The Taryag Kids and the Underwater Adventure",
+          "sourcePage": "https://www.artscroll.com/Books/9781422640128.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/a3ac5e2c5707e935-dbd16610b406.jpg",
+        "sha256": "dbd16610b406f2bec287d2aedf77834d43abb32d11614e5f41bcec174cc24f7e",
+        "bytes": 278363,
+        "format": "jpeg",
+        "width": 500,
+        "height": 585
+      },
+      "web": {
+        "path": "/covers/a3ac5e2c5707e935-dbd16610b406.webp",
+        "sha256": "d0ab82558d0b0f21a2745ae07a39aa833717622676e7cfd3457d99998944d0d7",
+        "bytes": 64806,
+        "width": 486,
+        "height": 579,
+        "crop": {
+          "left": 9,
+          "top": 6,
+          "width": 486,
+          "height": 579
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/s/scoh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/s/scoh.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.191Z",
+      "records": [
+        {
+          "id": "KS02787",
+          "title": "Then I Got 3 Scoops!",
+          "sourcePage": "https://www.artscroll.com/Books/9780899064123.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7ffa435ddf7cbfaf-9235bd028ec9.jpg",
+        "sha256": "9235bd028ec909ba00400e3247243b0813394848a07bf6a2e122d6bd4a959e60",
+        "bytes": 32120,
+        "format": "jpeg",
+        "width": 500,
+        "height": 395
+      },
+      "web": {
+        "path": "/covers/7ffa435ddf7cbfaf-9235bd028ec9.webp",
+        "sha256": "2059b4b65170277f38e2cce2dc1b2f588672903112f8e52be37d1c59484e4599",
+        "bytes": 33292,
+        "width": 480,
+        "height": 395,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 480,
+          "height": 395
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/ytis.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/ytis.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.191Z",
+      "records": [
+        {
+          "id": "KS02392",
+          "title": "Tishah B'av & the Four Fasts with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069838.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3546260401fb0b3a-b7fa0920c172.jpg",
+        "sha256": "b7fa0920c172db3e21f9ef7b17f821c9865e2e7db42edb4929331aa87663e640",
+        "bytes": 34958,
+        "format": "jpeg",
+        "width": 241,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/3546260401fb0b3a-b7fa0920c172.webp",
+        "sha256": "3b723616eea19772ddcf1b26f4172bf7614d14bcd6f3101508b840e14b63160f",
+        "bytes": 21772,
+        "width": 199,
+        "height": 273,
+        "crop": {
+          "left": 22,
+          "top": 13,
+          "width": 199,
+          "height": 273
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/w/wp5h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/w/wp5h.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.204Z",
+      "records": [
+        {
+          "id": "KS01413",
+          "title": "Devarim",
+          "sourcePage": "https://www.artscroll.com/Books/9781422628119.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c9b40c5dbb2bb7d5-608f41aef1db.jpg",
+        "sha256": "608f41aef1db76da83fd2610c2b6772afc1f2d305780513d18b5f6c2ed18f73a",
+        "bytes": 263651,
+        "format": "jpeg",
+        "width": 500,
+        "height": 637
+      },
+      "web": {
+        "path": "/covers/c9b40c5dbb2bb7d5-608f41aef1db.webp",
+        "sha256": "5e37d875606578b4abfd5c4850da282f9e6d234761e2c656d8b367bfa682647e",
+        "bytes": 56502,
+        "width": 468,
+        "height": 620,
+        "crop": {
+          "left": 13,
+          "top": 15,
+          "width": 468,
+          "height": 620
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/w/wp4h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/w/wp4h.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.221Z",
+      "records": [
+        {
+          "id": "KS02727",
+          "title": "The Weekly Parashah : Sefer Bamidbar",
+          "sourcePage": "https://www.artscroll.com/Books/9781422625842.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/a06e9878b2038626-68578862ba4b.jpg",
+        "sha256": "68578862ba4bea988194b286e9f2bb109647a1de924eb272820e2faf133bd0c8",
+        "bytes": 422440,
+        "format": "jpeg",
+        "width": 500,
+        "height": 671
+      },
+      "web": {
+        "path": "/covers/a06e9878b2038626-68578862ba4b.webp",
+        "sha256": "9bd60ef6997b8a036a7e1e83ccbf41afccfe44a2c313b079eb5f4be5cf1bf0ca",
+        "bytes": 103940,
+        "width": 487,
+        "height": 656,
+        "crop": {
+          "left": 5,
+          "top": 6,
+          "width": 487,
+          "height": 656
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/w/wp3h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/w/wp3h.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.224Z",
+      "records": [
+        {
+          "id": "KS02988",
+          "title": "Vayikra",
+          "sourcePage": "https://www.artscroll.com/Books/9781422627891.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/28c3edf251be2392-540e1b945564.jpg",
+        "sha256": "540e1b9455647be402bd57506c24439559690c446e8e18809504baaa0ae3cb47",
+        "bytes": 128197,
+        "format": "jpeg",
+        "width": 500,
+        "height": 653
+      },
+      "web": {
+        "path": "/covers/28c3edf251be2392-540e1b945564.webp",
+        "sha256": "13f286c10cfad5da33c6d478ed511e988c0a44b4ea4314b9dabc69979b5a75bb",
+        "bytes": 105506,
+        "width": 483,
+        "height": 642,
+        "crop": {
+          "left": 9,
+          "top": 4,
+          "width": 483,
+          "height": 642
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/yts2h.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/yts2h.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.354Z",
+      "records": [
+        {
+          "id": "KS02910",
+          "title": "Touched by a Story 2 for Children",
+          "sourcePage": "https://www.artscroll.com/Books/9781422605493.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b4dddaa8c3744535-a2b752761243.jpg",
+        "sha256": "a2b7527612435f2687d0689eefa57eff8fce391692c69414a8f75f4006d28dfd",
+        "bytes": 37405,
+        "format": "jpeg",
+        "width": 300,
+        "height": 391
+      },
+      "web": {
+        "path": "/covers/b4dddaa8c3744535-a2b752761243.webp",
+        "sha256": "8d6240f3eb8227e5bd0a461db4a4a481f564772595ee03360a2307c719c25477",
+        "bytes": 30570,
+        "width": 290,
+        "height": 391,
+        "crop": {
+          "left": 3,
+          "top": 0,
+          "width": 290,
+          "height": 391
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/y/yyom.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/y/yyom.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.354Z",
+      "records": [
+        {
+          "id": "KS01863",
+          "title": "Yom Kippur with Bina, Benny and Chaggai Hayonah",
+          "sourcePage": "https://www.artscroll.com/Books/9780899069777.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/87af0d1da93b7e8f-88c56fc04130.jpg",
+        "sha256": "88c56fc041302ec7f3b3b4e586628e0e1465c85a4b911afefc37f846302b53bb",
+        "bytes": 32815,
+        "format": "jpeg",
+        "width": 217,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/87af0d1da93b7e8f-88c56fc04130.webp",
+        "sha256": "13b3a54941a0bffb04fb5dc6753cdbdab300d5c1f52a92c15077712aa2ee5854",
+        "bytes": 20996,
+        "width": 196,
+        "height": 268,
+        "crop": {
+          "left": 6,
+          "top": 17,
+          "width": 196,
+          "height": 268
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/z/zish.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/z/zish.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.354Z",
+      "records": [
+        {
+          "id": "KS02945",
+          "title": "Why Weren't You Zisha? and Other Stories",
+          "sourcePage": "https://www.artscroll.com/Books/9781422608159.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3c1fe03bf632d5a3-d85264de1129.jpg",
+        "sha256": "d85264de112947ea281e99cba662fac5fd022976fad1c433acb3aa199d4d7e45",
+        "bytes": 50977,
+        "format": "jpeg",
+        "width": 300,
+        "height": 404
+      },
+      "web": {
+        "path": "/covers/3c1fe03bf632d5a3-d85264de1129.webp",
+        "sha256": "12d3ec55619765fbe4d07f518905f301d3722339a67c219d79b71f985ccaf321",
+        "bytes": 46680,
+        "width": 296,
+        "height": 400,
+        "crop": {
+          "left": 2,
+          "top": 2,
+          "width": 296,
+          "height": 400
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/u/umpsh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/u/umpsh.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.354Z",
+      "records": [
+        {
+          "id": "KS02082",
+          "title": "Uncle Moishy : The Very Best Pesach Surprise",
+          "sourcePage": "https://www.artscroll.com/Books/9781422630921.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c4cac5a4bd2dc792-5cec98869b7a.jpg",
+        "sha256": "5cec98869b7ac6bceacf3faabd007b387c2faa0c71cd3f910610f9fff6b27ca4",
+        "bytes": 263684,
+        "format": "jpeg",
+        "width": 500,
+        "height": 653
+      },
+      "web": {
+        "path": "/covers/c4cac5a4bd2dc792-5cec98869b7a.webp",
+        "sha256": "9a274cd8de11b6793f1545d952deeb0d8ae9c38fb28d808b2e64f50a8f9e4293",
+        "bytes": 66796,
+        "width": 454,
+        "height": 621,
+        "crop": {
+          "left": 23,
+          "top": 20,
+          "width": 454,
+          "height": 621
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/u/umchh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/u/umchh.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.381Z",
+      "records": [
+        {
+          "id": "KS02254",
+          "title": "Uncle Moishy : The Very Best Chanukah Guest",
+          "sourcePage": "https://www.artscroll.com/Books/9781422629949.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/da20398d65678ae6-ea2911b65140.jpg",
+        "sha256": "ea2911b65140d1a9a674d6dbbc3e5acebc96f0ad2841dd4018650958d8e6ab4e",
+        "bytes": 281181,
+        "format": "jpeg",
+        "width": 500,
+        "height": 655
+      },
+      "web": {
+        "path": "/covers/da20398d65678ae6-ea2911b65140.webp",
+        "sha256": "15dbb075519ae0c711fe71888177ea885a7e34350a0c3f831748bcfe8e60e58a",
+        "bytes": 68560,
+        "width": 472,
+        "height": 645,
+        "crop": {
+          "left": 13,
+          "top": 10,
+          "width": 472,
+          "height": 645
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://www.artscroll.com/images/covers/u/umshabh.jpg": {
+      "sourceImage": "https://www.artscroll.com/images/covers/u/umshabh.jpg",
+      "retrievedAt": "2026-11-02T21:28:50.381Z",
+      "records": [
+        {
+          "id": "KS01695",
+          "title": "Uncle Moishy : The Very Best Shabbos Guest",
+          "sourcePage": "https://www.artscroll.com/Books/9781422627938.html",
+          "credit": "ArtScroll / Mesorah Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/77108c8098e51756-2ff95ce4340c.jpg",
+        "sha256": "2ff95ce4340c25a0f16366fa8cc24f9cfe4fcfabe04bf7ae3fd9e91b86924610",
+        "bytes": 104415,
+        "format": "jpeg",
+        "width": 500,
+        "height": 669
+      },
+      "web": {
+        "path": "/covers/77108c8098e51756-2ff95ce4340c.webp",
+        "sha256": "06ec81474008a2daeff7a418d002c7ec200ecd79ae38255191d157927e37f4f6",
+        "bytes": 78610,
+        "width": 477,
+        "height": 648,
+        "crop": {
+          "left": 10,
+          "top": 11,
+          "width": 477,
+          "height": 648
         }
       },
       "rights": "No license or permission inferred; retain publisher/source attribution."
