@@ -1,5 +1,7 @@
 :root { --ink:#243e36; --paper:#fffaf0; --green:#356451; --gold:#e8b845; --coral:#d4775e; }
-body { color:var(--ink); background:var(--paper) !important; }
+body { color:var(--ink); background:var(--paper) !important; min-height:100vh; min-height:100svh; display:flex; flex-direction:column; }
+body > main { flex:1 0 auto; }
+body > .site-footer { flex-shrink:0; }
 body > main > div { background:var(--paper) !important; min-height:0 !important; }
 a { color:var(--green); }
 a:hover { color:#a24f36; }
