@@ -1,5 +1,5 @@
 ---
-import { formatsFor } from '../lib/catalog-controls.js';
+import { formatsFor, compareCatalogOrder } from '../lib/catalog-controls.js';
 import { coverFor } from '../lib/covers.js';
 import BookCover from '../components/BookCover.astro';
 import Base from '../layouts/Base.astro';
@@ -7,7 +7,7 @@ import Nav from '../components/Nav.astro';
 import { getBooks, buildFacets, FACET_DEFS, rowChips, buildSubjectTree, subjectPaths, fmtYear } from '../lib/sheet.js';
 
 const { books: catalogBooks, source } = await getBooks();
-const books = catalogBooks.map(book => ({ ...book, f_forms: formatsFor(book).length ? formatsFor(book) : ['Unspecified'] }));
+const books = [...catalogBooks].sort(compareCatalogOrder).map(book => ({ ...book, f_forms: formatsFor(book).length ? formatsFor(book) : ['Unspecified'] }));
 const featuredBooks = books.filter((book) => coverFor(book)).slice(0, 3);
 const facets = buildFacets(books);
 const subjectTree = buildSubjectTree(books);

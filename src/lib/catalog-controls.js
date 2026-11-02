@@ -14,3 +14,12 @@ export function rolesForCreator(book, creatorSlug) {
     .filter(person => slugify(person.name) === creatorSlug)
     .flatMap(person => Array.isArray(person.roles) ? person.roles : [person.role || 'Contributor']))];
 }
+
+// Sort numbered catalog records numerically, independently of spreadsheet order.
+// Records without a KS number stay after the numbered records in source order.
+export function compareCatalogOrder(a, b) {
+  const left = /^KS(\d+)(?:-(\d+))?$/i.exec(a.id || '');
+  const right = /^KS(\d+)(?:-(\d+))?$/i.exec(b.id || '');
+  if (!left || !right) return Number(!left) - Number(!right);
+  return Number(left[1]) - Number(right[1]) || Number(left[2] || 0) - Number(right[2] || 0);
+}
