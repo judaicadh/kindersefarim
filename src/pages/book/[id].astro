@@ -33,7 +33,7 @@ const fields = [
           {cover?.source && <p class="cover-credit">Cover: <a href={cover.source} target="_blank" rel="noopener noreferrer">{cover.credit} ↗</a></p>}
         </aside>
         <header class="record-heading">
-          <p class="record-kicker">The bibliography <span aria-hidden="true">✳</span></p>
+          <p class="record-id"><span>Catalog no.</span><strong>{b.id}</strong></p>
           <h1 id="record-title">{b.title}</h1>
           {contributors.length > 0 && <div class="record-byline record-contributors">
             {contributors.map(person => <div><span class="record-contributor-role">{(Array.isArray(person.roles) ? person.roles : [person.role || 'Contributor']).join(', ')}:</span> <a href={`/authors/${slugify(person.name)}/`}>{person.name}</a></div>)}
@@ -74,8 +74,9 @@ const fields = [
   .record-cover :global(.cover-placeholder) { padding:18px; }
   .record-cover .cover-credit { margin:9px 0 0; font-size:11px; }
   .record-heading { min-width:0; }
-  .record-kicker { display:flex; align-items:center; gap:10px; font-size:10px; text-transform:uppercase; letter-spacing:.14em; font-weight:700; color:#667368; margin:0 0 8px; }
-  .record-kicker span { color:#b47727; font-size:17px; line-height:1; }
+  .record-id { display:inline-flex; align-items:center; gap:10px; margin:0 0 12px; padding:6px 11px; border:1px solid #8da18d; border-radius:7px; background:#edf0e3; color:var(--ink); }
+  .record-id span { font-size:11px; color:#53655a; }
+  .record-id strong { font-size:16px; font-weight:700; letter-spacing:.04em; font-variant-numeric:tabular-nums; }
   .record-heading h1 { font:600 clamp(27px,3vw,39px)/1.12 'Fraunces',Georgia,serif; letter-spacing:-.025em; text-wrap:pretty; }
   .record-byline { font-size:16px; line-height:1.5; color:#53655a; margin-top:8px; }
   .record-byline :global(a), .record-publication a, .record-series a { color:var(--green); text-decoration:underline; text-decoration-color:#35645155; text-underline-offset:3px; }
@@ -105,7 +106,9 @@ const fields = [
     .record-sheet { display:flow-root; padding:16px; }
     .record-cover { float:left; width:90px; margin:0 16px 12px 0; }
     .record-heading h1 { font-size:25px; }
-    .record-kicker { font-size:9px; letter-spacing:.08em; }
+    .record-id { padding:5px 8px; gap:7px; margin-bottom:8px; }
+    .record-id strong { font-size:14px; }
+    .record-id span { font-size:10px; }
     .record-byline { font-size:14px; margin-top:6px; }
     .record-publication, .record-series { font-size:12px; }
     .record-content { clear:both; padding-top:16px; }
