@@ -7328,12 +7328,12 @@
     "checkedDate": "2026-10-30"
   },
   "KS02765": {
-    "title": "Junior Shemiras Halashon: Daily Learning Program for the Entire Family : Adapted from Sefer Shemiras Halashon and Arranged According to the Calendar of the Manchester Rosh Yeshivah, Rav Yehuda Zev Segal Zt\"l.",
-    "image": "https://cdn.shopify.com/s/files/1/0576/5290/4041/files/c654_125_detail_97d116f5-6eef-4c1e-9661-6b85a1bd9315.gif?v=1708445926",
-    "source": "https://israelbookshoppublications.com/products/junior-shemiras-halashon",
-    "credit": "Israel Bookshop Publications",
-    "matchBasis": "Title + publisher",
-    "checkedDate": "2026-10-30"
+    "title": "Junior Shemiras Halashon: Daily Learning Program for the Entire Family",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C654.png",
+    "source": "https://tfutzapublications.com/product/junior-shemiras-halashon/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and publisher; cover visually inspected",
+    "checkedDate": "2026-11-02"
   },
   "KS02768": {
     "title": "It Takes a Village: An Eye-opening and Entertaining Visit to Middos Village",
@@ -9112,5 +9112,1149 @@
     "checkedDate": "2026-10-30",
     "catalogTitle": "Point Blank - Part 1",
     "catalogAuthor": "by Yonah Sapir"
+  },
+  "KS02443": {
+    "title": "Vanished!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/05/C774.png",
+    "source": "https://tfutzapublications.com/product/vanished/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00408": {
+    "title": "The Power Struggle",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/05/C773.png",
+    "source": "https://tfutzapublications.com/product/the-power-struggle/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01010": {
+    "title": "Communist Shadows",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/05/C771.png",
+    "source": "https://tfutzapublications.com/product/communist-shadows/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01350": {
+    "title": "Complaint Valley",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/05/C770.png",
+    "source": "https://tfutzapublications.com/product/complaint-valley/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01460": {
+    "title": "Double Trouble: An Exciting Comic Full of Torah Values",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/02/DoubleTrouble_flat.png",
+    "source": "https://tfutzapublications.com/product/double-trouble/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02065": {
+    "title": "Caring & Sharing with Rina & Dina",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/01/C740.png",
+    "source": "https://tfutzapublications.com/product/caring-sharing-with-rina-dina/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00519": {
+    "title": "Mega Mind 3",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/08/MegaMind3-flat.png",
+    "source": "https://tfutzapublications.com/product/mega-mind-3/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01587": {
+    "title": "Upper Class",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/08/UpperClass.png",
+    "source": "https://tfutzapublications.com/product/upper-class/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02860": {
+    "title": "Timeless Tales: Yom Kippur Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/06/TT-YomKippur-flat.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-yom-kippur-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02183": {
+    "title": "The Travel Egg",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/07/TravelEgg-flat.png",
+    "source": "https://tfutzapublications.com/product/the-travel-egg/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02934": {
+    "title": "Timeless Tales: Elul Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/06/TT-Elul-flat.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-elul-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02370": {
+    "title": "King Shlomai: The House of Pleasures",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/02/Shlomai.png",
+    "source": "https://tfutzapublications.com/product/king-shlomai-the-house-of-pleasures/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01419": {
+    "title": "Just Trust! the Benefits of Bitachon",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/08/C692.png",
+    "source": "https://tfutzapublications.com/product/just-trust-the-benefits-of-bitachon/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02237": {
+    "title": "Kodiel: The Crown's Secret",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C680.png",
+    "source": "https://tfutzapublications.com/product/kodiel-the-crowns-secret/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01061": {
+    "title": "Black Ice",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C658.png",
+    "source": "https://tfutzapublications.com/product/black-ice/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02021": {
+    "title": "Timeless Tales : Yamim Nora'im Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C650.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-yamim-noraim-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00514": {
+    "title": "Just Trust! Peace of Mind",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C638.png",
+    "source": "https://tfutzapublications.com/product/just-trust-peace-of-mind/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00027": {
+    "title": "The Story of Satmar Rebbe",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C636.png",
+    "source": "https://tfutzapublications.com/product/the-story-of-the-satmar-rebbe/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01631": {
+    "title": "Kolotongo: Lost at Sea!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C633.png",
+    "source": "https://tfutzapublications.com/product/kolotongo-lost-at-sea/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02599": {
+    "title": "Storm Chasers",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C626.png",
+    "source": "https://tfutzapublications.com/product/storm-chasers/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00246": {
+    "title": "Lost at Tea: and Other Stories",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C599.png",
+    "source": "https://tfutzapublications.com/product/lost-at-tea-and-other-stories/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01102": {
+    "title": "Under Cover",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C597.png",
+    "source": "https://tfutzapublications.com/product/under-cover/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00640": {
+    "title": "Mega Mind 2",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C559.png",
+    "source": "https://tfutzapublications.com/product/mega-mind-2/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00951": {
+    "title": "Framed!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C557.png",
+    "source": "https://tfutzapublications.com/product/framed/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00670": {
+    "title": "Timeless Tales : Chanukah Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C550.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-chanukah-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00058": {
+    "title": "Midnight Watch",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C542.png",
+    "source": "https://tfutzapublications.com/product/midnight-watch/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00508": {
+    "title": "Mega Mind",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C539.png",
+    "source": "https://tfutzapublications.com/product/mega-mind/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00128": {
+    "title": "Trapped in Hydropolis",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C538.png",
+    "source": "https://tfutzapublications.com/product/trapped-in-hydropolis/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00569": {
+    "title": "Round Trip",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C519.png",
+    "source": "https://tfutzapublications.com/product/round-trip/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02169": {
+    "title": "Mrs. Make-a-mentsch: in the Neighborhood",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C497.png",
+    "source": "https://tfutzapublications.com/product/mrs-make-a-mentsch-in-the-neighborhood/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00113": {
+    "title": "The Accidental Detective",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C486.png",
+    "source": "https://tfutzapublications.com/product/the-accidental-detective/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and publisher; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00943": {
+    "title": "Timeless Tales : Tefillah Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C436.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-tefillah-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and publisher; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00585": {
+    "title": "Timeless Tales : Torah Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C428.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-torah-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS03151": {
+    "title": "Timeless Tales : Pesach Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C424.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-pesach-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00598": {
+    "title": "Timeless Tales: Purim Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C420.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-purim-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02989": {
+    "title": "Goodbye, Pacifier!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C355.png",
+    "source": "https://tfutzapublications.com/product/goodbye-pacifier/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00076": {
+    "title": "Zundel of Chelm: Zemel and Avreml Discover America",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C660.png",
+    "source": "https://tfutzapublications.com/product/zundel-of-chelm-zemel-and-avremel-discover-america/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01237": {
+    "title": "Master of Hidden Worlds: and Other Stories : Twenty Five Anecdotes from the Life of Rav Yitzchak Kaduri Zt\"l, Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/02/C753.png",
+    "source": "https://tfutzapublications.com/product/master-of-hidden-worlds/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01850": {
+    "title": "The Prince in Danger: The Adventures of the King's Son.",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/01/C742.png",
+    "source": "https://tfutzapublications.com/product/the-prince-in-danger/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00715": {
+    "title": "Space Battle: The Comic",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/03/SpaceBattle.png",
+    "source": "https://tfutzapublications.com/product/space-battle/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00200": {
+    "title": "Domino Effect: A Teen Novel",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/L997.png",
+    "source": "https://tfutzapublications.com/product/domino-effect/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01797": {
+    "title": "Hide & Seek: A Teen Novel",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/LA195.png",
+    "source": "https://tfutzapublications.com/product/hide-seek/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00253": {
+    "title": "Bricks and Stones: A Novel",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/LA162.png",
+    "source": "https://tfutzapublications.com/product/bricks-and-stones/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02315": {
+    "title": "Secret Summer: A Novel",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/LA102.png",
+    "source": "https://tfutzapublications.com/product/secret-summer/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01958": {
+    "title": "Exploring the Wild World of Animals & Birds: Marvels of Creation from a Torah Perspective",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/L765.png",
+    "source": "https://tfutzapublications.com/product/exploring-the-wild-world-of-animals-birds/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00391": {
+    "title": "Hearts on Fire: from War and Churban to the Joyous Vision of Yerusahaliyim Rebuilt",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C643.png",
+    "source": "https://tfutzapublications.com/product/hearts-on-fire/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00553": {
+    "title": "No Chance!: True Stories of Hashgachah Pratis in Our Times",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C641.png",
+    "source": "https://tfutzapublications.com/product/no-chance/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00972": {
+    "title": "Yeshivah Bachur Or Spy?: A Story from the Life of Chafetz Chaim Zt\"l",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C632.png",
+    "source": "https://tfutzapublications.com/product/yeshivah-bachur-or-spy/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02755": {
+    "title": "Blending Secrets: A Novel",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C618.png",
+    "source": "https://tfutzapublications.com/product/blending-secrets/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02403": {
+    "title": "Showtime!: An Inside View of the Purim Story",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C593.png",
+    "source": "https://tfutzapublications.com/product/showtime/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01603": {
+    "title": "On Stormy Seas: The Comic!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C549.png",
+    "source": "https://tfutzapublications.com/product/on-stormy-seas/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00204": {
+    "title": "Mr. Millionaire: A Novel",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C543.png",
+    "source": "https://tfutzapublications.com/product/mr-millionaire/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02329": {
+    "title": "Fraidy Can Still Smile: Learning to Deal with Younger Siblings",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C541.png",
+    "source": "https://tfutzapublications.com/product/fraidy-can-still-smile/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02676": {
+    "title": "Wisecracks: Stories of Jewish Wit and Wisdom Throughout the Ages",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C534.png",
+    "source": "https://tfutzapublications.com/product/wisecracks/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00682": {
+    "title": "Operation Iraq: The Comic!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C528.png",
+    "source": "https://tfutzapublications.com/product/operation-iraq/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01060": {
+    "title": "Remarkable Rescue!: The Miraculous Escape of the Mir Yeshivah",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C524.png",
+    "source": "https://tfutzapublications.com/product/remarkable-rescue/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and publisher; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00475": {
+    "title": "Trouble Up North: The Comic!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C523.png",
+    "source": "https://tfutzapublications.com/product/trouble-up-north-the-comic/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00448": {
+    "title": "Pure Genius!: The Torah Wisdom of Gedolei Yisrael Saves the Day.",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C517.png",
+    "source": "https://tfutzapublications.com/product/pure-genius/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01832": {
+    "title": "Pinky and Slinky at the Table: A Kid Friendly Guide to Mealtime Manners",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C508.png",
+    "source": "https://tfutzapublications.com/product/pinky-and-slinky-at-the-table/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00419": {
+    "title": "The Submarine Sailed at Midnight: The Comic!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C502.png",
+    "source": "https://tfutzapublications.com/product/the-submarine-sailed-at-midnight/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00494": {
+    "title": "Mystery Island: The Comic!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C493.png",
+    "source": "https://tfutzapublications.com/product/mystery-island/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00527": {
+    "title": "The Humble Giant: and Other Stories : Twenty-five Anecdotes from the Life of Rav Shmuel Halevi Wosner Ztl, Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C474.png",
+    "source": "https://tfutzapublications.com/product/a-humble-giant/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00611": {
+    "title": "Just Imagine! We're Going to the Beis Hamikdash: An Original, Fascinatinating Portrayal of the Simchah Im Yerushalayim, During the Yom Tov of Sukkos",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C466.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-were-going-to-the-beis-hamikdash/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00583": {
+    "title": "The Ambassadors Beyond the Sambatyon River: A Fascinating Breathtaking Journey in the Footsteps of the Baal Ha'akdamus to the Land of the Ten Lost Tribes",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C456.png",
+    "source": "https://tfutzapublications.com/product/the-ambassadors-beyond-the-sambatyon-river/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01643": {
+    "title": "I'm Hashem's Messenger: A Kid-friendly Reminder of How to Act in Public",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C454.png",
+    "source": "https://tfutzapublications.com/product/im-hashems-messenger/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00576": {
+    "title": "Just Imagine! the Purim Story Today ..: An Original, Fascinating Rendition of the Miracles of Megillas Esther",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C451.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-the-purim-story-today/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS03198": {
+    "title": "Just Imagine! We Beat the Greeks: An Original, Fascinating Rendition of the Miraculous Story of Chanukah",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C442.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-we-beat-the-greeks/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02667": {
+    "title": "Let's Use Them Right: Social Skills for My Hands, Feet, and Mouth",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C350.png",
+    "source": "https://tfutzapublications.com/product/lets-use-them-right/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00092": {
+    "title": "Who's the Real Weatherman?",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C382.png",
+    "source": "https://tfutzapublications.com/product/who-is-the-real-weatherman/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01062": {
+    "title": "Eli-copter: Adventures in Antarctica.",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/09/V165.png",
+    "source": "https://tfutzapublications.com/product/eli-copter-adventures-in-antarctica-1/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00496": {
+    "title": "Travels with the Maggidim: Every Minute Counts!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C444.png",
+    "source": "https://tfutzapublications.com/product/every-minute-counts/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00434": {
+    "title": "Timebomb: Getting to the Geulah",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C640.png",
+    "source": "https://tfutzapublications.com/product/timebomb-1-getting-to-the-geulah/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02034": {
+    "title": "Timeless Tales : The Ben Ish Chai on Purim",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C666.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-the-ben-ish-chai-purim/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01407": {
+    "title": "The Funny Things They Say!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C299.png",
+    "source": "https://tfutzapublications.com/product/the-funny-things-they-say-3/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00518": {
+    "title": "Travels with the Maggidim: The Best Deal",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C561.png",
+    "source": "https://tfutzapublications.com/product/the-best-deal/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02504": {
+    "title": "I'm Special and So Are You!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/01/C459.png",
+    "source": "https://tfutzapublications.com/product/im-so-special-and-so-are-you/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02475": {
+    "title": "Henny's Sticky Situation",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/12/C785.png",
+    "source": "https://tfutzapublications.com/product/the-four-chocolatiers-book-1-hennys-sticky-situation/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00544": {
+    "title": "A Storm of Surprises",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/02/23-under-1-roof-13_flat.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-13-a-storm-of-surprises/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01730": {
+    "title": "Mr. Farginner & Mr. Mekaneh",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/05/C716.png",
+    "source": "https://tfutzapublications.com/product/tales-out-of-middos-town-3-mr-farginner-mr-mekaneh/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00714": {
+    "title": "A Legacy of Leaders: Children's Edition : Inspiring Stories and Biographies of Sephardi Hachamim",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/05/C715.png",
+    "source": "https://tfutzapublications.com/product/a-legacy-of-leaders-childrens-edition/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01459": {
+    "title": "Timeless Tales : Pesach Seder Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/01/C710.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-pesach-haggadah-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00525": {
+    "title": "Lamb on the Loose",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/12/23-under-1roof-12.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-12-lamb-on-the-loose/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00065": {
+    "title": "Searching for Gold",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/12/C700.png",
+    "source": "https://tfutzapublications.com/product/time-rock-vol-2-searching-for-gold/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02013": {
+    "title": "Mr. Same'ach & Mr. Kvetch",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/10/C687-.png",
+    "source": "https://tfutzapublications.com/product/tales-out-of-middos-town-mr-sameach-mr-kvetch/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00597": {
+    "title": "Their Tales in Our Times",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/08/C694.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-6/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00666": {
+    "title": "The Ben Ish Chai: Pesach",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C679.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-the-ben-ish-chai-pesach/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00545": {
+    "title": "Making Dreams Come True",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C667.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-11-making-dreams-come-true/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02938": {
+    "title": "Shipwrecked!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C661.png",
+    "source": "https://tfutzapublications.com/product/the-39-melachos-with-rabbi-juravel-shipwrecked/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00616": {
+    "title": "Their Tales in Our Times",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C645.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-5/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01217": {
+    "title": "Tully's Trip",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C644.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-10-tullys-trip/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00022": {
+    "title": "Will Shabbos Win?",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C637.png",
+    "source": "https://tfutzapublications.com/product/time-rock-vol-1-will-shabbos-win/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01399": {
+    "title": "I'm So Bored!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C635.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-9-im-so-bored/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00645": {
+    "title": "Scattered Schneiders",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C631.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-10-scattered-schneiders/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01040": {
+    "title": "Shugashvili's Secret",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C625.png",
+    "source": "https://tfutzapublications.com/product/the-39-melachos-with-rabbi-juravel-shugashvilis-secret/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00604": {
+    "title": "Torah Above All and Other Stories: Twenty-five Anecdotes from the Life of the Chazon Ish Zt\"l : Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C622.png",
+    "source": "https://tfutzapublications.com/product/torah-above-all/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02915": {
+    "title": "Prince Pinny and the Best Decoration of All",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C621.png",
+    "source": "https://tfutzapublications.com/product/kinderland-castle-prince-pinny-and-the-best-decoration-of-all/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00642": {
+    "title": "Timeless Tales : Parshas Hashvua : Devarim",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C617.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-devarim-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00486": {
+    "title": "My Sister Is a Kallah!: Preparing Children for Simchas and Other Family Gatherings",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C616.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-8-my-sister-is-a-kallah/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02780": {
+    "title": "Mr. Zariz & Mr. Schlepper",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C614.png",
+    "source": "https://tfutzapublications.com/product/tales-out-of-middos-town-mr-zariz-mr-schlepper/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00458": {
+    "title": "Timeless Tales : Parshas Hashavua Comics : Bamidbar",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C612.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-bamidbar-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00607": {
+    "title": "Timeless Tales : Vayikra",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C607.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-vayikra-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02019": {
+    "title": "Rescue Operation.",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C605.png",
+    "source": "https://tfutzapublications.com/product/the-fearless-four-vol-1rescue-operation/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching series, title, volume 1 and publisher; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00516": {
+    "title": "Touring Eretz Yisrael!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C591.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-9-touring-eretz-yisrael/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00549": {
+    "title": "Timeless Tales : Shemos: Parshas Hashvua Comics.",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C589.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-shemos-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00548": {
+    "title": "Just Imagine! : Their Tales in Our Times",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C588.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-4/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00638": {
+    "title": "Timeless Tales : Parshas Hashvua Comics : Bereishis",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C578.png",
+    "source": "https://tfutzapublications.com/product/timeless-tales-bereishis-comics/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02786": {
+    "title": "The Longest Day",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C558.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-8-the-longest-day/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00433": {
+    "title": "Just Imagine! Their Tales in Our Times",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C551.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-3/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00210": {
+    "title": "The Light from America and Other Stories: Twenty-five Anecdotes from the Life of Reb Moshe Feinstein Zt\"l : Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C537.png",
+    "source": "https://tfutzapublications.com/product/the-light-from-america/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00484": {
+    "title": "Their Tales in Our Times",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C527.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-2/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00646": {
+    "title": "As a Father Cares for His Son and Other Stories: Twenty-five Anecdotes from the Life of Rav Elazar Menachem Mann Shach Zt\"l Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C520.png",
+    "source": "https://tfutzapublications.com/product/as-a-father-cares-for-his-son/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02810": {
+    "title": "The Savings Plan",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C516.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-7-the-savings-plan/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01308": {
+    "title": "The Miracles in the Midbar : An Exciting, Imaginative Modern-day Portrayal of the Miracles in the Desert",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C510.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-the-miracles-in-the-midbar/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00392": {
+    "title": "Truth His Every Word and Other Stories: Twenty-five Anecdotes from the Life of Rav Shlomo Zalman Auerbachish Zt\"l Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C500.png",
+    "source": "https://tfutzapublications.com/product/truth-his-every-word/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01683": {
+    "title": "Their Tales in Our Times",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C494.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-1/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00562": {
+    "title": "The Ambassadors: Time for the Korban Pesach: A Fascinating, Breathtaking Journey to Yerushalayim of Yesteryear to Sacrifice the Korban Pesach in the Beis Hamikdash",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C485.png",
+    "source": "https://tfutzapublications.com/product/the-ambassadors-time-for-the-korban-pesach/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00660": {
+    "title": "The Miracles of Kriyas Yam Suf",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C483.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-the-miracles-of-kriyas-yam-suf/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01076": {
+    "title": "The Tzaddik's Blessing and Other Stories: Twenty-five Anecdotes from the Life of Baba Sali Zt\"l : Accompanied by Authentic Touching Illustrations that Bring Each Story to Life",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C480.png",
+    "source": "https://tfutzapublications.com/product/a-tzaddiks-blessing/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02446": {
+    "title": "The Detective Club",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C478.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-6-the-detective-club/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02051": {
+    "title": "The Secret Clubhouse Kids on the Trail of the Dangerous Robbers",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C477.png",
+    "source": "https://tfutzapublications.com/product/the-secret-clubhouse-kids/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00566": {
+    "title": "Your Day in Court",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C462.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-your-day-in-court/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01783": {
+    "title": "The Amazing Aleph-beis Experience",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C422.png",
+    "source": "https://tfutzapublications.com/product/the-amazing-aleph-beis-experience-book-and-read-along-cd/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02829": {
+    "title": "The New House",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C421.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-4-the-new-house/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00466": {
+    "title": "The Mystery of the Anonymous Donor",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C419.png",
+    "source": "https://tfutzapublications.com/product/the-invisibles-vol-2-the-mystery-of-the-anonymous-donor/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01330": {
+    "title": "Why Things Come to an End",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C410.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-7-why-things-come-to-an-end/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00517": {
+    "title": "The Day I Got Lost",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C409.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-6-the-day-i-got-lost/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01149": {
+    "title": "When Mommy Is Tired",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C408.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-5-when-mommy-is-tired/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02486": {
+    "title": "My Baby Sister: Overcoming Jealousy of a New Baby",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C407.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-4-my-baby-sister/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00457": {
+    "title": "Under Renovation",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C390.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-3-under-renovation/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02242": {
+    "title": "Surprise: Handling Disappointment",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C376.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-3-surprise/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01235": {
+    "title": "So What?!: Standing Tall to Teasing",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C375.png",
+    "source": "https://tfutzapublications.com/product/story-solutions-2-so-what/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01965": {
+    "title": "Look Out, London!",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C359.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-2-look-out-london/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00482": {
+    "title": "The Zany Inventor",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C351.png",
+    "source": "https://tfutzapublications.com/product/rebbe-mendel-the-zany-inventor/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02096": {
+    "title": "The Big Surprise",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C333.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-the-big-surprise/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01687": {
+    "title": "Face 2 Face",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C672.png",
+    "source": "https://tfutzapublications.com/product/face2face/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02720": {
+    "title": "Princess Hadassa Malka and Her Royal Crown",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2025/06/C757.png",
+    "source": "https://tfutzapublications.com/product/kinderland-castle-princess-hadassah-malka-and-her-royal-crown/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00613": {
+    "title": "A Warm Heart and Other Stories: Twenty-five Anecdotes from the Life of Harav Aharon Yehudah Leib Shteinman Zt\"l ; Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C438.png",
+    "source": "https://tfutzapublications.com/product/a-warm-heart/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01245": {
+    "title": "Sincerely Yours: Fascinating Parables from Leading Maggidim About Serving Hashem with Emes",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2024/07/TravelsMaggidim6-flat.png",
+    "source": "https://tfutzapublications.com/product/travels-with-the-maggidim-06-sincerely-yours/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS01507": {
+    "title": "Don't Buy It!: Fascinating Parables from Leading Maggidim About How to Overcome Our Yetzer Hara and Really Grow",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/08/C693.png",
+    "source": "https://tfutzapublications.com/product/travels-with-the-maggidim-vol-5-dont-buy-it/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00634": {
+    "title": "We're Bringing Bikkurim : An Original and Exciting Modern-day Portrayal of the Bringing of the First Fruits to the Beis Hamikdash",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C455.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-were-bringing-bikkurim/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02826": {
+    "title": "Falsely Accused: The 39 Melachos with Rabbi Juravel : The Comics",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C573.png",
+    "source": "https://tfutzapublications.com/product/the-39-melachos-with-rabbi-juravel-falsely-accused/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS00594": {
+    "title": "Unnraveled Travels",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C450.png",
+    "source": "https://tfutzapublications.com/product/23-under-1-roof-vol-5-unraveled-travels/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
+  },
+  "KS02595": {
+    "title": "Covid-19 : An Exciting, Entirely Imaginary Depiction of How the Coronavirus Pandemic Might Have Been Handled in Eretz Yisrael, If the Government Was Run According to the Etenal Values of Our Holy Torah",
+    "image": "https://tfutzapublications.com/wp-content/uploads/2023/07/C604.png",
+    "source": "https://tfutzapublications.com/product/just-imagine-covid-19/",
+    "credit": "Tfutza Publications",
+    "matchBasis": "Matching title and contributors; cover visually inspected; bibliography series/volume checked",
+    "checkedDate": "2026-11-02"
   }
 }

@@ -37711,6 +37711,4902 @@
         }
       },
       "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C654.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C654.png",
+      "retrievedAt": "2026-11-02T20:55:19.110Z",
+      "records": [
+        {
+          "id": "KS02765",
+          "title": "Junior Shemiras Halashon: Daily Learning Program for the Entire Family",
+          "sourcePage": "https://tfutzapublications.com/product/junior-shemiras-halashon/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/a201ef463f28ed94-403ea57e3eff.png",
+        "sha256": "403ea57e3eff60323d87e792ddf5fc9d1fadafa6a3b9e7877d7c2f1c56cd57b4",
+        "bytes": 41832,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/a201ef463f28ed94-403ea57e3eff.webp",
+        "sha256": "d650583dbc237eb0dd4c7347a006a47096bc3a28b32d457e80a3277c38717be9",
+        "bytes": 16768,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/05/C771.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/05/C771.png",
+      "retrievedAt": "2026-11-02T20:55:19.211Z",
+      "records": [
+        {
+          "id": "KS01010",
+          "title": "Communist Shadows",
+          "sourcePage": "https://tfutzapublications.com/product/communist-shadows/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/971c176bb5f04545-c10ec9bc32cc.png",
+        "sha256": "c10ec9bc32cc136f727555a95b025365a3010b9ec2a04691a53bf9902e9de717",
+        "bytes": 179715,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/971c176bb5f04545-c10ec9bc32cc.webp",
+        "sha256": "e39296835b9b56dc7c68cca0b7e6c71ef641381239637f80953509c162ea0fa3",
+        "bytes": 113182,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/05/C773.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/05/C773.png",
+      "retrievedAt": "2026-11-02T20:55:19.221Z",
+      "records": [
+        {
+          "id": "KS00408",
+          "title": "The Power Struggle",
+          "sourcePage": "https://tfutzapublications.com/product/the-power-struggle/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/a1f8ea85234b3fe4-ee87d4240868.png",
+        "sha256": "ee87d42408683d87dbb1b0bc47947febee558235f58ed966b30a9c5f198c2b4b",
+        "bytes": 192513,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/a1f8ea85234b3fe4-ee87d4240868.webp",
+        "sha256": "ff57562750527db12521a5504e030eb0c98da4075f1c10cde8540b363cab2ac3",
+        "bytes": 128162,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/05/C774.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/05/C774.png",
+      "retrievedAt": "2026-11-02T20:55:19.225Z",
+      "records": [
+        {
+          "id": "KS02443",
+          "title": "Vanished!",
+          "sourcePage": "https://tfutzapublications.com/product/vanished/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/006f325b3d897bd0-9b361372ae15.png",
+        "sha256": "9b361372ae15bff6464842a435ca04dd13e006c493b20a7dccb396ac9ccc2ff0",
+        "bytes": 166224,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/006f325b3d897bd0-9b361372ae15.webp",
+        "sha256": "763614a60de39c24c84aa7e1bab3a05cddfda404afe8cac247fcc71a9fb3eef7",
+        "bytes": 116178,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/02/DoubleTrouble_flat.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/02/DoubleTrouble_flat.png",
+      "retrievedAt": "2026-11-02T20:55:19.236Z",
+      "records": [
+        {
+          "id": "KS01460",
+          "title": "Double Trouble: An Exciting Comic Full of Torah Values",
+          "sourcePage": "https://tfutzapublications.com/product/double-trouble/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e803b3085bc342c3-ce7b0fb85763.png",
+        "sha256": "ce7b0fb857635f22a41932f2ee295a1edca059279c6eeed88896d7ce20b09f29",
+        "bytes": 218250,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/e803b3085bc342c3-ce7b0fb85763.webp",
+        "sha256": "1f6d091b32a079c92fbe71c82e4bf06d6a09ef9ceb7f722ae21955f57f607098",
+        "bytes": 115770,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/05/C770.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/05/C770.png",
+      "retrievedAt": "2026-11-02T20:55:19.337Z",
+      "records": [
+        {
+          "id": "KS01350",
+          "title": "Complaint Valley",
+          "sourcePage": "https://tfutzapublications.com/product/complaint-valley/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/85fa1fda078a5d99-bae49db2b25e.png",
+        "sha256": "bae49db2b25e4630dc86c8a0cdcb656465d8249b5351d474261d7c15c8315008",
+        "bytes": 203620,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/85fa1fda078a5d99-bae49db2b25e.webp",
+        "sha256": "24435b60d4f431c596ff59a950c41ac0872768dc69c2e6db5959fc136cae8720",
+        "bytes": 121374,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/07/TravelEgg-flat.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/07/TravelEgg-flat.png",
+      "retrievedAt": "2026-11-02T20:55:19.429Z",
+      "records": [
+        {
+          "id": "KS02183",
+          "title": "The Travel Egg",
+          "sourcePage": "https://tfutzapublications.com/product/the-travel-egg/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0ce84fdadbfc40f3-9a0c61bfc58b.png",
+        "sha256": "9a0c61bfc58b6fa88472d3557377236a2ed99de484c669c581c615ada8e8ac1e",
+        "bytes": 328331,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/0ce84fdadbfc40f3-9a0c61bfc58b.webp",
+        "sha256": "8033f12a4338e349807bfab0563a811d0c37cab27eab26fab43681dc6d749105",
+        "bytes": 203498,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/08/MegaMind3-flat.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/08/MegaMind3-flat.png",
+      "retrievedAt": "2026-11-02T20:55:19.513Z",
+      "records": [
+        {
+          "id": "KS00519",
+          "title": "Mega Mind 3",
+          "sourcePage": "https://tfutzapublications.com/product/mega-mind-3/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/f0da5a811259d3d6-dbbb1ef809b6.png",
+        "sha256": "dbbb1ef809b68e19a31d8fe038ae48d84e2264c7152d8f7e3a8eaf173a65561c",
+        "bytes": 234749,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/f0da5a811259d3d6-dbbb1ef809b6.webp",
+        "sha256": "3d246a8b676448f0feb840092f62b8efc548eaa34cfb7923042f5b02eae2355e",
+        "bytes": 168454,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/08/UpperClass.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/08/UpperClass.png",
+      "retrievedAt": "2026-11-02T20:55:19.516Z",
+      "records": [
+        {
+          "id": "KS01587",
+          "title": "Upper Class",
+          "sourcePage": "https://tfutzapublications.com/product/upper-class/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/8255d305bff9a3a7-891f329001d9.png",
+        "sha256": "891f329001d9a10248e26c3652e24123697c7e5131ce0f8cc141618fcf9ec033",
+        "bytes": 167734,
+        "format": "png",
+        "width": 700,
+        "height": 700
+      },
+      "web": {
+        "path": "/covers/8255d305bff9a3a7-891f329001d9.webp",
+        "sha256": "5171afde061543ae06509c2475ba14fd5869bc7372feda9db18d20b10daec12d",
+        "bytes": 75478,
+        "width": 700,
+        "height": 700,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 700,
+          "height": 700
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/01/C740.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/01/C740.png",
+      "retrievedAt": "2026-11-02T20:55:19.517Z",
+      "records": [
+        {
+          "id": "KS02065",
+          "title": "Caring & Sharing with Rina & Dina",
+          "sourcePage": "https://tfutzapublications.com/product/caring-sharing-with-rina-dina/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/a1d21d98d194460a-8a7405a1f6f9.png",
+        "sha256": "8a7405a1f6f9dd8e54ebe1f39ef244330d7c56fd85b6a11078c33c73c8c9d8a2",
+        "bytes": 158409,
+        "format": "png",
+        "width": 700,
+        "height": 700
+      },
+      "web": {
+        "path": "/covers/a1d21d98d194460a-8a7405a1f6f9.webp",
+        "sha256": "8a1e7a993b39dc764ab5ff60084e879591c6feff67f8c4c87531f51abca51818",
+        "bytes": 78814,
+        "width": 700,
+        "height": 700,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 700,
+          "height": 700
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/06/TT-YomKippur-flat.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/06/TT-YomKippur-flat.png",
+      "retrievedAt": "2026-11-02T20:55:19.667Z",
+      "records": [
+        {
+          "id": "KS02860",
+          "title": "Timeless Tales: Yom Kippur Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-yom-kippur-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/25f75875fa529a45-35a5be4e3626.png",
+        "sha256": "35a5be4e3626dcd32b36d2a606dfb01c4f5453c35117891e27a7e9fc5af58ecb",
+        "bytes": 359999,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/25f75875fa529a45-35a5be4e3626.webp",
+        "sha256": "c6199d6e605c2c1f5a0662fad27685365386cfa8df8d65c18144e9a7befa5dd1",
+        "bytes": 183258,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/06/TT-Elul-flat.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/06/TT-Elul-flat.png",
+      "retrievedAt": "2026-11-02T20:55:19.673Z",
+      "records": [
+        {
+          "id": "KS02934",
+          "title": "Timeless Tales: Elul Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-elul-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/9ebcff2891b969c1-d4c72a087764.png",
+        "sha256": "d4c72a087764c5935cdbbacc615b32095f10769faf8af24b6046d459a63ca373",
+        "bytes": 364532,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/9ebcff2891b969c1-d4c72a087764.webp",
+        "sha256": "ea72006426556531586ca9d2b2c7dadaf18a87e0caf2bc321f0cb4d0de198862",
+        "bytes": 181302,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C658.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C658.png",
+      "retrievedAt": "2026-11-02T20:55:19.713Z",
+      "records": [
+        {
+          "id": "KS01061",
+          "title": "Black Ice",
+          "sourcePage": "https://tfutzapublications.com/product/black-ice/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/00822c67ce50bb61-f5ebfb264bc0.png",
+        "sha256": "f5ebfb264bc034aeb47ffaccfd5a0be8d61727a46da1e9835da85877e57fe02d",
+        "bytes": 39533,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/00822c67ce50bb61-f5ebfb264bc0.webp",
+        "sha256": "9d907225a238b531d06b589ea194ae573b8587b0c9c316cfcbb4bfa42dfd8b8e",
+        "bytes": 14720,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C680.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C680.png",
+      "retrievedAt": "2026-11-02T20:55:19.725Z",
+      "records": [
+        {
+          "id": "KS02237",
+          "title": "Kodiel: The Crown's Secret",
+          "sourcePage": "https://tfutzapublications.com/product/kodiel-the-crowns-secret/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/d53fa420c222bea7-9dd0a29278de.png",
+        "sha256": "9dd0a29278de9737bcc73109cdb97c3b95b7e6f1d12f0a3eebf300ab659ae579",
+        "bytes": 48693,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/d53fa420c222bea7-9dd0a29278de.webp",
+        "sha256": "966be31eec906df03d9cf066e6d5c667fd50593a568fcf74368823c248153878",
+        "bytes": 20424,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/08/C692.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/08/C692.png",
+      "retrievedAt": "2026-11-02T20:55:19.731Z",
+      "records": [
+        {
+          "id": "KS01419",
+          "title": "Just Trust! the Benefits of Bitachon",
+          "sourcePage": "https://tfutzapublications.com/product/just-trust-the-benefits-of-bitachon/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b54f45a75db6f3fa-e06c29b2bf83.png",
+        "sha256": "e06c29b2bf83694d42da3d3153bc873e78eeb2339e8448178681151fa061a976",
+        "bytes": 43688,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/b54f45a75db6f3fa-e06c29b2bf83.webp",
+        "sha256": "46308e42f983813523a9b49a029fb282a73df5f836f0e6d456ad6739af28d654",
+        "bytes": 29076,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/02/Shlomai.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/02/Shlomai.png",
+      "retrievedAt": "2026-11-02T20:55:19.751Z",
+      "records": [
+        {
+          "id": "KS02370",
+          "title": "King Shlomai: The House of Pleasures",
+          "sourcePage": "https://tfutzapublications.com/product/king-shlomai-the-house-of-pleasures/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/cca62bbeea9840a0-0158dcde6ae6.png",
+        "sha256": "0158dcde6ae60c533086d8b1a571418746db6f0f6589ddfbe01994d85c02359e",
+        "bytes": 220991,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/cca62bbeea9840a0-0158dcde6ae6.webp",
+        "sha256": "9c20dd56925b9feaba22d10858cb853f924c35b780e754b67f83241c96a236b1",
+        "bytes": 172600,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C638.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C638.png",
+      "retrievedAt": "2026-11-02T20:55:19.853Z",
+      "records": [
+        {
+          "id": "KS00514",
+          "title": "Just Trust! Peace of Mind",
+          "sourcePage": "https://tfutzapublications.com/product/just-trust-peace-of-mind/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/350211bd38f03e58-9d5301b9cd2c.png",
+        "sha256": "9d5301b9cd2c119ccaece5d622174d4e446483d368356e4b1a9e8f934293372b",
+        "bytes": 40384,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/350211bd38f03e58-9d5301b9cd2c.webp",
+        "sha256": "6088abede4752c9edd9a0b5ac11192cb960fc04fa5e489f8abc40ccd4489ed34",
+        "bytes": 22040,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C650.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C650.png",
+      "retrievedAt": "2026-11-02T20:55:19.855Z",
+      "records": [
+        {
+          "id": "KS02021",
+          "title": "Timeless Tales : Yamim Nora'im Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-yamim-noraim-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/59e2a86fc5a4f5cb-d1a50c0b5b8d.png",
+        "sha256": "d1a50c0b5b8dd4b79b9dbb8de90b15da49a3294ee3bfbfcfcc6f32764dc53e41",
+        "bytes": 162080,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/59e2a86fc5a4f5cb-d1a50c0b5b8d.webp",
+        "sha256": "7924fe5d6c3e1f685ab08ead80eb419f521410daedf87d987bbdb7fcdb10b813",
+        "bytes": 27518,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C636.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C636.png",
+      "retrievedAt": "2026-11-02T20:55:19.857Z",
+      "records": [
+        {
+          "id": "KS00027",
+          "title": "The Story of Satmar Rebbe",
+          "sourcePage": "https://tfutzapublications.com/product/the-story-of-the-satmar-rebbe/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e8ea44d266ca9c54-52cb42146e09.png",
+        "sha256": "52cb42146e09726bfb38b499f9e33675de9a00597ceda5d29a3e9de9bcda6ec1",
+        "bytes": 46469,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/e8ea44d266ca9c54-52cb42146e09.webp",
+        "sha256": "a3ef012a6100eff545a817c99afbffdd48ccd4fcb94052fa93b7a69c6bdd2768",
+        "bytes": 16624,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C626.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C626.png",
+      "retrievedAt": "2026-11-02T20:55:19.870Z",
+      "records": [
+        {
+          "id": "KS02599",
+          "title": "Storm Chasers",
+          "sourcePage": "https://tfutzapublications.com/product/storm-chasers/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/aa6a19a067117e2d-f03fc6ba776d.png",
+        "sha256": "f03fc6ba776d66710c2115b397d5d73fcd2952f430efa98a7d61274c57f06010",
+        "bytes": 44015,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/aa6a19a067117e2d-f03fc6ba776d.webp",
+        "sha256": "18e7b8d125e7880e5d757f8c6b67de41475bc90eec1c1f2c79a55eaa254a965f",
+        "bytes": 16818,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C633.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C633.png",
+      "retrievedAt": "2026-11-02T20:55:19.873Z",
+      "records": [
+        {
+          "id": "KS01631",
+          "title": "Kolotongo: Lost at Sea!",
+          "sourcePage": "https://tfutzapublications.com/product/kolotongo-lost-at-sea/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/a45cbc731176e832-b0828b478978.png",
+        "sha256": "b0828b47897811876da954a6797b32af44efa76b51a60d6ecb3fab1dad2e47c8",
+        "bytes": 52471,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/a45cbc731176e832-b0828b478978.webp",
+        "sha256": "dd0451b5070a7a15f14019d1fe53dee42b7969076cd4025cad87c28a369779cd",
+        "bytes": 31586,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C599.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C599.png",
+      "retrievedAt": "2026-11-02T20:55:19.897Z",
+      "records": [
+        {
+          "id": "KS00246",
+          "title": "Lost at Tea: and Other Stories",
+          "sourcePage": "https://tfutzapublications.com/product/lost-at-tea-and-other-stories/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/891201ed62c7587d-ca72311bc2d7.png",
+        "sha256": "ca72311bc2d7475fc4eb3ba82b101a2a91fec07a831ed202711feaf6b6206a5f",
+        "bytes": 42523,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/891201ed62c7587d-ca72311bc2d7.webp",
+        "sha256": "73f877c540828f10dceedefcfc971f069263e0e5cccb5b972fe730b07f94e583",
+        "bytes": 17646,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C550.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C550.png",
+      "retrievedAt": "2026-11-02T20:55:19.915Z",
+      "records": [
+        {
+          "id": "KS00670",
+          "title": "Timeless Tales : Chanukah Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-chanukah-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3bcab70bbb55a6ed-a64a1d70ec2f.png",
+        "sha256": "a64a1d70ec2f5106067260f282a1610754d65ad02970f39f0ecb99e4bb9870a1",
+        "bytes": 50767,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/3bcab70bbb55a6ed-a64a1d70ec2f.webp",
+        "sha256": "bc8de3695aaff8b2d4d98f24020f8ab38f0913b635881baa583bb0e060d1205c",
+        "bytes": 26300,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C538.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C538.png",
+      "retrievedAt": "2026-11-02T20:55:19.953Z",
+      "records": [
+        {
+          "id": "KS00128",
+          "title": "Trapped in Hydropolis",
+          "sourcePage": "https://tfutzapublications.com/product/trapped-in-hydropolis/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/4e423516c50436d9-c6be517b9d19.png",
+        "sha256": "c6be517b9d195e5c6da41faa18cfb3d51a29443b0d32b0bb1aeb55052536d781",
+        "bytes": 48842,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/4e423516c50436d9-c6be517b9d19.webp",
+        "sha256": "a75da1092fd6e7e8eda17feea85ae5e9cb24c08be874f26fa39c20b83fc03835",
+        "bytes": 28374,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C597.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C597.png",
+      "retrievedAt": "2026-11-02T20:55:20.003Z",
+      "records": [
+        {
+          "id": "KS01102",
+          "title": "Under Cover",
+          "sourcePage": "https://tfutzapublications.com/product/under-cover/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c97ee6318bc4eb3d-4b79c24279a3.png",
+        "sha256": "4b79c24279a366a596ac573f2cb6bf88c6f973c6bc63c761d6ce1b6519b4a703",
+        "bytes": 36977,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/c97ee6318bc4eb3d-4b79c24279a3.webp",
+        "sha256": "97d83d5867ff2acc78845853b1c819391849a3de639c811a98fd5d77e7ffaa8b",
+        "bytes": 18342,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C559.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C559.png",
+      "retrievedAt": "2026-11-02T20:55:20.089Z",
+      "records": [
+        {
+          "id": "KS00640",
+          "title": "Mega Mind 2",
+          "sourcePage": "https://tfutzapublications.com/product/mega-mind-2/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/4fbb88c32d518e15-ffd84921b66e.png",
+        "sha256": "ffd84921b66ee886b7e7b85d379e1d243cc5a55fa1eb0df38bc755ee178a872e",
+        "bytes": 47455,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/4fbb88c32d518e15-ffd84921b66e.webp",
+        "sha256": "085f7d282b4c8fe6ad6977b51b86ed0f52220b83cb21dd0151247c3be221f2f9",
+        "bytes": 32094,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C557.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C557.png",
+      "retrievedAt": "2026-11-02T20:55:20.135Z",
+      "records": [
+        {
+          "id": "KS00951",
+          "title": "Framed!",
+          "sourcePage": "https://tfutzapublications.com/product/framed/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7fa22525a8c3045b-dae4b6f09404.png",
+        "sha256": "dae4b6f0940465ae09b34b5df7af97a4fe0daa1cf4261e917adc0202084f51cc",
+        "bytes": 44468,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/7fa22525a8c3045b-dae4b6f09404.webp",
+        "sha256": "2890ba3830cb2e9b5fe4ba834069336204add0a3822fd5037921a5182aca31e9",
+        "bytes": 20742,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C542.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C542.png",
+      "retrievedAt": "2026-11-02T20:55:20.210Z",
+      "records": [
+        {
+          "id": "KS00058",
+          "title": "Midnight Watch",
+          "sourcePage": "https://tfutzapublications.com/product/midnight-watch/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b3ff408c63392907-b8daf532e2f4.png",
+        "sha256": "b8daf532e2f48dde7f43627d444a6e9c5aa992e63fc8c20926c40810b55ba033",
+        "bytes": 48595,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/b3ff408c63392907-b8daf532e2f4.webp",
+        "sha256": "c1cd2484c8e6574ee6ebdbdf75700ce0295e6d933e40920a16f21dd34592e2fe",
+        "bytes": 19006,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C539.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C539.png",
+      "retrievedAt": "2026-11-02T20:55:20.217Z",
+      "records": [
+        {
+          "id": "KS00508",
+          "title": "Mega Mind",
+          "sourcePage": "https://tfutzapublications.com/product/mega-mind/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/099e3806f37e4bc3-a2a537a911e2.png",
+        "sha256": "a2a537a911e2bccaf71ed8f6dd6f42b7a2473bffa268ac334506a11d1b176632",
+        "bytes": 47165,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/099e3806f37e4bc3-a2a537a911e2.webp",
+        "sha256": "587884eb0474b0f9c1ca01c2aeda20023db5e0a05a097c39fd37549260fa070c",
+        "bytes": 27472,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C497.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C497.png",
+      "retrievedAt": "2026-11-02T20:55:20.217Z",
+      "records": [
+        {
+          "id": "KS02169",
+          "title": "Mrs. Make-a-mentsch: in the Neighborhood",
+          "sourcePage": "https://tfutzapublications.com/product/mrs-make-a-mentsch-in-the-neighborhood/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/265654344edd32de-2d27f28c14f3.png",
+        "sha256": "2d27f28c14f389bbd8dbea8a2b81e024ec38f5804e01db511b6d7e678092efdf",
+        "bytes": 39955,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/265654344edd32de-2d27f28c14f3.webp",
+        "sha256": "37f45f11812ae15b0a880f1780ef36aa08edba34fde3b2f098789ca8d296a6cb",
+        "bytes": 21938,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C519.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C519.png",
+      "retrievedAt": "2026-11-02T20:55:20.222Z",
+      "records": [
+        {
+          "id": "KS00569",
+          "title": "Round Trip",
+          "sourcePage": "https://tfutzapublications.com/product/round-trip/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/4dc7988e82100d40-afb07967f8f8.png",
+        "sha256": "afb07967f8f8a167664c036a257eb1432d0babfcfa5270c7e55b7951b7b7a63d",
+        "bytes": 45936,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/4dc7988e82100d40-afb07967f8f8.webp",
+        "sha256": "10dd2824f4b38c4e0b669a4169757f93ebbb8b2e0bf127e667f896393a780f98",
+        "bytes": 17072,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C486.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C486.png",
+      "retrievedAt": "2026-11-02T20:55:20.260Z",
+      "records": [
+        {
+          "id": "KS00113",
+          "title": "The Accidental Detective",
+          "sourcePage": "https://tfutzapublications.com/product/the-accidental-detective/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/8dfccc2178dd90f4-5de65fb0adc9.png",
+        "sha256": "5de65fb0adc9b8ebecc8527e5da337a0e5c568219f7368abad5babe4feefb3fa",
+        "bytes": 39731,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/8dfccc2178dd90f4-5de65fb0adc9.webp",
+        "sha256": "297d59d21b36175e7440c6a31ba7e5bed0602579acb3533da4893c00cbfd3148",
+        "bytes": 19024,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C424.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C424.png",
+      "retrievedAt": "2026-11-02T20:55:20.262Z",
+      "records": [
+        {
+          "id": "KS03151",
+          "title": "Timeless Tales : Pesach Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-pesach-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/36d6e96c45c2f2af-3cd929a0b92d.png",
+        "sha256": "3cd929a0b92d3c17ccb6aa6f042562c8ba66a9545ac3f85dfe7529d6b7756745",
+        "bytes": 46605,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/36d6e96c45c2f2af-3cd929a0b92d.webp",
+        "sha256": "ccb0fe6e0c118fb31918ffa8b364a14161efb72f1affd25390d8d8a4127f8bb5",
+        "bytes": 24958,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C436.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C436.png",
+      "retrievedAt": "2026-11-02T20:55:20.292Z",
+      "records": [
+        {
+          "id": "KS00943",
+          "title": "Timeless Tales : Tefillah Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-tefillah-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/52044daab0034c80-9c6e79e0b844.png",
+        "sha256": "9c6e79e0b8441fdd457e55cf7458411d850b1aacc917b0adc997fc300232c9ba",
+        "bytes": 47403,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/52044daab0034c80-9c6e79e0b844.webp",
+        "sha256": "0153abf2e4aab9020493d258d09f62590d27e37adcb6a1bdd1cd9260ef35cac4",
+        "bytes": 27950,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C428.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C428.png",
+      "retrievedAt": "2026-11-02T20:55:20.374Z",
+      "records": [
+        {
+          "id": "KS00585",
+          "title": "Timeless Tales : Torah Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-torah-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/db0914a8381717bc-699bfc817d06.png",
+        "sha256": "699bfc817d0687962631d9b3018bbfd2c24a517f76113246dd4c4d45a9cbf9dd",
+        "bytes": 49723,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/db0914a8381717bc-699bfc817d06.webp",
+        "sha256": "c4fa92cf52b84650df8eb3fb9a217cf48abeb524bdab4647db822f68d0f5f0ab",
+        "bytes": 27720,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C355.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C355.png",
+      "retrievedAt": "2026-11-02T20:55:20.374Z",
+      "records": [
+        {
+          "id": "KS02989",
+          "title": "Goodbye, Pacifier!",
+          "sourcePage": "https://tfutzapublications.com/product/goodbye-pacifier/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/463d7ab69164676a-3fd864fbd4f0.png",
+        "sha256": "3fd864fbd4f031cc9a86ea63d435da4e1b55dc881a2ebb376a77b59be5320ce3",
+        "bytes": 44964,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/463d7ab69164676a-3fd864fbd4f0.webp",
+        "sha256": "780b73a6d1a72d6cb78e168901c0b6262f0562307f05691d1b03024e055c91ac",
+        "bytes": 21860,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C420.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C420.png",
+      "retrievedAt": "2026-11-02T20:55:20.374Z",
+      "records": [
+        {
+          "id": "KS00598",
+          "title": "Timeless Tales: Purim Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-purim-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/25adb811d5e05e1b-f2ceec7100fe.png",
+        "sha256": "f2ceec7100fe1f77db46f5b630bd5d1aaaecc808170ef7bff0bc46b9ea61982e",
+        "bytes": 46318,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/25adb811d5e05e1b-f2ceec7100fe.webp",
+        "sha256": "f2c89b8e9ae40a1d1899d70a082aea67f944554ba91035b17ecb00ff6ec250ac",
+        "bytes": 24946,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C660.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C660.png",
+      "retrievedAt": "2026-11-02T20:55:20.405Z",
+      "records": [
+        {
+          "id": "KS00076",
+          "title": "Zundel of Chelm: Zemel and Avreml Discover America",
+          "sourcePage": "https://tfutzapublications.com/product/zundel-of-chelm-zemel-and-avremel-discover-america/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3c4444b53185d90d-c86717f0e1e9.png",
+        "sha256": "c86717f0e1e92ea0e79edd3e651e56b344ad0586dbfd4af7b8ef8341217d3686",
+        "bytes": 47226,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/3c4444b53185d90d-c86717f0e1e9.webp",
+        "sha256": "dca376d5378954ae3c7987078ea2a89d277680d03eec980aab85855ab5e1459b",
+        "bytes": 24884,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/02/C753.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/02/C753.png",
+      "retrievedAt": "2026-11-02T20:55:20.454Z",
+      "records": [
+        {
+          "id": "KS01237",
+          "title": "Master of Hidden Worlds: and Other Stories : Twenty Five Anecdotes from the Life of Rav Yitzchak Kaduri Zt\"l, Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+          "sourcePage": "https://tfutzapublications.com/product/master-of-hidden-worlds/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/1f55e8131108e1ab-8b7feec57e4d.png",
+        "sha256": "8b7feec57e4d1579a81ab7dd6fc921b555006e8c532faa49e2906f9ef1b36c2b",
+        "bytes": 217107,
+        "format": "png",
+        "width": 700,
+        "height": 700
+      },
+      "web": {
+        "path": "/covers/1f55e8131108e1ab-8b7feec57e4d.webp",
+        "sha256": "1f466bc7a2d252556a81e15e84894c7e3ca464b4f0ef83b77416d9b8f36771d0",
+        "bytes": 105238,
+        "width": 700,
+        "height": 700,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 700,
+          "height": 700
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/LA195.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/LA195.png",
+      "retrievedAt": "2026-11-02T20:55:20.518Z",
+      "records": [
+        {
+          "id": "KS01797",
+          "title": "Hide & Seek: A Teen Novel",
+          "sourcePage": "https://tfutzapublications.com/product/hide-seek/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c378ca630d2c4b04-cb47388c8d60.png",
+        "sha256": "cb47388c8d60bfa3321e7879c5e12219ee83b707264d1139310ad04c9f1a5bcd",
+        "bytes": 37025,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/c378ca630d2c4b04-cb47388c8d60.webp",
+        "sha256": "258bb347ab27eee1aff6369e64db78182d59603678fc39eb7813163d65fe84c7",
+        "bytes": 14718,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/L997.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/L997.png",
+      "retrievedAt": "2026-11-02T20:55:20.519Z",
+      "records": [
+        {
+          "id": "KS00200",
+          "title": "Domino Effect: A Teen Novel",
+          "sourcePage": "https://tfutzapublications.com/product/domino-effect/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/6e34c018b3656c03-2b74f11efab7.png",
+        "sha256": "2b74f11efab76ec0d8d01337cb32f9dbd694d480e7c2e9795e6969cb52042269",
+        "bytes": 46476,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/6e34c018b3656c03-2b74f11efab7.webp",
+        "sha256": "fc7bdbce66c1a37f3de93fce7300649c93cb243b523940217fede685d142a6ff",
+        "bytes": 19540,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/01/C742.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/01/C742.png",
+      "retrievedAt": "2026-11-02T20:55:20.532Z",
+      "records": [
+        {
+          "id": "KS01850",
+          "title": "The Prince in Danger: The Adventures of the King's Son.",
+          "sourcePage": "https://tfutzapublications.com/product/the-prince-in-danger/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/85d5d754f7094bc8-6660f4d59c01.png",
+        "sha256": "6660f4d59c0154ce2f5d27b84b95445acb5aa2c6401e8a41d9e032fc44574c02",
+        "bytes": 200015,
+        "format": "png",
+        "width": 700,
+        "height": 700
+      },
+      "web": {
+        "path": "/covers/85d5d754f7094bc8-6660f4d59c01.webp",
+        "sha256": "5e8abd8c41e0564043224e37f8a62ae4c03e594e2a3c86514e7bb1302662af06",
+        "bytes": 146576,
+        "width": 700,
+        "height": 700,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 700,
+          "height": 700
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/LA162.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/LA162.png",
+      "retrievedAt": "2026-11-02T20:55:20.535Z",
+      "records": [
+        {
+          "id": "KS00253",
+          "title": "Bricks and Stones: A Novel",
+          "sourcePage": "https://tfutzapublications.com/product/bricks-and-stones/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e0cb66bc44409971-c96b7717a96b.png",
+        "sha256": "c96b7717a96b8aa3ebe5f8b55075bdc00c80df655588aa5947d9c2a9b02c5ed8",
+        "bytes": 29815,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/e0cb66bc44409971-c96b7717a96b.webp",
+        "sha256": "e96c83241d70c14fc49b4a90c5dc2169482f740a8b37f24dcf720bc64f43fad4",
+        "bytes": 16982,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C632.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C632.png",
+      "retrievedAt": "2026-11-02T20:55:20.567Z",
+      "records": [
+        {
+          "id": "KS00972",
+          "title": "Yeshivah Bachur Or Spy?: A Story from the Life of Chafetz Chaim Zt\"l",
+          "sourcePage": "https://tfutzapublications.com/product/yeshivah-bachur-or-spy/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/124dc471ede178a1-5478a596add5.png",
+        "sha256": "5478a596add5f7b21574cb8bb822deddd6f234034494f7e058ff5412179b9914",
+        "bytes": 50525,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/124dc471ede178a1-5478a596add5.webp",
+        "sha256": "83b5cd44bd220924075182d19d028d3f212ec074e509f374328975380c12997b",
+        "bytes": 24434,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/LA102.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/LA102.png",
+      "retrievedAt": "2026-11-02T20:55:20.662Z",
+      "records": [
+        {
+          "id": "KS02315",
+          "title": "Secret Summer: A Novel",
+          "sourcePage": "https://tfutzapublications.com/product/secret-summer/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7741e69790b8ccc4-1a81f91db6c0.png",
+        "sha256": "1a81f91db6c0818e5a8315ef2c37f81c79f2d055bff52b7efe9f4126e24b1c39",
+        "bytes": 39302,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/7741e69790b8ccc4-1a81f91db6c0.webp",
+        "sha256": "4d313faf2a6c49db1492235e9b10e33471df3931c7940ead2549995e2ad88dc0",
+        "bytes": 20566,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C643.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C643.png",
+      "retrievedAt": "2026-11-02T20:55:20.662Z",
+      "records": [
+        {
+          "id": "KS00391",
+          "title": "Hearts on Fire: from War and Churban to the Joyous Vision of Yerusahaliyim Rebuilt",
+          "sourcePage": "https://tfutzapublications.com/product/hearts-on-fire/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/a3fdabe36b8bf1e3-bbdc3c4c7205.png",
+        "sha256": "bbdc3c4c7205edc055dd8ec2f746a3b1d31a17261acba516c20d8bbb203cac41",
+        "bytes": 45959,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/a3fdabe36b8bf1e3-bbdc3c4c7205.webp",
+        "sha256": "2757c7eb825001ee55220acba1d03a6f1923e3c3f83c45d532cb64d50c3b9d78",
+        "bytes": 23134,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/L765.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/L765.png",
+      "retrievedAt": "2026-11-02T20:55:20.663Z",
+      "records": [
+        {
+          "id": "KS01958",
+          "title": "Exploring the Wild World of Animals & Birds: Marvels of Creation from a Torah Perspective",
+          "sourcePage": "https://tfutzapublications.com/product/exploring-the-wild-world-of-animals-birds/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/2fbf3e9b741c8533-f75e37d62110.png",
+        "sha256": "f75e37d621104a72ebbc1e69c7b934c17e6b705920f55315bb3d12da5319fb12",
+        "bytes": 42892,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/2fbf3e9b741c8533-f75e37d62110.webp",
+        "sha256": "761f35f81e052ac77ef1d3d0608be88b7bc2ddce56d0a3bb96b6fd14afddfdeb",
+        "bytes": 28710,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C641.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C641.png",
+      "retrievedAt": "2026-11-02T20:55:20.668Z",
+      "records": [
+        {
+          "id": "KS00553",
+          "title": "No Chance!: True Stories of Hashgachah Pratis in Our Times",
+          "sourcePage": "https://tfutzapublications.com/product/no-chance/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/8929dbfd0d680281-f90ad14f3af9.png",
+        "sha256": "f90ad14f3af95010a6996e3b24ed1e137025af4e592895158350a24f6b6436f4",
+        "bytes": 35653,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/8929dbfd0d680281-f90ad14f3af9.webp",
+        "sha256": "6c30009b370e6e1ac2e582949d50c6100f259353f5a698cf07d936f103f7ab63",
+        "bytes": 17888,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C541.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C541.png",
+      "retrievedAt": "2026-11-02T20:55:20.709Z",
+      "records": [
+        {
+          "id": "KS02329",
+          "title": "Fraidy Can Still Smile: Learning to Deal with Younger Siblings",
+          "sourcePage": "https://tfutzapublications.com/product/fraidy-can-still-smile/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/bf82fcee7b8ee6c7-1cce259f4845.png",
+        "sha256": "1cce259f4845862e52fc47ec0650399df7533f2e03c19de34468a5069da2f5cc",
+        "bytes": 46982,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/bf82fcee7b8ee6c7-1cce259f4845.webp",
+        "sha256": "5a82b391160c210ce431d25896a54bf964a4cdb67d1d5f4e311610767a2da268",
+        "bytes": 23596,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/03/SpaceBattle.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/03/SpaceBattle.png",
+      "retrievedAt": "2026-11-02T20:55:20.746Z",
+      "records": [
+        {
+          "id": "KS00715",
+          "title": "Space Battle: The Comic",
+          "sourcePage": "https://tfutzapublications.com/product/space-battle/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/cb5ecaaf2184f475-e9145216d579.png",
+        "sha256": "e9145216d579e8c9309c1d0ee27b118dd7f7f0bb5be0f10cc5479f2645dde941",
+        "bytes": 336629,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/cb5ecaaf2184f475-e9145216d579.webp",
+        "sha256": "8eae8329976c543af52844bb7a617b4d5271dd78fb320a0282a6f2926fb88511",
+        "bytes": 235298,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C618.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C618.png",
+      "retrievedAt": "2026-11-02T20:55:20.773Z",
+      "records": [
+        {
+          "id": "KS02755",
+          "title": "Blending Secrets: A Novel",
+          "sourcePage": "https://tfutzapublications.com/product/blending-secrets/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7083b26aa431e27a-47707ad01d09.png",
+        "sha256": "47707ad01d0987399f12dc3da572cb55354d89888aa23aa01b248cd49c8a8d30",
+        "bytes": 45976,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/7083b26aa431e27a-47707ad01d09.webp",
+        "sha256": "c1f1adb8c8e24065c6564269d13183f68cda442c6e872f17337d7ae00a69ed0f",
+        "bytes": 18956,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C593.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C593.png",
+      "retrievedAt": "2026-11-02T20:55:20.791Z",
+      "records": [
+        {
+          "id": "KS02403",
+          "title": "Showtime!: An Inside View of the Purim Story",
+          "sourcePage": "https://tfutzapublications.com/product/showtime/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c2857be71bbaae20-e196d7780466.png",
+        "sha256": "e196d7780466b43dd3911689f0ad6d81af4f39239aee76146b07857c8a96c2c8",
+        "bytes": 37329,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/c2857be71bbaae20-e196d7780466.webp",
+        "sha256": "4a04ab334ca60254c26a5d5210afbc46a3ef2861c8f25ec71f45aa9f68f46ebb",
+        "bytes": 16398,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C543.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C543.png",
+      "retrievedAt": "2026-11-02T20:55:20.792Z",
+      "records": [
+        {
+          "id": "KS00204",
+          "title": "Mr. Millionaire: A Novel",
+          "sourcePage": "https://tfutzapublications.com/product/mr-millionaire/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b41f0e8c34e95c0d-7b80c6fcd20a.png",
+        "sha256": "7b80c6fcd20a92a5b9220bcaed7c1ad095c6c24d10e6c3a6a45152deec2dda3b",
+        "bytes": 38303,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/b41f0e8c34e95c0d-7b80c6fcd20a.webp",
+        "sha256": "4252185487a166c6395bd8b6bdf93abe5271d0083825bdbe798a11d988e7e43c",
+        "bytes": 17094,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C549.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C549.png",
+      "retrievedAt": "2026-11-02T20:55:20.795Z",
+      "records": [
+        {
+          "id": "KS01603",
+          "title": "On Stormy Seas: The Comic!",
+          "sourcePage": "https://tfutzapublications.com/product/on-stormy-seas/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/730c791c60cf9c09-3d13ac1c62d5.png",
+        "sha256": "3d13ac1c62d5c71e371e0b7f67375b588df96c22b68dad8f54ddf9f4885c5795",
+        "bytes": 44245,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/730c791c60cf9c09-3d13ac1c62d5.webp",
+        "sha256": "4b9a9913c4f4b200f4928834db51a96e64a1c847be0d16ea348c7cd09ce887aa",
+        "bytes": 22308,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C508.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C508.png",
+      "retrievedAt": "2026-11-02T20:55:20.830Z",
+      "records": [
+        {
+          "id": "KS01832",
+          "title": "Pinky and Slinky at the Table: A Kid Friendly Guide to Mealtime Manners",
+          "sourcePage": "https://tfutzapublications.com/product/pinky-and-slinky-at-the-table/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/fd87a7952480d8dd-697292ab7d60.png",
+        "sha256": "697292ab7d60f2aed1de043e644ce8bc061a6b0c67969dfbd3c0dbffa2743021",
+        "bytes": 43239,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/fd87a7952480d8dd-697292ab7d60.webp",
+        "sha256": "b11748bb27ea74cf4853319ea582accc23426c86c7e202413713753e425ae41b",
+        "bytes": 17608,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C534.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C534.png",
+      "retrievedAt": "2026-11-02T20:55:20.833Z",
+      "records": [
+        {
+          "id": "KS02676",
+          "title": "Wisecracks: Stories of Jewish Wit and Wisdom Throughout the Ages",
+          "sourcePage": "https://tfutzapublications.com/product/wisecracks/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/4938502ba34c6334-6a3087d90e78.png",
+        "sha256": "6a3087d90e78c3fca27945768ccf40622938f39a19ad80078bfecf17e4b1b522",
+        "bytes": 51245,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/4938502ba34c6334-6a3087d90e78.webp",
+        "sha256": "6009e1ac4563f1a8ef6416b166488478d3885dc0701705bae108dc55bc690b8b",
+        "bytes": 26134,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C528.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C528.png",
+      "retrievedAt": "2026-11-02T20:55:20.887Z",
+      "records": [
+        {
+          "id": "KS00682",
+          "title": "Operation Iraq: The Comic!",
+          "sourcePage": "https://tfutzapublications.com/product/operation-iraq/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/f56823e3c2858888-4e58d2626202.png",
+        "sha256": "4e58d2626202ca555ecc09f8f6d003d5864cac7693d36cc58a38929b4bfb05f5",
+        "bytes": 44444,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/f56823e3c2858888-4e58d2626202.webp",
+        "sha256": "065aac53b8f54ba10ebb2ff3a1d7126d97ec3a634bcb23966006679f899c278d",
+        "bytes": 21046,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C524.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C524.png",
+      "retrievedAt": "2026-11-02T20:55:20.910Z",
+      "records": [
+        {
+          "id": "KS01060",
+          "title": "Remarkable Rescue!: The Miraculous Escape of the Mir Yeshivah",
+          "sourcePage": "https://tfutzapublications.com/product/remarkable-rescue/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/822cb33e96e798e3-972747121ecb.png",
+        "sha256": "972747121ecbb8bbb6fce11999b6f89bd9fddf8fe41b3141fda90cd917509632",
+        "bytes": 43170,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/822cb33e96e798e3-972747121ecb.webp",
+        "sha256": "a2e240980601ab8008aefd47b0fcf2d084cfb6b0122948fe924af1e630882fd6",
+        "bytes": 20074,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C517.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C517.png",
+      "retrievedAt": "2026-11-02T20:55:20.935Z",
+      "records": [
+        {
+          "id": "KS00448",
+          "title": "Pure Genius!: The Torah Wisdom of Gedolei Yisrael Saves the Day.",
+          "sourcePage": "https://tfutzapublications.com/product/pure-genius/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/731121b7a2bdb4f9-891d8ef0644c.png",
+        "sha256": "891d8ef0644cfba2c7db966bd6a29ccb8e26f1df959249f869e5ee499bb354e1",
+        "bytes": 45061,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/731121b7a2bdb4f9-891d8ef0644c.webp",
+        "sha256": "15b6bd1cb4e1bf74b286d3fc121a1652f5d62153543799936c93d4c7d6c9aee4",
+        "bytes": 23498,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C523.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C523.png",
+      "retrievedAt": "2026-11-02T20:55:20.938Z",
+      "records": [
+        {
+          "id": "KS00475",
+          "title": "Trouble Up North: The Comic!",
+          "sourcePage": "https://tfutzapublications.com/product/trouble-up-north-the-comic/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e2b36ea3a28520a1-1756949b5278.png",
+        "sha256": "1756949b5278c51bad2dc5ee889014928752f4046f09989a2de922b0f0d296be",
+        "bytes": 44743,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/e2b36ea3a28520a1-1756949b5278.webp",
+        "sha256": "450754a19966742b4b4e65a97b9e8f4dbd17533ef2467866d5504b38744a28ad",
+        "bytes": 18972,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C493.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C493.png",
+      "retrievedAt": "2026-11-02T20:55:20.966Z",
+      "records": [
+        {
+          "id": "KS00494",
+          "title": "Mystery Island: The Comic!",
+          "sourcePage": "https://tfutzapublications.com/product/mystery-island/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3c7bb61ae50372e7-b630b9c7d802.png",
+        "sha256": "b630b9c7d8023b173ba4114d5d94e37a239c7e5d0cbef9a1fcf8257c24b2c6c9",
+        "bytes": 45802,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/3c7bb61ae50372e7-b630b9c7d802.webp",
+        "sha256": "7d2b6555bf0126a11a7b1d37139da841647aeecfb940bdf3dfac2e5595b45786",
+        "bytes": 25352,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C502.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C502.png",
+      "retrievedAt": "2026-11-02T20:55:20.967Z",
+      "records": [
+        {
+          "id": "KS00419",
+          "title": "The Submarine Sailed at Midnight: The Comic!",
+          "sourcePage": "https://tfutzapublications.com/product/the-submarine-sailed-at-midnight/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0f46ac3d1e0ef497-5ffc92fc7e59.png",
+        "sha256": "5ffc92fc7e59976f93d354744c06d62f4daa2e609a73d8d8d32b750bf0387def",
+        "bytes": 42308,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/0f46ac3d1e0ef497-5ffc92fc7e59.webp",
+        "sha256": "fdfc93ef79a95d1ca6992aeed61ebaa1075db1c864033a4f22bec5292829dc15",
+        "bytes": 18144,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C451.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C451.png",
+      "retrievedAt": "2026-11-02T20:55:21.000Z",
+      "records": [
+        {
+          "id": "KS00576",
+          "title": "Just Imagine! the Purim Story Today ..: An Original, Fascinating Rendition of the Miracles of Megillas Esther",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-the-purim-story-today/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/2ecceea5e277361b-401d2dc60e38.png",
+        "sha256": "401d2dc60e38536573508019c466724a7467b99a801bb2767e79d0158f9c1da0",
+        "bytes": 41496,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/2ecceea5e277361b-401d2dc60e38.webp",
+        "sha256": "ee49152475309ae2bd8c9e22d14cb00433682387fde752acac4c015fd83a6571",
+        "bytes": 22456,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C474.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C474.png",
+      "retrievedAt": "2026-11-02T20:55:21.018Z",
+      "records": [
+        {
+          "id": "KS00527",
+          "title": "The Humble Giant: and Other Stories : Twenty-five Anecdotes from the Life of Rav Shmuel Halevi Wosner Ztl, Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+          "sourcePage": "https://tfutzapublications.com/product/a-humble-giant/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b76729a0ba996e56-6a5b258713c9.png",
+        "sha256": "6a5b258713c99d8f881ae23166a2e854505519acc6e61d1e5f8861dea9efce8c",
+        "bytes": 42836,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/b76729a0ba996e56-6a5b258713c9.webp",
+        "sha256": "39d8774468f8abb75d1baaffa03c814a4c1a60c1eed12516194ce68487bf2c8a",
+        "bytes": 18940,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C466.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C466.png",
+      "retrievedAt": "2026-11-02T20:55:21.022Z",
+      "records": [
+        {
+          "id": "KS00611",
+          "title": "Just Imagine! We're Going to the Beis Hamikdash: An Original, Fascinatinating Portrayal of the Simchah Im Yerushalayim, During the Yom Tov of Sukkos",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-were-going-to-the-beis-hamikdash/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/d5568ec83ec42149-ae3fe768a206.png",
+        "sha256": "ae3fe768a206862299ae33a15c8a2e86f7cf0508d59e19b596e1019b9d4a2e6c",
+        "bytes": 46000,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/d5568ec83ec42149-ae3fe768a206.webp",
+        "sha256": "da1974c6c16f441f6caea07ba35086fd8736ba66fbb6aa61da972ef28d8df43c",
+        "bytes": 23718,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C350.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C350.png",
+      "retrievedAt": "2026-11-02T20:55:21.030Z",
+      "records": [
+        {
+          "id": "KS02667",
+          "title": "Let's Use Them Right: Social Skills for My Hands, Feet, and Mouth",
+          "sourcePage": "https://tfutzapublications.com/product/lets-use-them-right/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0ab058c76e8134aa-8db68cdd8750.png",
+        "sha256": "8db68cdd8750f15172f8c0ad6909015174a43bd656de82ce3af40c1662d68efe",
+        "bytes": 50902,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/0ab058c76e8134aa-8db68cdd8750.webp",
+        "sha256": "8e1c2d0d39f9ca1cf697bb1d8d617b0c6fe0f4303dff1de4ed5f88edc6728c2b",
+        "bytes": 24186,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C456.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C456.png",
+      "retrievedAt": "2026-11-02T20:55:21.093Z",
+      "records": [
+        {
+          "id": "KS00583",
+          "title": "The Ambassadors Beyond the Sambatyon River: A Fascinating Breathtaking Journey in the Footsteps of the Baal Ha'akdamus to the Land of the Ten Lost Tribes",
+          "sourcePage": "https://tfutzapublications.com/product/the-ambassadors-beyond-the-sambatyon-river/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/b37ebbb045ea2de0-34ff30c9f6ec.png",
+        "sha256": "34ff30c9f6ec8f36b4375918f488c8d55b50bf7e10b89a25610c4f5837966e51",
+        "bytes": 41296,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/b37ebbb045ea2de0-34ff30c9f6ec.webp",
+        "sha256": "ab6bc61d1638f72b47ec199979f3f963579b766dadebe08ec8694492f4f3a14d",
+        "bytes": 21230,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C454.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C454.png",
+      "retrievedAt": "2026-11-02T20:55:21.095Z",
+      "records": [
+        {
+          "id": "KS01643",
+          "title": "I'm Hashem's Messenger: A Kid-friendly Reminder of How to Act in Public",
+          "sourcePage": "https://tfutzapublications.com/product/im-hashems-messenger/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/2757250e5306ab6c-7630a57b39c9.png",
+        "sha256": "7630a57b39c9a718df94c57f427dde7bae1f6c794d2012b9d5d5e39e87369803",
+        "bytes": 46544,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/2757250e5306ab6c-7630a57b39c9.webp",
+        "sha256": "0bbf29208b09415e954fc30a00e5b44dce1ae93b88f04ab47529e69c29d3a123",
+        "bytes": 24262,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C442.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C442.png",
+      "retrievedAt": "2026-11-02T20:55:21.186Z",
+      "records": [
+        {
+          "id": "KS03198",
+          "title": "Just Imagine! We Beat the Greeks: An Original, Fascinating Rendition of the Miraculous Story of Chanukah",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-we-beat-the-greeks/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ddb8624c3d426765-b08d7a132a13.png",
+        "sha256": "b08d7a132a13abb8ce0de0000a6fc007ab2a8094f785514ed24afd6f9b9d2d7b",
+        "bytes": 42733,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/ddb8624c3d426765-b08d7a132a13.webp",
+        "sha256": "70cc402042cfd79122eacb9e9d9b9a9d3adb00dc4ce669c6cc9b13411f2582f5",
+        "bytes": 20806,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C382.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C382.png",
+      "retrievedAt": "2026-11-02T20:55:21.187Z",
+      "records": [
+        {
+          "id": "KS00092",
+          "title": "Who's the Real Weatherman?",
+          "sourcePage": "https://tfutzapublications.com/product/who-is-the-real-weatherman/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/77cf9346ec398eff-7725f7f02e6c.png",
+        "sha256": "7725f7f02e6c1e6d27960eb5c8dfb341cbaec4dbca2c75c003112ce52e88c3b6",
+        "bytes": 46678,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/77cf9346ec398eff-7725f7f02e6c.webp",
+        "sha256": "0421fd3441a771fda01a84e5237573218f1924db5291539cc4d587484341499b",
+        "bytes": 26232,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C444.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C444.png",
+      "retrievedAt": "2026-11-02T20:55:21.188Z",
+      "records": [
+        {
+          "id": "KS00496",
+          "title": "Travels with the Maggidim: Every Minute Counts!",
+          "sourcePage": "https://tfutzapublications.com/product/every-minute-counts/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7685ee44604d7603-1e40f45df359.png",
+        "sha256": "1e40f45df359cda19b94c0a781bf0235ecb4eb162297ce117bb8fc862ab5f688",
+        "bytes": 52141,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/7685ee44604d7603-1e40f45df359.webp",
+        "sha256": "beed01e8a649e4af441ee37b337cb883eeaaf243452eaaaa4c1ac670837b7d2f",
+        "bytes": 23960,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C640.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C640.png",
+      "retrievedAt": "2026-11-02T20:55:21.286Z",
+      "records": [
+        {
+          "id": "KS00434",
+          "title": "Timebomb: Getting to the Geulah",
+          "sourcePage": "https://tfutzapublications.com/product/timebomb-1-getting-to-the-geulah/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e0db7e76eff91403-589d07c59fb2.png",
+        "sha256": "589d07c59fb2517a3f62f29b54c9bfec525dfc15ec6f1b8a3e54e030e8c27879",
+        "bytes": 46653,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/e0db7e76eff91403-589d07c59fb2.webp",
+        "sha256": "3496a86c7dc867198f29706c173c9501c2b6da7086fc87dbe411ccc8477e11d5",
+        "bytes": 24496,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C666.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C666.png",
+      "retrievedAt": "2026-11-02T20:55:21.299Z",
+      "records": [
+        {
+          "id": "KS02034",
+          "title": "Timeless Tales : The Ben Ish Chai on Purim",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-the-ben-ish-chai-purim/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/f38f7b7c3d41c9cf-3eaedc212f11.png",
+        "sha256": "3eaedc212f113382b4f1b8010fe6f192592ef87b1bb2ecd675affa215278f861",
+        "bytes": 45719,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/f38f7b7c3d41c9cf-3eaedc212f11.webp",
+        "sha256": "b4efa4b14a25625549d6f782487de5d6940a94d632ef968f146b3b069f1fa11c",
+        "bytes": 23884,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C299.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C299.png",
+      "retrievedAt": "2026-11-02T20:55:21.334Z",
+      "records": [
+        {
+          "id": "KS01407",
+          "title": "The Funny Things They Say!",
+          "sourcePage": "https://tfutzapublications.com/product/the-funny-things-they-say-3/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/6216d4fbf3ea6aef-9c4cb4142320.png",
+        "sha256": "9c4cb4142320cea7bee4e2e508a6f5857c518628af98ca9e9c95f153d1a79d72",
+        "bytes": 23780,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/6216d4fbf3ea6aef-9c4cb4142320.webp",
+        "sha256": "4eae134cceefa1b155cfdcc549cf9b4949d57d2d33f58abff55d7daceff9340b",
+        "bytes": 18296,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C561.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C561.png",
+      "retrievedAt": "2026-11-02T20:55:21.335Z",
+      "records": [
+        {
+          "id": "KS00518",
+          "title": "Travels with the Maggidim: The Best Deal",
+          "sourcePage": "https://tfutzapublications.com/product/the-best-deal/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7bd73c3f50b0b33c-25b7563919ed.png",
+        "sha256": "25b7563919edff2a14c89213e67ae1914f0dfb3b4d7411a88afbf71cf8aaa63f",
+        "bytes": 45134,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/7bd73c3f50b0b33c-25b7563919ed.webp",
+        "sha256": "868c7af3d606616b4b2c3412be04dc00284984cc54083fd137b864dc0118cd10",
+        "bytes": 23124,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/09/V165.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/09/V165.png",
+      "retrievedAt": "2026-11-02T20:55:21.354Z",
+      "records": [
+        {
+          "id": "KS01062",
+          "title": "Eli-copter: Adventures in Antarctica.",
+          "sourcePage": "https://tfutzapublications.com/product/eli-copter-adventures-in-antarctica-1/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/2351ef8ffd3e0bb6-9f8f72e44498.png",
+        "sha256": "9f8f72e4449866f15c436081366c8a37c4093cd120cf2a367739594d2ca6975b",
+        "bytes": 699193,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/2351ef8ffd3e0bb6-9f8f72e44498.webp",
+        "sha256": "c50b049e13287530d8ce3479a226e79e77f48c395683b19bc7df5ac967345cb7",
+        "bytes": 96436,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/01/C459.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/01/C459.png",
+      "retrievedAt": "2026-11-02T20:55:21.498Z",
+      "records": [
+        {
+          "id": "KS02504",
+          "title": "I'm Special and So Are You!",
+          "sourcePage": "https://tfutzapublications.com/product/im-so-special-and-so-are-you/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/fbf09c9e89ab43eb-c470d0a683b6.png",
+        "sha256": "c470d0a683b6c549c91dd7252621e752ff7ad4174693b1f7f7725d91ff869bc4",
+        "bytes": 280236,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/fbf09c9e89ab43eb-c470d0a683b6.webp",
+        "sha256": "3cfbc7626c343a0fc75b7f5d841089b1f9f867fd2911e27cc02fadb6c9efe758",
+        "bytes": 147254,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/02/23-under-1-roof-13_flat.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/02/23-under-1-roof-13_flat.png",
+      "retrievedAt": "2026-11-02T20:55:21.529Z",
+      "records": [
+        {
+          "id": "KS00544",
+          "title": "A Storm of Surprises",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-13-a-storm-of-surprises/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/531a520221a5e164-b6607de99c4e.png",
+        "sha256": "b6607de99c4ebba5ebee89216fdf5e65942066cb907fb9d67aa93bc8330bab4b",
+        "bytes": 202999,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/531a520221a5e164-b6607de99c4e.webp",
+        "sha256": "a890327e85617436d892d10eabaeb4a9070ce895da216f733b20b02e614ceaff",
+        "bytes": 104624,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/05/C716.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/05/C716.png",
+      "retrievedAt": "2026-11-02T20:55:21.587Z",
+      "records": [
+        {
+          "id": "KS01730",
+          "title": "Mr. Farginner & Mr. Mekaneh",
+          "sourcePage": "https://tfutzapublications.com/product/tales-out-of-middos-town-3-mr-farginner-mr-mekaneh/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/05582142948f9e97-564a7c9e5311.png",
+        "sha256": "564a7c9e5311bc8ac5d550731c73c585cca0a41be55bf2c5ef133ce7b66d1961",
+        "bytes": 225718,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/05582142948f9e97-564a7c9e5311.webp",
+        "sha256": "45449ec889a23f419d17a79132d01db03b088c87949faa7739203ff57d38e3a9",
+        "bytes": 142768,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/12/C785.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/12/C785.png",
+      "retrievedAt": "2026-11-02T20:55:21.631Z",
+      "records": [
+        {
+          "id": "KS02475",
+          "title": "Henny's Sticky Situation",
+          "sourcePage": "https://tfutzapublications.com/product/the-four-chocolatiers-book-1-hennys-sticky-situation/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/31bd83bfdab98098-4acf383eaaa0.png",
+        "sha256": "4acf383eaaa0d7ef8a70ee1bdbbb837004976ce30f56e929eeeb5a5c465fdc25",
+        "bytes": 688193,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/31bd83bfdab98098-4acf383eaaa0.webp",
+        "sha256": "9e6b4135ed62c95d390ebcb050e7931331ab5320d8d3cd02a163449181c99478",
+        "bytes": 69404,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/05/C715.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/05/C715.png",
+      "retrievedAt": "2026-11-02T20:55:22.028Z",
+      "records": [
+        {
+          "id": "KS00714",
+          "title": "A Legacy of Leaders: Children's Edition : Inspiring Stories and Biographies of Sephardi Hachamim",
+          "sourcePage": "https://tfutzapublications.com/product/a-legacy-of-leaders-childrens-edition/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/897315174a7d468c-55b9b3d0239f.png",
+        "sha256": "55b9b3d0239f4f9d41fdfacd7be97614901e86f8f5eafb15a6d90ee217e03cf7",
+        "bytes": 271287,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/897315174a7d468c-55b9b3d0239f.webp",
+        "sha256": "ecd1643b46477023887703f168d4b5b95cec4d0719a47c6d6e1346834c327221",
+        "bytes": 122920,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/01/C710.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/01/C710.png",
+      "retrievedAt": "2026-11-02T20:55:22.030Z",
+      "records": [
+        {
+          "id": "KS01459",
+          "title": "Timeless Tales : Pesach Seder Comics",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-pesach-haggadah-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/cd6ec8099c34615e-d2bafdba765d.png",
+        "sha256": "d2bafdba765df758ff8697a11ddc9abb5e4236b310ae4704ebf1dbad5654b74a",
+        "bytes": 313801,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/cd6ec8099c34615e-d2bafdba765d.webp",
+        "sha256": "27d64925c98f1469363189c11386433f9ba476a838f91f638da8dd81282600b2",
+        "bytes": 192946,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/12/23-under-1roof-12.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/12/23-under-1roof-12.png",
+      "retrievedAt": "2026-11-02T20:55:22.034Z",
+      "records": [
+        {
+          "id": "KS00525",
+          "title": "Lamb on the Loose",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-12-lamb-on-the-loose/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/28c2a239b187b7e4-0721d20a1218.png",
+        "sha256": "0721d20a12186fb1c907e6d551f24917e7e8dbac3f86d8d0f7170d6e7ac72fbc",
+        "bytes": 311724,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/28c2a239b187b7e4-0721d20a1218.webp",
+        "sha256": "a012a5b335bfb8a47f587ed87e9abcf8271232be04c68005ce881ee4da62e150",
+        "bytes": 205354,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/12/C700.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/12/C700.png",
+      "retrievedAt": "2026-11-02T20:55:22.050Z",
+      "records": [
+        {
+          "id": "KS00065",
+          "title": "Searching for Gold",
+          "sourcePage": "https://tfutzapublications.com/product/time-rock-vol-2-searching-for-gold/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c654c2f924115a49-60540c6e2162.png",
+        "sha256": "60540c6e216222538c0b4538bc2b79c6b2dfde4e686182a61a924c4217d80177",
+        "bytes": 344814,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/c654c2f924115a49-60540c6e2162.webp",
+        "sha256": "8d9b8ee9694e1df8ebac44c067b3b41bd7fe9ca8fcb19844e762fd6b53d1e13a",
+        "bytes": 109576,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/10/C687-.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/10/C687-.png",
+      "retrievedAt": "2026-11-02T20:55:22.128Z",
+      "records": [
+        {
+          "id": "KS02013",
+          "title": "Mr. Same'ach & Mr. Kvetch",
+          "sourcePage": "https://tfutzapublications.com/product/tales-out-of-middos-town-mr-sameach-mr-kvetch/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/726e47bb0683ad07-1bd8d0d89545.png",
+        "sha256": "1bd8d0d895455f1ac1885962940fd85543d4094d0e818b36583e0209eee01829",
+        "bytes": 216604,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/726e47bb0683ad07-1bd8d0d89545.webp",
+        "sha256": "dad01621ab321a080829079bd2fe0b5a57ce6404fa25825fa0dd10b19ca13aa5",
+        "bytes": 120582,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/08/C694.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/08/C694.png",
+      "retrievedAt": "2026-11-02T20:55:22.133Z",
+      "records": [
+        {
+          "id": "KS00597",
+          "title": "Their Tales in Our Times",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-6/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/95176b7402b62d93-cce19f3ad15c.png",
+        "sha256": "cce19f3ad15ca422c031ea39be8630ad4fa663143f0c1f645f8ca3072ed987cb",
+        "bytes": 366029,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/95176b7402b62d93-cce19f3ad15c.webp",
+        "sha256": "28bdf8f363e5e4123cddb23de811bb433337df385ca0523d5d0dc2bdfda9176d",
+        "bytes": 237094,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C645.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C645.png",
+      "retrievedAt": "2026-11-02T20:55:22.274Z",
+      "records": [
+        {
+          "id": "KS00616",
+          "title": "Their Tales in Our Times",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-5/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/220ad435a1f4268e-afbe893e614b.png",
+        "sha256": "afbe893e614b20cdfec2fdd99bfcdbe8a7e3933b97aa4127c835a3c36b20a9ee",
+        "bytes": 45782,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/220ad435a1f4268e-afbe893e614b.webp",
+        "sha256": "96e4b2f221353e86727ce85b1a04d15114c5a53bd43927e6c0626a620bd4fb6c",
+        "bytes": 23530,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C667.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C667.png",
+      "retrievedAt": "2026-11-02T20:55:22.275Z",
+      "records": [
+        {
+          "id": "KS00545",
+          "title": "Making Dreams Come True",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-11-making-dreams-come-true/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/66e3559d6b9767ab-5443410c0e38.png",
+        "sha256": "5443410c0e3811175edbd9f306ab9a252fcc302fe7f8f21a6af89a1cd7e5fbfc",
+        "bytes": 50089,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/66e3559d6b9767ab-5443410c0e38.webp",
+        "sha256": "51ef80b3f42e79a64ace810f7d4713b1b5a7272abff1802862110ff08bce01c5",
+        "bytes": 28160,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C679.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C679.png",
+      "retrievedAt": "2026-11-02T20:55:22.275Z",
+      "records": [
+        {
+          "id": "KS00666",
+          "title": "The Ben Ish Chai: Pesach",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-the-ben-ish-chai-pesach/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/22ee5a44338d135b-026dd783c5e0.png",
+        "sha256": "026dd783c5e093085031ff699eef542cace3eaf67139bc37b906631f8b5cba08",
+        "bytes": 48549,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/22ee5a44338d135b-026dd783c5e0.webp",
+        "sha256": "92b5e30c207e08af33d4dd6245d44ff461b64d99d29447ce9fdd6b2bf2d3a95e",
+        "bytes": 26730,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C661.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C661.png",
+      "retrievedAt": "2026-11-02T20:55:22.276Z",
+      "records": [
+        {
+          "id": "KS02938",
+          "title": "Shipwrecked!",
+          "sourcePage": "https://tfutzapublications.com/product/the-39-melachos-with-rabbi-juravel-shipwrecked/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ead371007d26a610-b0882a8f5911.png",
+        "sha256": "b0882a8f5911389f256d9e53cfdf8b49eac4700dcc6860e08023fe809529926c",
+        "bytes": 55463,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/ead371007d26a610-b0882a8f5911.webp",
+        "sha256": "f89bafc9f940457171b1c8f31b64a87de7154aa19b53251ef5958638f76aa678",
+        "bytes": 31144,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C637.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C637.png",
+      "retrievedAt": "2026-11-02T20:55:22.280Z",
+      "records": [
+        {
+          "id": "KS00022",
+          "title": "Will Shabbos Win?",
+          "sourcePage": "https://tfutzapublications.com/product/time-rock-vol-1-will-shabbos-win/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/8fee81180fb667ea-ecbe2f76997e.png",
+        "sha256": "ecbe2f76997e6a36361d4b3f60ca649637c2e9a4cc7bd5739d2231b6b050fd00",
+        "bytes": 36960,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/8fee81180fb667ea-ecbe2f76997e.webp",
+        "sha256": "ceb916cc7204a839e4544012f64a12895aede6bdac2ea76532b9782a5de5beb6",
+        "bytes": 17770,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C644.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C644.png",
+      "retrievedAt": "2026-11-02T20:55:22.355Z",
+      "records": [
+        {
+          "id": "KS01217",
+          "title": "Tully's Trip",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-10-tullys-trip/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/afd49a09f330d848-a75564c58347.png",
+        "sha256": "a75564c58347b3d8d7da38ed9659d67f79e60f9139d09b4c0c6259903bd086ea",
+        "bytes": 50308,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/afd49a09f330d848-a75564c58347.webp",
+        "sha256": "3279b529b486432e39f388dc2a606728e9b44671acbe278efefcb94515a3b4eb",
+        "bytes": 24414,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C635.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C635.png",
+      "retrievedAt": "2026-11-02T20:55:22.391Z",
+      "records": [
+        {
+          "id": "KS01399",
+          "title": "I'm So Bored!",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-9-im-so-bored/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/daef98492548d7d4-df50f898627f.png",
+        "sha256": "df50f898627f3a74e1e337ba467d5234b6871e6dbe49e0435d575d4ccb3115a5",
+        "bytes": 49296,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/daef98492548d7d4-df50f898627f.webp",
+        "sha256": "3bc4e6dd20cd8ae04eab0ae093f47b8b9cf60f2901f53a8c45882880e86bb40b",
+        "bytes": 22484,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C631.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C631.png",
+      "retrievedAt": "2026-11-02T20:55:22.410Z",
+      "records": [
+        {
+          "id": "KS00645",
+          "title": "Scattered Schneiders",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-10-scattered-schneiders/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/3e27afab77197f13-51adf33c81ea.png",
+        "sha256": "51adf33c81eaac1ee1a5464d96f96187be37a551ae2dbeafa41e3da6fe4f0b42",
+        "bytes": 45129,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/3e27afab77197f13-51adf33c81ea.webp",
+        "sha256": "3b2c946e9bc8102f4612d557d8f6cca5c491c61e2b47393698248c57ff9c82d1",
+        "bytes": 21120,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C622.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C622.png",
+      "retrievedAt": "2026-11-02T20:55:22.411Z",
+      "records": [
+        {
+          "id": "KS00604",
+          "title": "Torah Above All and Other Stories: Twenty-five Anecdotes from the Life of the Chazon Ish Zt\"l : Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+          "sourcePage": "https://tfutzapublications.com/product/torah-above-all/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ff91d141ce591dce-24457832cf0e.png",
+        "sha256": "24457832cf0eab806ebf19d03ff4c177c3f32fae1ef87e669debe5208642ca9d",
+        "bytes": 42201,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/ff91d141ce591dce-24457832cf0e.webp",
+        "sha256": "39d85c9c0a4f64197438ba7113b27b657e4869ad4ef59a0aa69f3d3ad9811e26",
+        "bytes": 14294,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C625.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C625.png",
+      "retrievedAt": "2026-11-02T20:55:22.411Z",
+      "records": [
+        {
+          "id": "KS01040",
+          "title": "Shugashvili's Secret",
+          "sourcePage": "https://tfutzapublications.com/product/the-39-melachos-with-rabbi-juravel-shugashvilis-secret/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/eba7be5a79a56861-fb0feb8b9ad8.png",
+        "sha256": "fb0feb8b9ad8a6d4771f88cb55a7339815e5c2f502cf77ffd5ecdc8a5f67668b",
+        "bytes": 50754,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/eba7be5a79a56861-fb0feb8b9ad8.webp",
+        "sha256": "20b67388717c52e2658785bf5dc9ffed5bb8eef98f21fe64c41745424a6e094e",
+        "bytes": 20756,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C621.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C621.png",
+      "retrievedAt": "2026-11-02T20:55:22.415Z",
+      "records": [
+        {
+          "id": "KS02915",
+          "title": "Prince Pinny and the Best Decoration of All",
+          "sourcePage": "https://tfutzapublications.com/product/kinderland-castle-prince-pinny-and-the-best-decoration-of-all/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/fcd32c4ed13299df-0ef4a56bffa0.png",
+        "sha256": "0ef4a56bffa006e2a92f2b3a07ddc1526e7a97f29c8ff8f81399ef817d4105c8",
+        "bytes": 46443,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/fcd32c4ed13299df-0ef4a56bffa0.webp",
+        "sha256": "ada80321be47f9b13a30f6de408845302bba2f7e378437ee58c5e26cfa9966fa",
+        "bytes": 20302,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C617.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C617.png",
+      "retrievedAt": "2026-11-02T20:55:22.502Z",
+      "records": [
+        {
+          "id": "KS00642",
+          "title": "Timeless Tales : Parshas Hashvua : Devarim",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-devarim-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ffdb5741c78836ff-eede00210903.png",
+        "sha256": "eede00210903e97914e1843cc4785c24b28f2372710c19466a2b0298b205012d",
+        "bytes": 52844,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/ffdb5741c78836ff-eede00210903.webp",
+        "sha256": "e05d2bdebd38c831c6dedf8078421ee97d0d04944ffa053007b83a10105e7d33",
+        "bytes": 27476,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C607.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C607.png",
+      "retrievedAt": "2026-11-02T20:55:22.524Z",
+      "records": [
+        {
+          "id": "KS00607",
+          "title": "Timeless Tales : Vayikra",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-vayikra-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c17b3da3f461df57-6c53bdb97f5a.png",
+        "sha256": "6c53bdb97f5a30f993bb370527f1c40b087c821debf3f18b64ec9e02c8ad5eb2",
+        "bytes": 54043,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/c17b3da3f461df57-6c53bdb97f5a.webp",
+        "sha256": "7fbe04e2b6bcfb30d94618b8b385d9dd3358e478a178106f1dafaca2d8399222",
+        "bytes": 28190,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C616.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C616.png",
+      "retrievedAt": "2026-11-02T20:55:22.528Z",
+      "records": [
+        {
+          "id": "KS00486",
+          "title": "My Sister Is a Kallah!: Preparing Children for Simchas and Other Family Gatherings",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-8-my-sister-is-a-kallah/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/9e449f8919cf9e1a-f11f17f6a132.png",
+        "sha256": "f11f17f6a1322d8dcecc9f01c3e34f2be671d55a39014e0ed380f9ae85febe06",
+        "bytes": 49342,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/9e449f8919cf9e1a-f11f17f6a132.webp",
+        "sha256": "0795b44aed914388d1e5ff0884309e90104f7801c80d980992c9c60e6a5c58fb",
+        "bytes": 21906,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C614.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C614.png",
+      "retrievedAt": "2026-11-02T20:55:22.537Z",
+      "records": [
+        {
+          "id": "KS02780",
+          "title": "Mr. Zariz & Mr. Schlepper",
+          "sourcePage": "https://tfutzapublications.com/product/tales-out-of-middos-town-mr-zariz-mr-schlepper/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/9a7b744df6d2a0ae-a427ba2ce1de.png",
+        "sha256": "a427ba2ce1deb89fd6c1bdf912c5abe0cac549af8b39cb3497430173ae612812",
+        "bytes": 46789,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/9a7b744df6d2a0ae-a427ba2ce1de.webp",
+        "sha256": "47e87578f7896c508cef7c73b5559589ff94977c9655fe0ba6635c4316affa9d",
+        "bytes": 21636,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C612.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C612.png",
+      "retrievedAt": "2026-11-02T20:55:22.545Z",
+      "records": [
+        {
+          "id": "KS00458",
+          "title": "Timeless Tales : Parshas Hashavua Comics : Bamidbar",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-bamidbar-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/1da79cbd019475d3-26674795e9e7.png",
+        "sha256": "26674795e9e7ab1933afb6224047cf830cced678f7b16c8d12618fb45325a2f7",
+        "bytes": 54114,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/1da79cbd019475d3-26674795e9e7.webp",
+        "sha256": "fdb84e81ec842ffbd4486cdb5ab8586f1f02059fdd895a561ed1bd92d8e939bc",
+        "bytes": 28546,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C605.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C605.png",
+      "retrievedAt": "2026-11-02T20:55:22.547Z",
+      "records": [
+        {
+          "id": "KS02019",
+          "title": "Rescue Operation.",
+          "sourcePage": "https://tfutzapublications.com/product/the-fearless-four-vol-1rescue-operation/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0d7af53aacb0d73a-9640e5b3b7fb.png",
+        "sha256": "9640e5b3b7fbaa19a5b727b6436ef5d1d23de5410ef4726252f2f966d7c19867",
+        "bytes": 44835,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/0d7af53aacb0d73a-9640e5b3b7fb.webp",
+        "sha256": "c4290d6b78d1099818a2332e8e3ad0e6b90e8bf48a222757ee2aa28e046afa57",
+        "bytes": 22282,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C558.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C558.png",
+      "retrievedAt": "2026-11-02T20:55:22.576Z",
+      "records": [
+        {
+          "id": "KS02786",
+          "title": "The Longest Day",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-8-the-longest-day/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7148f39280b45bdb-1d07989f8b4a.png",
+        "sha256": "1d07989f8b4acb47364da451da4d4cf370f0535da02d90da586eb97d48bd4454",
+        "bytes": 49428,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/7148f39280b45bdb-1d07989f8b4a.webp",
+        "sha256": "1b62c5ca0b1396470534b12701908bdc08b9185b6dbd908e1867b5a95d55c0e9",
+        "bytes": 25762,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C591.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C591.png",
+      "retrievedAt": "2026-11-02T20:55:22.620Z",
+      "records": [
+        {
+          "id": "KS00516",
+          "title": "Touring Eretz Yisrael!",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-9-touring-eretz-yisrael/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e11e5d3e7a26d67b-78bcecc95656.png",
+        "sha256": "78bcecc95656a8fb28479bf1b7d5e0f4c31c004983ed2100bda08afb897151c2",
+        "bytes": 46570,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/e11e5d3e7a26d67b-78bcecc95656.webp",
+        "sha256": "cd325f6800911a683001ec94b6ce51a63869dcd56e25d15d961b901a735c0b4a",
+        "bytes": 21838,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C589.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C589.png",
+      "retrievedAt": "2026-11-02T20:55:22.644Z",
+      "records": [
+        {
+          "id": "KS00549",
+          "title": "Timeless Tales : Shemos: Parshas Hashvua Comics.",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-shemos-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/f001839ad821f160-78d10db8ccbf.png",
+        "sha256": "78d10db8ccbfb6214f24b146273f09565caca298fdb8a6e1161598d7c20dcbdf",
+        "bytes": 52519,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/f001839ad821f160-78d10db8ccbf.webp",
+        "sha256": "a7438469cdb91da86b987fa0b81cd2fe79f388cbdcd46ab5863f24022467066a",
+        "bytes": 28206,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C588.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C588.png",
+      "retrievedAt": "2026-11-02T20:55:22.660Z",
+      "records": [
+        {
+          "id": "KS00548",
+          "title": "Just Imagine! : Their Tales in Our Times",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-4/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/23cb480fa929f239-18f6c3ebdbc6.png",
+        "sha256": "18f6c3ebdbc6e53de5771fb645699ab4b0f7424580eea5bc81f966e917364ba3",
+        "bytes": 41089,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/23cb480fa929f239-18f6c3ebdbc6.webp",
+        "sha256": "e1e613d31b28f1c28afa7c0d55eb41fec35686cf33c1cacca99c759bab50e0fc",
+        "bytes": 18966,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C578.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C578.png",
+      "retrievedAt": "2026-11-02T20:55:22.663Z",
+      "records": [
+        {
+          "id": "KS00638",
+          "title": "Timeless Tales : Parshas Hashvua Comics : Bereishis",
+          "sourcePage": "https://tfutzapublications.com/product/timeless-tales-bereishis-comics/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/420fcfa3cbaee4f1-3223a4bd5fbf.png",
+        "sha256": "3223a4bd5fbf0168815aeb2ec153b75d154ce96dc6c5ccd0868b047153820bce",
+        "bytes": 50586,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/420fcfa3cbaee4f1-3223a4bd5fbf.webp",
+        "sha256": "4307a328e0b047c3e11497c2e902fd7e09ba08d995b9bcb5403dc3ad536a7199",
+        "bytes": 24700,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C551.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C551.png",
+      "retrievedAt": "2026-11-02T20:55:22.673Z",
+      "records": [
+        {
+          "id": "KS00433",
+          "title": "Just Imagine! Their Tales in Our Times",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-3/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/c90c730fdf01f2c6-aeba217f9f67.png",
+        "sha256": "aeba217f9f67bc60ce3653be7bb7274c9a91683889fcb3a429c072d289f47fe3",
+        "bytes": 46777,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/c90c730fdf01f2c6-aeba217f9f67.webp",
+        "sha256": "a2ea41497360d5f9f9bf677f77f1ee207e4bd794f8613b6dd4921c2eb2ddc433",
+        "bytes": 24156,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C537.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C537.png",
+      "retrievedAt": "2026-11-02T20:55:22.754Z",
+      "records": [
+        {
+          "id": "KS00210",
+          "title": "The Light from America and Other Stories: Twenty-five Anecdotes from the Life of Reb Moshe Feinstein Zt\"l : Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+          "sourcePage": "https://tfutzapublications.com/product/the-light-from-america/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/eeff724c8be161b6-8381a2f895bc.png",
+        "sha256": "8381a2f895bcdd241298693e79ba12e302b73a7eab241e29d106e2371c5c31ff",
+        "bytes": 47526,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/eeff724c8be161b6-8381a2f895bc.webp",
+        "sha256": "afbeab0d8721afb2cf81b871547a9f8290257be3d3251a177f75304a1eeb218d",
+        "bytes": 13588,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C527.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C527.png",
+      "retrievedAt": "2026-11-02T20:55:22.759Z",
+      "records": [
+        {
+          "id": "KS00484",
+          "title": "Their Tales in Our Times",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-2/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0180452c5f8e1c70-53eab5b39a16.png",
+        "sha256": "53eab5b39a16b6b776d11a1e909712b7dd368a8d6af23a701b445c449ac6b749",
+        "bytes": 48231,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/0180452c5f8e1c70-53eab5b39a16.webp",
+        "sha256": "f29d2efcf36e8b3624140eced376384f1c8389b43431900510029e1b24fbb011",
+        "bytes": 24690,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C520.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C520.png",
+      "retrievedAt": "2026-11-02T20:55:22.771Z",
+      "records": [
+        {
+          "id": "KS00646",
+          "title": "As a Father Cares for His Son and Other Stories: Twenty-five Anecdotes from the Life of Rav Elazar Menachem Mann Shach Zt\"l Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+          "sourcePage": "https://tfutzapublications.com/product/as-a-father-cares-for-his-son/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/ce243c2916f205a3-bd75556682bd.png",
+        "sha256": "bd75556682bd382f4dc36ffac66bda5eb844b563bcc10c5b127015e6ca6dc087",
+        "bytes": 48486,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/ce243c2916f205a3-bd75556682bd.webp",
+        "sha256": "6668e9eaf3f252f972890a21d2389a312149c3ceeef9f9c0b9fd060783b0f323",
+        "bytes": 16394,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C500.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C500.png",
+      "retrievedAt": "2026-11-02T20:55:22.853Z",
+      "records": [
+        {
+          "id": "KS00392",
+          "title": "Truth His Every Word and Other Stories: Twenty-five Anecdotes from the Life of Rav Shlomo Zalman Auerbachish Zt\"l Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+          "sourcePage": "https://tfutzapublications.com/product/truth-his-every-word/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0e4ac5549ad08faf-683e5256c83c.png",
+        "sha256": "683e5256c83cf47106df9e605997952b6fb9dcd090bc0bd807a99cc328a071bc",
+        "bytes": 45422,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/0e4ac5549ad08faf-683e5256c83c.webp",
+        "sha256": "f324be655d9d088c740b33740c9a4c0a94fb3c60b829a541cdfbf99474802d88",
+        "bytes": 14958,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C510.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C510.png",
+      "retrievedAt": "2026-11-02T20:55:22.867Z",
+      "records": [
+        {
+          "id": "KS01308",
+          "title": "The Miracles in the Midbar : An Exciting, Imaginative Modern-day Portrayal of the Miracles in the Desert",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-the-miracles-in-the-midbar/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/059eae0dba00f72f-c0c3612bd1bb.png",
+        "sha256": "c0c3612bd1bbadb057a1724406887301d268e4ee8b32bca106dd9a1809d40bc0",
+        "bytes": 46991,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/059eae0dba00f72f-c0c3612bd1bb.webp",
+        "sha256": "8b97c196ac8c1a6bdbf524204c36f2aa7ce5aca86f9f408364fd2e7de9bc7ad5",
+        "bytes": 24460,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C494.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C494.png",
+      "retrievedAt": "2026-11-02T20:55:22.871Z",
+      "records": [
+        {
+          "id": "KS01683",
+          "title": "Their Tales in Our Times",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-their-tales-in-our-times-volume-1/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/4281fa72b237b086-273251f4736b.png",
+        "sha256": "273251f4736bf075dd658e4f06bbd3b6eb1d40e60b7d340c412ad3d6ef6652c1",
+        "bytes": 50371,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/4281fa72b237b086-273251f4736b.webp",
+        "sha256": "42b97dd54254670b60160e92d1a590055dc12485d68b7ed461bbfcc4262a3343",
+        "bytes": 28086,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C516.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C516.png",
+      "retrievedAt": "2026-11-02T20:55:22.887Z",
+      "records": [
+        {
+          "id": "KS02810",
+          "title": "The Savings Plan",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-7-the-savings-plan/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/885a1a69dc5ed8fa-ce6bd377e31d.png",
+        "sha256": "ce6bd377e31dc1f6dce7687950a5927f988cbef621896b64e569d77ad9082f03",
+        "bytes": 46360,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/885a1a69dc5ed8fa-ce6bd377e31d.webp",
+        "sha256": "f39b8aa466aac5a0bd20701740ad83d3d379b769744b7fd3d505a400a280ca78",
+        "bytes": 22954,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C483.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C483.png",
+      "retrievedAt": "2026-11-02T20:55:22.907Z",
+      "records": [
+        {
+          "id": "KS00660",
+          "title": "The Miracles of Kriyas Yam Suf",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-the-miracles-of-kriyas-yam-suf/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/6c10a857c7a72186-bbfaf118eb79.png",
+        "sha256": "bbfaf118eb79572d959696cc39a2770e5afbc4f30c64f5bf1bd28eb53bb13cc3",
+        "bytes": 44585,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/6c10a857c7a72186-bbfaf118eb79.webp",
+        "sha256": "c87ee2ed082437ebab72118a8cb6c502e56f0535f4bafd1b24ba11c5a2304e59",
+        "bytes": 22062,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C485.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C485.png",
+      "retrievedAt": "2026-11-02T20:55:22.930Z",
+      "records": [
+        {
+          "id": "KS00562",
+          "title": "The Ambassadors: Time for the Korban Pesach: A Fascinating, Breathtaking Journey to Yerushalayim of Yesteryear to Sacrifice the Korban Pesach in the Beis Hamikdash",
+          "sourcePage": "https://tfutzapublications.com/product/the-ambassadors-time-for-the-korban-pesach/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/23270075d8a543b2-1b5b8bb80877.png",
+        "sha256": "1b5b8bb80877674660b0b9f133c4dade26dc1bc96e1187f9aee262c7fe5e5683",
+        "bytes": 37866,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/23270075d8a543b2-1b5b8bb80877.webp",
+        "sha256": "05a1a95ec03032a4e15d7efabf8c795ba24f29cc524b260e9b0bf07123fd4b41",
+        "bytes": 15784,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C478.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C478.png",
+      "retrievedAt": "2026-11-02T20:55:23.000Z",
+      "records": [
+        {
+          "id": "KS02446",
+          "title": "The Detective Club",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-6-the-detective-club/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/46980caa1358d41f-061cf863b36c.png",
+        "sha256": "061cf863b36c6b712981f02aa299bd2f0b14454d05ac07cc27be5c3b477d96de",
+        "bytes": 43959,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/46980caa1358d41f-061cf863b36c.webp",
+        "sha256": "77e0b61357bc008fcea92d158e9d2868e61f0af01385f4dbdd4146050dd812ad",
+        "bytes": 22932,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C480.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C480.png",
+      "retrievedAt": "2026-11-02T20:55:23.001Z",
+      "records": [
+        {
+          "id": "KS01076",
+          "title": "The Tzaddik's Blessing and Other Stories: Twenty-five Anecdotes from the Life of Baba Sali Zt\"l : Accompanied by Authentic Touching Illustrations that Bring Each Story to Life",
+          "sourcePage": "https://tfutzapublications.com/product/a-tzaddiks-blessing/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/5e5d77ebb5d907d0-e8e625c6fb96.png",
+        "sha256": "e8e625c6fb969e91c181dcca97efb54d81061045b05a621f95dc4fb30875e1fd",
+        "bytes": 50958,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/5e5d77ebb5d907d0-e8e625c6fb96.webp",
+        "sha256": "617862a2fdb57d167bdd4a207ef3ed5eda2eda483c220dc85e43d7c7d08367ab",
+        "bytes": 19440,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C477.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C477.png",
+      "retrievedAt": "2026-11-02T20:55:23.007Z",
+      "records": [
+        {
+          "id": "KS02051",
+          "title": "The Secret Clubhouse Kids on the Trail of the Dangerous Robbers",
+          "sourcePage": "https://tfutzapublications.com/product/the-secret-clubhouse-kids/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/d707f5930f7f6bb5-933ede07c1f7.png",
+        "sha256": "933ede07c1f731b83da6d2e11286dc87ba948e58df255ef23c133d66b0ee7a04",
+        "bytes": 49292,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/d707f5930f7f6bb5-933ede07c1f7.webp",
+        "sha256": "dfbe570745f9480094a2539f2d4694bf227f758370e437baeadcf4d82d130450",
+        "bytes": 27620,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C462.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C462.png",
+      "retrievedAt": "2026-11-02T20:55:23.015Z",
+      "records": [
+        {
+          "id": "KS00566",
+          "title": "Your Day in Court",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-your-day-in-court/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/f1ddb5c7c58d045f-cc3300b1e451.png",
+        "sha256": "cc3300b1e45186bb1b2da7530e840287428afa1471fc48590ee88be6ae919570",
+        "bytes": 36865,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/f1ddb5c7c58d045f-cc3300b1e451.webp",
+        "sha256": "d0d578364eab0efa06bba83ebb40a5800e33e753b2a86a8324f490f7964b31f9",
+        "bytes": 16478,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C409.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C409.png",
+      "retrievedAt": "2026-11-02T20:55:23.039Z",
+      "records": [
+        {
+          "id": "KS00517",
+          "title": "The Day I Got Lost",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-6-the-day-i-got-lost/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/5961ce98382962ca-5f07bd3fe1e0.png",
+        "sha256": "5f07bd3fe1e0eee90c4af7c19a4e06dd0f890e9ee0593abe24c6a5690d40fddd",
+        "bytes": 59090,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/5961ce98382962ca-5f07bd3fe1e0.webp",
+        "sha256": "0de782744958fd3213d5bc3e4a3a040fb81776023ff57e76aff6134db358cc7c",
+        "bytes": 25306,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C422.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C422.png",
+      "retrievedAt": "2026-11-02T20:55:23.059Z",
+      "records": [
+        {
+          "id": "KS01783",
+          "title": "The Amazing Aleph-beis Experience",
+          "sourcePage": "https://tfutzapublications.com/product/the-amazing-aleph-beis-experience-book-and-read-along-cd/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/59ab5cf3a356d095-fbe601b1ee61.png",
+        "sha256": "fbe601b1ee61293fac33ab989b6137a3116961d6fc56fc452be944236bd6543d",
+        "bytes": 49965,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/59ab5cf3a356d095-fbe601b1ee61.webp",
+        "sha256": "f0bd3ca2473a870ccfb0b87cb76d3cb49fab0580e594b7ba3be8755d28f79214",
+        "bytes": 29896,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C421.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C421.png",
+      "retrievedAt": "2026-11-02T20:55:23.078Z",
+      "records": [
+        {
+          "id": "KS02829",
+          "title": "The New House",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-4-the-new-house/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/d53b4e63fcba6bb4-ad84cddc7497.png",
+        "sha256": "ad84cddc7497ceb4f30d1af3b62a7375212aaf710bc3c8e28d62bc4fd8383eb4",
+        "bytes": 46520,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/d53b4e63fcba6bb4-ad84cddc7497.webp",
+        "sha256": "4c6985a6ea422fc79e1621922bec39bae668b8dc8786193b7966ca4654892657",
+        "bytes": 24216,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C390.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C390.png",
+      "retrievedAt": "2026-11-02T20:55:23.096Z",
+      "records": [
+        {
+          "id": "KS00457",
+          "title": "Under Renovation",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-3-under-renovation/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/6afdcd2088a5b95c-c08e4b590a60.png",
+        "sha256": "c08e4b590a6023f34cc9b26f840b0bd0a4e8610268d0d0054cf7bd111d42e5b2",
+        "bytes": 46058,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/6afdcd2088a5b95c-c08e4b590a60.webp",
+        "sha256": "920a0b2beb25feea97a738a75b9eba28f1b17262200654ee7872605fdf99b901",
+        "bytes": 27198,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C410.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C410.png",
+      "retrievedAt": "2026-11-02T20:55:23.140Z",
+      "records": [
+        {
+          "id": "KS01330",
+          "title": "Why Things Come to an End",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-7-why-things-come-to-an-end/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/2aeea0498fe4d48c-578fbecdd756.png",
+        "sha256": "578fbecdd756f05a0a6948d060a9ca36cee714d53fca8f6269b7f1efa2899f25",
+        "bytes": 51245,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/2aeea0498fe4d48c-578fbecdd756.webp",
+        "sha256": "e32687e42e56c9ca5a49f51de52fcd9ad9d87aec48cced0ea6df734e4e9702b6",
+        "bytes": 24176,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C408.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C408.png",
+      "retrievedAt": "2026-11-02T20:55:23.148Z",
+      "records": [
+        {
+          "id": "KS01149",
+          "title": "When Mommy Is Tired",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-5-when-mommy-is-tired/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/72faeea25fc12989-be627d86536a.png",
+        "sha256": "be627d86536a5f54ff24e9d68f5c9a95672b875317e677af703cf6a352ce5dd6",
+        "bytes": 45671,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/72faeea25fc12989-be627d86536a.webp",
+        "sha256": "78219099fc9b72676c80628a8353a19e908029f570d7757f97d47c19b545f2b7",
+        "bytes": 21886,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C407.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C407.png",
+      "retrievedAt": "2026-11-02T20:55:23.171Z",
+      "records": [
+        {
+          "id": "KS02486",
+          "title": "My Baby Sister: Overcoming Jealousy of a New Baby",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-4-my-baby-sister/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e6ed5a3e296b0dcc-3a3fb573e856.png",
+        "sha256": "3a3fb573e856815633d957ac9df0b9605ed2c5a0371c1a6a43148e9f3357ee94",
+        "bytes": 56544,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/e6ed5a3e296b0dcc-3a3fb573e856.webp",
+        "sha256": "c44b4e65253f8785377cec1520e6d067723fc9b15053e75c29a8a89aadf59a3f",
+        "bytes": 33482,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C419.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C419.png",
+      "retrievedAt": "2026-11-02T20:55:23.191Z",
+      "records": [
+        {
+          "id": "KS00466",
+          "title": "The Mystery of the Anonymous Donor",
+          "sourcePage": "https://tfutzapublications.com/product/the-invisibles-vol-2-the-mystery-of-the-anonymous-donor/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/d228dc695fc15730-fbba4f976b6c.png",
+        "sha256": "fbba4f976b6c00f95fd293989e58a9365aedd38e93655b4bf6bd571c59ddb244",
+        "bytes": 42615,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/d228dc695fc15730-fbba4f976b6c.webp",
+        "sha256": "1639288b4a44f4f383760c17dad71e68c8f06d46f49f441b4179cc4ff439e4bd",
+        "bytes": 22746,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C376.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C376.png",
+      "retrievedAt": "2026-11-02T20:55:23.284Z",
+      "records": [
+        {
+          "id": "KS02242",
+          "title": "Surprise: Handling Disappointment",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-3-surprise/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/8360f41d34292227-243661e8b3fc.png",
+        "sha256": "243661e8b3fc084b79c931cd93968365e591294575f4eec51665d6aeb1529dfe",
+        "bytes": 47138,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/8360f41d34292227-243661e8b3fc.webp",
+        "sha256": "dcff8a74c5a1083ee5257b4912f10de07ae6d0f127880d4150aee9e899c9d249",
+        "bytes": 17482,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C359.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C359.png",
+      "retrievedAt": "2026-11-02T20:55:23.289Z",
+      "records": [
+        {
+          "id": "KS01965",
+          "title": "Look Out, London!",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-2-look-out-london/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/efdbfd1a0b850fc5-9b36834ea64b.png",
+        "sha256": "9b36834ea64bbeeba87691f304527f605f1a60063c68d3529c0872a223b36c2a",
+        "bytes": 52563,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/efdbfd1a0b850fc5-9b36834ea64b.webp",
+        "sha256": "164c8e5c46b89884709b9fbd3a1382a51bb3082f87449d0e3d432f21bbd37ed9",
+        "bytes": 29864,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C351.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C351.png",
+      "retrievedAt": "2026-11-02T20:55:23.290Z",
+      "records": [
+        {
+          "id": "KS00482",
+          "title": "The Zany Inventor",
+          "sourcePage": "https://tfutzapublications.com/product/rebbe-mendel-the-zany-inventor/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/bf41aeb9c43ae87a-e564de2da0dd.png",
+        "sha256": "e564de2da0dd6a5a3346ceabad1a3bb7776c9267eb1779b668d2b02f58ff4419",
+        "bytes": 43544,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/bf41aeb9c43ae87a-e564de2da0dd.webp",
+        "sha256": "7f466a7ebadd4dae94c52a8710f2bb43a26af80ca8c95e9e9d6df5427323f47f",
+        "bytes": 18748,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C375.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C375.png",
+      "retrievedAt": "2026-11-02T20:55:23.291Z",
+      "records": [
+        {
+          "id": "KS01235",
+          "title": "So What?!: Standing Tall to Teasing",
+          "sourcePage": "https://tfutzapublications.com/product/story-solutions-2-so-what/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/7fbece36af547c0d-b6ef42b6eb4d.png",
+        "sha256": "b6ef42b6eb4d7837de54ca86176ccb828b709e7557636d4fe30d666f78a2f7f6",
+        "bytes": 50599,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/7fbece36af547c0d-b6ef42b6eb4d.webp",
+        "sha256": "e527740748cde5a3af1d682b471deaa95244250aa7b5a11dabf19dc602399d77",
+        "bytes": 26222,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C333.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C333.png",
+      "retrievedAt": "2026-11-02T20:55:23.303Z",
+      "records": [
+        {
+          "id": "KS02096",
+          "title": "The Big Surprise",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-the-big-surprise/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/1cf02feaaea77000-f4df4f576ace.png",
+        "sha256": "f4df4f576acec8811c7cde972e75c7affa9eb6b3c1ad74d7e69226c75727eb4a",
+        "bytes": 41881,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/1cf02feaaea77000-f4df4f576ace.webp",
+        "sha256": "4760d3b064c8f0ef46313f9643c7c7da6aaf5bb8d89d59eb98827be371699316",
+        "bytes": 24230,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C672.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C672.png",
+      "retrievedAt": "2026-11-02T20:55:23.420Z",
+      "records": [
+        {
+          "id": "KS01687",
+          "title": "Face 2 Face",
+          "sourcePage": "https://tfutzapublications.com/product/face2face/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/0e702d15746b608c-18b1827f531f.png",
+        "sha256": "18b1827f531f39f37737ab326ac15216ab497f311e1872b7464715fa69e052a5",
+        "bytes": 33533,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/0e702d15746b608c-18b1827f531f.webp",
+        "sha256": "1e0fb6c1d6b2b3b82ed2367b5deaa56596c76d8af7b175d4da0e851f92df1948",
+        "bytes": 10830,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C438.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C438.png",
+      "retrievedAt": "2026-11-02T20:55:23.444Z",
+      "records": [
+        {
+          "id": "KS00613",
+          "title": "A Warm Heart and Other Stories: Twenty-five Anecdotes from the Life of Harav Aharon Yehudah Leib Shteinman Zt\"l ; Accompanied by Authentic, Touching Illustrations that Bring Each Story to Life",
+          "sourcePage": "https://tfutzapublications.com/product/a-warm-heart/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/d14d11b9062c9ef1-f2691aee73b7.png",
+        "sha256": "f2691aee73b7bdf4c82a927c1cb715c2ded6ee65ece3801e863a7993cff47343",
+        "bytes": 38847,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/d14d11b9062c9ef1-f2691aee73b7.webp",
+        "sha256": "e1bbc3ceb30465e9259f5adc0743a9db92e9363bbdc60e90a354c38ffc6f7273",
+        "bytes": 12636,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/08/C693.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/08/C693.png",
+      "retrievedAt": "2026-11-02T20:55:23.444Z",
+      "records": [
+        {
+          "id": "KS01507",
+          "title": "Don't Buy It!: Fascinating Parables from Leading Maggidim About How to Overcome Our Yetzer Hara and Really Grow",
+          "sourcePage": "https://tfutzapublications.com/product/travels-with-the-maggidim-vol-5-dont-buy-it/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/599df56df6222a80-48762e836753.png",
+        "sha256": "48762e8367531f0f3b66a49fa6027999e2d0441ac02d9b61b880f5e9d5b5ef07",
+        "bytes": 50473,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/599df56df6222a80-48762e836753.webp",
+        "sha256": "51d5a87a02666d9221e09f30ce473910bf9e4ced0d12a5ccdf138fc95d4874c5",
+        "bytes": 27434,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C455.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C455.png",
+      "retrievedAt": "2026-11-02T20:55:23.448Z",
+      "records": [
+        {
+          "id": "KS00634",
+          "title": "We're Bringing Bikkurim : An Original and Exciting Modern-day Portrayal of the Bringing of the First Fruits to the Beis Hamikdash",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-were-bringing-bikkurim/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/29c4575c9894d381-f9691e9436a9.png",
+        "sha256": "f9691e9436a9ffeabab74bc5d60091ee86630df82d7bf310086a0dde0e695015",
+        "bytes": 43998,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/29c4575c9894d381-f9691e9436a9.webp",
+        "sha256": "fbfe844a4861eab4d1e52d8950b5815202bf61d983a77813c66f9723c6d9ea06",
+        "bytes": 22302,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C604.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C604.png",
+      "retrievedAt": "2026-11-02T20:55:23.601Z",
+      "records": [
+        {
+          "id": "KS02595",
+          "title": "Covid-19 : An Exciting, Entirely Imaginary Depiction of How the Coronavirus Pandemic Might Have Been Handled in Eretz Yisrael, If the Government Was Run According to the Etenal Values of Our Holy Torah",
+          "sourcePage": "https://tfutzapublications.com/product/just-imagine-covid-19/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/4917975757aa6f3f-66a5ab391aa3.png",
+        "sha256": "66a5ab391aa3db6353ee7b7b33cc0eaaaf0dd0162e3c28f080617371cdc20563",
+        "bytes": 43716,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/4917975757aa6f3f-66a5ab391aa3.webp",
+        "sha256": "0d42b49134f3c7b794ada394a2da29eb9501a683833a288796e72b3090d13cf4",
+        "bytes": 21124,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C573.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C573.png",
+      "retrievedAt": "2026-11-02T20:55:23.601Z",
+      "records": [
+        {
+          "id": "KS02826",
+          "title": "Falsely Accused: The 39 Melachos with Rabbi Juravel : The Comics",
+          "sourcePage": "https://tfutzapublications.com/product/the-39-melachos-with-rabbi-juravel-falsely-accused/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/e4ea51d1bdcd07ba-19ec0daddd81.png",
+        "sha256": "19ec0daddd81cb714fb9f1b0012bad5c011ae1e3ba6080b8206f63b8bd84525b",
+        "bytes": 53873,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/e4ea51d1bdcd07ba-19ec0daddd81.webp",
+        "sha256": "6a01c992d15755c27c45053cf3c2344ff345de0e385eaf8e7432830e6cbb7c11",
+        "bytes": 26858,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2025/06/C757.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2025/06/C757.png",
+      "retrievedAt": "2026-11-02T20:55:23.602Z",
+      "records": [
+        {
+          "id": "KS02720",
+          "title": "Princess Hadassa Malka and Her Royal Crown",
+          "sourcePage": "https://tfutzapublications.com/product/kinderland-castle-princess-hadassah-malka-and-her-royal-crown/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/d0ae9a968785cf7e-fbf205897d16.png",
+        "sha256": "fbf205897d1607074ab213735fe76db92668fff2706af079878b7127918e8995",
+        "bytes": 203126,
+        "format": "png",
+        "width": 750,
+        "height": 750
+      },
+      "web": {
+        "path": "/covers/d0ae9a968785cf7e-fbf205897d16.webp",
+        "sha256": "773f651f135011459bd6848cefaa79714722c1645af4f5745d314d127def0cd9",
+        "bytes": 97318,
+        "width": 750,
+        "height": 750,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 750,
+          "height": 750
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2023/07/C450.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2023/07/C450.png",
+      "retrievedAt": "2026-11-02T20:55:23.613Z",
+      "records": [
+        {
+          "id": "KS00594",
+          "title": "Unnraveled Travels",
+          "sourcePage": "https://tfutzapublications.com/product/23-under-1-roof-vol-5-unraveled-travels/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/9496a86776540346-950e40dd1e84.png",
+        "sha256": "950e40dd1e84e9fb0adcdd686f0015238d90385e4dc3bdfcd09046aa90642214",
+        "bytes": 49909,
+        "format": "png",
+        "width": 300,
+        "height": 300
+      },
+      "web": {
+        "path": "/covers/9496a86776540346-950e40dd1e84.webp",
+        "sha256": "d583a65b76e28fd77f1b98002905fbe523095832c9c5da7b077af4681d3e8e1a",
+        "bytes": 25926,
+        "width": 300,
+        "height": 300,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 300,
+          "height": 300
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
+    },
+    "https://tfutzapublications.com/wp-content/uploads/2024/07/TravelsMaggidim6-flat.png": {
+      "sourceImage": "https://tfutzapublications.com/wp-content/uploads/2024/07/TravelsMaggidim6-flat.png",
+      "retrievedAt": "2026-11-02T20:55:23.655Z",
+      "records": [
+        {
+          "id": "KS01245",
+          "title": "Sincerely Yours: Fascinating Parables from Leading Maggidim About Serving Hashem with Emes",
+          "sourcePage": "https://tfutzapublications.com/product/travels-with-the-maggidim-06-sincerely-yours/",
+          "credit": "Tfutza Publications"
+        }
+      ],
+      "original": {
+        "path": "archive/covers/originals/f7a093841837a639-3ef4e997fa68.png",
+        "sha256": "3ef4e997fa68b5561f72d6c53aa8447343019f1e19a937e31d10abd93421bd66",
+        "bytes": 334297,
+        "format": "png",
+        "width": 1000,
+        "height": 1000
+      },
+      "web": {
+        "path": "/covers/f7a093841837a639-3ef4e997fa68.webp",
+        "sha256": "44837b44afd2e3ca79c26dfa86e60c5d54d62735268d5ce7491cb2c46ad7f0d1",
+        "bytes": 215724,
+        "width": 1000,
+        "height": 1000,
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 1000
+        }
+      },
+      "rights": "No license or permission inferred; retain publisher/source attribution."
     }
   },
   "failures": []
