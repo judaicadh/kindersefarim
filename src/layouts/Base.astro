@@ -125,11 +125,20 @@ const metadata = linkedData({ path: Astro.url.pathname, origin, title, descripti
     <slot />
     </main>
     <footer class="site-footer">
-      <div><a href="/" class="footer-brand">Kinder Sefarim</a><p class="project-credit">Bibliography created and curated by <a href={PROJECT_CREATOR.profile}>{PROJECT_CREATOR.name}</a></p></div>
-      <a href="/about/">About the bibliography ↗</a>
-      <div class="site-creation-credit">
-        <p>Site created by</p>
-        <img src="/branding/penn-libraries-judaica-digital-humanities.png" alt="Penn Libraries, University of Pennsylvania — Judaica Digital Humanities" width="2048" height="569" loading="lazy" />
+      <div class="footer-inner">
+        <div class="footer-project">
+          <a href="/" class="footer-brand">Kinder Sefarim</a>
+          <p class="footer-description">A bibliography of Orthodox children's literature</p>
+          <p class="project-credit">Bibliography created and curated by <a href={PROJECT_CREATOR.profile}>{PROJECT_CREATOR.name}</a></p>
+          <nav class="footer-navigation" aria-label="Footer navigation">
+            <a href="/">Browse books</a>
+            <a href="/about/">About the bibliography ↗</a>
+          </nav>
+        </div>
+        <div class="site-creation-credit">
+          <p>Site created by</p>
+          <img src="/branding/penn-libraries-judaica-digital-humanities.png" alt="Penn Libraries, University of Pennsylvania — Judaica Digital Humanities" width="2048" height="569" loading="lazy" />
+        </div>
       </div>
     </footer>
   </body>

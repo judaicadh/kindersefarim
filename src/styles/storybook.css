@@ -227,11 +227,7 @@ catalog-search { display:block; }
 
 .publisher-mark-dark { background:#243e36; }
 
-.site-footer { flex-wrap:wrap; }
-.site-creation-credit { width:300px; max-width:100%; }
-.site-creation-credit p { margin:0 0 8px; font-size:12px; }
-.site-creation-credit img { display:block; width:100%; height:auto; }
-@media(max-width:600px) { .site-creation-credit { width:280px; flex-basis:100%; } .site-creation-credit img { max-width:280px; } }
+
 
 /* Clear search/sort row and compact, searchable directory facets. */
 catalog-search { display:block; }
@@ -275,4 +271,25 @@ catalog-search > .collection-toolbar > .directory-sort { flex-wrap:nowrap; }
   .directory-facet-menu { width:300px; }
   .directory-facet:last-of-type .directory-facet-menu { left:auto; right:0; }
   .directory-filterbar .collection-count { flex-basis:100%; margin-left:0; }
+}
+
+/* Shared project and site-creation credits. */
+.site-footer { display:block; margin:0; padding:25px 5% 28px; border-top:1px solid #9aaa9566; background:#f0f1e6; color:#53655a; }
+.footer-inner { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:32px; max-width:1296px; margin:0 auto; }
+.footer-brand { display:inline-block; font:600 24px/1.2 'Fraunces',Georgia,serif; color:var(--ink); letter-spacing:-.025em; }
+.footer-brand:hover { color:var(--green); }
+.footer-description { margin:6px 0 10px; font-size:13px; line-height:1.5; }
+.site-footer .project-credit { margin:0; font-size:12px; line-height:1.6; }
+.site-footer .project-credit a { color:var(--green); text-decoration-color:#35645166; }
+.footer-navigation { display:flex; flex-wrap:wrap; gap:8px 22px; margin-top:14px; }
+.footer-navigation a { color:var(--green); font-size:12px; text-decoration:underline; text-underline-offset:3px; text-decoration-color:#35645155; }
+.footer-navigation a:hover { text-decoration-color:currentColor; }
+.site-creation-credit { width:285px; max-width:100%; padding-left:28px; border-left:1px solid #9aaa9566; }
+.site-creation-credit p { margin:0 0 10px; font-size:10px; text-transform:uppercase; letter-spacing:.12em; font-weight:600; color:#667368; }
+.site-creation-credit img { display:block; width:100%; height:auto; mix-blend-mode:multiply; }
+@media(max-width:600px) {
+  .site-footer { padding-top:22px; padding-bottom:24px; }
+  .footer-inner { grid-template-columns:1fr; gap:20px; }
+  .site-creation-credit { width:100%; padding:17px 0 0; border-left:0; border-top:1px solid #9aaa9566; }
+  .site-creation-credit img { width:250px; max-width:100%; }
 }
