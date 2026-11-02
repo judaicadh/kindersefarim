@@ -5,11 +5,12 @@ import PublisherLogo from './PublisherLogo.astro';
 import { seriesImageBook } from '../lib/series-image.js';
 import SearchableList from './SearchableList.astro';
 const { entries, section, label, placeholder, unit } = Astro.props;
+const roles = section === 'authors' ? [...new Set(entries.flatMap(entry => entry.roles || []))].sort((a, b) => a.localeCompare(b)) : [];
 ---
-<SearchableList label={label} placeholder={placeholder} count={entries.length} unit={unit} sortByCount directory formats={formatsAcross(entries.flatMap(entry => entry.books))}>
+<SearchableList label={label} placeholder={placeholder} count={entries.length} unit={unit} sortByCount directory roles={roles} formats={formatsAcross(entries.flatMap(entry => entry.books))}>
   <div class="directory-grid">
     {entries.map((entry) => (
-      <a href={`/${section}/${entry.slug}/`} class:list={["dir-row directory-entry", {"directory-entry-illustrated": section === "series" || section === "publishers"}]} data-title-count={entry.books.length} data-oldest={datesAcross(entry.books).oldest} data-newest={datesAcross(entry.books).newest} data-formats={JSON.stringify(formatsAcross(entry.books))}
+      <a href={`/${section}/${entry.slug}/`} class:list={["dir-row directory-entry", {"directory-entry-illustrated": section === "series" || section === "publishers"}]} data-roles={JSON.stringify(entry.roles || [])} data-title-count={entry.books.length} data-oldest={datesAcross(entry.books).oldest} data-newest={datesAcross(entry.books).newest} data-formats={JSON.stringify(formatsAcross(entry.books))}
         data-search={[entry.name, ...(entry.roles || []), ...entry.books.map(book => [book.title, book.byline, book.publisher, book.series, book.isbn].join(' '))].join(' ')}>
         {section === "series" && <span class="series-directory-cover"><BookCover book={seriesImageBook(entry)} /></span>}
         {section === "publishers" && <PublisherLogo publisher={entry} />}

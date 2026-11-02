@@ -1,5 +1,5 @@
 ---
-const { label = 'Search books', placeholder = 'Search title, author, publisher, series, ISBN…', count = 0, unit = 'books', sortByCount = false, formats = [], directory = false } = Astro.props;
+const { label = 'Search books', placeholder = 'Search title, author, publisher, series, ISBN…', count = 0, unit = 'books', sortByCount = false, formats = [], roles = [], directory = false } = Astro.props;
 ---
 <catalog-search data-unit={unit}>
   <div class="collection-toolbar">
@@ -19,6 +19,7 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
         <option value="count-desc">Titles: most first</option></>}
       </select>
     </label>
+    {roles.length > 0 && <label class="directory-sort"><span>Role</span><select data-role aria-label="Filter by role"><option value="">All roles</option>{roles.map(role => <option value={role}>{role.charAt(0).toUpperCase() + role.slice(1)}</option>)}</select></label>}
     {formats.length > 0 && <label class="directory-sort"><span>Format</span><select data-format aria-label="Filter by format"><option value="">All formats</option>{formats.map(format => <option value={format}>{format}</option>)}</select></label>}
     <button type="button" data-reset hidden>Clear search</button>
     <span class="collection-count" role="status" aria-live="polite">{count} of {count} {unit}</span>
@@ -33,22 +34,23 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
       this.dataset.ready = 'true';
       const input = this.querySelector('input');
       const sortControl = this.querySelector<HTMLSelectElement>('[data-sort]');
+      const roleControl = this.querySelector<HTMLSelectElement>('[data-role]');
       const formatControl = this.querySelector<HTMLSelectElement>('[data-format]');
       const reset = this.querySelector('[data-reset]');
       const status = this.querySelector('[role="status"]');
       const empty = this.querySelector('[data-empty]');
       const normalize = (value: string) => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
-      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map((el, index) => ({ el, index, search: normalize(el.dataset.search || ''), title: el.dataset.title || '', titles: Number(el.dataset.titleCount || 0), oldest: el.dataset.oldest === '' ? null : Number(el.dataset.oldest), newest: el.dataset.newest === '' ? null : Number(el.dataset.newest), formats: JSON.parse(el.dataset.formats || '[]') }));
+      const rows = [...this.querySelectorAll<HTMLElement>('[data-search]')].map((el, index) => ({ el, index, search: normalize(el.dataset.search || ''), title: el.dataset.title || '', titles: Number(el.dataset.titleCount || 0), oldest: el.dataset.oldest === '' ? null : Number(el.dataset.oldest), newest: el.dataset.newest === '' ? null : Number(el.dataset.newest), formats: JSON.parse(el.dataset.formats || '[]'), roles: JSON.parse(el.dataset.roles || '[]') }));
       const apply = () => {
         const terms = normalize(input.value).split(/\s+/).filter(Boolean);
         let shown = 0;
         for (const row of rows) {
-          row.el.hidden = !terms.every(term => row.search.includes(term)) || Boolean(formatControl?.value && !row.formats.includes(formatControl.value));
+          row.el.hidden = !terms.every(term => row.search.includes(term)) || Boolean(formatControl?.value && !row.formats.includes(formatControl.value)) || Boolean(roleControl?.value && !row.roles.includes(roleControl.value));
           if (!row.el.hidden) shown++;
         }
         status.textContent = `${shown.toLocaleString()} of ${rows.length.toLocaleString()} ${this.dataset.unit}`;
-        reset.hidden = !input.value && !formatControl?.value;
-        reset.textContent = formatControl?.value ? 'Clear filters' : 'Clear search';
+        reset.hidden = !input.value && !formatControl?.value && !roleControl?.value;
+        reset.textContent = (formatControl?.value || roleControl?.value) ? 'Clear filters' : 'Clear search';
         empty.hidden = shown !== 0;
       };
       input.addEventListener('input', apply);
@@ -76,7 +78,8 @@ const { label = 'Search books', placeholder = 'Search title, author, publisher, 
         container.append(fragment);
       });
       formatControl?.addEventListener('change', apply);
-      reset.addEventListener('click', () => { input.value = ''; if(formatControl) formatControl.value = ''; apply(); input.focus(); });
+      roleControl?.addEventListener('change', apply);
+      reset.addEventListener('click', () => { input.value = ''; if(formatControl) formatControl.value = ''; if(roleControl) roleControl.value = ''; apply(); input.focus(); });
       apply();
     }
   }
